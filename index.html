@@ -111,17 +111,23 @@
                
                
                 <style>
-                     blink {
-                         color: #2d38be;
-                         font-size: 15px;
-                         font-weight: bold;
-                     }
+                    .blink {
+                      animation: blinker 1.5s linear infinite;
+                      color: red;
+                      font-family: sans-serif;
+                  }
+                  @keyframes blinker {
+                      50% {
+                          opacity: 0;
+                      }
+                  }
+                 
                  </style>
                
                <div class="row">
                   <h2>Research Interests</h2>
                   <p> I'm mainly interested in the following topics: Machine Learing, Computer Vision, Biomedical Image and Text Analysis, Natural Language Processing, Data Analysis and Health Informatics.</p>
-                  <p> <a  style="color:red;" target="_blank"><blink> Prospective PhD student please drop me an email with your Resume, Research Proposal.</blink> </a>.</p>
+                  <p class="blink"> Prospective PhD student please drop me an email with your Resume, Research Proposal. </p>
                   
                   <!-- ul>
                      <li>Machine Learning.</li> 
