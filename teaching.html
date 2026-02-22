@@ -1,129 +1,453 @@
-<!-- Research Team (UPDATED – Styled to match main template) -->
-<div class="row section-card">
-  <div class="col-sm-12">
-    <h2 class="section-title">Research Team</h2>
-    <p class="mutedText" style="margin-top:0;">
-      Members and collaborators working on <b>Medical Foundation Models</b>, <b>Vision-Language Models (VLMs)</b>,
-      and <b>Causal Discovery</b> for <b>Personalized Medicine</b>.
-    </p>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Imran Razzak | Research Team | MBZUAI</title>
+  <meta name="description" content="Imran Razzak — Associate Professor at MBZUAI. Research Team: Medical foundation models, VLMs, causal discovery." />
+  <meta name="author" content="Imran Razzak" />
 
-    <!-- Grouped layout using the same visual language as the main template -->
-    <div class="row" style="margin-top:8px;">
-      <div class="col-md-6">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="justified-nav.css" />
 
-        <div class="profileCard" style="margin-bottom:12px;">
-          <h4 style="margin:0 0 10px; font-weight:950;">Core team (MBZUAI)</h4>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/logo.webp" type="image/webp" />
 
-          <div class="profileCard" style="margin-bottom:10px; background:rgba(0,0,0,.18);">
-            <div style="display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap;">
-              <div>
-                <div style="font-weight:950;">Yulong Li, PhD <span class="mutedText">(2025–2028)</span></div>
-                <div class="mutedText">Personalized Medicine: Causal discovery in human health</div>
-              </div>
-              <span class="pill" style="margin:0;"><span class="dot" aria-hidden="true"></span> PhD</span>
-            </div>
-          </div>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-          <div class="profileCard" style="margin-bottom:10px; background:rgba(0,0,0,.18);">
-            <div style="display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap;">
-              <div>
-                <div style="font-weight:950;">Yifan Lu, PhD <span class="mutedText">(2025–2028)</span></div>
-                <div class="mutedText">Medical VLM</div>
-              </div>
-              <span class="pill" style="margin:0;">VLM</span>
-            </div>
-          </div>
+  <!-- Chart.js (kept for consistency with main template; optional here) -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 
-          <div class="profileCard" style="margin-bottom:10px; background:rgba(0,0,0,.18);">
-            <div style="display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap;">
-              <div>
-                <div style="font-weight:950;">Ziyuan Zou <span class="mutedText">(2025–2028)</span></div>
-                <div class="mutedText">Vision-Language Models (VLM)</div>
-              </div>
-              <span class="pill" style="margin:0;">VLM</span>
-            </div>
-          </div>
+  <!-- Google Analytics (kept, https explicit) -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i["GoogleAnalyticsObject"] = r;
+      i[r] =
+        i[r] ||
+        function () {
+          (i[r].q = i[r].q || []).push(arguments);
+        };
+      i[r].l = 1 * new Date();
+      a = s.createElement(o);
+      m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga");
 
-          <div class="profileCard" style="margin-bottom:10px; background:rgba(0,0,0,.18);">
-            <div style="display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap;">
-              <div>
-                <div style="font-weight:950;">Xiwei Liu, PhD <span class="mutedText">(2025–2028)</span></div>
-                <div class="mutedText">Vision-Language Models (VLM)</div>
-              </div>
-              <span class="pill" style="margin:0;">VLM</span>
-            </div>
-          </div>
+    ga("create", "UA-60795702-1", "auto");
+    ga("send", "pageview");
+  </script>
 
-          <div class="profileCard" style="margin-bottom:4px; background:rgba(0,0,0,.18);">
-            <div style="display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap;">
-              <div>
-                <div style="font-weight:950;">Jianxu Chen, MS <span class="mutedText">(2025–2027)</span></div>
-                <div class="mutedText">Causal discovery in human health</div>
-              </div>
-              <span class="pill" style="margin:0;">Causal</span>
-            </div>
-          </div>
+  <!-- Optional legacy scripts -->
+  <script src="assets/js/ie-emulation-modes-warning.js"></script>
+  <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+
+  <style>
+    :root{
+      --bg0:#070A12;
+      --bg1:#0A1022;
+      --text:#EAF0FF;
+      --muted:#B6C2E2;
+      --muted2:#8FA0C8;
+      --brand:#7C5CFF;
+      --brand2:#2EE9A6;
+      --shadow: 0 16px 60px rgba(0,0,0,.45);
+      --shadow2: 0 10px 30px rgba(0,0,0,.35);
+      --radius: 18px;
+      --radius2: 14px;
+
+      --red:#ff2d2d;
+      --orange:#ff9a2f;
+    }
+
+    body{
+      font-family:"Plus Jakarta Sans", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background:
+        radial-gradient(1100px 700px at 10% 0%, rgba(124,92,255,.24), transparent 55%),
+        radial-gradient(900px 600px at 95% 10%, rgba(46,233,166,.18), transparent 50%),
+        radial-gradient(700px 500px at 65% 85%, rgba(255,77,125,.14), transparent 55%),
+        linear-gradient(180deg, var(--bg0), var(--bg1));
+      color: var(--text);
+    }
+
+    a { color:#B7B0FF; }
+    a:hover { color:#d8d4ff; }
+
+    .container { max-width: 1140px; }
+
+    /* Hero */
+    .hero {
+      margin-top: 18px;
+      border-radius: var(--radius);
+      padding: 20px 20px 14px;
+      background:
+        linear-gradient(135deg, rgba(124,92,255,.22), rgba(46,233,166,.10)),
+        rgba(255,255,255,.04);
+      border: 1px solid rgba(255,255,255,.10);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      position: relative;
+    }
+    .hero:before{
+      content:"";
+      position:absolute;
+      width:520px; height:520px;
+      background: radial-gradient(circle at 30% 30%, rgba(255,255,255,.12), transparent 60%);
+      right:-240px; top:-300px;
+      transform: rotate(10deg);
+      pointer-events:none;
+    }
+    .hero h1{
+      margin: 0 0 6px;
+      font-weight: 800;
+      letter-spacing: .2px;
+      font-size: 30px;
+    }
+    .hero .sub{
+      color: var(--muted);
+      margin: 0;
+      font-size: 14px;
+      max-width: 78ch;
+    }
+    .pillrow{
+      margin-top: 12px;
+      display:flex; flex-wrap:wrap; gap:10px;
+    }
+    .pill{
+      display:inline-flex; align-items:center; gap:8px;
+      padding:8px 10px;
+      border-radius:999px;
+      background: rgba(255,255,255,.06);
+      border:1px solid rgba(255,255,255,.12);
+      color: var(--muted);
+      font-weight: 700;
+      font-size: 12px;
+      box-shadow: var(--shadow2);
+      margin: 0;
+    }
+    .pill .dot{
+      width:8px; height:8px; border-radius:50%;
+      background: var(--brand2);
+      box-shadow: 0 0 0 5px rgba(46,233,166,.12);
+    }
+
+    /* Section cards */
+    .section-card{
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.03);
+      border: 1px solid rgba(255,255,255,.08);
+      box-shadow: var(--shadow2);
+      padding: 16px 16px 14px;
+      margin-top: 16px;
+    }
+    .section-title{
+      margin: 0 0 8px;
+      font-weight: 800;
+      letter-spacing: .2px;
+      font-size: 18px;
+    }
+    .mutedText { color: var(--muted); }
+
+    /* Profile block */
+    .profileCard{
+      border-radius: var(--radius2);
+      background: rgba(15,23,48,.70);
+      border: 1px solid rgba(255,255,255,.10);
+      box-shadow: var(--shadow2);
+      padding: 14px;
+    }
+    .profileCard .tagline { color: var(--muted); margin-top: 4px; }
+
+    /* Member cards */
+    .memberCard{
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,.10);
+      background: rgba(0,0,0,.18);
+      padding: 12px;
+      margin-bottom: 10px;
+    }
+    .memberRow{
+      display:flex;
+      justify-content:space-between;
+      gap:10px;
+      flex-wrap:wrap;
+      align-items:flex-start;
+    }
+    .memberName{
+      font-weight: 950;
+      letter-spacing:.2px;
+    }
+    .memberRole{
+      color: var(--muted);
+      margin-top: 3px;
+      line-height: 1.35;
+    }
+
+    /* Dark nav */
+    .nav-justified > li > a{
+      background: rgba(255,255,255,.04) !important;
+      border: 1px solid rgba(255,255,255,.10) !important;
+      color: var(--muted) !important;
+      font-weight: 800;
+      border-radius: 12px !important;
+      margin: 4px;
+    }
+    .nav-justified > .active > a,
+    .nav-justified > li > a:hover{
+      background: rgba(124,92,255,.18) !important;
+      border-color: rgba(124,92,255,.35) !important;
+      color: var(--text) !important;
+    }
+
+    /* Footer */
+    .footerBox{
+      text-align:center;
+      color: var(--muted2);
+      font-size: 12px;
+      padding-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Masthead -->
+    <div class="masthead">
+      <div class="hero">
+        <h1>Imran Razzak</h1>
+        <p class="sub">
+          Associate Professor, MBZUAI (Department of Computational Biology) • Personalized Medicine • Medical Imaging • Multimodal Clinical Reasoning
+        </p>
+        <div class="pillrow">
+          <span class="pill"><span class="dot" aria-hidden="true"></span> Abu Dhabi, UAE</span>
+          <span class="pill">Research Team</span>
+          <span class="pill">Medical Foundation Models</span>
+          <span class="pill">VLMs</span>
+          <span class="pill">Causal Discovery</span>
         </div>
-
-        <div class="profileCard" style="margin-bottom:12px;">
-          <h4 style="margin:0 0 10px; font-weight:950;">Engineering</h4>
-          <ul class="mutedText" style="margin:0; padding-left:18px;">
-            <li><b>Adinath Dukre</b>, Research Engineer</li>
-            <li><b>Abhijit Das</b>, Research Engineer</li>
-          </ul>
-        </div>
-
-        <div class="profileCard">
-          <h4 style="margin:0 0 10px; font-weight:950;">Visiting</h4>
-          <ul class="mutedText" style="margin:0; padding-left:18px;">
-            <li><b>Xinlin Zhuang</b>, Visiting Student</li>
-            <li><b>Yichen Li</b>, Visiting Student</li>
-          </ul>
-        </div>
-
       </div>
 
-      <div class="col-md-6">
+      <h5 style="margin-top:14px; color:var(--muted);">
+        Hello. Hola. Aloha. Bonjour. स्वागत , مرحباً, ښه راغلاست , خوش آمدید, Haai, Grüßgott.
+        Goedendag. Oi. Shalom. Assalam o Alaikum, Guten Tag. Ciào. Malo e lelei. Hei. 欢迎, 안녕. Yo.
+      </h5>
 
-        <div class="profileCard" style="margin-bottom:12px;">
-          <h4 style="margin:0 0 10px; font-weight:950;">PhD (UNSW)</h4>
-          <ul class="mutedText" style="margin:0; padding-left:18px;">
-            <li><b>Ruyi Yang</b>, PhD @ UNSW</li>
-            <li><b>Dawn Lin</b>, PhD @ UNSW</li>
-            <li><b>Wang, Jiru</b>, PhD @ UNSW</li>
-            <li><b>Arthur Chen</b>, PhD @ UNSW</li>
-            <li><b>Ujan Deb</b>, PhD @ UNSW</li>
-            <li><b>Ghadir Alswi</b>, PhD @ UNSW</li>
-            <li><b>Syed Javed</b>, PhD @ UNSW</li>
-            <li><b>Qian, Shenyang</b>, PhD @ UNSW</li>
-            <li><b>Ali AlMutari</b>, PhD @ UNSW</li>
-            <li><b>AbdulRehman Alalwai</b>, PhD @ UNSW</li>
-            <li><b>Anmol Goyal</b>, PhD @ UNSW</li>
-            <li><b>AbdulRehman</b>, PhD @ UNSW</li>
-            <li><b>Kirtan Bhatt</b>, PhD @ UNSW</li>
-            <li><b>Abdul Salam Alharbi</b>, PhD @ UNSW</li>
-          </ul>
+      <ul class="nav nav-justified" style="margin-top:10px;">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Publication and Projects</a></li>
+        <li><a href="research.html">Datasets</a></li>
+        <li><a href="grants-awards.html">Grants &amp; Awards</a></li>
+        <li><a href="publications.html">Teaching</a></li>
+        <li class="active"><a href="teaching.html">Research Team</a></li>
+        <li><a href="student.html">Prospective PhD Student</a></li>
+        <li><a href="services.html">Services</a></li>
+      </ul>
+    </div>
+
+    <!-- Main -->
+    <div class="theme-showcase" style="padding-top: 14px">
+      <div class="inner">
+
+        <!-- Profile row (same “major text” layout as other pages) -->
+        <div class="row section-card">
+          <div class="col-lg-2">
+            <div style="text-align:center">
+              <img src="img/imrazzak.jpg" width="190" alt="Imran Razzak photo" class="img-circle" />
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="profileCard">
+              <h2 class="muted" style="margin-top:0; font-weight:900;">Imran Razzak</h2>
+              <h5 style="margin:6px 0 8px; font-weight:800;">Associate Professor, Computational Biology</h5>
+              <div class="tagline">
+                <div><b>MBZUAI</b>, Abu Dhabi, UAE</div>
+                <div style="margin-top:6px;">
+                  <span class="mutedText" style="font-weight:800;">Focus:</span>
+                  Personalized Medicine • Medical Imaging • Multimodal Clinical AI
+                </div>
+                <div style="margin-top:8px;">
+                  <span class="mutedText" style="font-weight:800;">Editorial:</span>
+                  Associate Editor — IEEE TNNLS, Neural Networks, IEEE TCSS, IEEE JBHI
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="profileCard">
+              <h2 style="text-align:left; margin-top:0; font-weight:900;">Team & collaboration</h2>
+              <p style="text-align:justify; color:var(--muted); margin-bottom:0;">
+                We build <b>medical foundation models</b> and <b>multimodal clinical AI</b> with an emphasis on
+                <b>reasoning</b>, <b>spatial grounding</b>, and <b>trustworthiness</b>.
+                Our group collaborates across institutions on VLMs and causal discovery for personalized health.
+              </p>
+            </div>
+          </div>
         </div>
 
-        <div class="profileCard" style="margin-bottom:12px;">
-          <h4 style="margin:0 0 10px; font-weight:950;">External PhD</h4>
-          <ul class="mutedText" style="margin:0; padding-left:18px;">
-            <li><b>Ngoc Dung Huynh</b>, PhD @ Deakin</li>
-            <li><b>Ubaid Azam</b>, PhD @ Southampton</li>
-            <li><b>Inamullah</b>, PhD @ Southampton</li>
-            <li><b>Shen Lingzhi</b>, PhD @ Southampton</li>
-          </ul>
+        <!-- Research Team content (now in the same section-card structure) -->
+        <div class="row section-card">
+          <div class="col-sm-12">
+            <h2 class="section-title">Research Team</h2>
+            <p class="mutedText" style="margin-top:0;">
+              Members and collaborators working on <b>Medical Foundation Models</b>, <b>Vision-Language Models (VLMs)</b>,
+              and <b>Causal Discovery</b> for <b>Personalized Medicine</b>.
+            </p>
+
+            <div class="row" style="margin-top:8px;">
+              <!-- Left column -->
+              <div class="col-md-6">
+
+                <div class="profileCard" style="margin-bottom:12px;">
+                  <h4 style="margin:0 0 10px; font-weight:950;">Core team (MBZUAI)</h4>
+
+                  <div class="memberCard">
+                    <div class="memberRow">
+                      <div>
+                        <div class="memberName">Yulong Li, PhD <span class="mutedText">(2025–2028)</span></div>
+                        <div class="memberRole">Personalized Medicine: Causal discovery in human health</div>
+                      </div>
+                      <span class="pill"><span class="dot" aria-hidden="true"></span> PhD</span>
+                    </div>
+                  </div>
+
+                  <div class="memberCard">
+                    <div class="memberRow">
+                      <div>
+                        <div class="memberName">Yifan Lu, PhD <span class="mutedText">(2025–2028)</span></div>
+                        <div class="memberRole">Medical VLM</div>
+                      </div>
+                      <span class="pill">VLM</span>
+                    </div>
+                  </div>
+
+                  <div class="memberCard">
+                    <div class="memberRow">
+                      <div>
+                        <div class="memberName">Ziyuan Zou <span class="mutedText">(2025–2028)</span></div>
+                        <div class="memberRole">Vision-Language Models (VLM)</div>
+                      </div>
+                      <span class="pill">VLM</span>
+                    </div>
+                  </div>
+
+                  <div class="memberCard">
+                    <div class="memberRow">
+                      <div>
+                        <div class="memberName">Xiwei Liu, PhD <span class="mutedText">(2025–2028)</span></div>
+                        <div class="memberRole">Vision-Language Models (VLM)</div>
+                      </div>
+                      <span class="pill">VLM</span>
+                    </div>
+                  </div>
+
+                  <div class="memberCard" style="margin-bottom:0;">
+                    <div class="memberRow">
+                      <div>
+                        <div class="memberName">Jianxu Chen, MS <span class="mutedText">(2025–2027)</span></div>
+                        <div class="memberRole">Causal discovery in human health</div>
+                      </div>
+                      <span class="pill">Causal</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="profileCard" style="margin-bottom:12px;">
+                  <h4 style="margin:0 0 10px; font-weight:950;">Engineering</h4>
+                  <ul class="mutedText" style="margin:0; padding-left:18px;">
+                    <li><b>Adinath Dukre</b>, Research Engineer</li>
+                    <li><b>Abhijit Das</b>, Research Engineer</li>
+                  </ul>
+                </div>
+
+                <div class="profileCard">
+                  <h4 style="margin:0 0 10px; font-weight:950;">Visiting</h4>
+                  <ul class="mutedText" style="margin:0; padding-left:18px;">
+                    <li><b>Xinlin Zhuang</b>, Visiting Student</li>
+                    <li><b>Yichen Li</b>, Visiting Student</li>
+                  </ul>
+                </div>
+
+              </div>
+
+              <!-- Right column -->
+              <div class="col-md-6">
+
+                <div class="profileCard" style="margin-bottom:12px;">
+                  <h4 style="margin:0 0 10px; font-weight:950;">PhD (UNSW)</h4>
+                  <ul class="mutedText" style="margin:0; padding-left:18px;">
+                    <li><b>Ruyi Yang</b>, PhD @ UNSW</li>
+                    <li><b>Dawn Lin</b>, PhD @ UNSW</li>
+                    <li><b>Wang, Jiru</b>, PhD @ UNSW</li>
+                    <li><b>Arthur Chen</b>, PhD @ UNSW</li>
+                    <li><b>Ujan Deb</b>, PhD @ UNSW</li>
+                    <li><b>Ghadir Alswi</b>, PhD @ UNSW</li>
+                    <li><b>Syed Javed</b>, PhD @ UNSW</li>
+                    <li><b>Qian, Shenyang</b>, PhD @ UNSW</li>
+                    <li><b>Ali AlMutari</b>, PhD @ UNSW</li>
+                    <li><b>AbdulRehman Alalwai</b>, PhD @ UNSW</li>
+                    <li><b>Anmol Goyal</b>, PhD @ UNSW</li>
+                    <li><b>AbdulRehman</b>, PhD @ UNSW</li>
+                    <li><b>Kirtan Bhatt</b>, PhD @ UNSW</li>
+                    <li><b>Abdul Salam Alharbi</b>, PhD @ UNSW</li>
+                  </ul>
+                </div>
+
+                <div class="profileCard" style="margin-bottom:12px;">
+                  <h4 style="margin:0 0 10px; font-weight:950;">External PhD</h4>
+                  <ul class="mutedText" style="margin:0; padding-left:18px;">
+                    <li><b>Ngoc Dung Huynh</b>, PhD @ Deakin</li>
+                    <li><b>Ubaid Azam</b>, PhD @ Southampton</li>
+                    <li><b>Inamullah</b>, PhD @ Southampton</li>
+                    <li><b>Shen Lingzhi</b>, PhD @ Southampton</li>
+                  </ul>
+                </div>
+
+                <div class="profileCard">
+                  <h4 style="margin:0 0 10px; font-weight:950;">Masters</h4>
+                  <ul class="mutedText" style="margin:0; padding-left:18px;">
+                    <li><b>Muhammad Umar Farooq</b>, MS @ UTS</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
         </div>
 
-        <div class="profileCard">
-          <h4 style="margin:0 0 10px; font-weight:950;">Masters</h4>
-          <ul class="mutedText" style="margin:0; padding-left:18px;">
-            <li><b>Muhammad Umar Farooq</b>, MS @ UTS</li>
-          </ul>
+        <hr />
+
+        <!-- Footer -->
+        <div class="footerBox">
+          <hr />
+          © 2026. Last update 22/02/2026.
+          <br />
+          <a href="http://www.xtrastats.com/">free counter</a>
+          <br />
+          <a href="https://info.flagcounter.com/ykSr">
+            <img
+              src="https://s11.flagcounter.com/count2/ykSr/bg_FFFFFF/txt_000000/border_CCCCCC/columns_6/maxflags_15/viewers_0/labels_1/pageviews_1/flags_0/percent_0/"
+              alt="Flag Counter"
+              border="0"
+            />
+          </a>
         </div>
 
       </div>
     </div>
-
   </div>
-</div>
+
+  <!-- Scripts at end for faster load -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="dist/js/bootstrap.min.js"></script>
+</body>
+</html>
