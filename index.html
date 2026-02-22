@@ -20,7 +20,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <!-- Chart.js for visualization -->
+  <!-- Chart.js for visualization (kept for medical viz if you want later) -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 
   <!-- Google Analytics (kept, https explicit) -->
@@ -53,8 +53,6 @@
       --bg0:#070A12;
       --bg1:#0A1022;
       --card:#0F1730cc;
-      --card2:#0F1730;
-      --line:#20305f;
       --text:#EAF0FF;
       --muted:#B6C2E2;
       --muted2:#8FA0C8;
@@ -83,7 +81,7 @@
 
     .container { max-width: 1140px; }
 
-    /* Modern header card */
+    /* Hero */
     .hero {
       margin-top: 18px;
       border-radius: var(--radius);
@@ -165,7 +163,6 @@
       box-shadow: var(--shadow2);
       padding: 14px;
     }
-    .profileCard h2, .profileCard h4, .profileCard h5 { color: var(--text); }
     .profileCard .tagline { color: var(--muted); margin-top: 4px; }
 
     /* News highlights */
@@ -217,7 +214,7 @@
       color:#071019;
     }
 
-    /* Medical visualization panel */
+    /* Medical visualization panel (kept) */
     .medViz{
       border-radius: var(--radius2);
       background: rgba(15,23,48,.70);
@@ -286,18 +283,7 @@
       max-width: 88%;
     }
 
-    /* Charts */
-    .chartCard{
-      border-radius: var(--radius2);
-      background: rgba(15,23,48,.70);
-      border: 1px solid rgba(255,255,255,.10);
-      box-shadow: var(--shadow2);
-      padding: 12px;
-      margin-top: 12px;
-    }
-    .chartCard canvas{ width:100% !important; height:260px !important; }
-
-    /* Blink toned down (kept but less harsh) */
+    /* Blink toned down (kept) */
     .blink {
       animation: blinker 2.8s linear infinite;
       color: rgba(255,206,92,.95);
@@ -310,7 +296,7 @@
     }
     @keyframes blinker { 50% { opacity: .55; } }
 
-    /* Make Bootstrap nav blend with dark theme */
+    /* Dark nav */
     .nav-justified > li > a{
       background: rgba(255,255,255,.04) !important;
       border: 1px solid rgba(255,255,255,.10) !important;
@@ -326,7 +312,7 @@
       color: var(--text) !important;
     }
 
-    /* Make list items look nicer */
+    /* News list */
     .newsList li{
       margin-bottom: 8px;
       line-height: 1.45;
@@ -346,20 +332,8 @@
 
 <body>
   <div class="container">
-    <!-- Top banner / Masthead -->
+    <!-- Masthead (GIF images removed as requested) -->
     <div class="masthead">
-      <div class="row" style="margin-top:16px;">
-        <div class="col-sm-9">
-          <div style="text-align:center">
-            <img src="img/main.gif" height="250" alt="MBZUAI / Lab banner" />
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div style="text-align:center">
-            <img src="img/logo.bmp" height="250" alt="Lab / University logo" />
-          </div>
-        </div>
-      </div>
 
       <div class="hero">
         <h1>Imran Razzak</h1>
@@ -437,12 +411,12 @@
           </div>
         </div>
 
-        <!-- Medical visualization + charts -->
+        <!-- Medical visualization (kept) -->
         <div class="row section-card">
           <div class="col-sm-12">
             <h2 class="section-title">Medical AI at a glance</h2>
             <p class="mutedText" style="margin-top:0;">
-              A lightweight “medical dashboard” with illustrative imaging slices + an ECG-style signal and acceptances chart below.
+              Illustrative medical visualization highlighting multimodal reasoning and spatial grounding.
             </p>
 
             <div class="medViz">
@@ -509,7 +483,7 @@
                                C125 95 80 70 80 40Z"
                             fill="url(#g2)" opacity=".95" filter="url(#glow)"/>
                       <text x="125" y="150" text-anchor="middle" fill="#B6C2E2" font-size="16" font-weight="800">
-                        Cardiometabolic phenotyping
+                        Personalized health
                       </text>
                     </g>
 
@@ -542,7 +516,7 @@
                     </g>
 
                     <text x="20" y="250" fill="#8FA0C8" font-size="14" font-weight="700">
-                      Personalized Medicine • Multimodal Understanding • Imaging Intelligence
+                      Personalized Medicine • Medical Imaging • Multimodal Understanding
                     </text>
                   </svg>
                 </div>
@@ -551,30 +525,21 @@
                 <div class="dicomGrid">
                   <div class="slice">
                     <div class="label">CT • Chest</div>
-                    <div class="meta">Unified model outputs: findings, localization, summary</div>
+                    <div class="meta">Findings → localization → summary</div>
                   </div>
                   <div class="slice">
                     <div class="label">MRI • Brain</div>
-                    <div class="meta">Reasoning + report generation + Q&A</div>
+                    <div class="meta">Reasoning + report generation</div>
                   </div>
                   <div class="slice">
                     <div class="label">Pathology • Slide</div>
-                    <div class="meta">Cross-modality grounding & detection</div>
+                    <div class="meta">Cross-modality grounding</div>
                   </div>
                   <div class="slice">
                     <div class="label">Ophthalmology • Fundus</div>
-                    <div class="meta">VQA + diagnosis support + spatial cues</div>
+                    <div class="meta">VQA + diagnosis support</div>
                   </div>
                 </div>
-              </div>
-
-              <!-- Charts -->
-              <div class="chartCard">
-                <div class="vizTitle">
-                  <span>Acceptance highlights (Sep 2025 → Feb 2026)</span>
-                  <span class="mutedText">Auto-built from the “What’s new?” top items</span>
-                </div>
-                <canvas id="chartVenue"></canvas>
               </div>
             </div>
           </div>
@@ -587,22 +552,18 @@
             <p class="mutedText" style="margin-top:0;">
               My work focuses on <b>Personalized Medicine</b> and <b>Medical Imaging</b>, building models that unify
               multimodal understanding (vision + language), clinical reasoning, and spatial grounding across diverse imaging modalities.
-              I’m especially interested in trustworthy medical AI (robustness, calibration, uncertainty, and hallucination reduction),
-              longitudinal modeling, and end-to-end clinical workflows (from images to structured outputs and reports).
+              I’m especially interested in trustworthy medical AI (robustness, uncertainty, and hallucination reduction),
+              longitudinal modeling, and end-to-end clinical workflows.
             </p>
 
             <p class="blink">
-              Open positions: highly self-motivated PhD students and postdocs for <b>Medical Foundation Models</b>, <b>VLMs for clinical reasoning</b>,
+              Open positions: PhD students and postdocs for <b>Medical Foundation Models</b>, <b>VLMs for clinical reasoning</b>,
               and <b>personalized/longitudinal healthcare AI</b>. Please email your CV + a short research proposal.
-            </p>
-
-            <p class="mutedText">
-              Dual-doctorate candidates / visiting students / visiting scholars in ML and Human-Centered AI are also welcome.
             </p>
           </div>
         </div>
 
-        <!-- What's new -->
+        <!-- What's new (trimmed to March 2025 and newer only) -->
         <div class="row section-card">
           <div class="col-sm-12">
             <h2 class="section-title">What’s new?</h2>
@@ -620,7 +581,7 @@
                 <div class="col-md-6">
                   <p class="mutedText" style="margin:0; font-weight:900;">🔍 Core capabilities</p>
                   <ul class="mutedText" style="margin-top:8px; padding-left:18px;">
-                    <li><b>Understanding & reasoning:</b> Visual Question Answering (VQA), text-based medical QA, diagnostic reasoning</li>
+                    <li><b>Understanding & reasoning:</b> VQA, text-based medical QA, diagnostic reasoning</li>
                     <li><b>Report intelligence:</b> Radiology report generation and summarization</li>
                     <li><b>Spatial grounding:</b> Disease localization with precise bounding boxes</li>
                     <li><b>Cross-modality localization:</b> Radiology, pathology, ophthalmology, microscopy</li>
@@ -634,14 +595,10 @@
                     <a class="btnx warn" href="https://lnkd.in/dYj3X7DC" target="_blank" rel="noopener noreferrer">🤗 Hugging Face</a>
                     <a class="btnx" href="https://lnkd.in/ddUbBeft" target="_blank" rel="noopener noreferrer">💾 GitHub</a>
                   </div>
-                  <p class="mutedText" style="margin-top:10px; font-size:12px;">
-                    (Tip: replace LinkedIn short links with canonical URLs if you prefer permanent direct links.)
-                  </p>
                 </div>
               </div>
             </div>
 
-            <!-- New acceptances added on top (after MedMO) -->
             <ul class="newsList">
               <li><img src="img/news.png" alt="" /> <b>[Feb, 2026]</b> 4 papers on <b>Medical VLM reasoning and hallucination</b> accepted in <b>CVPR</b>.</li>
               <li><img src="img/news.png" alt="" /> <b>[Jan, 2026]</b> 4 papers accepted in <b>The Web Conference</b>.</li>
@@ -652,103 +609,16 @@
               <li><img src="img/news.png" alt="" /> <b>[Oct, 2025]</b> 4 papers accepted in <b>AAAI</b> (2 Oral). <b>See you in Singapore!</b></li>
               <li><img src="img/news.png" alt="" /> <b>[Sep, 2025]</b> 6 papers accepted in <b>NeurIPS</b> (1 Spotlight).</li>
 
-              <!-- Existing items (kept) -->
               <li><img src="img/news.png" alt="" /> [Aug, 2025] 2 papers accepted in EMNLP.</li>
               <li><img src="img/news.png" alt="" /> [Aug, 2025] Our team ranked 1st in AIM 2025 Rip Current Segmentation (RipSeg) Challenge Report.</li>
               <li><img src="img/news.png" alt="" /> [July, 2025] 1 paper accepted in ACM MM and one in CIKM.</li>
               <li><img src="img/news.png" alt="" /> [July, 2025] We released OphNet-3D, the first extensive RGB-D dynamic 3D reconstruction dataset for ophthalmic surgery.</li>
               <li><img src="img/news.png" alt="" /> [April, 2025] 2 papers accepted in MICCAI and 2 papers in IEEE SMC.</li>
+
+              <!-- Keep March 2025 (and newer), remove anything older -->
               <li><img src="img/news.png" alt="" /> [March, 2025] Paper accepted in CVPR (ORAL) and one in ACL (ORAL).</li>
               <li><img src="img/news.png" alt="" /> [March, 2025] 1 paper accepted in NPJ Digital Medicine.</li>
               <li><img src="img/news.png" alt="" /> [March, 2025] Our work "Retinal Pathways to Asthma Diagnosis: AI-Driven Insight" accepted in ARVO.</li>
-              <li><img src="img/news.png" alt="" /> [Feb, 2025] 1 main and 4 companion accepted in WWW (Sydney).</li>
-              <li><img src="img/news.png" alt="" /> [Jan, 2025] Joined MBZUAI as an Associate Professor of Computational Biology; looking for motivated Post Docs and PhDs/MS students.</li>
-              <li><img src="img/news.png" alt="" /> [Nov, 2024] Three papers accepted in COLING 2025.</li>
-              <li><img src="img/news.png" alt="" /> [Oct, 2024] Two papers accepted in NeurIPS 2024.</li>
-              <li><img src="img/news.png" alt="" /> [Sept, 2024] Three papers accepted in WISE 2024.</li>
-              <li><img src="img/news.png" alt="" /> [Sept, 2024] Two papers accepted in ICDM.</li>
-
-              <li>
-                <img src="img/news.png" alt="" /> [Jan, 2024] Our paper
-                <a href="https://www.sciencedirect.com/science/article/pii/S1566253523003779" target="_blank" rel="noopener noreferrer">
-                  "Self-Supervised Spatial-Temporal Transformer Fusion Based Federated Framework for 4D Cardiovascular Image Segmentation"
-                </a>
-                accepted in "Information Fusion".
-              </li>
-
-              <li>
-                <img src="img/news.png" alt="" /> [Sept, 2023]
-                <a
-                  href="https://rms.arc.gov.au/RMS/Report/Download/Report/a3f6be6e-33f7-4fb5-98a6-7526aaa184cf/247"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  CI: Leveraging Foundation Models for Accelerated Materials Science Research, Microsoft Accelerate Foundation Models Research Program, 20K (access to Azure OpenAI GPT-4 model)
-                </a>
-              </li>
-
-              <li>
-                <img src="img/news.png" alt="" /> [Aug, 2023] We are pleased to release
-                <a href="https://github.com/MasterAI-EAM/Darwin" style="color:#FFCE5C" target="_blank" rel="noopener noreferrer">
-                  Darwin foundational LLM
-                </a>
-                , tailored for scientific domains (materials science, chemistry, physics).
-              </li>
-
-              <li>
-                <img src="img/news.png" alt="" /> [June, 2023] Our work
-                <a href="https://arxiv.org/abs/2304.12856" target="_blank" rel="noopener noreferrer">
-                  "Multi-classification of retinal diseases using a Pyramidal Ensemble Deep Framework"
-                </a>
-                accepted in ICIP.
-              </li>
-
-              <li>
-                <img src="img/news.png" alt="" /> [March, 2023] Our work
-                <a href="https://ieeexplore.ieee.org/abstract/document/10068766" target="_blank" rel="noopener noreferrer">
-                  "High-Density Electroencephalography and Speech Signal based Deep Framework for Clinical Depression Diagnosis"
-                </a>
-                accepted in IEEE TCBB.
-              </li>
-
-              <li>
-                <img src="img/news.png" alt="" /> [March, 2023] Our work
-                <a href="https://www.sciencedirect.com/science/article/abs/pii/S0952197623002075" target="_blank" rel="noopener noreferrer">
-                  "Simple and robust depth-wise cascaded network for polyp segmentation"
-                </a>
-                accepted in EAAI.
-              </li>
-
-              <li>
-                <img src="img/news.png" alt="" /> [March, 2023] Our work
-                <a href="https://link.springer.com/chapter/10.1007/978-3-031-27324-7_7" target="_blank" rel="noopener noreferrer">
-                  "Segmentation of Intra-operative Ultrasound Using Self-supervised Learning Based 3D-ResUnet Model with Deep Supervision"
-                </a>
-                published (MICCAI iUS Challenge).
-              </li>
-
-              <li>
-                <img src="img/news.png" alt="" /> [Feb, 2023]
-                <a href="https://arxiv.org/abs/2110.02987" target="_blank" rel="noopener noreferrer">
-                  "Distributed Optimization of Graph Convolutional Network using Subgraph Variance"
-                </a>
-                accepted in IEEE TNNLS.
-              </li>
-
-              <li>
-                <img src="img/news.png" alt="" /> [Feb, 2023]
-                <a href="https://arxiv.org/abs/2302.01738" target="_blank" rel="noopener noreferrer">
-                  "AIROGS: Artificial Intelligence for RObust Glaucoma Screening Challenge"
-                </a>
-                (Glaucoma - AIROGS Challenge).
-              </li>
-
-              <li>
-                <img src="img/news.png" alt="" /> [July, 2022] Our research team won the
-                <a href="img/MDM2022_best_demo.jpeg" style="color:#FFCE5C" target="_blank" rel="noopener noreferrer">best demo award</a>
-                at MDM 2022. Paper:
-                <a href="papers/MDM2022.pdf" target="_blank" rel="noopener noreferrer">here</a>.
-              </li>
             </ul>
           </div>
         </div>
@@ -852,51 +722,5 @@
   <!-- Scripts at end for faster load -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="dist/js/bootstrap.min.js"></script>
-
-  <!-- Build the venue chart from the TOP “new acceptances” items -->
-  <script>
-    // These are the top acceptance/news counts we want visualized (Sep 2025 → Feb 2026)
-    const highlights = [
-      { venue: "NeurIPS", count: 6, date: "2025-09-01" },
-      { venue: "AAAI", count: 4, date: "2025-10-01" },
-      { venue: "ICLR", count: 1, date: "2026-01-10" },
-      { venue: "The Web Conference", count: 4, date: "2026-01-20" },
-      { venue: "CVPR", count: 4, date: "2026-02-01" },
-    ];
-
-    // Aggregate counts by venue
-    const byVenue = {};
-    highlights.forEach(h => byVenue[h.venue] = (byVenue[h.venue] || 0) + h.count);
-
-    const labels = Object.keys(byVenue);
-    const values = labels.map(l => byVenue[l]);
-
-    const ctx = document.getElementById("chartVenue");
-    if (ctx) {
-      new Chart(ctx, {
-        type: "bar",
-        data: {
-          labels,
-          datasets: [{
-            label: "Accepted papers",
-            data: values,
-            borderWidth: 1,
-            borderRadius: 10,
-          }]
-        },
-        options: {
-          responsive: true,
-          plugins: {
-            legend: { display: false },
-            tooltip: { enabled: true }
-          },
-          scales: {
-            x: { ticks: { color: "#B6C2E2" }, grid: { color: "rgba(255,255,255,.06)" } },
-            y: { ticks: { color: "#B6C2E2" }, grid: { color: "rgba(255,255,255,.06)" }, beginAtZero: true }
-          }
-        }
-      });
-    }
-  </script>
 </body>
 </html>
