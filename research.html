@@ -4,12 +4,11 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <title>Projects | Imran Razzak</title>
-  <meta name="description" content="Selected projects in Personalized Medicine, Medical Imaging, and Multimodal AI by Imran Razzak (MBZUAI)." />
+  <title>Imran Razzak | Datasets | MBZUAI</title>
+  <meta name="description" content="Imran Razzak — Associate Professor at MBZUAI. Datasets and benchmarks in medical imaging, multimodal AI, and related areas." />
   <meta name="author" content="Imran Razzak" />
 
-  <!-- Bootstrap -->
+  <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="justified-nav.css" />
 
@@ -19,7 +18,35 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Chart.js (kept for consistency with template; optional here) -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+  <!-- Google Analytics (https explicit) -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i["GoogleAnalyticsObject"] = r;
+      i[r] =
+        i[r] ||
+        function () {
+          (i[r].q = i[r].q || []).push(arguments);
+        };
+      i[r].l = 1 * new Date();
+      a = s.createElement(o);
+      m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga");
+
+    ga("create", "UA-60795702-1", "auto");
+    ga("send", "pageview");
+  </script>
+
+  <!-- Optional legacy scripts -->
+  <script src="assets/js/ie-emulation-modes-warning.js"></script>
+  <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 
   <style>
     :root{
@@ -28,20 +55,15 @@
       --text:#EAF0FF;
       --muted:#B6C2E2;
       --muted2:#8FA0C8;
-
       --brand:#7C5CFF;
       --brand2:#2EE9A6;
-
       --shadow: 0 16px 60px rgba(0,0,0,.45);
       --shadow2: 0 10px 30px rgba(0,0,0,.35);
-
       --radius: 18px;
       --radius2: 14px;
 
-      --chipBg: rgba(255,255,255,.06);
-      --chipBorder: rgba(255,255,255,.12);
-      --cardBg: rgba(255,255,255,.03);
-      --cardBorder: rgba(255,255,255,.08);
+      --red:#ff2d2d;
+      --orange:#ff9a2f;
     }
 
     body{
@@ -56,23 +78,8 @@
 
     a { color:#B7B0FF; }
     a:hover { color:#d8d4ff; }
-    .container { max-width: 1140px; }
 
-    /* Dark nav */
-    .nav-justified > li > a{
-      background: rgba(255,255,255,.04) !important;
-      border: 1px solid rgba(255,255,255,.10) !important;
-      color: var(--muted) !important;
-      font-weight: 800;
-      border-radius: 12px !important;
-      margin: 4px;
-    }
-    .nav-justified > .active > a,
-    .nav-justified > li > a:hover{
-      background: rgba(124,92,255,.18) !important;
-      border-color: rgba(124,92,255,.35) !important;
-      color: var(--text) !important;
-    }
+    .container { max-width: 1140px; }
 
     /* Hero */
     .hero {
@@ -98,16 +105,15 @@
     }
     .hero h1{
       margin: 0 0 6px;
-      font-weight: 900;
+      font-weight: 800;
       letter-spacing: .2px;
-      font-size: 28px;
+      font-size: 30px;
     }
     .hero .sub{
       color: var(--muted);
       margin: 0;
       font-size: 14px;
-      max-width: 90ch;
-      line-height: 1.5;
+      max-width: 78ch;
     }
     .pillrow{
       margin-top: 12px;
@@ -120,7 +126,7 @@
       background: rgba(255,255,255,.06);
       border:1px solid rgba(255,255,255,.12);
       color: var(--muted);
-      font-weight: 800;
+      font-weight: 700;
       font-size: 12px;
       box-shadow: var(--shadow2);
     }
@@ -133,437 +139,358 @@
     /* Section cards */
     .section-card{
       border-radius: var(--radius);
-      background: var(--cardBg);
-      border: 1px solid var(--cardBorder);
+      background: rgba(255,255,255,.03);
+      border: 1px solid rgba(255,255,255,.08);
       box-shadow: var(--shadow2);
       padding: 16px 16px 14px;
       margin-top: 16px;
     }
     .section-title{
       margin: 0 0 8px;
-      font-weight: 900;
+      font-weight: 800;
       letter-spacing: .2px;
       font-size: 18px;
     }
     .mutedText { color: var(--muted); }
 
-    /* Project grid */
-    .projGrid{
-      display:grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 14px;
-      margin-top: 12px;
+    /* Profile block */
+    .profileCard{
+      border-radius: var(--radius2);
+      background: rgba(15,23,48,.70);
+      border: 1px solid rgba(255,255,255,.10);
+      box-shadow: var(--shadow2);
+      padding: 14px;
     }
-    @media (max-width: 992px){
-      .projGrid{ grid-template-columns: repeat(2, 1fr); }
+    .profileCard .tagline { color: var(--muted); margin-top: 4px; }
+
+    /* Dark nav */
+    .nav-justified > li > a{
+      background: rgba(255,255,255,.04) !important;
+      border: 1px solid rgba(255,255,255,.10) !important;
+      color: var(--muted) !important;
+      font-weight: 800;
+      border-radius: 12px !important;
+      margin: 4px;
     }
-    @media (max-width: 640px){
-      .projGrid{ grid-template-columns: 1fr; }
+    .nav-justified > .active > a,
+    .nav-justified > li > a:hover{
+      background: rgba(124,92,255,.18) !important;
+      border-color: rgba(124,92,255,.35) !important;
+      color: var(--text) !important;
     }
 
-    .projCard{
+    /* Dataset cards */
+    .dsGrid{
+      display:grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 10px;
+    }
+    @media (max-width: 992px){
+      .dsGrid{ grid-template-columns: 1fr; }
+    }
+    .dsCard{
       border-radius: var(--radius2);
       background: rgba(15,23,48,.70);
       border: 1px solid rgba(255,255,255,.10);
       box-shadow: var(--shadow2);
       overflow:hidden;
-      display:flex;
-      flex-direction:column;
-      min-height: 330px;
     }
-
-    .projMedia{
-      border-bottom: 1px solid rgba(255,255,255,.10);
-      background:
-        radial-gradient(260px 180px at 30% 30%, rgba(255,255,255,.10), transparent 60%),
-        linear-gradient(135deg, rgba(124,92,255,.12), rgba(46,233,166,.08));
-      position: relative;
-      height: 190px;
-      overflow:hidden;
+    .dsTop{
+      padding: 14px 14px 10px;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+      background: linear-gradient(135deg, rgba(124,92,255,.16), rgba(46,233,166,.06));
     }
-
-    .projMedia img, .projMedia video, .projMedia iframe{
-      width:100%;
-      height:100%;
-      object-fit: cover;
-      display:block;
-      border:0;
-    }
-
-    .projBody{
-      padding: 12px 12px 14px;
-      display:flex;
-      flex-direction:column;
-      gap: 8px;
-      flex: 1;
-    }
-
-    .projTitle{
+    .dsTitle{
+      margin:0 0 6px;
       font-weight: 950;
+      letter-spacing:.2px;
       font-size: 14px;
-      letter-spacing: .2px;
-      margin:0;
+      line-height: 1.35;
     }
-    .projDesc{
-      margin:0;
+    .dsMeta{
       color: var(--muted);
-      font-size: 13px;
+      font-size: 12px;
       line-height: 1.45;
+      margin: 0;
     }
-
-    .chips{
+    .dsMedia{
+      padding: 12px 14px 14px;
+    }
+    .dsMedia img{
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,.10);
+      background: rgba(0,0,0,.18);
+      filter: drop-shadow(0 10px 22px rgba(0,0,0,.35));
+    }
+    .dsFooter{
+      padding: 0 14px 14px;
       display:flex;
       flex-wrap:wrap;
       gap: 8px;
-      margin-top: 2px;
+      align-items:center;
+      justify-content:space-between;
     }
-    .chip{
+    .tagPill{
       display:inline-flex;
       align-items:center;
-      gap:6px;
-      padding: 6px 8px;
-      border-radius: 999px;
+      padding:6px 10px;
+      border-radius:999px;
+      font-weight: 900;
       font-size: 11px;
-      font-weight: 900;
       color: var(--text);
-      background: var(--chipBg);
-      border: 1px solid var(--chipBorder);
-    }
-
-    .projFooter{
-      margin-top:auto;
-      display:flex;
-      flex-wrap:wrap;
-      gap: 10px;
-      padding-top: 6px;
-    }
-
-    .btnx{
-      display:inline-flex;
-      align-items:center;
-      gap:8px;
-      padding: 8px 10px;
-      border-radius: 12px;
-      font-weight: 900;
-      font-size: 12px;
+      background: rgba(255,255,255,.06);
       border: 1px solid rgba(255,255,255,.12);
+      box-shadow: var(--shadow2);
+    }
+    .btnx{
+      display:inline-flex; align-items:center; gap:10px;
+      padding:8px 10px;
+      border-radius: 12px;
+      font-weight: 800;
+      font-size: 12px;
+      border:1px solid rgba(255,255,255,.12);
       background: rgba(255,255,255,.06);
       color: var(--text);
       text-decoration:none !important;
       box-shadow: var(--shadow2);
+      white-space:nowrap;
     }
-    .btnx.primary{
-      border:none;
-      background: linear-gradient(135deg, var(--brand), #5BB8FF);
-    }
-    .btnx.ok{
-      border:none;
-      background: linear-gradient(135deg, rgba(46,233,166,.95), rgba(91,184,255,.85));
-      color:#071019;
-    }
+    .btnx.primary{ border:none; background: linear-gradient(135deg, var(--brand), #5BB8FF); }
 
-    /* Scholar callout */
-    .scholarCallout{
-      border-radius: var(--radius2);
-      padding: 12px 14px;
-      background: linear-gradient(135deg, rgba(255,77,125,.14), rgba(124,92,255,.14));
-      border: 1px solid rgba(255,255,255,.12);
-      box-shadow: var(--shadow2);
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap: 12px;
-      flex-wrap:wrap;
-    }
-    .scholarCallout h3{
-      margin:0;
-      font-size: 14px;
-      font-weight: 950;
-      letter-spacing: .2px;
-    }
-    .scholarCallout p{
-      margin:0;
-      color: var(--muted);
-      font-size: 13px;
-    }
-
+    /* Footer */
     .footerBox{
       text-align:center;
       color: var(--muted2);
       font-size: 12px;
-      padding-top: 18px;
-      padding-bottom: 8px;
+      padding-top: 10px;
     }
   </style>
 </head>
 
 <body>
   <div class="container">
-
-    <!-- Hero -->
-    <div class="hero">
-      <h1>Projects</h1>
-      <p class="sub">
-        A selection of projects spanning <b>Personalized Medicine</b>, <b>Medical Imaging</b>, and <b>Multimodal AI</b>.
-        We build systems that connect vision + language for clinical reasoning, spatial grounding, and robust decision support.
-      </p>
-      <div class="pillrow">
-        <span class="pill"><span class="dot" aria-hidden="true"></span> Medical Imaging</span>
-        <span class="pill">Personalized Medicine</span>
-        <span class="pill">Clinical Reasoning</span>
-        <span class="pill">Segmentation & Localization</span>
-        <span class="pill">Multimodal AI</span>
+    <!-- Masthead -->
+    <div class="masthead">
+      <div class="hero">
+        <h1>Imran Razzak</h1>
+        <p class="sub">
+          Associate Professor, MBZUAI (Department of Computational Biology) • Personalized Medicine • Medical Imaging • Multimodal Clinical Reasoning
+        </p>
+        <div class="pillrow">
+          <span class="pill"><span class="dot" aria-hidden="true"></span> Abu Dhabi, UAE</span>
+          <span class="pill">Datasets</span>
+          <span class="pill">Benchmarks</span>
+          <span class="pill">Medical AI</span>
+          <span class="pill">Multimodal</span>
+        </div>
       </div>
+
+      <h5 style="margin-top:14px; color:var(--muted);">
+        Hello. Hola. Aloha. Bonjour. स्वागत , مرحباً, ښه راغلاست , خوش آمدید, Haai, Grüßgott.
+        Goedendag. Oi. Shalom. Assalam o Alaikum, Guten Tag. Ciào. Malo e lelei. Hei. 欢迎, 안녕. Yo.
+      </h5>
+
+      <ul class="nav nav-justified" style="margin-top:10px;">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Publication and Projects</a></li>
+        <li class="active"><a href="research.html">Datasets</a></li>
+        <li><a href="grants-awards.html">Grants &amp; Awards</a></li>
+        <li><a href="publications.html">Teaching</a></li>
+        <li><a href="teaching.html">Research Team</a></li>
+        <li><a href="student.html">Prospective PhD Student</a></li>
+        <li><a href="services.html">Services</a></li>
+      </ul>
     </div>
 
-    <!-- Nav -->
-    <ul class="nav nav-justified" style="margin-top:10px;">
-      <li><a href="index.html">Home</a></li>
-      <li class="active"><a href="projects.html">Publication and Projects</a></li>
-      <li><a href="research.html">Datasets</a></li>
-      <li><a href="grants-awards.html">Grants &amp; Awards</a></li>
-      <li><a href="publications.html">Teaching</a></li>
-      <li><a href="teaching.html">Research Team</a></li>
-      <li><a href="student.html">Prospective PhD Student</a></li>
-      <li><a href="services.html">Services</a></li>
-    </ul>
+    <!-- Main -->
+    <div class="theme-showcase" style="padding-top: 14px">
+      <div class="inner">
 
-    <!-- Scholar callout -->
-    <div class="section-card">
-      <div class="scholarCallout">
-        <div>
-          <h3>📚 Publications</h3>
-          <p>For the full and up-to-date list of papers, please visit my Google Scholar profile.</p>
-        </div>
-        <a class="btnx primary"
-           href="https://scholar.google.com/citations?hl=en&user=GlXI4N8AAAAJ&view_op=list_works&sortby=pubdate"
-           target="_blank" rel="noopener noreferrer">
-          Visit Google Scholar →
-        </a>
-      </div>
-    </div>
-
-    <!-- Featured projects -->
-    <div class="section-card">
-      <h2 class="section-title">Selected Projects</h2>
-      <p class="mutedText" style="margin-top:0;">
-        Below are representative research directions from our lab. Each card highlights the clinical goal,
-        the AI task, and the type of evidence we aim to produce (localization, segmentation, reports, or reasoning).
-      </p>
-
-      <div class="projGrid">
-
-        <!-- Brain Tumor Segmentation (mp4 fixed: use video) -->
-        <div class="projCard">
-          <div class="projMedia">
-            <video src="img/brain.mp4" controls playsinline preload="metadata"></video>
+        <!-- Profile row (kept “major text” style consistency) -->
+        <div class="row section-card">
+          <div class="col-lg-2">
+            <div style="text-align:center">
+              <img src="img/imrazzak.jpg" width="190" alt="Imran Razzak photo" class="img-circle" />
+            </div>
           </div>
-          <div class="projBody">
-            <p class="projTitle">Brain Tumor Segmentation</p>
-            <p class="projDesc">High-precision tumor delineation to support treatment planning and longitudinal monitoring.</p>
-            <div class="chips">
-              <span class="chip">🧠 MRI</span>
-              <span class="chip">✂️ Segmentation</span>
-              <span class="chip">📍 Localization</span>
+
+          <div class="col-lg-4">
+            <div class="profileCard">
+              <h2 class="muted" style="margin-top:0; font-weight:900;">Imran Razzak</h2>
+              <h5 style="margin:6px 0 8px; font-weight:800;">Associate Professor, Computational Biology</h5>
+              <div class="tagline">
+                <div><b>MBZUAI</b>, Abu Dhabi, UAE</div>
+                <div style="margin-top:6px;">
+                  <span class="mutedText" style="font-weight:800;">Focus:</span>
+                  Personalized Medicine • Medical Imaging • Multimodal Clinical AI
+                </div>
+                <div style="margin-top:8px;">
+                  <span class="mutedText" style="font-weight:800;">Editorial:</span>
+                  Associate Editor — IEEE TNNLS, Neural Networks, IEEE TCSS, IEEE JBHI
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="profileCard">
+              <h2 style="text-align:left; margin-top:0; font-weight:900;">Datasets & benchmarks</h2>
+              <p style="text-align:justify; color:var(--muted); margin-bottom:0;">
+                We build and release datasets that enable <b>trustworthy</b> and <b>generalizable</b> AI,
+                spanning medical imaging, multimodal learning, and real-world deployment settings.
+                Below are a few representative datasets and demos from our past work.
+              </p>
             </div>
           </div>
         </div>
 
-        <!-- Early Diagnosis: Multiomics -->
-        <div class="projCard">
-          <div class="projMedia">
-            <img src="img/genom.gif" alt="Multiomics visualization">
-          </div>
-          <div class="projBody">
-            <p class="projTitle">Early Diagnosis with Multi-omics</p>
-            <p class="projDesc">Integrating heterogeneous omics signals to improve early risk prediction and patient stratification.</p>
-            <div class="chips">
-              <span class="chip">🧬 Multi-omics</span>
-              <span class="chip">📈 Risk Modeling</span>
-              <span class="chip">🧠 Representation</span>
+        <!-- Scholar link -->
+        <div class="row section-card">
+          <div class="col-sm-12">
+            <div class="profileCard" style="background:rgba(0,0,0,.18);">
+              <h3 class="section-title" style="margin:0 0 6px;">
+                Publications
+              </h3>
+              <p class="mutedText" style="margin:0;">
+                For the most up-to-date publication list, please visit
+                <a href="https://scholar.google.com/citations?hl=en&user=GlXI4N8AAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener noreferrer">
+                  Google Scholar
+                </a>.
+              </p>
             </div>
           </div>
         </div>
 
-        <!-- Early Migraine Diagnosis -->
-        <div class="projCard">
-          <div class="projMedia">
-            <img src="img/migarinegif.gif" alt="Migraine diagnosis visualization">
-          </div>
-          <div class="projBody">
-            <p class="projTitle">Early Migraine Diagnosis</p>
-            <p class="projDesc">Learning multimodal biomarkers to enable earlier screening and improved patient outcomes.</p>
-            <div class="chips">
-              <span class="chip">🧠 Neurology</span>
-              <span class="chip">🧪 Biomarkers</span>
-              <span class="chip">🤖 ML</span>
+        <!-- Datasets grid (replaces old table, same visual system) -->
+        <div class="row section-card">
+          <div class="col-sm-12">
+            <h2 class="section-title">Our Datasets</h2>
+            <p class="mutedText" style="margin-top:0;">
+              A curated selection of datasets and benchmark resources (images shown are illustrative previews).
+            </p>
+
+            <div class="dsGrid">
+
+              <!-- Marine-tree -->
+              <div class="dsCard">
+                <div class="dsTop">
+                  <p class="dsTitle">Marine-tree: A Large-scale Hierarchically Annotated Dataset for Marine Organism Classification</p>
+                  <p class="dsMeta">Hierarchical image classification • fine-grained taxonomy • large-scale labeling</p>
+                </div>
+                <div class="dsMedia">
+                  <img src="img/marinetree.gif" alt="Marine-tree dataset preview" />
+                </div>
+                <div class="dsFooter">
+                  <span class="tagPill">Hierarchical</span>
+                  <a class="btnx primary" href="projects.html">See details</a>
+                </div>
+              </div>
+
+              <!-- Jarvis -->
+              <div class="dsCard">
+                <div class="dsTop">
+                  <p class="dsTitle">Jarvis: A Voice-based Context-as-a-Service Mobile Tool for a Smart Home Environment</p>
+                  <p class="dsMeta">Context-as-a-service • mobile sensing • voice interaction</p>
+                </div>
+                <div class="dsMedia">
+                  <img src="img/twitter.gif" alt="Jarvis demo preview" />
+                </div>
+                <div class="dsFooter">
+                  <span class="tagPill">Context</span>
+                  <a class="btnx primary" href="projects.html">See details</a>
+                </div>
+              </div>
+
+              <!-- Brain shift / iUS -->
+              <div class="dsCard">
+                <div class="dsTop">
+                  <p class="dsTitle">Brain Shift Correction: Intra-operative Ultrasound (iUS)</p>
+                  <p class="dsMeta">Surgical guidance • segmentation • registration / correction</p>
+                </div>
+                <div class="dsMedia">
+                  <img src="img/curious.gif" alt="Brain shift correction iUS preview" />
+                </div>
+                <div class="dsFooter">
+                  <span class="tagPill">iUS</span>
+                  <a class="btnx primary" href="projects.html">See details</a>
+                </div>
+              </div>
+
+              <!-- Cardiac MRI motion -->
+              <div class="dsCard">
+                <div class="dsTop">
+                  <p class="dsTitle">Cardiac MRI under Respiratory Motion</p>
+                  <p class="dsMeta">Motion robustness • cardiac analysis • temporal consistency</p>
+                </div>
+                <div class="dsMedia">
+                  <img src="img/hm.gif" alt="Cardiac MRI motion preview" />
+                </div>
+                <div class="dsFooter">
+                  <span class="tagPill">Cardiac</span>
+                  <a class="btnx primary" href="projects.html">See details</a>
+                </div>
+              </div>
+
+              <!-- OPTIONAL: if you still want to keep a “placeholder” card for older repeated items -->
+              <div class="dsCard">
+                <div class="dsTop">
+                  <p class="dsTitle">Social Media Event Detection (Demo/Benchmark)</p>
+                  <p class="dsMeta">Event detection • multimodal / social signals • real-world streams</p>
+                </div>
+                <div class="dsMedia">
+                  <img src="img/twitter.gif" alt="Social media event detection preview" />
+                </div>
+                <div class="dsFooter">
+                  <span class="tagPill">Social</span>
+                  <a class="btnx primary" href="projects.html">See details</a>
+                </div>
+              </div>
+
+              <div class="dsCard">
+                <div class="dsTop">
+                  <p class="dsTitle">Hierarchical Classification (Additional Benchmark)</p>
+                  <p class="dsMeta">Taxonomy-aware learning • long-tailed categories • robust evaluation</p>
+                </div>
+                <div class="dsMedia">
+                  <img src="img/h1.gif" alt="Hierarchical classification preview" />
+                </div>
+                <div class="dsFooter">
+                  <span class="tagPill">Benchmark</span>
+                  <a class="btnx primary" href="projects.html">See details</a>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
 
-        <!-- Heart Segmentation and Mesh Construction -->
-        <div class="projCard">
-          <div class="projMedia">
-            <img src="img/heartgif.gif" alt="Heart segmentation visualization">
-          </div>
-          <div class="projBody">
-            <p class="projTitle">Heart Segmentation & Mesh Construction</p>
-            <p class="projDesc">Accurate cardiac structures with geometry-aware modeling for quantitative analysis and simulation.</p>
-            <div class="chips">
-              <span class="chip">❤️ Cardiac</span>
-              <span class="chip">✂️ Segmentation</span>
-              <span class="chip">🧩 Mesh</span>
-            </div>
-          </div>
-        </div>
+        <hr />
 
-        <!-- Early Alzheimer's Diagnosis -->
-        <div class="projCard">
-          <div class="projMedia">
-            <img src="img/alzgif.gif" alt="Alzheimer diagnosis visualization">
-          </div>
-          <div class="projBody">
-            <p class="projTitle">Early Alzheimer’s Diagnosis</p>
-            <p class="projDesc">Imaging-driven prediction with robust evaluation and clinically meaningful interpretability.</p>
-            <div class="chips">
-              <span class="chip">🧠 Brain</span>
-              <span class="chip">📉 Progression</span>
-              <span class="chip">🧾 Explainability</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Impact of Medication -->
-        <div class="projCard">
-          <div class="projMedia">
-            <img src="img/diseasegif.gif" alt="Medication effect visualization">
-          </div>
-          <div class="projBody">
-            <p class="projTitle">Impact of Medication</p>
-            <p class="projDesc">Understanding treatment effects with longitudinal signals to support personalized care pathways.</p>
-            <div class="chips">
-              <span class="chip">🧪 Treatment</span>
-              <span class="chip">⏳ Longitudinal</span>
-              <span class="chip">🎯 Personalization</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Brain Shift Correction: iUS -->
-        <div class="projCard">
-          <div class="projMedia">
-            <img src="img/curious.gif" alt="Brain shift correction visualization">
-          </div>
-          <div class="projBody">
-            <p class="projTitle">Brain Shift Correction (Intra-operative iUS)</p>
-            <p class="projDesc">Improving surgical guidance by correcting deformation and aligning intra-operative signals.</p>
-            <div class="chips">
-              <span class="chip">🧠 Neurosurgery</span>
-              <span class="chip">🩻 iUS</span>
-              <span class="chip">🧭 Registration</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Cardiac MR under Respiratory Motion -->
-        <div class="projCard">
-          <div class="projMedia">
-            <img src="img/hm.gif" alt="Cardiac MR motion visualization">
-          </div>
-          <div class="projBody">
-            <p class="projTitle">Cardiac MR under Respiratory Motion</p>
-            <p class="projDesc">Motion-robust reconstruction and analysis for reliable cardiac quantification.</p>
-            <div class="chips">
-              <span class="chip">❤️ CMR</span>
-              <span class="chip">🌬️ Motion</span>
-              <span class="chip">🛠️ Reconstruction</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Event Detection on Social Media (YouTube) -->
-        <div class="projCard">
-          <div class="projMedia">
-            <iframe
-              src="https://www.youtube.com/embed/YRMRc8tIupA"
-              title="EveSense Demo"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-          </div>
-          <div class="projBody">
-            <p class="projTitle">EveSense (ECIR Demo): Event Detection on Social Media</p>
-            <p class="projDesc">Detecting and summarizing real-world events from social streams for timely situational awareness.</p>
-            <div class="chips">
-              <span class="chip">🕸️ Social</span>
-              <span class="chip">🧠 NLP</span>
-              <span class="chip">⚡ Detection</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Jarvis (MDM Best Demo) -->
-        <div class="projCard">
-          <div class="projMedia">
-            <iframe
-              src="https://www.youtube.com/embed/YRMRc8tIupA"
-              title="Jarvis Demo"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-          </div>
-          <div class="projBody">
-            <p class="projTitle">Jarvis (MDM Best Demo): Voice-based Context-as-a-Service for Smart Homes</p>
-            <p class="projDesc">A voice-driven assistant that uses context signals for adaptive, personalized interactions.</p>
-            <div class="chips">
-              <span class="chip">🎙️ Voice</span>
-              <span class="chip">🏠 Smart Home</span>
-              <span class="chip">🧩 Context</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Hierarchical Image Classification -->
-        <div class="projCard">
-          <div class="projMedia">
-            <img src="img/h1.gif" alt="Hierarchical image classification visualization">
-          </div>
-          <div class="projBody">
-            <p class="projTitle">Hierarchical Image Classification</p>
-            <p class="projDesc">Structured visual recognition that leverages label hierarchies for better generalization.</p>
-            <div class="chips">
-              <span class="chip">🖼️ Vision</span>
-              <span class="chip">🌲 Hierarchy</span>
-              <span class="chip">📊 Generalization</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Social Media Event Detection (image) -->
-        <div class="projCard">
-          <div class="projMedia">
-            <img src="img/twitter.gif" alt="Event detection on social media visualization">
-          </div>
-          <div class="projBody">
-            <p class="projTitle">Event Detection on Social Media</p>
-            <p class="projDesc">From noisy streams to actionable signals: detection, clustering, and narrative summarization.</p>
-            <div class="chips">
-              <span class="chip">🧠 NLP</span>
-              <span class="chip">🧵 Summarization</span>
-              <span class="chip">🔎 Retrieval</span>
-            </div>
-          </div>
+        <!-- Footer -->
+        <div class="footerBox">
+          <hr />
+          © 2026. Last update 22/02/2026.
+          <br />
+          <a href="http://www.xtrastats.com/">free counter</a>
+          <br />
+          <a href="https://info.flagcounter.com/ykSr">
+            <img
+              src="https://s11.flagcounter.com/count2/ykSr/bg_FFFFFF/txt_000000/border_CCCCCC/columns_6/maxflags_15/viewers_0/labels_1/pageviews_1/flags_0/percent_0/"
+              alt="Flag Counter"
+              border="0"
+            />
+          </a>
         </div>
 
       </div>
     </div>
-
-    <div class="footerBox">
-      <hr style="border-color: rgba(255,255,255,.12);" />
-      © Imran Razzak | MBZUAI
-    </div>
-
   </div>
 
-  <!-- Scripts -->
+  <!-- Scripts at end for faster load -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="dist/js/bootstrap.min.js"></script>
 </body>
