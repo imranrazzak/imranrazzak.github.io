@@ -52,18 +52,18 @@
     :root{
       --bg0:#070A12;
       --bg1:#0A1022;
-      --card:#0F1730cc;
       --text:#EAF0FF;
       --muted:#B6C2E2;
       --muted2:#8FA0C8;
       --brand:#7C5CFF;
       --brand2:#2EE9A6;
-      --hot:#FF4D7D;
-      --warn:#FFCE5C;
       --shadow: 0 16px 60px rgba(0,0,0,.45);
       --shadow2: 0 10px 30px rgba(0,0,0,.35);
       --radius: 18px;
       --radius2: 14px;
+
+      --red:#ff2d2d;
+      --orange:#ff9a2f;
     }
 
     body{
@@ -145,14 +145,12 @@
       padding: 16px 16px 14px;
       margin-top: 16px;
     }
-
     .section-title{
       margin: 0 0 8px;
       font-weight: 800;
       letter-spacing: .2px;
       font-size: 18px;
     }
-
     .mutedText { color: var(--muted); }
 
     /* Profile block */
@@ -164,55 +162,6 @@
       padding: 14px;
     }
     .profileCard .tagline { color: var(--muted); margin-top: 4px; }
-
-    /* News highlights */
-    .news-highlight{
-      border-radius: var(--radius2);
-      background: linear-gradient(135deg, rgba(255,77,125,.15), rgba(124,92,255,.14));
-      border: 1px solid rgba(255,255,255,.12);
-      box-shadow: var(--shadow2);
-      padding: 14px;
-      margin-bottom: 12px;
-    }
-    .news-highlight h3{
-      margin: 0 0 8px;
-      font-weight: 900;
-      letter-spacing: .2px;
-      font-size: 16px;
-    }
-    .news-highlight .lead{
-      margin: 0 0 10px;
-      color: var(--muted);
-      font-size: 13px;
-      line-height: 1.45;
-    }
-    .ctaRow{ display:flex; flex-wrap:wrap; gap:10px; }
-    .btnx{
-      display:inline-flex; align-items:center; gap:10px;
-      padding:8px 10px;
-      border-radius: 12px;
-      font-weight: 800;
-      font-size: 12px;
-      border:1px solid rgba(255,255,255,.12);
-      background: rgba(255,255,255,.06);
-      color: var(--text);
-      text-decoration:none !important;
-      box-shadow: var(--shadow2);
-    }
-    .btnx.primary{
-      border:none;
-      background: linear-gradient(135deg, var(--brand), #5BB8FF);
-    }
-    .btnx.ok{
-      border:none;
-      background: linear-gradient(135deg, rgba(46,233,166,.95), rgba(91,184,255,.85));
-      color:#071019;
-    }
-    .btnx.warn{
-      border:none;
-      background: linear-gradient(135deg, rgba(255,206,92,.95), rgba(255,77,125,.75));
-      color:#071019;
-    }
 
     /* Medical visualization panel (kept) */
     .medViz{
@@ -283,16 +232,27 @@
       max-width: 88%;
     }
 
-    /* Blink toned down (kept) */
-    .blink {
-      animation: blinker 2.8s linear infinite;
-      color: rgba(255,206,92,.95);
+    /* ALERT blocks */
+    .blink-red {
+      animation: blinker 2.3s linear infinite;
+      color: var(--red);
       font-size: 14px;
-      font-weight: 800;
-      background: rgba(255,206,92,.08);
-      border: 1px solid rgba(255,206,92,.18);
+      font-weight: 950;
+      background: rgba(255, 45, 45, .10);
+      border: 1px solid rgba(255, 45, 45, .30);
       padding: 10px 12px;
       border-radius: 14px;
+      margin-bottom: 10px;
+    }
+    .orange-callout {
+      color: var(--orange);
+      font-size: 14px;
+      font-weight: 900;
+      background: rgba(255, 154, 47, .10);
+      border: 1px solid rgba(255, 154, 47, .28);
+      padding: 10px 12px;
+      border-radius: 14px;
+      margin: 0;
     }
     @keyframes blinker { 50% { opacity: .55; } }
 
@@ -332,9 +292,8 @@
 
 <body>
   <div class="container">
-    <!-- Masthead (GIF images removed as requested) -->
+    <!-- Masthead -->
     <div class="masthead">
-
       <div class="hero">
         <h1>Imran Razzak</h1>
         <p class="sub">
@@ -403,15 +362,12 @@
                 Imran Razzak is an Associate Professor at MBZUAI (Abu Dhabi, UAE). His research centers on
                 <b>Personalized Medicine</b> and <b>Medical Imaging</b>, with emphasis on building multimodal AI systems that combine
                 visual understanding, clinical reasoning, and spatial grounding to support decision-making in healthcare.
-                He has developed methods for analyzing medical images (US, mammogram, CT, PET, MRI, fMRI) and
-                connecting language and vision for explainable clinical insights. His work has resulted in 200+ publications
-                across leading venues and has contributed to early diagnosis and improved patient outcomes.
               </p>
             </div>
           </div>
         </div>
 
-        <!-- Medical visualization (kept) -->
+        <!-- Medical visualization -->
         <div class="row section-card">
           <div class="col-sm-12">
             <h2 class="section-title">Medical AI at a glance</h2>
@@ -426,8 +382,8 @@
               </div>
 
               <div class="vizGrid">
-                <!-- ECG / Anatomy SVG -->
                 <div style="border-radius:14px; border:1px solid rgba(255,255,255,.10); background:rgba(0,0,0,.18); padding:12px;">
+                  <!-- SVG (unchanged) -->
                   <svg viewBox="0 0 900 280" width="100%" height="220" role="img" aria-label="Medical illustration: ECG and organ icons">
                     <defs>
                       <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
@@ -446,8 +402,6 @@
                         </feMerge>
                       </filter>
                     </defs>
-
-                    <!-- background grid -->
                     <g opacity=".25">
                       <path d="M0 40 H900" stroke="#ffffff" stroke-opacity=".15"/>
                       <path d="M0 80 H900" stroke="#ffffff" stroke-opacity=".10"/>
@@ -456,54 +410,31 @@
                       <path d="M0 200 H900" stroke="#ffffff" stroke-opacity=".10"/>
                       <path d="M0 240 H900" stroke="#ffffff" stroke-opacity=".10"/>
                     </g>
-
-                    <!-- ECG line -->
-                    <path d="M20 160
-                             L80 160
-                             L105 160 L120 130 L135 190 L150 160
-                             L190 160
-                             L215 160 L230 120 L245 210 L260 160
-                             L320 160
-                             L340 160 L355 145 L370 160 L385 160
-                             L430 160
-                             L450 160 L465 128 L480 205 L495 160
-                             L560 160
-                             L580 160 L595 138 L610 160 L625 160
-                             L690 160
-                             L710 160 L725 120 L740 210 L755 160
-                             L880 160"
+                    <path d="M20 160 L80 160 L105 160 L120 130 L135 190 L150 160 L190 160
+                             L215 160 L230 120 L245 210 L260 160 L320 160
+                             L340 160 L355 145 L370 160 L385 160 L430 160
+                             L450 160 L465 128 L480 205 L495 160 L560 160
+                             L580 160 L595 138 L610 160 L625 160 L690 160
+                             L710 160 L725 120 L740 210 L755 160 L880 160"
                           fill="none" stroke="url(#g1)" stroke-width="5" filter="url(#glow)"/>
-
-                    <!-- Heart icon -->
                     <g transform="translate(620,35)">
-                      <path d="M80 40
-                               C80 15 110 10 125 30
-                               C140 10 170 15 170 40
-                               C170 70 125 95 125 110
-                               C125 95 80 70 80 40Z"
+                      <path d="M80 40 C80 15 110 10 125 30 C140 10 170 15 170 40
+                               C170 70 125 95 125 110 C125 95 80 70 80 40Z"
                             fill="url(#g2)" opacity=".95" filter="url(#glow)"/>
                       <text x="125" y="150" text-anchor="middle" fill="#B6C2E2" font-size="16" font-weight="800">
                         Personalized health
                       </text>
                     </g>
-
-                    <!-- Brain / reasoning icon -->
                     <g transform="translate(60,30)" opacity=".95">
                       <circle cx="110" cy="70" r="48" fill="rgba(255,255,255,.06)" stroke="rgba(255,255,255,.18)" stroke-width="2"/>
-                      <path d="M90 75
-                               C80 60 90 45 110 45
-                               C120 35 145 45 138 62
-                               C152 66 152 88 136 90
-                               C134 106 110 110 104 98
-                               C90 102 78 92 84 80
-                               C74 78 76 62 90 62"
+                      <path d="M90 75 C80 60 90 45 110 45 C120 35 145 45 138 62
+                               C152 66 152 88 136 90 C134 106 110 110 104 98
+                               C90 102 78 92 84 80 C74 78 76 62 90 62"
                             fill="url(#g1)" opacity=".85"/>
                       <text x="110" y="145" text-anchor="middle" fill="#B6C2E2" font-size="16" font-weight="800">
                         Clinical reasoning
                       </text>
                     </g>
-
-                    <!-- Spatial grounding box -->
                     <g transform="translate(320,22)" opacity=".95">
                       <rect x="0" y="0" rx="18" ry="18" width="260" height="110"
                             fill="rgba(255,255,255,.04)" stroke="rgba(255,255,255,.16)" stroke-width="2"/>
@@ -514,31 +445,17 @@
                         Spatial grounding
                       </text>
                     </g>
-
                     <text x="20" y="250" fill="#8FA0C8" font-size="14" font-weight="700">
                       Personalized Medicine • Medical Imaging • Multimodal Understanding
                     </text>
                   </svg>
                 </div>
 
-                <!-- “Imaging slices” decorative tiles -->
                 <div class="dicomGrid">
-                  <div class="slice">
-                    <div class="label">CT • Chest</div>
-                    <div class="meta">Findings → localization → summary</div>
-                  </div>
-                  <div class="slice">
-                    <div class="label">MRI • Brain</div>
-                    <div class="meta">Reasoning + report generation</div>
-                  </div>
-                  <div class="slice">
-                    <div class="label">Pathology • Slide</div>
-                    <div class="meta">Cross-modality grounding</div>
-                  </div>
-                  <div class="slice">
-                    <div class="label">Ophthalmology • Fundus</div>
-                    <div class="meta">VQA + diagnosis support</div>
-                  </div>
+                  <div class="slice"><div class="label">CT • Chest</div><div class="meta">Findings → localization → summary</div></div>
+                  <div class="slice"><div class="label">MRI • Brain</div><div class="meta">Reasoning + report generation</div></div>
+                  <div class="slice"><div class="label">Pathology • Slide</div><div class="meta">Cross-modality grounding</div></div>
+                  <div class="slice"><div class="label">Ophthalmology • Fundus</div><div class="meta">VQA + diagnosis support</div></div>
                 </div>
               </div>
             </div>
@@ -556,14 +473,18 @@
               longitudinal modeling, and end-to-end clinical workflows.
             </p>
 
-            <p class="blink">
-              Open positions: PhD students and postdocs for <b>Medical Foundation Models</b>, <b>VLMs for clinical reasoning</b>,
-              and <b>personalized/longitudinal healthcare AI</b>. Please email your CV + a short research proposal.
+            <!-- UPDATED open positions (RED line + ORANGE next line) -->
+            <p class="blink-red">
+              Open positions: Looking for <b>Visiting Students</b> and <b>Remote Internships</b> on <b>medical VLM</b> and <b>reasoning</b>.
+            </p>
+            <p class="orange-callout">
+              PhD students and postdocs for <b>Medical Foundation Models</b>, <b>VLMs for clinical reasoning</b>, and
+              <b>personalized/longitudinal healthcare AI</b>. Please email your CV + a short research proposal.
             </p>
           </div>
         </div>
 
-        <!-- What's new (trimmed to March 2025 and newer only) -->
+        <!-- What's new (March 2025 and newer only) -->
         <div class="row section-card">
           <div class="col-sm-12">
             <h2 class="section-title">What’s new?</h2>
@@ -615,7 +536,6 @@
               <li><img src="img/news.png" alt="" /> [July, 2025] We released OphNet-3D, the first extensive RGB-D dynamic 3D reconstruction dataset for ophthalmic surgery.</li>
               <li><img src="img/news.png" alt="" /> [April, 2025] 2 papers accepted in MICCAI and 2 papers in IEEE SMC.</li>
 
-              <!-- Keep March 2025 (and newer), remove anything older -->
               <li><img src="img/news.png" alt="" /> [March, 2025] Paper accepted in CVPR (ORAL) and one in ACL (ORAL).</li>
               <li><img src="img/news.png" alt="" /> [March, 2025] 1 paper accepted in NPJ Digital Medicine.</li>
               <li><img src="img/news.png" alt="" /> [March, 2025] Our work "Retinal Pathways to Asthma Diagnosis: AI-Driven Insight" accepted in ARVO.</li>
@@ -666,32 +586,27 @@
                 <img src="img/google_scholar.png" height="50" alt="google scholar" />
               </a>
             </div>
-
             <div class="col-sm-2" style="text-align:center">
               <a href="https://dblp.org/pid/59/8379.html" target="_blank" rel="noopener noreferrer">
                 <img src="img/dblp_logo.png" height="60" alt="dblp" />
               </a>
             </div>
-
             <div class="col-sm-2" style="text-align:center">
               <a href="https://dl.acm.org/profile/99659454446" target="_blank" rel="noopener noreferrer">
                 <img src="img/acm_logo.png" height="60" alt="acm" />
               </a>
             </div>
-
             <div class="col-sm-2" style="text-align:center">
               <a href="https://www.linkedin.com/in/imran-razzak-88a88b17/" target="_blank" rel="noopener noreferrer">
                 <img src="img/linkedin_logo.png" height="40" alt="linkedin" />
               </a>
             </div>
-
             <div class="col-sm-2" style="text-align:center">
               <a href="https://github.com/imranrazzak/" target="_blank" rel="noopener noreferrer">
                 <img src="img/Font_Awesome_5_brands_github.svg" height="40" alt="github" />
                 <img src="img/Octicons-logo-github.svg" height="40" alt="github" />
               </a>
             </div>
-
             <div class="col-sm-2" style="text-align:center">
               <a href="https://orcid.org/0000-0002-3930-6600" target="_blank" rel="noopener noreferrer">
                 <img src="img/orcid.png" height="70" alt="orcid" />
