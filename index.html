@@ -163,6 +163,55 @@
     }
     .profileCard .tagline { color: var(--muted); margin-top: 4px; }
 
+    /* News highlights */
+    .news-highlight{
+      border-radius: var(--radius2);
+      background: linear-gradient(135deg, rgba(255,77,125,.15), rgba(124,92,255,.14));
+      border: 1px solid rgba(255,255,255,.12);
+      box-shadow: var(--shadow2);
+      padding: 14px;
+      margin-bottom: 12px;
+    }
+    .news-highlight h3{
+      margin: 0 0 8px;
+      font-weight: 900;
+      letter-spacing: .2px;
+      font-size: 16px;
+    }
+    .news-highlight .lead{
+      margin: 0 0 10px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+    }
+    .ctaRow{ display:flex; flex-wrap:wrap; gap:10px; }
+    .btnx{
+      display:inline-flex; align-items:center; gap:10px;
+      padding:8px 10px;
+      border-radius: 12px;
+      font-weight: 800;
+      font-size: 12px;
+      border:1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.06);
+      color: var(--text);
+      text-decoration:none !important;
+      box-shadow: var(--shadow2);
+    }
+    .btnx.primary{
+      border:none;
+      background: linear-gradient(135deg, var(--brand), #5BB8FF);
+    }
+    .btnx.ok{
+      border:none;
+      background: linear-gradient(135deg, rgba(46,233,166,.95), rgba(91,184,255,.85));
+      color:#071019;
+    }
+    .btnx.warn{
+      border:none;
+      background: linear-gradient(135deg, rgba(255,206,92,.95), rgba(255,77,125,.75));
+      color:#071019;
+    }
+
     /* Medical visualization panel (kept) */
     .medViz{
       border-radius: var(--radius2);
@@ -279,6 +328,27 @@
       color: var(--muted);
     }
     .newsList img{ filter: drop-shadow(0 6px 16px rgba(0,0,0,.35)); }
+
+    /* Paper links inside news */
+    .paperLinks{
+      margin-top: 6px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+    }
+    .paperLinks a{
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      padding:6px 8px;
+      border-radius: 999px;
+      font-weight: 900;
+      font-size: 11px;
+      text-decoration:none !important;
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.12);
+      color: var(--text);
+    }
 
     /* Footer */
     .footerBox{
@@ -522,13 +592,35 @@
 
             <ul class="newsList">
               <li><img src="img/news.png" alt="" /> <b>[Feb, 2026]</b> 4 papers on <b>Medical VLM reasoning and hallucination</b> accepted in <b>CVPR</b>.</li>
-              <li><img src="img/news.png" alt="" /> <b>[Jan, 2026]</b> 4 papers accepted in <b>The Web Conference</b>.</li>
+
+              <li>
+                <img src="img/news.png" alt="" /> <b>[Jan, 2026]</b> 4 papers accepted in <b>The Web Conference</b>.
+                <div class="paperLinks">
+                  <a href="https://openreview.net/forum?id=3Sk8CaQWdv" target="_blank" rel="noopener noreferrer">📄 Mediation Pathways Inference</a>
+                  <a href="https://openreview.net/pdf?id=v4e5Fb3mQL" target="_blank" rel="noopener noreferrer">📄 Self-Supervised Learning</a>
+                </div>
+              </li>
+
               <li>
                 <img src="img/news.png" alt="" /> <b>[Jan, 2026]</b> 1 paper accepted in <b>ICLR</b> —
                 <a href="https://openreview.net/pdf?id=I43IOiimO6" target="_blank" rel="noopener noreferrer"><b>Read our work</b></a>.
+                <div class="paperLinks">
+                  <a href="https://openreview.net/pdf?id=NABGO9Bful" target="_blank" rel="noopener noreferrer">📄 UniViT</a>
+                </div>
               </li>
+
+              <li><img src="img/news.png" alt="" /> <b>[Jan, 2026]</b> We’re excited to welcome Abhijit to the lab!</li>
+
               <li><img src="img/news.png" alt="" /> <b>[Oct, 2025]</b> 4 papers accepted in <b>AAAI</b> (2 Oral). <b>See you in Singapore!</b></li>
-              <li><img src="img/news.png" alt="" /> <b>[Sep, 2025]</b> 6 papers accepted in <b>NeurIPS</b> (1 Spotlight).</li>
+
+              <li>
+                <img src="img/news.png" alt="" /> <b>[Sep, 2025]</b> 6 papers accepted in <b>NeurIPS</b> (1 Spotlight).
+                <div class="paperLinks">
+                  <a href="https://arxiv.org/abs/2506.15649" target="_blank" rel="noopener noreferrer">📄 Inference-time</a>
+                  <a href="https://arxiv.org/abs/2601.03483" target="_blank" rel="noopener noreferrer">📄 LLM</a>
+                  <a href="https://arxiv.org/abs/2505.17677" target="_blank" rel="noopener noreferrer">📄 Ophthalmic Surgery</a>
+                </div>
+              </li>
 
               <li><img src="img/news.png" alt="" /> [Aug, 2025] 2 papers accepted in EMNLP.</li>
               <li><img src="img/news.png" alt="" /> [Aug, 2025] Our team ranked 1st in AIM 2025 Rip Current Segmentation (RipSeg) Challenge Report.</li>
