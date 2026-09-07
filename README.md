@@ -23,3 +23,5 @@ Edit `_data/profile.yml`, `_data/navigation.yml`, `_news/`, `_publications/`, an
 To deploy a validated build, update a clean checkout of `main` with the contents of `_site/`, include `.nojekyll`, and make a normal fast-forward commit and push. Preserve the `.git` directory and never force-push. Push the source branch too so later edits remain reproducible. Keep the generated branch README pointing back to the source branch.
 
 The original website and every old file remain available in repository history.
+
+The `.github/workflows/deploy.yml` workflow publishes the generated `main` branch on every push, including pushes made with a deploy key. Preserve this workflow when replacing generated output.
