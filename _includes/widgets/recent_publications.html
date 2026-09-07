@@ -1,0 +1,11 @@
+<section class="my-3 p-0 bg-white shadow-sm rounded-xl" aria-labelledby="recent-publications-title">
+  <div class="border-bottom border-gray p-3">
+    <h2 class="h6 mb-1" id="recent-publications-title">Recent Publications</h2>
+    <p class="small text-muted mb-0">2025–2026 highlights · CVPR, ICLR and Nature Communications</p>
+  </div>
+  {% for highlight in site.data.homepage_publications %}
+    {% assign paper = site.publications | where: 'scholar_id', highlight.scholar_id | first %}
+    {% if paper %}{% include widgets/publication_item.html item=paper venue=highlight.venue %}{% endif %}
+  {% endfor %}
+  <div class="p-3 text-right"><a href="{{ '/publications.html' | relative_url }}">All publications <i class="fas fa-angle-double-right" aria-hidden="true"></i></a></div>
+</section>
