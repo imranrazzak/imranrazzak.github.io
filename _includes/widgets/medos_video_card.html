@@ -1,10 +1,8 @@
 <section class="card border-0 shadow-sm bg-white mt-3 medos-video-card" aria-label="MedOS">
   <div class="card-body p-4 text-center">
-    <a href="{{ site.data.profile.company.url }}" aria-label="Visit MedOS">
-      <video id="medos-profile-video" class="medos-profile-video" muted loop playsinline preload="none" poster="{{ '/assets/images/medos-video-poster.webp' | relative_url }}" aria-label="Animated MedOS company logo">
-        <source data-src="{{ '/assets/video/medos-logo.mp4' | relative_url }}" type="video/mp4">
+      <video id="medos-profile-video" class="medos-profile-video" autoplay muted loop playsinline controls preload="auto" poster="{{ '/assets/images/medos-video-poster.webp' | relative_url }}" aria-label="Animated MedOS company logo">
+        <source src="{{ '/assets/video/medos-logo.mp4' | relative_url }}" type="video/mp4">
       </video>
-    </a>
     <a href="{{ site.data.profile.company.url }}" class="d-block small mt-2">MedOS · AI for medicine</a>
     <button type="button" class="medos-motion-toggle mt-2" aria-controls="medos-profile-video" hidden>Play MedOS animation</button>
   </div>
