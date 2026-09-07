@@ -30,4 +30,4 @@ The full imported bibliography is available at `assets/data/publications.json`; 
 - Navigation now groups projects/datasets under Research, team/applications under People, and teaching/grants/service under Academic. All existing routes remain intact. The upstream `assets/css/global.css` is unchanged; a small additive stylesheet aligns cards and renders figures with `object-fit: contain` on desktop and mobile. Each publication is rendered once rather than in duplicate desktop/mobile blocks.
 
 ## MedOS logo video
-User-provided `Desktop/Medos Video.mov`, added September 7, 2026. Converted to a silent, optimized H.264 MP4 with metadata removed; poster extracted from the same clip. Shared centered background uses 70% opacity (30% transparency), a pause control, and reduced-motion/data-saving defaults.
+User-provided `Desktop/Medos Video.mov`, added September 7, 2026. Converted to a silent, optimized H.264 MP4 with metadata removed; poster extracted from the same clip. A compact card below the portrait and social links uses the portrait column width, 70% opacity (30% transparency), a pause control, and reduced-motion/data-saving defaults.

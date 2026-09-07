@@ -29,7 +29,6 @@
     <link rel="stylesheet" href="{{ "/assets/css/profile.css" | relative_url }}">
 </head>
 <body class="bg-light" {{ page.body_attr }}>
-    {% include widgets/medos_backdrop.html %}
     {% include navbar.html %}
     <div class="site-content {% if page.container_class %}{{ page.container_class }}{% else %}container-lg{% endif %}">
         {{content}}
