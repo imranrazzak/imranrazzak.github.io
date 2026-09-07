@@ -1,0 +1,1843 @@
+{
+  "total_scholar_records": 517,
+  "records_with_figures": 211,
+  "selected_papers_with_figures": 7,
+  "unresolved": [
+    {
+      "scholar_id": "GlXI4N8AAAAJ:dfsIfKJdRG4C",
+      "title": "Automatic detection and classification of malarial parasite",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:dfsIfKJdRG4C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:738O_yMBCRsC",
+      "title": "Lexicon reduction for Urdu/Arabic script based character recognition: a multilingual OCR",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:738O_yMBCRsC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:w1MjKQ0l0TYC",
+      "title": "Unit-vise: Deep Shallow Unit-Vise Residual Neural Networks with Transition Layer For Expert Level Skin Cancer Classification",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:w1MjKQ0l0TYC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:1yWc8FF-_SYC",
+      "title": "Deep Analysis of Handwritten Notes for Early Diagnosis of Neurological Disorders",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:1yWc8FF-_SYC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:v6i8RKmR8ToC",
+      "title": "Efficient skew detection and correction in scanned document images through clustering of probabilistic hough transforms",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:v6i8RKmR8ToC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:Vr2j17o0sqMC",
+      "title": "DFSat: Deep Federated Learning for Identifying Cyber Threats in IoT-based Satellite Networks",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:Vr2j17o0sqMC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:jmjb1lOE9QIC",
+      "title": "Content-based image retrieval using texture color shape and region",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:jmjb1lOE9QIC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:7H_jS4BsgvYC",
+      "title": "Semi-supervised 3D-InceptionNet for segmentation and survival prediction of head and neck primary cancers",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:7H_jS4BsgvYC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:NaGl4SEjCO4C",
+      "title": "Locally baseline detection for online Arabic script based languages character recognition",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:NaGl4SEjCO4C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:lbI08cpqPnQC",
+      "title": "Saeeda Naz, Muhammad Imran Razzak, Faiza Akram, and Muhammad Imran. A deep learning-based framework for automatic brain tumors classification using transfer learning",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:lbI08cpqPnQC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:Ehil0879vHcC",
+      "title": "Multi-Class Support Matrix Machines by Maximizing the Inter-class Margin for Single Trial EEG Classification",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:Ehil0879vHcC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:M0leSnx2MbUC",
+      "title": "Marine-tree: A Large-scale Marine Organisms Dataset for Hierarchical Image Classification",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:M0leSnx2MbUC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:U4n9YNQMCAIC",
+      "title": "Integrating joint feature selection into subspace learning: A formulation of 2DPCA for outliers robust feature selection",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:U4n9YNQMCAIC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:isU91gLudPYC",
+      "title": "A Convolutional Attention Network for Unifying General and Sequential Recommenders",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:isU91gLudPYC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:u-coK7KVo8oC",
+      "title": "A novel dataset for English-Arabic scene text recognition (EASTR)-42K and its evaluation using invariant feature extraction on detected extremal regions",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:u-coK7KVo8oC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:uWiczbcajpAC",
+      "title": "Text Stream to Temporal Network - A Dynamic Heartbeat Graph to Detect Emerging Events on Twitter",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:uWiczbcajpAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:RGFaLdJalmkC",
+      "title": "Face recognition using layered linear discriminant analysis and small subspace",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:RGFaLdJalmkC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:pQTOvowfQioC",
+      "title": "Combining offline and online preprocessing for online urdu character recognition",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:pQTOvowfQioC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:nWoA1JPTheMC",
+      "title": "Unsupervised unpaired multiple fusion adaptation aided with self-attention generative adversarial network for scar tissues segmentation framework",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:nWoA1JPTheMC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:g_UdREhPGEoC",
+      "title": "PCA: Progressive class-wise attention for skin lesions diagnosis",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:g_UdREhPGEoC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:SGW5VrABaM0C",
+      "title": "3D shallow deep neural network for fast and precise segmentation of left atrium: A. Kausar et al.",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:SGW5VrABaM0C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:VnuxuLaQPLMC",
+      "title": "Better to Ask in English: Evaluation of Large Language Models on English, Low-resource and Cross-Lingual Settings",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:VnuxuLaQPLMC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:O0nohqN1r9EC",
+      "title": "Skin lesion analysis toward accurate detection of melanoma using multistage fully connected residual network",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:O0nohqN1r9EC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:jgBuDB5drN8C",
+      "title": "Robust sparse representation and multiclass support matrix machines for the classification of motor imagery EEG signals",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:jgBuDB5drN8C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:4fKUyHm3Qg0C",
+      "title": "Malarial parasite classification using recurrent neural network",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:4fKUyHm3Qg0C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:KTwcwpFFj4wC",
+      "title": "Social responses to the COVID-19 pandemic",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:KTwcwpFFj4wC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:DBa1UEJaJKAC",
+      "title": "Deep autoencoder-decoder framework for semantic segmentation of brain tumor",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:DBa1UEJaJKAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:u_35RYKgDlwC",
+      "title": "Automatic detection of malarial parasite using microscopic blood images",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:u_35RYKgDlwC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:4OULZ7Gr8RgC",
+      "title": "Challenges in baseline detection of Arabic script based languages",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:4OULZ7Gr8RgC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:q0uBw5dMOAkC",
+      "title": "Hybrid unsupervised paradigm based deformable image fusion for 4D CT lung image modality",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:q0uBw5dMOAkC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:as0KMg8qHbkC",
+      "title": "Strategies for evaluating visual analytics systems: A systematic review and new perspectives",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:as0KMg8qHbkC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:orDZ08hpP44C",
+      "title": "Performance comparison of transformer-based models on twitter health mention classification",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:orDZ08hpP44C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:tYavs44e6CUC",
+      "title": "Arabic cursive text recognition from natural scene images",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:tYavs44e6CUC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:BJtnxTr0fRcC",
+      "title": "Two-stage self-supervised contrastive learning aided transformer for real-time medical image segmentation",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:BJtnxTr0fRcC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:wyM6WWKXmoIC",
+      "title": "Simple and robust depth-wise cascaded network for polyp segmentation",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:wyM6WWKXmoIC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:c1e4I3QdEKYC",
+      "title": "SPAD+: An Improved Probabilistic Anomaly Detector based on One-dimensional Histograms",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:c1e4I3QdEKYC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:43bX7VzcjpAC",
+      "title": "Evaluation of handwritten Urdu text by integration of MNIST dataset learning experience",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:43bX7VzcjpAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:WwIwg2wKZ0QC",
+      "title": "A Cascaded Mutliresolution Ensemble Deep Learning Framework for Large Scale Alzheimer's Disease Detection using Brain MRIs",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:WwIwg2wKZ0QC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:xm0LlTxljI0C",
+      "title": "An Intelligent Risk Management Framework for Monitoring Vehicular Engine Health",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:xm0LlTxljI0C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:SIv7DqKytYAC",
+      "title": "Lightweight Face Anti-Spoofing Network for Telehealth Applications",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:SIv7DqKytYAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:1tZ8xJnm2c8C",
+      "title": "An Improved Dense V-Network for Fast and Precise Segmentation of Left Atrium",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:1tZ8xJnm2c8C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:k_7cPK9k7w8C",
+      "title": "Hot-Spot zone detection to tackle COVID19 spread by fusing the traditional machine learning and deep learning approaches of computer vision",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:k_7cPK9k7w8C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:Tfl4UtY-dJUC",
+      "title": "Renewable energy re-distribution via multiscale IoT for 6G-oriented green highway management",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:Tfl4UtY-dJUC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:SxCCDk4iOpsC",
+      "title": "Mutliresolutional ensemble PartialNet for Alzheimer detection using magnetic resonance imaging data",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:SxCCDk4iOpsC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:EBV337fEn3EC",
+      "title": "Automated Detection and Segmentation of Glioblastoma in MRI using Multi-Level Diffusion Transformer U-Net",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:EBV337fEn3EC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:3lUAU8Oskd0C",
+      "title": "IoT-Enabled Multimodal Biometric Recognition System in Secure Environment",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:3lUAU8Oskd0C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:hsZV8lGYWTMC",
+      "title": "Multipath Deep Shallow Convolutional Networks for Large Scale Plant Species Identification in Wild Image",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:hsZV8lGYWTMC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:uLbwQdceFCQC",
+      "title": "Arabic script based language character recognition: Nasta'liq vs Naskh analysis",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:uLbwQdceFCQC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:ldfaerwXgEUC",
+      "title": "Multi-font numerals recognition for Urdu script based languages",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:ldfaerwXgEUC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:gsN89kCJA0AC",
+      "title": "Numeral recognition for Urdu script in unconstrained environment",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:gsN89kCJA0AC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:ijdKiLOsEJMC",
+      "title": "Reducing rip current drowning: An improved residual based lightweight deep architecture for rip detection",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:ijdKiLOsEJMC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:vV6vV6tmYwMC",
+      "title": "Multimodal biometric recognition based on fusion of low resolution face and finger veins",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:vV6vV6tmYwMC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:RYcK_YlVTxYC",
+      "title": "Collaborative image compression in wireless sensor networks",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:RYcK_YlVTxYC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:lSLTfruPkqcC",
+      "title": "Energy efficient image compression in wireless sensor networks",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:lSLTfruPkqcC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:wvYxNZNCP7wC",
+      "title": "RipDet: A fast and lightweight deep neural network for rip currents detection",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:wvYxNZNCP7wC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:owLR8QvbtFgC",
+      "title": "Deep optical character recognition: a case of Pashto language",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:owLR8QvbtFgC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:70eg2SAEIzsC",
+      "title": "Efficient distributed face recognition in wireless sensor network",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:70eg2SAEIzsC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:yJjnfzR0HrkC",
+      "title": "Unveiling misogyny memes: A multimodal analysis of modality effects on identification",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:yJjnfzR0HrkC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:nPTYJWkExTIC",
+      "title": "Improving Health Mention Classification of Social Media Content Using Contrastive Adversarial Training",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:nPTYJWkExTIC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:jlhcAiayVhoC",
+      "title": "A Mask-based Output Layer for Multi-level Hierarchical Classification",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:jlhcAiayVhoC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:fQNAKQ3IYiAC",
+      "title": "An ontology-based framework aiming to support cardiac rehabilitation program",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:fQNAKQ3IYiAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:FiDNX6EVdGUC",
+      "title": "MHIVis: Visual Analytics for Exploring Mental Illness of Policyholders in Life Insurance Industry",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:FiDNX6EVdGUC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:KS-xo-ZNxMsC",
+      "title": "DeepCog: A Trustworthy Deep Learning-Based Human Cognitive Privacy Framework in Industrial Policing",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:KS-xo-ZNxMsC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:mUJArPsKIAAC",
+      "title": "Fusion of CNN and Sparse Representation for Threat Estimation Near Power Lines and Poles Infrastructure Using Aerial Stereo Imagery",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:mUJArPsKIAAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:cBPnxVikjH8C",
+      "title": "Progressive ShallowNet for large scale dynamic and spontaneous facial behaviour analysis in children",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:cBPnxVikjH8C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:R-LXmdHK_14C",
+      "title": "Patch-CNN: Deep learning for logo detection and brand recognition",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:R-LXmdHK_14C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:URolC5Kub84C",
+      "title": "Robust 2D Joint Sparse Principle Component Analysis with F-norm Minimization for Sparse Modelling: 2D-RJSPCA",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:URolC5Kub84C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:3BvdIg-l-ZAC",
+      "title": "Advancing metaverse-based healthcare with multimodal neuroimaging fusion via multi-task adversarial variational autoencoder for brain age estimation",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:3BvdIg-l-ZAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:MqTxh1vmwXEC",
+      "title": "MaLLaM--Malaysia Large Language Model",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:MqTxh1vmwXEC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:-DxkuPiZhfEC",
+      "title": "UCBVis: understanding customer behavior sequences with visual interactive system",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:-DxkuPiZhfEC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:5F1dSjz1ScoC",
+      "title": "Multi-encoder self-adaptive hard attention network with maximum intensity projections for lung nodule segmentation",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:5F1dSjz1ScoC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:yxmsSjX2EkcC",
+      "title": "Deep OCR for Arabic script‐based language like Pastho",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:yxmsSjX2EkcC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:5Ul4iDaHHb8C",
+      "title": "A novel method for scanning electron microscope image segmentation and its application to blood cell analysis",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:5Ul4iDaHHb8C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:_OXeSy2IsFwC",
+      "title": "Challenges in baseline detection of cursive script languages",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:_OXeSy2IsFwC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:2P1L_qKh6hAC",
+      "title": "Bio-inspired multilayered and multilanguage Arabic script character recognition system",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:2P1L_qKh6hAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:HGTzPopzzJcC",
+      "title": "Energy efficient distributed face recognition in wireless sensor network",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:HGTzPopzzJcC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:mVC4hKzE2FoC",
+      "title": "DSRS: DELIGHT sequential recommender system",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:mVC4hKzE2FoC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:Ej9njvOgR2oC",
+      "title": "Multi-scale swin transformer enabled automatic detection and segmentation of lung metastases using CT images",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:Ej9njvOgR2oC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:ALROH1vI_8AC",
+      "title": "Cursive Script Text Recognition in Natural Scene Images",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:ALROH1vI_8AC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:sSrBHYA8nusC",
+      "title": "Balinese character recognition using bidirectional LSTM classifier",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:sSrBHYA8nusC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:3s1wT3WcHBgC",
+      "title": "Ghost character recognition theory and Arabic script based languages character recognition",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:3s1wT3WcHBgC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:lRPiJ3GhvscC",
+      "title": "Decoding the flow: Causemotion for emotional causality analysis in long-form conversations",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:lRPiJ3GhvscC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:lPDSu1ZU3VAC",
+      "title": "Cross Platform MultiModal Retrieval Augmented Distillation for Code-Switched Content Understanding",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:lPDSu1ZU3VAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:CMvovTBb2okC",
+      "title": "A gap in time: The challenge of processing heterogeneous iot point data in buildings",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:CMvovTBb2okC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:W2uZP3ddy8sC",
+      "title": "3d-incnet: Head and neck (h&n) primary tumors segmentation and survival prediction",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:W2uZP3ddy8sC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:09LM3QYkMKUC",
+      "title": "Genesis: A Large-Scale Benchmark for Multimodal Large Language Model in Emotional Causality Analysis",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:09LM3QYkMKUC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:sbeIDTyQOFgC",
+      "title": "GRA:Graph Representation Alignment for Semi-Supervised Action Recognition",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:sbeIDTyQOFgC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:zwpXiJ37cpgC",
+      "title": "One‐class tensor machine with randomized projection for large‐scale anomaly detection in high‐dimensional and noisy data",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:zwpXiJ37cpgC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:eflP2zaiRacC",
+      "title": "Adaptive filtering algorithms for channel equalization in wireless communication",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:eflP2zaiRacC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:pqnbT2bcN3wC",
+      "title": "Bio-inspired hybrid face recognition system for small sample size and large dataset",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:pqnbT2bcN3wC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:QVtou7C4vgoC",
+      "title": "Spontaneous Facial Behavior Analysis using Deep Transformer Based Framework for Child–Computer Interaction",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:QVtou7C4vgoC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:QyXJ3EUuO1IC",
+      "title": "A hybrid approach for NER system for scarce resourced language-URDU: Integrating n-gram with rules and gazetteers",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:QyXJ3EUuO1IC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:5rMqqAh47xYC",
+      "title": "Cbrcl: a clip-bert with retrieval-guided contrastive learning multimodal approach for crisis-driven hate speech detection",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:5rMqqAh47xYC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:u0Mu_IsstPMC",
+      "title": "Federated Focal Modulated UNet for Cardiovascular Image Segmentation",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:u0Mu_IsstPMC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:Vno172sVVMwC",
+      "title": "Contrastive learning with self-reconstruction for 3D intracranial aneurysm detection",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:Vno172sVVMwC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:3vbIHxFL9FgC",
+      "title": "Sight for sore heads–using cnns to diagnose migraines",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:3vbIHxFL9FgC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:TGkaJS32XoUC",
+      "title": "Support Matrix Machine via Joint ℓ2,1 and Nuclear Norm Minimization Under Matrix completion Framework for Classification of Corrupted Data",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:TGkaJS32XoUC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:QaSi33NTfwYC",
+      "title": "Lesion Segmentation in Surgical and Diagnostic Applications: MICCAI 2022 Challenges, CuRIOUS 2022, KiPA 2022 and MELA 2022, Held in Conjunction with MICCAI 2022, Singapore …",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:QaSi33NTfwYC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:sszUF3NjhM4C",
+      "title": "End-to-End Analysis for Text Detection and Recognition in Natural Scene Images",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:sszUF3NjhM4C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:vRqMK49ujn8C",
+      "title": "The minutiae based latent fingerprint recognition system",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:vRqMK49ujn8C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:KqW5X_olkfQC",
+      "title": "A Comprehensive Survey of Multimodal LLMs for Scientific Discovery",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:KqW5X_olkfQC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:xyvS_IvSCKsC",
+      "title": "Debunking Biases in Attention",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:xyvS_IvSCKsC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:hQUaER0FWQ4C",
+      "title": "Jarvis: A voice-based context-as-a-service mobile tool for a smart home environment",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:hQUaER0FWQ4C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:U_HPUtbDl20C",
+      "title": "One-Class Support Tensor Machines with Bounded Hinge Loss Function for Anomaly Detection",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:U_HPUtbDl20C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:L1USKYWJimsC",
+      "title": "Sub-sampling approach for unconstrained arabic scene text analysis by implicit segmentation based deep learning classifier",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:L1USKYWJimsC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:NnTm98qLMbgC",
+      "title": "KG-UQ: Knowledge Graph-Based Uncertainty Quantification for Long Text in Large Language Models",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:NnTm98qLMbgC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:rpSJNIKeXWsC",
+      "title": "Effectiveness of privacy-preserving algorithms in llms: A benchmark and empirical analysis",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:rpSJNIKeXWsC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:ZOYfmFL0FrgC",
+      "title": "Jionglong Su, Junjun He, and Yu Qiao",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:ZOYfmFL0FrgC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:idthP5jqfYAC",
+      "title": "LDMRes-Net: Enabling Real-Time Disease Monitoring through Efficient Image Segmentation",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:idthP5jqfYAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:2ywjKiB__4kC",
+      "title": "ExVis: Explainable Visual Decision Support System for Risk Management",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:2ywjKiB__4kC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:Mx5hWS9ctUkC",
+      "title": "Saeeda Naz, and Imran Razzak. Efficient skew detection and correction in scanned document images through clustering of probabilistic hough transforms",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:Mx5hWS9ctUkC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:yD5IFk8b50cC",
+      "title": "Fingerprint classification using PCA LDA L-LDA and BPN",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:yD5IFk8b50cC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:hFOr9nPyWt4C",
+      "title": "Towards security and enrichment of the IP multimedia subsystem based multiparty conference",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:hFOr9nPyWt4C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:6pF0wJmtdfAC",
+      "title": "Selfai: Building a self-training ai system with llm agents",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:6pF0wJmtdfAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:xii_ZKWM4-0C",
+      "title": "Kg-irag: A knowledge graph-based iterative retrieval-augmented generation framework for temporal reasoning",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:xii_ZKWM4-0C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:CLhUwle04lcC",
+      "title": "Jionglong Su, Zongyuan Ge, Imran Razzak, and Eran Segal.[nd]",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:CLhUwle04lcC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:vxA22ZmNLkoC",
+      "title": "Percy: A multimodal dataset and conversational system for personalized and emotionally aware human-robot interaction",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:vxA22ZmNLkoC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:rTD5ala9j4wC",
+      "title": "Saeeda Naz and Ahmad Zaib Deep Learning for Medical Image Processing: Overview",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:rTD5ala9j4wC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:BFa5h04uPMwC",
+      "title": "Saeeda Naz, Hamid Alinejad-Rokny, Tu N. Nguyen, and Fahmi Khalifa. A Cascaded Multi-resolution Ensemble Deep Learning Framework for Large Scale Alzheimer’s Disease Detection …",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:BFa5h04uPMwC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:NDuN12AVoxsC",
+      "title": "Cooperative Evolution Multiclass Support Matrix Machines",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:NDuN12AVoxsC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:Br1UauaknNIC",
+      "title": "Unconstrained Arabic Scene Text Analysis in Wild Images using Concurrent Invariant Points",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:Br1UauaknNIC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:7BrZ7Jt4UNcC",
+      "title": "Text in a wild and its challenges",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:7BrZ7Jt4UNcC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:5VjbC5aozO0C",
+      "title": "Brain tumor classification using gray level co-occurrence matrix and convolutional neural network. IJEIS (Indonesian Journal of Electronics and Instrumentation Systems) 8 (2 …",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:5VjbC5aozO0C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:tz746QTLzJkC",
+      "title": "Saeeda Naz, Muhammad Imran Razzak, Ahmad Zaib: Extreme learning machine based microscopic red blood cells classification",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:tz746QTLzJkC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:WC9gN4BGCRcC",
+      "title": "Saeeda Naz",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:WC9gN4BGCRcC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:9Nmd_mFXekcC",
+      "title": "Multilanguage Nasta’liq Script Printed Ligature Recognition for Arabic Script base Languages",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:9Nmd_mFXekcC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:uEM9VtRl8xsC",
+      "title": "RipGAN: A GAN-based rip current data augmentation method",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:uEM9VtRl8xsC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:aNch6Af-aFkC",
+      "title": "Polimeme: exploring offensive meme propagation in the Israel-Palestine conflict",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:aNch6Af-aFkC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:JTtNqH-x4gYC",
+      "title": "Brick-by-Brick: Cyber-Physical Building Data Classification Challenge",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:JTtNqH-x4gYC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:WHBERAHVdrEC",
+      "title": "Zongyuan Ge. Towards dynamic 3d reconstruction of hand-instrument interaction in ophthalmic surgery",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:WHBERAHVdrEC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:IHkkN1K1AlAC",
+      "title": "Unsupervised nonlinear deformable registration network for 4d ct lung imaging",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:IHkkN1K1AlAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:wSy_KLzO7YEC",
+      "title": "Identifying rising stars via supervised machine learning",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:wSy_KLzO7YEC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:C-Rn0OCouf8C",
+      "title": "XSRU-IoMT: Explainable simple recurrent units for threat detection in Internet of Medical Things networks",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:C-Rn0OCouf8C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:c1AJUTjuCtUC",
+      "title": "Saeeda Naz, Abida Ashraf, Fahmi Khalifa, Mohamed Reda Bouadjenek, and Shahid Mumtaz. Mutliresolutional ensemble partialnet for alzheimer detection using magnetic resonance …",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:c1AJUTjuCtUC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:6VlyvFCUEfcC",
+      "title": "DAAB: Deep Authorship Attribution in Bengali",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:6VlyvFCUEfcC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:CC3C2HR4nz8C",
+      "title": "Image-based virtual try-on system: a survey of deep learning-based methods",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:CC3C2HR4nz8C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:j7_hQOaDUrUC",
+      "title": "Progress in cursive wild text recognition",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:j7_hQOaDUrUC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:fPk4N6BV_jEC",
+      "title": "Co-occurrence matrix features for fingerprint verification",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:fPk4N6BV_jEC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:IyxfXMz2bNAC",
+      "title": "Dual-Stage Value-Guided Inference with Margin-Based Reward Adjustment for Fast and Faithful VLM Captioning",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:IyxfXMz2bNAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:x2hKVfJWtf0C",
+      "title": "PAL: Probing Audio Encoders via LLMs--A Study of Information Transfer from Audio Encoders to LLMs",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:x2hKVfJWtf0C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:l6Q3WhenKVUC",
+      "title": "BayesJudge: Bayesian Kernel Language Modelling with Confidence Uncertainty in Legal Judgment Prediction",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:l6Q3WhenKVUC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:cNe27ouKFcQC",
+      "title": "Multiscale kernel atrous convolution network for segmentation of myocardium",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:cNe27ouKFcQC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:XAp-VaTZjjwC",
+      "title": "Multi-Classification of Retinal Diseases Using a Pyramidal Ensemble Deep Framework",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:XAp-VaTZjjwC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:sgsej9ZJWHMC",
+      "title": "El-Hadi m",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:sgsej9ZJWHMC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:T8_be82Iz5gC",
+      "title": "Saeeda Naz",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:T8_be82Iz5gC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:3MwzVuqRcA0C",
+      "title": "Multimodal face and finger veins biometric authentication of Scientific Research and Essays",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:3MwzVuqRcA0C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:uWy0R8PweswC",
+      "title": "SA-AVAE: A sex-Aware adversarial variational autoencoder network for biological brain age estimation in IoMT-Enabled multimodal neuroimages",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:uWy0R8PweswC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:kQqwFFzsCTwC",
+      "title": "Rhythm of Opinion: Interpretable Hawkes-Graph Networks for Hierarchical Opinion Propagation",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:kQqwFFzsCTwC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:vofGIMt6cyEC",
+      "title": "BEAST: Leveraging Contrastive Learning and Unsupervised Sentence Embeddings for Improved Drug Abuse Detection",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:vofGIMt6cyEC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:e3CVSTJ63dQC",
+      "title": "Addressing the Challenges of Mental Health Conversations with Large Language Models",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:e3CVSTJ63dQC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:tSVUDDkujAIC",
+      "title": "Unifying Image and Video Understanding in One Vision Encoder",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:tSVUDDkujAIC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:htyGaKyDgHMC",
+      "title": "THYMES: A Framework for Detecting Suicidal Ideation from Social Media Posts Using Hyperbolic Learning",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:htyGaKyDgHMC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:B2rIPIGFPLEC",
+      "title": "SAFENet: Towards a Robust Suicide Assessment in Social Media Using Selective Prediction Framework",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:B2rIPIGFPLEC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:AFXcoJnoRH0C",
+      "title": "MCHM'24: The 1st International Workshop on Multimedia Computing for Health and Medicine",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:AFXcoJnoRH0C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:qSd0DAb9jMoC",
+      "title": "AI-Driven Predictive Analytics for Enhancing Corporate Tax Compliance",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:qSd0DAb9jMoC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:v_tt_AnqfNMC",
+      "title": "Hybrid Unsupervised Deformable Image Registration for 4D CT Lung Image Intra-modalities",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:v_tt_AnqfNMC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:MDX3w3dAD3YC",
+      "title": "IEEE Transactions on Computational Social Systems",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:MDX3w3dAD3YC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:lg2tdxc6qMwC",
+      "title": "Dynamic hypersphere embedding scale against adversarial attacks",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:lg2tdxc6qMwC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:_tF6a-HnqWAC",
+      "title": "Improving healthcare outcomes using multimedia big data analytics",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:_tF6a-HnqWAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:dAp6zn-oMfAC",
+      "title": "Improving Performance of Deep Reinforcement Learning by Incorporating Human Expertise",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:dAp6zn-oMfAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:j7XjBeKFbTsC",
+      "title": "A Novel Dataset for English-Arabic Scene Text Recognition (EASTR)-42K and Its Evaluation It Using Invariant Feature Extraction on Detected Extremal Regions",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:j7XjBeKFbTsC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:qCpRzq7zkD8C",
+      "title": "Saeeda Naz, Muhammad Imran Razzak, and Rubiyah Bte Yusof. A novel dataset for english-arabic scene text recognition (eastr)-42k and its evaluation using invariant feature …",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:qCpRzq7zkD8C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:WTQy_8Ay2UsC",
+      "title": "Automated red blood cell segmentation and classification of red cell disorders using extreme learning machine and kernel weighted fuzzy local information c-means",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:WTQy_8Ay2UsC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:yNlG6JgpFqoC",
+      "title": "UWFound, A domain-adapted foundation model for hierarchical posterior uveitis diagnosis from ultra-widefield fundus images",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:yNlG6JgpFqoC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:wgKq3sYidysC",
+      "title": "Population-scale characterization of the oral microbiome and associations with metabolic health",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:wgKq3sYidysC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:puFLaqDw8dcC",
+      "title": "Cross-task Calibration for Asynchronous Federated Continual Learning",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:puFLaqDw8dcC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:ibZ2AwG9z6wC",
+      "title": "Feature Space Translation Framework for Cross-Device Alignment and Derivation of Clinically Relevant Retinal Biomarkers from Foundation Model Embeddings",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:ibZ2AwG9z6wC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:iWL_APfBKHwC",
+      "title": "RC-FCL: Combating Asynchronous Concept Drift in Federated Continual Learning via Retrospective Calibration",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:iWL_APfBKHwC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:oE_QS-WwsdAC",
+      "title": "Lightweight Federated Incremental Learning via Decoupled Replay",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:oE_QS-WwsdAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:0Kh4an1R61UC",
+      "title": "Lightweight Cross-Lingual Federated Prompt Tuning for Low-Resource Languages",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:0Kh4an1R61UC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:gkldIfsazJcC",
+      "title": "GatorSC: multi-scale cell and gene graphs with mixture-of-experts fusion for single-cell transcriptomics",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:gkldIfsazJcC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:PklR0melJeUC",
+      "title": "CARL: Preserving Causal Structure in Representation Learning",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:PklR0melJeUC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:WGv8Og3F3KgC",
+      "title": "RetiSEM: Pathway-Aware Causal Modeling for Retinal-Mediated Vascular Mechanisms",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:WGv8Og3F3KgC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:qYOp8iumCsAC",
+      "title": "Towards Robust Heterogeneous Graph Explanations under Structural Perturbations",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:qYOp8iumCsAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:4tNoA7Af41QC",
+      "title": "Semantics Preserving Contrastive Decoding for Hallucination Robust Medical Vision-Language Models",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:4tNoA7Af41QC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:fF_gHTpLxhAC",
+      "title": "Exploring the Influence of Lifestyle, Social Health, and Demographic Factors on Psychological Well-being and Engagement Levels",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:fF_gHTpLxhAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:T_0gP6tLVL0C",
+      "title": "CNText2Sign and CNSign: Unified Chinese Sign Language Datasets for Bidirectional Accessibility",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:T_0gP6tLVL0C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:UKB2i6g6GNMC",
+      "title": "Asthma identification through multimodal data fusion: towards reliable clinical decision support",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:UKB2i6g6GNMC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:bbjcffOLshcC",
+      "title": "Consistent Region-Informed Self-supervised Pretraining",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:bbjcffOLshcC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:e0LTWoPxLYMC",
+      "title": "Seeing Beyond the Airways: Asthma Prediction via Cross-Attention on Dual Retinal Modalities",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:e0LTWoPxLYMC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:CMPXdcK5v8EC",
+      "title": "Hierarchical Sequence Iteration for Heterogeneous Question Answering",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:CMPXdcK5v8EC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:Zbx7W2Xs4QsC",
+      "title": "Machine Learning Approaches for Vulnerability Detection in Smart Contracts",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:Zbx7W2Xs4QsC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:w0odbtu79TwC",
+      "title": "MERCI: A Multimodal Dataset for Personalised and Emotionally-Aware Dialogues",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:w0odbtu79TwC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:-fu4zM_6qcIC",
+      "title": "-Bench: A Comprehensive Study of Multimodal LLMs for Scientific Discovery with Benchmarking",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:-fu4zM_6qcIC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:1paMEeroeoQC",
+      "title": "Retinal Pathways to Asthma Diagnosis: AI-Driven Insight",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:1paMEeroeoQC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:svGagg1hbZMC",
+      "title": "Few Labels with Active Learning: From Weak to Strong Labels for Misinformation Detection",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:svGagg1hbZMC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:j2GSQqY3pL0C",
+      "title": "Improving Visual Question Answering Through a Topic-Aware Selection Layer",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:j2GSQqY3pL0C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:rzmi0EmCOGEC",
+      "title": "Retinal Pathways to Asthma Diagnosis: AI-Driven Insight",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:rzmi0EmCOGEC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:4E1Y8I9HL1wC",
+      "title": "Navigating loss manifolds via rigid body dynamics: A promising avenue for robustness and generalisation",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:4E1Y8I9HL1wC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:mgoTDWlsYNUC",
+      "title": "Hierarchical Datasets",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:mgoTDWlsYNUC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:MnogvFdIBdwC",
+      "title": "Proceedings 24th IEEE International Conference on Data Mining Workshops ICDMW 2024",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:MnogvFdIBdwC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:It0W0vAlS5QC",
+      "title": "Marine-tree: A large-scale hierarchically annotated dataset for marine organism classification",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:It0W0vAlS5QC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:ndLnGcHYRF0C",
+      "title": "Introduction to the special section on securing IoT-based critical infrastructure (VSI-cei)",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:ndLnGcHYRF0C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:Gpwnp1kGG20C",
+      "title": "Anomaly detection framework to prevent DDoS attack in fog empowered IOT networks [J]",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:Gpwnp1kGG20C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:yeL6HyUMUGUC",
+      "title": "Handwriting dynamics assessment using deep neural network for early identification of Parkinson’s disease [J]",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:yeL6HyUMUGUC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:IaI1MmNe2tcC",
+      "title": "Foundations of Cursive Scene Text",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:IaI1MmNe2tcC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:nRpfm8aw39MC",
+      "title": "Arabic Scene Text Acquisition and Statistics",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:nRpfm8aw39MC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:PaBasH6fAo0C",
+      "title": "Methods and Algorithm",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:PaBasH6fAo0C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:UmS_249rOGwC",
+      "title": "Saeeda Naz, Salahuddin Swati, and Muhammad Imran Razzak. Handwritten urdu character recognition using one-dimensional blstm classifier",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:UmS_249rOGwC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:1_W9tMSvGuwC",
+      "title": "Saeeda Naz, Muhammad Imran Razzak",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:1_W9tMSvGuwC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:yTLRzDEmwhEC",
+      "title": "Deep context-aware embedding for abusive and hate speech detection on twitter, Aust",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:yTLRzDEmwhEC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:7Hz3ACDFbsoC",
+      "title": "Nuclear Norm Minimization in Frequency Domain for Complex Noise",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:7Hz3ACDFbsoC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:48xauSegjOkC",
+      "title": "Deep Auto Encoder-Decoder Semantic Segmentation Framework for Brain Tumor",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:48xauSegjOkC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:LlXTz_FrCmAC",
+      "title": "Robust 2D Joint Sparse Principal Component Analysis With F-Norm Minimization For Sparse Modelling: 2D-RJSPCA",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:LlXTz_FrCmAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:SWgZeABleR0C",
+      "title": "Saeeda Naz, Muhammad Imran Razzak, Arif Iqbal Umar, Ahmad Zaib.\" Automated Pathology Image Analysis",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:SWgZeABleR0C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:sJsF-0ZLhtgC",
+      "title": "4th International Conference on Behavioral, Economic, and Socio-Cultural Computing, BESC 2017",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:sJsF-0ZLhtgC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:TaaCk18tZOkC",
+      "title": "Transactions on Large-Scale Data-and Knowledge-Centered Systems XXXV.: Transactions on Large-Scale Data-and Knowledge-Centered Systems",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:TaaCk18tZOkC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:Bg7qf7VwUHIC",
+      "title": "International Conference on Behavioral, Economic, Socio-cultural Computing, BESC 2017,",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:Bg7qf7VwUHIC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:BJbdYPG6LGMC",
+      "title": "Transactions on Large-Scale Data- and Knowledge-Centered Systems-Special Issue",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:BJbdYPG6LGMC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:jFemdcug13IC",
+      "title": "Noor ul Amin Khan, Arif Iqbal Umar, Muhammad Imran Razzak, Saeeda Naz and Bandar AlHaqbani,\" Content-Based Image Retrieval Using Texture Color Shape and Region,\"",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:jFemdcug13IC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:iKswqCX-FLkC",
+      "title": "Khan, Sahib Zar 181 181",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:iKswqCX-FLkC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:UxriW0iASnsC",
+      "title": "Face recognition using multilayered discriminant analysis",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:UxriW0iASnsC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:MNNNGtAgD4EC",
+      "title": "Attacking Websites During Crises: Analysis and Solutions",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:MNNNGtAgD4EC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:HoDPlbN_d1QC",
+      "title": "Voxels or Millimetres? A Controlled Comparison of Lesion-Size Filtering for Native-Space Stroke Segmentation",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:HoDPlbN_d1QC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:w-fwKiQwpQAC",
+      "title": "SCALA: Semi-supervised Cascade for Left Atrial Scar, Cavity, and Multi-Structure CT Segmentation",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:w-fwKiQwpQAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:ITz7TVZQ0sgC",
+      "title": "LEG-DINO: Local-Evidence-Governed DINO Fusion for Reliable Dense Prediction in Medical Image Segmentation",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:ITz7TVZQ0sgC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:VBDT71xRUdcC",
+      "title": "Perturbation-enabled Deep Federated Learning for Preserving Internet of Things-based Social Networks",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:VBDT71xRUdcC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:cTy_cm4PQvYC",
+      "title": "A Self-Assessing Anatomical World Model for Unified Multi-Domain Ultrasound Biometry",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:cTy_cm4PQvYC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:M8meJADSprsC",
+      "title": "Native-Resolution Multi-Sequence Cardiac MRI Segmentation for Accurate LVEF and Scar Quantification",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:M8meJADSprsC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:HAmI6pRF5skC",
+      "title": "BEAT: Boundary-aware Efficient Anatomy-Transfer for Multimodal Mitral Valve Segmentation",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:HAmI6pRF5skC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:uQVPmWFBlwUC",
+      "title": "Energy Efficient Distributed Face Recognition in Wireless Sensor Network",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:uQVPmWFBlwUC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:DPO9WFcz7UcC",
+      "title": "C -AFCL: Cross-task Calibration for Asynchronous Federated Continual Learning",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=500&pagesize=100&citation_for_view=GlXI4N8AAAAJ:DPO9WFcz7UcC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:g30IDTdgJMgC",
+      "title": "Saeeda Naz, and Ahmad Zaib. 2017",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=500&pagesize=100&citation_for_view=GlXI4N8AAAAJ:g30IDTdgJMgC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:o9ULDYDKYbIC",
+      "title": "An Intelligent Risk Management Framework for Monitoring Vehicular Engine Health",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=500&pagesize=100&citation_for_view=GlXI4N8AAAAJ:o9ULDYDKYbIC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:_9Xh93LWpsYC",
+      "title": "24th IEEE International Conference on Data Mining Workshops",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=500&pagesize=100&citation_for_view=GlXI4N8AAAAJ:_9Xh93LWpsYC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:oynPyU19kbsC",
+      "title": "BEAST: Leveraging Contrastive Learning and Unsupervised Sentence Embeddings for Improved Drug Abuse Detection",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=500&pagesize=100&citation_for_view=GlXI4N8AAAAJ:oynPyU19kbsC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:yZoBfgUKqwcC",
+      "title": "Session Chairs",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=500&pagesize=100&citation_for_view=GlXI4N8AAAAJ:yZoBfgUKqwcC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:ifOnle78iJkC",
+      "title": "ITCEM 2024",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=500&pagesize=100&citation_for_view=GlXI4N8AAAAJ:ifOnle78iJkC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:WWeOtg8bX_EC",
+      "title": "ICRSS 2022",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=500&pagesize=100&citation_for_view=GlXI4N8AAAAJ:WWeOtg8bX_EC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:nqdriD65xNoC",
+      "title": "IEEE GLOBECOM 2021 Reviewers",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=500&pagesize=100&citation_for_view=GlXI4N8AAAAJ:nqdriD65xNoC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:zUl2_INMlC4C",
+      "title": "Guest Editorial: Data Analytics for Public Health Care.......... S. Mohammed, T.-H. Kim, R.-S. Chang, and C. Ramos 1409",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=500&pagesize=100&citation_for_view=GlXI4N8AAAAJ:zUl2_INMlC4C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:aIdbFUkbNIkC",
+      "title": "SPECIAL ISSUE ON COMPUTATIONAL SOCIAL SYSTEMS FOR COVID-19 EMERGENCY MANAGEMENT AND BEYOND",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=500&pagesize=100&citation_for_view=GlXI4N8AAAAJ:aIdbFUkbNIkC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:DkZNVXde3BIC",
+      "title": "Software Engineering Automation: A Natural Language Perspective (NLP-SEA)",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=500&pagesize=100&citation_for_view=GlXI4N8AAAAJ:DkZNVXde3BIC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:KaMxkj08jr0C",
+      "title": "T-DICE: Irony and sarcasm identification using a Transformer-based Deep Intelligent Contextual Embedding with Attention-based BiLSTM",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=500&pagesize=100&citation_for_view=GlXI4N8AAAAJ:KaMxkj08jr0C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:rHJHxKgnXwkC",
+      "title": "Research Track Chairs: Behavioral and Economic Computing",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=500&pagesize=100&citation_for_view=GlXI4N8AAAAJ:rHJHxKgnXwkC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:AHdEip9mkN0C",
+      "title": "Large-Scale Data-and Knowledge-Centered Systems XXIV LNCS 9510",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=500&pagesize=100&citation_for_view=GlXI4N8AAAAJ:AHdEip9mkN0C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:F1b5ZUV5XREC",
+      "title": "Salahuddin Swati & Muhammad Imran Razzak",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=500&pagesize=100&citation_for_view=GlXI4N8AAAAJ:F1b5ZUV5XREC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:AZju0d2GQJ0C",
+      "title": "Future smart cities requirements, emerging technologies, applications, challenges, and future aspects",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:AZju0d2GQJ0C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:Dem6FJhTUoYC",
+      "title": "Transformer based deep intelligent contextual embedding for twitter sentiment analysis",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:Dem6FJhTUoYC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:-uzm3Y7AvW0C",
+      "title": "A novel approach for phishing URLs detection using lexical based machine learning in a real-time environment",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:-uzm3Y7AvW0C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:ILKRHgRFtOwC",
+      "title": "Efficient brain tumor segmentation with multiscale two-pathway-group conventional neural networks",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:ILKRHgRFtOwC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:8dzOF9BpDQoC",
+      "title": "Saeeda Naz, and Ahmad Zaib",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:8dzOF9BpDQoC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:tOudhMTPpwUC",
+      "title": "Middle Eastern Character Recognition",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:tOudhMTPpwUC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:jSAVyFp_754C",
+      "title": "Classification of Alzheimer's disease using ensemble of deep neural networks trained through transfer learning",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:jSAVyFp_754C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:z6xuaG2dYH0C",
+      "title": "Federated Intrusion Detection in Blockchain-Based Smart Transportation Systems",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:z6xuaG2dYH0C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:pAkWuXOU-OoC",
+      "title": "A survey of pre-processing techniques to improve short-text quality: a case study on hate speech detection on twitter",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:pAkWuXOU-OoC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:F2UWTTQJPOcC",
+      "title": "Handwriting dynamics assessment using deep neural network for early identification of Parkinson’s disease",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:F2UWTTQJPOcC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:QsKbpXNoaWkC",
+      "title": "Edge Intelligence: Federated Learning-based Privacy Protection Framework for Smart Healthcare Systems",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:QsKbpXNoaWkC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:JH5k92_tO-AC",
+      "title": "Fed-Inforce-Fusion: A federated reinforcement-based fusion model for security and privacy protection of IoMT networks against cyber-attacks",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:JH5k92_tO-AC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:kUhpeDhEZMUC",
+      "title": "Depression detection from social networks data based on machine learning and deep learning techniques: An interrogative survey",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:kUhpeDhEZMUC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:Kqc1aDSOPooC",
+      "title": "Transfer learning using freeze features for Alzheimer neurological disorder detection using ADNI dataset: S. Naz et al.",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:Kqc1aDSOPooC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:1xBWf43XMUgC",
+      "title": "An intelligent and efficient network intrusion detection system using deep learning",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:1xBWf43XMUgC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:35N4QoGY0k4C",
+      "title": "The optical character recognition of Urdu-like cursive scripts",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:35N4QoGY0k4C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:AYInfyleIOsC",
+      "title": "XSRU-IoMT: Explainable simple recurrent units for threat detection in Internet of Medical Things networks",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:AYInfyleIOsC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:LhH-TYMQEocC",
+      "title": "Automatic visual features for writer identification: a deep learning approach",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:LhH-TYMQEocC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:wbdj-CoPYUoC",
+      "title": "Urdu Nastaliq recognition using convolutional–recursive deep learning",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:wbdj-CoPYUoC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:JP7YXuLIOvAC",
+      "title": "Adaptive and Priority-based Resource Allocation for Efficient Resources Utilization in Mobile Edge Computing",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:JP7YXuLIOvAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:tKAzc9rXhukC",
+      "title": "Handwritten Urdu Character Recognition using 1-Dimensional BLSTM Classifier",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:tKAzc9rXhukC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:wKETBy42zhYC",
+      "title": "Microscopic blood smear segmentation and classification using deep contour aware CNN and extreme machine learning",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:wKETBy42zhYC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:rbm3iO8VlycC",
+      "title": "Predicting brain age using machine learning algorithms: A comprehensive evaluation",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:rbm3iO8VlycC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:nVrZBo8bIpAC",
+      "title": "What's Happening around the World? A Survey and Framework on Event Detection Techniques on Twitter",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:nVrZBo8bIpAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:1r-w4gtu6w8C",
+      "title": "A fine-grained access control and security approach for intelligent vehicular transport in 6g communication system",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:1r-w4gtu6w8C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:CB2v5VPnA5kC",
+      "title": "Improving coronavirus (COVID-19) diagnosis using deep transfer learning",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:CB2v5VPnA5kC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:XD-gHx7UXLsC",
+      "title": "STATISTICAL FEATURES EXTRACTION FOR CHARACTER RECOGNITION USING RECURRENT NEURAL NETWORK.",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:XD-gHx7UXLsC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:QAOzB4mb83kC",
+      "title": "Depressionnet: learning multi-modalities with user post summarization for depression detection on social media",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:QAOzB4mb83kC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:4aZ_i-5WJEQC",
+      "title": "The role of unmanned aerial vehicles and mmWave in 5G: Recent advances and challenges",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:4aZ_i-5WJEQC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:p2g8aNsByqUC",
+      "title": "Discovering diabetes complications: an ontology based model",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:p2g8aNsByqUC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:u9iWguZQMMsC",
+      "title": "Offline cursive Urdu-Nastaliq script recognition using multidimensional recurrent neural networks",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:u9iWguZQMMsC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:CNPyR2KL9-0C",
+      "title": "Privacy-Preserving Federated Machine Learning Solutions for Critical Energy Infrastructures",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:CNPyR2KL9-0C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:Ic1VZgkJnDsC",
+      "title": "Federated Learning for Privacy Preservation of Healthcare Data from Smartphone-based Side-Channel Attacks",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:Ic1VZgkJnDsC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:nPT8s1NX_-sC",
+      "title": "Intelligent anomaly detection of trajectories for IoT empowered maritime transportation systems",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:nPT8s1NX_-sC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:oldoQiaHq2UC",
+      "title": "Depressionnet: learning multi-modalities with user post summarization for depression detection on social media",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:oldoQiaHq2UC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:O3NaXMp0MMsC",
+      "title": "HMM and fuzzy logic: a hybrid approach for online Urdu script-based languages’ character recognition",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:O3NaXMp0MMsC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:X5YyAB84Iw4C",
+      "title": "Federated learning-aware multi-objective modeling and blockchain-enable system for IIoT applications",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:X5YyAB84Iw4C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:x21FZCSn4ZoC",
+      "title": "Anomaly detection framework to prevent DDoS attack in fog empowered IoT networks",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:x21FZCSn4ZoC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:jE2MZjpN3IcC",
+      "title": "Randomized nonlinear one-class support vector machines with bounded loss function to detect of outliers for large scale IoT data",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:jE2MZjpN3IcC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:inmFHauC9wsC",
+      "title": "A novel collaborative SRU network with dynamic behaviour aggregation, reduced communication overhead and explainable features",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:inmFHauC9wsC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:H_jBuBxbQIAC",
+      "title": "Width-wise vessel bifurcation for improved retinal vessel segmentation",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:H_jBuBxbQIAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:9shLKfS_uJEC",
+      "title": "High-density electroencephalography and speech signal based deep framework for clinical depression diagnosis",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:9shLKfS_uJEC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:nb7KW1ujOQ8C",
+      "title": "Accurate Microscopic Red Blood Cell Image Enhancement and Segmentation.",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:nb7KW1ujOQ8C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:rbGdIwl2e6cC",
+      "title": "LDMRes-Net: A Lightweight Neural Network for Efficient Medical Image Segmentation on IoT and Edge Devices",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:rbGdIwl2e6cC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:RfUwGJFMQ-0C",
+      "title": "Self-supervised spatial–temporal transformer fusion based federated framework for 4D cardiovascular image segmentation",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:RfUwGJFMQ-0C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:ye4kPcJQO24C",
+      "title": "UCOM offline dataset-an Urdu handwritten dataset generation",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:ye4kPcJQO24C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:c59VksA5Vz4C",
+      "title": "Event detection in Twitter stream using weighted dynamic heartbeat graph approach [application notes]",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:c59VksA5Vz4C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:_xSYboBqXhAC",
+      "title": "An Ocr system for printed Nasta'liq script: A segmentation based approach",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:_xSYboBqXhAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:EaFouW7jFu4C",
+      "title": "A counter-eavesdropping technique for optimized privacy of wireless industrial iot communications",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:EaFouW7jFu4C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:rCNdntzdTkkC",
+      "title": "A Secure and Intelligent Framework for Vehicle Health Monitoring Exploiting Big-Data Analytics",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:rCNdntzdTkkC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:oTdOBqtIf_kC",
+      "title": "Trustworthy and Reliable Deep Learning-Based Cyberattack Detection in Industrial IoT",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:oTdOBqtIf_kC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:Tiz5es2fbqcC",
+      "title": "Efficient leukocyte segmentation and recognition in peripheral blood image",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:Tiz5es2fbqcC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:mKu_rENv82IC",
+      "title": "Towards Improved Deep Contextual Embedding for the identification of Irony and Sarcasm",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:mKu_rENv82IC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:ji7lAbPyDbYC",
+      "title": "Tracking anti-vax social movement using AI-based social media monitoring",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:ji7lAbPyDbYC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:2tRrZ1ZAMYUC",
+      "title": "Enhanced Heartbeat Graph for Emerging Event Detection on Twitter using Time Series Networks",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:2tRrZ1ZAMYUC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:eH23hyXCXa4C",
+      "title": "GAN‐LSTM‐3D: An efficient method for lung tumour 3D reconstruction enhanced by attention‐based LSTM",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:eH23hyXCXa4C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:3_LpOwP6eMYC",
+      "title": "A multi-modal dataset for hate speech detection on social media: Case-study of russia-ukraine conflict",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:3_LpOwP6eMYC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:QoJ_w57xiyAC",
+      "title": "A Blockchain-Based Emergency Message Transmission Protocol for Cooperative VANET",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:QoJ_w57xiyAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:xGWFX6Gbr9MC",
+      "title": "Hierarchical convolutional attention network for depression detection on social media and its impact during pandemic",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:xGWFX6Gbr9MC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:n3vGvpFsckwC",
+      "title": "Prompt deep light-weight vessel segmentation network (PLVS-Net)",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:n3vGvpFsckwC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:DyXnQzXoVgIC",
+      "title": "Cursive handwritten text recognition using bi-directional LSTMs: a case study on Urdu handwriting",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:DyXnQzXoVgIC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:DXE8ND7PrJAC",
+      "title": "Conv-ERVFL: Convolutional Neural Network Based Ensemble RVFL Classifier for Alzheimer's Disease Diagnosis",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:DXE8ND7PrJAC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:SjuI4pbJlxcC",
+      "title": "Multimodal face and finger veins biometric authentication",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:SjuI4pbJlxcC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:L24QuVWYgZ0C",
+      "title": "Privacy-preserved learning from non-iid data in fog-assisted IoT: A federated learning approach",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:L24QuVWYgZ0C",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:lYAcb2jw7qUC",
+      "title": "Deep Context-Aware Embedding for Abusive and Hate Speech detection on Twitter.",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:lYAcb2jw7qUC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:VOx2b1Wkg3QC",
+      "title": "Zoning features and 2DLSTM for Urdu text-line recognition",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:VOx2b1Wkg3QC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:-jrNzM816MMC",
+      "title": "Applying deep neural networks for user intention identification: A. Khattak et al.",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:-jrNzM816MMC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:7Frjd3zlGBUC",
+      "title": "Restricted Boltzmann machine Assisted Secure Serverless Edge System for Internet of Medical Things",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:7Frjd3zlGBUC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:JWITY9-sCbMC",
+      "title": "Perturbation-enabled deep federated learning for preserving internet of things-based social networks",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:JWITY9-sCbMC",
+      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    }
+  ]
+}
