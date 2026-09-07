@@ -1,0 +1,17 @@
+pages:
+- name: Home
+  url: /
+- name: Publications
+  url: /publications.html
+- name: Research
+  url: /projects.html
+- name: Team
+  url: /team.html
+- name: Teaching
+  url: /teaching.html
+- name: Grants & Awards
+  url: /grants-awards.html
+- name: Students
+  url: /student.html
+- name: Service
+  url: /services.html

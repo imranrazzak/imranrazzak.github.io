@@ -1,281 +1,53 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <title>Editorial Activities | Imran Razzak</title>
-  <meta name="description" content="Editorial and professional service activities of Imran Razzak, Associate Professor at MBZUAI." />
-  <meta name="author" content="Imran Razzak" />
-
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="justified-nav.css" />
-
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="img/logo.webp" type="image/webp" />
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-  <style>
-    :root{
-      --bg0:#070A12;
-      --bg1:#0A1022;
-      --text:#EAF0FF;
-      --muted:#B6C2E2;
-      --muted2:#8FA0C8;
-
-      --brand:#7C5CFF;
-      --brand2:#2EE9A6;
-
-      --shadow: 0 16px 60px rgba(0,0,0,.45);
-      --shadow2: 0 10px 30px rgba(0,0,0,.35);
-
-      --radius: 18px;
-      --radius2: 14px;
-    }
-
-    body{
-      font-family:"Plus Jakarta Sans", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-      background:
-        radial-gradient(1100px 700px at 10% 0%, rgba(124,92,255,.24), transparent 55%),
-        radial-gradient(900px 600px at 95% 10%, rgba(46,233,166,.18), transparent 50%),
-        radial-gradient(700px 500px at 65% 85%, rgba(255,77,125,.14), transparent 55%),
-        linear-gradient(180deg, var(--bg0), var(--bg1));
-      color: var(--text);
-    }
-
-    a { color:#B7B0FF; }
-    a:hover { color:#d8d4ff; }
-
-    .container { max-width: 1140px; }
-
-    /* Dark nav */
-    .nav-justified > li > a{
-      background: rgba(255,255,255,.04) !important;
-      border: 1px solid rgba(255,255,255,.10) !important;
-      color: var(--muted) !important;
-      font-weight: 800;
-      border-radius: 12px !important;
-      margin: 4px;
-    }
-    .nav-justified > .active > a,
-    .nav-justified > li > a:hover{
-      background: rgba(124,92,255,.18) !important;
-      border-color: rgba(124,92,255,.35) !important;
-      color: var(--text) !important;
-    }
-
-    /* Hero */
-    .hero{
-      margin-top: 18px;
-      border-radius: var(--radius);
-      padding: 20px 20px 14px;
-      background:
-        linear-gradient(135deg, rgba(124,92,255,.22), rgba(46,233,166,.10)),
-        rgba(255,255,255,.04);
-      border: 1px solid rgba(255,255,255,.10);
-      box-shadow: var(--shadow);
-      overflow: hidden;
-      position: relative;
-    }
-    .hero:before{
-      content:"";
-      position:absolute;
-      width:520px; height:520px;
-      background: radial-gradient(circle at 30% 30%, rgba(255,255,255,.12), transparent 60%);
-      right:-240px; top:-300px;
-      transform: rotate(10deg);
-      pointer-events:none;
-    }
-    .hero h1{
-      margin: 0 0 6px;
-      font-weight: 900;
-      letter-spacing: .2px;
-      font-size: 28px;
-    }
-    .hero .sub{
-      color: var(--muted);
-      margin: 0;
-      font-size: 14px;
-      max-width: 78ch;
-      line-height: 1.5;
-    }
-    .pillrow{
-      margin-top: 12px;
-      display:flex; flex-wrap:wrap; gap:10px;
-    }
-    .pill{
-      display:inline-flex; align-items:center; gap:8px;
-      padding:8px 10px;
-      border-radius:999px;
-      background: rgba(255,255,255,.06);
-      border:1px solid rgba(255,255,255,.12);
-      color: var(--muted);
-      font-weight: 800;
-      font-size: 12px;
-      box-shadow: var(--shadow2);
-    }
-    .pill .dot{
-      width:8px; height:8px; border-radius:50%;
-      background: var(--brand2);
-      box-shadow: 0 0 0 5px rgba(46,233,166,.12);
-    }
-
-    /* Section cards */
-    .section-card{
-      border-radius: var(--radius);
-      background: rgba(255,255,255,.03);
-      border: 1px solid rgba(255,255,255,.08);
-      box-shadow: var(--shadow2);
-      padding: 16px 16px 14px;
-      margin-top: 16px;
-    }
-    .section-title{
-      margin: 0 0 8px;
-      font-weight: 900;
-      letter-spacing: .2px;
-      font-size: 18px;
-    }
-    .mutedText { color: var(--muted); }
-
-    /* List styling */
-    .serviceList{
-      margin: 10px 0 0;
-      padding-left: 18px;
-    }
-    .serviceList li{
-      margin-bottom: 10px;
-      line-height: 1.45;
-      color: var(--muted);
-    }
-    .serviceList li b{
-      color: var(--text);
-    }
-    .serviceIcon{
-      width: 18px;
-      height: 18px;
-      vertical-align: text-bottom;
-      margin-right: 8px;
-      filter: drop-shadow(0 6px 16px rgba(0,0,0,.35));
-    }
-
-    .noteBox{
-      border-radius: var(--radius2);
-      padding: 12px 14px;
-      background: rgba(15,23,48,.70);
-      border: 1px solid rgba(255,255,255,.10);
-      color: var(--muted);
-      margin-top: 10px;
-    }
-
-    .footerBox{
-      text-align:center;
-      color: var(--muted2);
-      font-size: 12px;
-      padding-top: 18px;
-      padding-bottom: 8px;
-    }
-  </style>
-</head>
-
-<body>
-  <div class="container">
-
-    <!-- Top hero -->
-    <div class="hero">
-      <h1>Editorial Activities</h1>
-      <p class="sub">
-        I serve the research community through journal editorial roles and professional activities,
-        supporting rigorous, reproducible, and high-impact work—especially at the intersection of
-        <b>medical AI</b>, <b>multimodal learning</b>, and <b>trustworthy clinical systems</b>.
-      </p>
-      <div class="pillrow">
-        <span class="pill"><span class="dot" aria-hidden="true"></span> Journals & Editorial Boards</span>
-        <span class="pill">Peer Review & Quality Control</span>
-        <span class="pill">Medical AI • VLMs • Clinical Reasoning</span>
-      </div>
-    </div>
-
-    <!-- Nav (same pattern as your updated pages) -->
-    <ul class="nav nav-justified" style="margin-top:10px;">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="projects.html">Publication and Projects</a></li>
-      <li><a href="research.html">Datasets</a></li>
-      <li><a href="grants-awards.html">Grants &amp; Awards</a></li>
-      <li><a href="publications.html">Teaching</a></li>
-      <li><a href="teaching.html">Research Team</a></li>
-      <li><a href="student.html">Prospective PhD Student</a></li>
-      <li class="active"><a href="services.html">Services</a></li>
-    </ul>
-
-    <!-- Editorial roles -->
-    <div class="section-card">
-      <h2 class="section-title">Journal Editorial Roles</h2>
-      <p class="mutedText" style="margin-top:0;">
+---
+layout: default
+title: Service
+navbar_title: Service
+---
+<h1 class="h2 my-4">Service</h1>
+<div class="card border-0 shadow-sm bg-white my-3"><div class="card-body p-4"><div>
+<h2 class="h4 mb-3">Journal Editorial Roles</h2>
+<p>
         Current editorial responsibilities include handling submissions, coordinating peer review,
         and supporting constructive feedback to strengthen research quality and impact.
       </p>
+<ul>
+<li>
 
-      <ul class="serviceList">
-        <li>
-          <img src="img/news.png" alt="" class="serviceIcon" />
-          <b>Associate Editor</b>, IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS)
+<b>Associate Editor</b>, IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS)
         </li>
-        <li>
-          <img src="img/news.png" alt="" class="serviceIcon" />
-          <b>Associate Editor</b>, IEEE Journal of Biomedical and Health Informatics (IEEE JBHI)
-        </li>
-        <li>
-          <img src="img/news.png" alt="" class="serviceIcon" />
-          <b>Associate Editor</b>, IEEE Transactions on Computational Social Systems (IEEE TCSS)
-        </li>
-        <li>
-          <img src="img/news.png" alt="" class="serviceIcon" />
-          <b>Associate Editor</b>, International Journal of Image Processing
-        </li>
-      </ul>
+<li>
 
-      <div class="noteBox">
-        <b style="color:var(--text);">Scope interest (typical submissions I handle):</b>
+<b>Associate Editor</b>, IEEE Journal of Biomedical and Health Informatics (IEEE JBHI)
+        </li>
+<li>
+
+<b>Associate Editor</b>, IEEE Transactions on Computational Social Systems (IEEE TCSS)
+        </li>
+<li>
+
+<b>Associate Editor</b>, International Journal of Image Processing
+        </li>
+</ul>
+<div>
+<b>Scope interest (typical submissions I handle):</b>
         multimodal learning (vision + language), medical imaging, clinical reasoning, foundation models,
         spatial grounding, robustness, and trustworthy AI evaluation.
       </div>
-    </div>
-
-    <!-- Optional: add a second section (keeps page richer, but still clean) -->
-    <div class="section-card">
-      <h2 class="section-title">Community Service</h2>
-      <p class="mutedText" style="margin-top:0;">
+</div></div></div>
+<div class="card border-0 shadow-sm bg-white my-3"><div class="card-body p-4"><div>
+<h2 class="h4 mb-3">Community Service</h2>
+<p>
         In addition to editorial duties, I contribute to the community through reviewing and research service
         activities that improve clarity, reproducibility, and evaluation in AI for healthcare.
       </p>
-
-      <ul class="serviceList">
-        <li><img src="img/news.png" alt="" class="serviceIcon" /> Reviewing for top-tier venues in AI, vision, NLP, and medical imaging.</li>
-        <li><img src="img/news.png" alt="" class="serviceIcon" /> Supporting strong evaluation practices for clinical and multimodal models.</li>
-        <li><img src="img/news.png" alt="" class="serviceIcon" /> Mentoring and collaborating with researchers working on medical foundation models and VLMs.</li>
-      </ul>
-
-      <div class="noteBox">
+<ul>
+<li> Reviewing for top-tier venues in AI, vision, NLP, and medical imaging.</li>
+<li> Supporting strong evaluation practices for clinical and multimodal models.</li>
+<li> Mentoring and collaborating with researchers working on medical foundation models and VLMs.</li>
+</ul>
+<div>
         If you would like me to review a manuscript or collaborate on a workshop/tutorial related to medical AI,
         please reach out with a brief description and timeline.
       </div>
-    </div>
-
-    <div class="footerBox">
-      <hr style="border-color: rgba(255,255,255,.12);" />
-      © Imran Razzak | MBZUAI
-    </div>
-
-  </div>
-
-  <!-- Scripts -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="dist/js/bootstrap.min.js"></script>
-</body>
-</html>
+</div></div></div>
+<div class="card border-0 shadow-sm bg-white my-3"><div class="card-body p-4"><p class="mb-0">Also listed on my homepage: Associate Editor, <em>Neural Networks</em>.</p></div></div>

@@ -1,0 +1,29 @@
+baseurl: ''
+markdown: kramdown
+plugins:
+- jekyll-email-protect
+collections:
+- publications
+- news
+- showcase
+- posts
+url: https://imranrazzak.github.io
+title: Imran Razzak
+description: Imran Razzak — Associate Professor of Computational Biology at MBZUAI. Medical foundation models, personalized
+  medicine, and multimodal clinical AI.
+timezone: Asia/Dubai
+exclude:
+- Gemfile
+- Gemfile.lock
+- vendor
+- README.md
+- CONTENT_SOURCES.md
+- scripts
+- requirements.txt
+- publication1
+- index1
+- grantawards1
+- research1.htm
+- teaching1
+- test.html
+- friends.html

@@ -1,0 +1,14 @@
+---
+title: Efficient skew detection and correction in scanned document images through clustering of probabilistic hough
+  transforms
+date: '2021-01-01'
+pub: Pattern recognition letters 152, 93-99 , 2021
+authors:
+- R Ahmad
+- S Naz
+- I Razzak
+links:
+  Google Scholar: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:v6i8RKmR8ToC
+scholar_id: GlXI4N8AAAAJ:v6i8RKmR8ToC
+selected: false
+---

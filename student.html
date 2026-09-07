@@ -1,505 +1,184 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Prospective PhD Students | Imran Razzak</title>
-  <meta name="description" content="A detailed guide for prospective PhD students interested in Medical Foundation Models, Vision-Language Models and Personalized Medicine at MBZUAI." />
-  <meta name="author" content="Imran Razzak" />
-
-  
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="justified-nav.css" />
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-  <style>
-    :root{
-      --bg0:#070A12;
-      --bg1:#0A1022;
-      --text:#EAF0FF;
-      --muted:#B6C2E2;
-      --muted2:#8FA0C8;
-
-      --brand:#7C5CFF;
-      --brand2:#2EE9A6;
-
-      --red:#ff2d2d;
-      --orange:#ff9a2f;
-
-      --card:rgba(255,255,255,.04);
-      --border:rgba(255,255,255,.10);
-
-      --radius:18px;
-      --radius2:14px;
-
-      --shadow:0 20px 60px rgba(0,0,0,.45);
-      --shadow2:0 12px 30px rgba(0,0,0,.35);
-    }
-
-    body{
-      font-family:"Plus Jakarta Sans", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-      background:
-        radial-gradient(1100px 700px at 10% 0%, rgba(124,92,255,.24), transparent 55%),
-        radial-gradient(900px 600px at 95% 10%, rgba(46,233,166,.18), transparent 50%),
-        radial-gradient(700px 500px at 65% 85%, rgba(255,77,125,.14), transparent 55%),
-        linear-gradient(180deg, var(--bg0), var(--bg1));
-      color: var(--text);
-    }
-
-    .container{ max-width: 1140px; }
-
-    a{ color:#B7B0FF; }
-    a:hover{ color:#ffffff; }
-
-    /* Dark nav */
-    .nav-justified > li > a{
-      background: rgba(255,255,255,.04) !important;
-      border: 1px solid rgba(255,255,255,.10) !important;
-      color: var(--muted) !important;
-      font-weight: 800;
-      border-radius: 12px !important;
-      margin: 4px;
-    }
-    .nav-justified > .active > a,
-    .nav-justified > li > a:hover{
-      background: rgba(124,92,255,.18) !important;
-      border-color: rgba(124,92,255,.35) !important;
-      color: var(--text) !important;
-    }
-
-    /* Hero */
-    .hero{
-      margin-top: 18px;
-      border-radius: var(--radius);
-      padding: 22px 22px 16px;
-      background:
-        linear-gradient(135deg, rgba(124,92,255,.22), rgba(46,233,166,.10)),
-        rgba(255,255,255,.04);
-      border: 1px solid rgba(255,255,255,.10);
-      box-shadow: var(--shadow);
-      position: relative;
-      overflow: hidden;
-    }
-    .hero:before{
-      content:"";
-      position:absolute;
-      width:520px; height:520px;
-      background: radial-gradient(circle at 30% 30%, rgba(255,255,255,.12), transparent 60%);
-      right:-240px; top:-320px;
-      transform: rotate(10deg);
-      pointer-events:none;
-    }
-    .hero h1{
-      margin:0 0 6px;
-      font-weight: 900;
-      letter-spacing:.2px;
-      font-size: 28px;
-    }
-    .hero p{
-      margin:0;
-      color: var(--muted);
-      max-width: 90ch;
-      line-height: 1.5;
-    }
-    .pillrow{
-      margin-top: 12px;
-      display:flex; flex-wrap:wrap; gap:10px;
-    }
-    .pill{
-      display:inline-flex; align-items:center; gap:8px;
-      padding:8px 10px;
-      border-radius:999px;
-      background: rgba(255,255,255,.06);
-      border:1px solid rgba(255,255,255,.12);
-      color: var(--muted);
-      font-weight: 800;
-      font-size: 12px;
-      box-shadow: var(--shadow2);
-    }
-    .pill .dot{
-      width:8px; height:8px; border-radius:50%;
-      background: var(--brand2);
-      box-shadow: 0 0 0 5px rgba(46,233,166,.12);
-    }
-
-    /* Sections */
-    .section-card{
-      border-radius: var(--radius);
-      background: rgba(255,255,255,.03);
-      border: 1px solid rgba(255,255,255,.08);
-      box-shadow: var(--shadow2);
-      padding: 18px 18px 16px;
-      margin-top: 16px;
-    }
-    .section-title{
-      margin: 0 0 10px;
-      font-weight: 900;
-      font-size: 18px;
-      letter-spacing: .2px;
-    }
-    .mutedText{ color: var(--muted); }
-    .smallText{ color: var(--muted2); font-size: 13px; }
-
-    /* Contents block */
-    .contents{
-      border-radius: var(--radius2);
-      padding: 14px;
-      background: rgba(15,23,48,.65);
-      border: 1px solid rgba(255,255,255,.10);
-    }
-    .contents a{ text-decoration:none; }
-    .contents ol{ margin: 8px 0 0; padding-left: 18px; }
-    .contents li{ margin-bottom: 6px; color: var(--muted); }
-
-    /* Alerts */
-    .blink-red{
-      animation: blinker 2.3s linear infinite;
-      color: var(--red);
-      font-size: 14px;
-      font-weight: 950;
-      background: rgba(255,45,45,.10);
-      border: 1px solid rgba(255,45,45,.30);
-      padding: 10px 12px;
-      border-radius: 14px;
-      margin: 0 0 10px;
-    }
-    .orange-callout{
-      color: var(--orange);
-      font-size: 14px;
-      font-weight: 900;
-      background: rgba(255,154,47,.10);
-      border: 1px solid rgba(255,154,47,.28);
-      padding: 10px 12px;
-      border-radius: 14px;
-      margin: 0;
-    }
-    @keyframes blinker { 50% { opacity: .55; } }
-
-    /* Nice “Do / Don’t” grid */
-    .grid2{
-      display:grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 12px;
-    }
-    @media (max-width: 992px){
-      .grid2{ grid-template-columns: 1fr; }
-    }
-    .box{
-      border-radius: var(--radius2);
-      background: rgba(15,23,48,.65);
-      border: 1px solid rgba(255,255,255,.10);
-      padding: 14px;
-    }
-    .box h4{
-      margin:0 0 8px;
-      font-size: 14px;
-      font-weight: 950;
-      letter-spacing: .2px;
-      color: var(--text);
-    }
-    .box ul{ margin:0; padding-left: 18px; }
-    .box li{ margin-bottom: 7px; color: var(--muted); }
-
-    .applyRow{
-      border-radius: var(--radius2);
-      padding: 14px;
-      background: linear-gradient(135deg, rgba(124,92,255,.14), rgba(46,233,166,.10));
-      border: 1px solid rgba(255,255,255,.12);
-    }
-    .applyRow b{ color: var(--text); }
-
-    .footerBox{
-      text-align:center;
-      color: var(--muted2);
-      font-size: 12px;
-      padding: 18px 0 8px;
-    }
-  </style>
-</head>
-
-<body>
-<div class="container">
-
-  <!-- Nav -->
-  <ul class="nav nav-justified" style="margin-top:10px;">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="projects.html">Publication and Projects</a></li>
-    <li><a href="research.html">Datasets</a></li>
-    <li><a href="grants-awards.html">Grants &amp; Awards</a></li>
-    <li><a href="publications.html">Teaching</a></li>
-    <li><a href="teaching.html">Research Team</a></li>
-    <li class="active"><a href="student.html">Prospective PhD Student</a></li>
-    <li><a href="services.html">Services</a></li>
-  </ul>
-
-  <!-- Hero -->
-  <div class="hero">
-    <h1>Prospective PhD Students</h1>
-    <p>
-      This page is a detailed guide for applicants interested in joining my group at <b>MBZUAI (Abu Dhabi)</b>.
-      Our work is centered on <b>Personalized Medicine</b>, <b>Medical Imaging</b>, and <b>multimodal clinical AI</b>
-      (especially <b>Vision–Language Models</b>, clinical reasoning, spatial grounding, and trustworthy medical AI).
-    </p>
-
-    <div class="pillrow">
-      <span class="pill"><span class="dot" aria-hidden="true"></span> Medical Foundation Models</span>
-      <span class="pill">Medical VLMs</span>
-      <span class="pill">Clinical Reasoning</span>
-      <span class="pill">Personalized / Longitudinal AI</span>
-      <span class="pill">Trustworthy & Robust Medical AI</span>
-    </div>
-  </div>
-
-  <!-- Open positions -->
-  <div class="section-card">
-    <p class="blink-red">
-      Open positions: Looking for <b>Visiting Students</b> and <b>Remote Internships</b> on <b>medical VLM</b> and <b>reasoning</b>.
-    </p>
-    <p class="orange-callout">
-      PhD students and postdocs for <b>Medical Foundation Models</b>, <b>VLMs for clinical reasoning</b>, and
-      <b>personalized/longitudinal healthcare AI</b>. Please email your <b>CV</b> + a <b>short research proposal</b>.
-    </p>
-  </div>
-
-  <!-- Contents -->
-  <div class="section-card">
-    <h2 class="section-title">Contents</h2>
-    <div class="contents">
-      <p class="mutedText" style="margin:0;">
-        If you are considering a PhD, I recommend reading this page carefully. It answers the most common questions in a direct way.
-      </p>
-      <ol>
-        <li><a href="#should">Should you do a PhD?</a></li>
-        <li><a href="#fit">Is my group a good fit for you?</a></li>
-        <li><a href="#choose">How to choose a PhD supervisor (practical advice)</a></li>
-        <li><a href="#workflow">How a PhD works (and what strong students do differently)</a></li>
-        <li><a href="#youexpect">What you can expect from me</a></li>
-        <li><a href="#iexpect">What I expect from you</a></li>
-        <li><a href="#apply">How to apply (what to send, how we evaluate)</a></li>
-        <li><a href="#reading">Suggested reading</a></li>
-      </ol>
-    </div>
-    <p class="smallText" style="margin-top:10px; margin-bottom:0;">
-      Note: This guide reflects my supervision style and what typically works best for a successful PhD. It is meant to save your time (and mine) by being transparent.
-    </p>
-  </div>
-
-  <!-- Should you do a PhD -->
-  <div class="section-card" id="should">
-    <h2 class="section-title">1) Should you do a PhD?</h2>
-    <p class="mutedText">
+---
+layout: default
+title: Prospective Students
+navbar_title: Students
+---
+<h1 class="h2 my-4">Prospective Students</h1>
+<div class="card border-0 shadow-sm bg-white my-3"><div class="card-body p-4"><p class="mb-0">I welcome PhD, postdoctoral, visiting-student, and remote-internship enquiries in medical foundation models, vision–language reasoning, and personalized healthcare. Email <a href="mailto:imran.razzak@mbzuai.ac.ae">imran.razzak@mbzuai.ac.ae</a> with your CV, transcripts, a short research proposal, and examples of your work.</p></div></div>
+<div class="card border-0 shadow-sm bg-white my-3"><div class="card-body p-4"><div id="should">
+<h2 class="h4 mb-3">1) Should you do a PhD?</h2>
+<p>
       A PhD is not “more coursework” — it is training to become an independent researcher. You will spend years working on problems where the answer is not known,
       the path is unclear, and progress depends on your ability to think, read, build, and iterate.
     </p>
-
-    <div class="grid2">
-      <div class="box">
-        <h4>✅ Strong reasons to do a PhD</h4>
-        <ul>
-          <li>You enjoy open-ended problem solving and deep thinking.</li>
-          <li>You want to publish and contribute new ideas to the field.</li>
-          <li>You want a research career (academia or industrial research labs).</li>
-          <li>You are excited by building systems that push the frontier in medical AI.</li>
-          <li>You are motivated by impact: improving diagnosis, clinical workflows, and patient outcomes.</li>
-        </ul>
-      </div>
-      <div class="box">
-        <h4>❌ Common wrong reasons (please be honest with yourself)</h4>
-        <ul>
-          <li>“I want Dr. before my name.”</li>
-          <li>“I’m not sure what to do, so I’ll do a PhD.”</li>
-          <li>“A PhD guarantees higher salary.” (Not necessarily.)</li>
-          <li>“I want to delay joining industry.”</li>
-          <li>“I will only work if I’m given tasks.” (A PhD requires self-drive.)</li>
-        </ul>
-      </div>
-    </div>
-
-    <p class="mutedText" style="margin-top:12px;">
+<div>
+<div>
+<h4 class="h5 mt-3">✅ Strong reasons to do a PhD</h4>
+<ul>
+<li>You enjoy open-ended problem solving and deep thinking.</li>
+<li>You want to publish and contribute new ideas to the field.</li>
+<li>You want a research career (academia or industrial research labs).</li>
+<li>You are excited by building systems that push the frontier in medical AI.</li>
+<li>You are motivated by impact: improving diagnosis, clinical workflows, and patient outcomes.</li>
+</ul>
+</div>
+<div>
+<h4 class="h5 mt-3">❌ Common wrong reasons (please be honest with yourself)</h4>
+<ul>
+<li>“I want Dr. before my name.”</li>
+<li>“I’m not sure what to do, so I’ll do a PhD.”</li>
+<li>“A PhD guarantees higher salary.” (Not necessarily.)</li>
+<li>“I want to delay joining industry.”</li>
+<li>“I will only work if I’m given tasks.” (A PhD requires self-drive.)</li>
+</ul>
+</div>
+</div>
+<p>
       The best indicator that a PhD is right for you: you can spend weeks on a difficult problem, fail repeatedly,
       learn from the failures, and still feel curious and motivated to try again.
     </p>
-  </div>
-
-  <!-- Fit -->
-  <div class="section-card" id="fit">
-    <h2 class="section-title">2) Is my group a good fit for you?</h2>
-    <p class="mutedText">
+</div></div></div>
+<div class="card border-0 shadow-sm bg-white my-3"><div class="card-body p-4"><div id="fit">
+<h2 class="h4 mb-3">2) Is my group a good fit for you?</h2>
+<p>
       I work on <b>Personalized Medicine</b> and <b>Medical Imaging</b> with an emphasis on <b>multimodal AI</b> that can:
       (i) understand images, (ii) reason clinically, (iii) ground decisions spatially, and (iv) remain trustworthy under distribution shifts.
     </p>
-
-    <div class="box">
-      <h4>Projects we love</h4>
-      <ul>
-        <li><b>Medical Foundation Models</b> that unify tasks across radiology, pathology, ophthalmology, ultrasound, etc.</li>
-        <li><b>Vision–Language Models for clinical reasoning</b> (multi-step, evidence-based, uncertainty-aware).</li>
-        <li><b>Spatial grounding</b>: localization, alignment, region-level reasoning and explainability.</li>
-        <li><b>Trustworthiness</b>: hallucination reduction, robustness, calibration, and evaluation protocols.</li>
-        <li><b>Personalized / longitudinal healthcare AI</b>: modeling trajectories over time, multi-visit learning.</li>
-      </ul>
-    </div>
-
-    <p class="smallText" style="margin-top:10px; margin-bottom:0;">
+<div>
+<h4 class="h5 mt-3">Projects we love</h4>
+<ul>
+<li><b>Medical Foundation Models</b> that unify tasks across radiology, pathology, ophthalmology, ultrasound, etc.</li>
+<li><b>Vision–Language Models for clinical reasoning</b> (multi-step, evidence-based, uncertainty-aware).</li>
+<li><b>Spatial grounding</b>: localization, alignment, region-level reasoning and explainability.</li>
+<li><b>Trustworthiness</b>: hallucination reduction, robustness, calibration, and evaluation protocols.</li>
+<li><b>Personalized / longitudinal healthcare AI</b>: modeling trajectories over time, multi-visit learning.</li>
+</ul>
+</div>
+<p>
       If your main interest is purely software engineering (without research), or purely theoretical work with no healthcare motivation, we may not be a great match.
     </p>
-  </div>
-
-  <!-- Choose supervisor -->
-  <div class="section-card" id="choose">
-    <h2 class="section-title">3) How to choose a PhD supervisor (practical advice)</h2>
-    <p class="mutedText">
+</div></div></div>
+<div class="card border-0 shadow-sm bg-white my-3"><div class="card-body p-4"><div id="choose">
+<h2 class="h4 mb-3">3) How to choose a PhD supervisor (practical advice)</h2>
+<p>
       Many applicants email dozens of faculty members with the same template. This usually fails.
       A PhD is a long collaboration — compatibility matters.
     </p>
-
-    <div class="box">
-      <h4>What you should check before emailing</h4>
-      <ul>
-        <li>Do you genuinely like the supervisor’s recent papers and research direction?</li>
-        <li>Are students publishing regularly in strong venues?</li>
-        <li>Does the group culture match you (hands-on vs hands-off; applied vs theory; collaborative vs independent)?</li>
-        <li>Do you understand what *you* will likely work on in the first year?</li>
-      </ul>
-    </div>
-
-    <p class="mutedText" style="margin-top:10px;">
+<div>
+<h4 class="h5 mt-3">What you should check before emailing</h4>
+<ul>
+<li>Do you genuinely like the supervisor’s recent papers and research direction?</li>
+<li>Are students publishing regularly in strong venues?</li>
+<li>Does the group culture match you (hands-on vs hands-off; applied vs theory; collaborative vs independent)?</li>
+<li>Do you understand what *you* will likely work on in the first year?</li>
+</ul>
+</div>
+<p>
       The strongest emails are the ones that show you read at least 1–2 papers, can explain why they matter,
       and propose a direction you want to explore (even if it is preliminary).
     </p>
-  </div>
-
-  <!-- Workflow -->
-  <div class="section-card" id="workflow">
-    <h2 class="section-title">4) How a PhD works (and what strong students do differently)</h2>
-    <p class="mutedText">
+</div></div></div>
+<div class="card border-0 shadow-sm bg-white my-3"><div class="card-body p-4"><div id="workflow">
+<h2 class="h4 mb-3">4) How a PhD works (and what strong students do differently)</h2>
+<p>
       A PhD is driven by the student. I will guide, challenge, and support you — but you must own the research.
       The difference between struggling and thriving is often habits and process, not intelligence.
     </p>
-
-    <div class="grid2">
-      <div class="box">
-        <h4>Strong students typically…</h4>
-        <ul>
-          <li>Read consistently (papers, code, evaluations) and keep notes.</li>
-          <li>Implement quickly, test ideas, and iterate with evidence.</li>
-          <li>Write early (a living draft beats a “perfect” draft later).</li>
-          <li>Communicate clearly: what you tried, what failed, what you learned, what’s next.</li>
-          <li>Build strong baselines and trust their experiments.</li>
-        </ul>
-      </div>
-      <div class="box">
-        <h4>Students who struggle often…</h4>
-        <ul>
-          <li>Wait for tasks instead of defining next steps.</li>
-          <li>Spend too long “preparing” without building or testing.</li>
-          <li>Avoid writing until the end (which makes publishing hard).</li>
-          <li>Run experiments without careful evaluation or ablations.</li>
-          <li>Disappear for weeks, then try to compress progress into one meeting.</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <!-- What you can expect -->
-  <div class="section-card" id="youexpect">
-    <h2 class="section-title">5) What you can expect from me</h2>
-    <p class="mutedText">
+<div>
+<div>
+<h4 class="h5 mt-3">Strong students typically…</h4>
+<ul>
+<li>Read consistently (papers, code, evaluations) and keep notes.</li>
+<li>Implement quickly, test ideas, and iterate with evidence.</li>
+<li>Write early (a living draft beats a “perfect” draft later).</li>
+<li>Communicate clearly: what you tried, what failed, what you learned, what’s next.</li>
+<li>Build strong baselines and trust their experiments.</li>
+</ul>
+</div>
+<div>
+<h4 class="h5 mt-3">Students who struggle often…</h4>
+<ul>
+<li>Wait for tasks instead of defining next steps.</li>
+<li>Spend too long “preparing” without building or testing.</li>
+<li>Avoid writing until the end (which makes publishing hard).</li>
+<li>Run experiments without careful evaluation or ablations.</li>
+<li>Disappear for weeks, then try to compress progress into one meeting.</li>
+</ul>
+</div>
+</div>
+</div></div></div>
+<div class="card border-0 shadow-sm bg-white my-3"><div class="card-body p-4"><div id="youexpect">
+<h2 class="h4 mb-3">5) What you can expect from me</h2>
+<p>
       My goal is to help you become a strong independent researcher who can publish in top venues and build impactful medical AI systems.
       In practical terms, here is what you can expect:
     </p>
-    <ul>
-      <li><b>Clear starting direction:</b> reading list, baselines, milestones, and a realistic first project plan.</li>
-      <li><b>Regular supervision:</b> weekly meetings (more when needed), and active iteration on ideas.</li>
-      <li><b>Strong writing mentorship:</b> structure, positioning, clarity, and top-tier paper craft.</li>
-      <li><b>Top-venue focus:</b> NeurIPS, ICLR, CVPR, AAAI, WWW, MICCAI, etc. (quality over quantity).</li>
-      <li><b>Research culture:</b> high standards, fast iteration, and supportive collaboration.</li>
-    </ul>
-  </div>
-
-  <!-- What I expect -->
-  <div class="section-card" id="iexpect">
-    <h2 class="section-title">6) What I expect from you</h2>
-    <p class="mutedText">
+<ul>
+<li><b>Clear starting direction:</b> reading list, baselines, milestones, and a realistic first project plan.</li>
+<li><b>Regular supervision:</b> weekly meetings (more when needed), and active iteration on ideas.</li>
+<li><b>Strong writing mentorship:</b> structure, positioning, clarity, and top-tier paper craft.</li>
+<li><b>Top-venue focus:</b> NeurIPS, ICLR, CVPR, AAAI, WWW, MICCAI, etc. (quality over quantity).</li>
+<li><b>Research culture:</b> high standards, fast iteration, and supportive collaboration.</li>
+</ul>
+</div></div></div>
+<div class="card border-0 shadow-sm bg-white my-3"><div class="card-body p-4"><div id="iexpect">
+<h2 class="h4 mb-3">6) What I expect from you</h2>
+<p>
       A successful PhD requires more than intelligence — it requires consistency, discipline, and ownership.
       If you join my group, I will expect:
     </p>
-    <ul>
-      <li><b>Strong fundamentals:</b> ML basics, deep learning, probability/optimization at a workable level.</li>
-      <li><b>Practical ability:</b> clean code, reproducible experiments, and careful evaluation.</li>
-      <li><b>Independence:</b> you can learn what you don’t know and come back with solutions.</li>
-      <li><b>Ambition:</b> aiming for top venues and meaningful scientific contributions.</li>
-      <li><b>Integrity:</b> honest reporting of results (including negative results) and research ethics.</li>
-    </ul>
-    <p class="smallText" style="margin-bottom:0;">
+<ul>
+<li><b>Strong fundamentals:</b> ML basics, deep learning, probability/optimization at a workable level.</li>
+<li><b>Practical ability:</b> clean code, reproducible experiments, and careful evaluation.</li>
+<li><b>Independence:</b> you can learn what you don’t know and come back with solutions.</li>
+<li><b>Ambition:</b> aiming for top venues and meaningful scientific contributions.</li>
+<li><b>Integrity:</b> honest reporting of results (including negative results) and research ethics.</li>
+</ul>
+<p>
       If you feel stuck or overwhelmed, communicate early. Silence is the biggest productivity killer in a PhD.
     </p>
-  </div>
-
-  <!-- How to apply -->
-  <div class="section-card" id="apply">
-    <h2 class="section-title">7) How to apply</h2>
-    <div class="applyRow">
-      <p class="mutedText" style="margin:0;">
-        Email: <b>imran.razzak</b> <span style="opacity:.9;">[at]</span> <b>mbzuai.ac.ae</b>
-      </p>
-      <p class="smallText" style="margin:8px 0 0;">
+</div></div></div>
+<div class="card border-0 shadow-sm bg-white my-3"><div class="card-body p-4"><div id="apply">
+<h2 class="h4 mb-3">7) How to apply</h2>
+<div>
+<p>
+        Email: <b>imran.razzak</b> <span>[at]</span> <b>mbzuai.ac.ae</b>
+</p>
+<p>
         Subject suggestion: <b>PhD Application — [Your Name] — Medical VLM / Foundation Models</b>
-      </p>
-    </div>
-
-    <p class="mutedText" style="margin-top:12px;">
+</p>
+</div>
+<p>
       Please include the following (PDF preferred, links are fine too):
     </p>
-    <ul>
-      <li><b>CV</b> (include GPA, ranks if relevant, awards, publications, and research experience)</li>
-      <li><b>Transcripts</b> (unofficial is fine for initial contact)</li>
-      <li><b>Short research proposal (1–2 pages)</b> covering: problem, why it matters, your idea, and what you would do in 3–6 months</li>
-      <li><b>Evidence of skills:</b> GitHub, project portfolio, papers, Kaggle, or a strong reproducible project</li>
-    </ul>
-
-    <div class="box">
-      <h4>How I evaluate applications (transparent)</h4>
-      <ul>
-        <li><b>Fit:</b> does your interest match medical VLM / foundation models / clinical AI?</li>
-        <li><b>Evidence of ability:</b> strong projects, code, publications, or rigorous coursework</li>
-        <li><b>Clarity:</b> can you explain a technical idea clearly?</li>
-        <li><b>Research mindset:</b> curiosity + persistence + willingness to iterate</li>
-      </ul>
-    </div>
-
-    <p class="smallText" style="margin-top:10px; margin-bottom:0;">
+<ul>
+<li><b>CV</b> (include GPA, ranks if relevant, awards, publications, and research experience)</li>
+<li><b>Transcripts</b> (unofficial is fine for initial contact)</li>
+<li><b>Short research proposal (1–2 pages)</b> covering: problem, why it matters, your idea, and what you would do in 3–6 months</li>
+<li><b>Evidence of skills:</b> GitHub, project portfolio, papers, Kaggle, or a strong reproducible project</li>
+</ul>
+<div>
+<h4 class="h5 mt-3">How I evaluate applications (transparent)</h4>
+<ul>
+<li><b>Fit:</b> does your interest match medical VLM / foundation models / clinical AI?</li>
+<li><b>Evidence of ability:</b> strong projects, code, publications, or rigorous coursework</li>
+<li><b>Clarity:</b> can you explain a technical idea clearly?</li>
+<li><b>Research mindset:</b> curiosity + persistence + willingness to iterate</li>
+</ul>
+</div>
+<p>
       After screening, I may send a small technical task (paper reading or implementation-style) and/or schedule a short call.
     </p>
-  </div>
-
-  <!-- Reading -->
-  <div class="section-card" id="reading">
-    <h2 class="section-title">8) Suggested reading</h2>
-    <p class="mutedText">
+</div></div></div>
+<div class="card border-0 shadow-sm bg-white my-3"><div class="card-body p-4"><div id="reading">
+<h2 class="h4 mb-3">8) Suggested reading</h2>
+<p>
       If you are new to PhD research culture, these are worth reading:
     </p>
-    <ul>
-      <li><a href="http://matt.might.net/articles/phd-school-in-pictures/" target="_blank" rel="noopener noreferrer">The illustrated guide to a PhD</a></li>
-      <li><a href="http://matt.might.net/articles/successful-phd-students/" target="_blank" rel="noopener noreferrer">How to succeed in PhD (habits & mindset)</a></li>
-      <li><a href="http://www.cs.purdue.edu/homes/dec/essay.phd.html" target="_blank" rel="noopener noreferrer">Notes on the PhD degree</a></li>
-      <li><a href="http://cseweb.ucsd.edu/~mihir/phd.html" target="_blank" rel="noopener noreferrer">The PhD experience</a></li>
-    </ul>
-  </div>
-
-  <div class="footerBox">
-    <hr style="border-color: rgba(255,255,255,.12);" />
-    © Imran Razzak | MBZUAI
-  </div>
-
-</div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="dist/js/bootstrap.min.js"></script>
-</body>
-</html>
+<ul>
+<li><a href="http://matt.might.net/articles/phd-school-in-pictures/" rel="noopener noreferrer" target="_blank">The illustrated guide to a PhD</a></li>
+<li><a href="http://matt.might.net/articles/successful-phd-students/" rel="noopener noreferrer" target="_blank">How to succeed in PhD (habits &amp; mindset)</a></li>
+<li><a href="http://www.cs.purdue.edu/homes/dec/essay.phd.html" rel="noopener noreferrer" target="_blank">Notes on the PhD degree</a></li>
+<li><a href="http://cseweb.ucsd.edu/~mihir/phd.html" rel="noopener noreferrer" target="_blank">The PhD experience</a></li>
+</ul>
+</div></div></div>
