@@ -1,570 +1,315 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+<!-- Template: https://github.com/luost26/academic-homepage -->
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Research & Projects - Imran Razzak</title>
 
-  <title>Projects | Imran Razzak</title>
-  <meta name="description" content="Selected projects in Personalized Medicine, Medical Imaging, and Multimodal AI by Imran Razzak (MBZUAI)." />
-  <meta name="author" content="Imran Razzak" />
-
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="justified-nav.css" />
-
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="img/logo.webp" type="image/webp" />
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-  <style>
-    :root{
-      --bg0:#070A12;
-      --bg1:#0A1022;
-      --text:#EAF0FF;
-      --muted:#B6C2E2;
-      --muted2:#8FA0C8;
-
-      --brand:#7C5CFF;
-      --brand2:#2EE9A6;
-
-      --shadow: 0 16px 60px rgba(0,0,0,.45);
-      --shadow2: 0 10px 30px rgba(0,0,0,.35);
-
-      --radius: 18px;
-      --radius2: 14px;
-
-      --chipBg: rgba(255,255,255,.06);
-      --chipBorder: rgba(255,255,255,.12);
-      --cardBg: rgba(255,255,255,.03);
-      --cardBorder: rgba(255,255,255,.08);
-    }
-
-    body{
-      font-family:"Plus Jakarta Sans", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-      background:
-        radial-gradient(1100px 700px at 10% 0%, rgba(124,92,255,.24), transparent 55%),
-        radial-gradient(900px 600px at 95% 10%, rgba(46,233,166,.18), transparent 50%),
-        radial-gradient(700px 500px at 65% 85%, rgba(255,77,125,.14), transparent 55%),
-        linear-gradient(180deg, var(--bg0), var(--bg1));
-      color: var(--text);
-    }
-
-    a { color:#B7B0FF; }
-    a:hover { color:#d8d4ff; }
-    .container { max-width: 1140px; }
-
-    /* Dark nav */
-    .nav-justified > li > a{
-      background: rgba(255,255,255,.04) !important;
-      border: 1px solid rgba(255,255,255,.10) !important;
-      color: var(--muted) !important;
-      font-weight: 800;
-      border-radius: 12px !important;
-      margin: 4px;
-    }
-    .nav-justified > .active > a,
-    .nav-justified > li > a:hover{
-      background: rgba(124,92,255,.18) !important;
-      border-color: rgba(124,92,255,.35) !important;
-      color: var(--text) !important;
-    }
-
-    /* Hero */
-    .hero {
-      margin-top: 18px;
-      border-radius: var(--radius);
-      padding: 20px 20px 14px;
-      background:
-        linear-gradient(135deg, rgba(124,92,255,.22), rgba(46,233,166,.10)),
-        rgba(255,255,255,.04);
-      border: 1px solid rgba(255,255,255,.10);
-      box-shadow: var(--shadow);
-      overflow: hidden;
-      position: relative;
-    }
-    .hero:before{
-      content:"";
-      position:absolute;
-      width:520px; height:520px;
-      background: radial-gradient(circle at 30% 30%, rgba(255,255,255,.12), transparent 60%);
-      right:-240px; top:-300px;
-      transform: rotate(10deg);
-      pointer-events:none;
-    }
-    .hero h1{
-      margin: 0 0 6px;
-      font-weight: 900;
-      letter-spacing: .2px;
-      font-size: 28px;
-    }
-    .hero .sub{
-      color: var(--muted);
-      margin: 0;
-      font-size: 14px;
-      max-width: 90ch;
-      line-height: 1.5;
-    }
-    .pillrow{
-      margin-top: 12px;
-      display:flex; flex-wrap:wrap; gap:10px;
-    }
-    .pill{
-      display:inline-flex; align-items:center; gap:8px;
-      padding:8px 10px;
-      border-radius:999px;
-      background: rgba(255,255,255,.06);
-      border:1px solid rgba(255,255,255,.12);
-      color: var(--muted);
-      font-weight: 800;
-      font-size: 12px;
-      box-shadow: var(--shadow2);
-    }
-    .pill .dot{
-      width:8px; height:8px; border-radius:50%;
-      background: var(--brand2);
-      box-shadow: 0 0 0 5px rgba(46,233,166,.12);
-    }
-
-    /* Section cards */
-    .section-card{
-      border-radius: var(--radius);
-      background: var(--cardBg);
-      border: 1px solid var(--cardBorder);
-      box-shadow: var(--shadow2);
-      padding: 16px 16px 14px;
-      margin-top: 16px;
-    }
-    .section-title{
-      margin: 0 0 8px;
-      font-weight: 900;
-      letter-spacing: .2px;
-      font-size: 18px;
-    }
-    .mutedText { color: var(--muted); }
-
-    /* Project grid */
-    .projGrid{
-      display:grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 14px;
-      margin-top: 12px;
-    }
-    @media (max-width: 992px){
-      .projGrid{ grid-template-columns: repeat(2, 1fr); }
-    }
-    @media (max-width: 640px){
-      .projGrid{ grid-template-columns: 1fr; }
-    }
-
-    .projCard{
-      border-radius: var(--radius2);
-      background: rgba(15,23,48,.70);
-      border: 1px solid rgba(255,255,255,.10);
-      box-shadow: var(--shadow2);
-      overflow:hidden;
-      display:flex;
-      flex-direction:column;
-      min-height: 330px;
-    }
-
-    .projMedia{
-      border-bottom: 1px solid rgba(255,255,255,.10);
-      background:
-        radial-gradient(260px 180px at 30% 30%, rgba(255,255,255,.10), transparent 60%),
-        linear-gradient(135deg, rgba(124,92,255,.12), rgba(46,233,166,.08));
-      position: relative;
-      height: 190px;
-      overflow:hidden;
-    }
-
-    .projMedia img, .projMedia video, .projMedia iframe{
-      width:100%;
-      height:100%;
-      object-fit: cover;
-      display:block;
-      border:0;
-    }
-
-    .projBody{
-      padding: 12px 12px 14px;
-      display:flex;
-      flex-direction:column;
-      gap: 8px;
-      flex: 1;
-    }
-
-    .projTitle{
-      font-weight: 950;
-      font-size: 14px;
-      letter-spacing: .2px;
-      margin:0;
-    }
-    .projDesc{
-      margin:0;
-      color: var(--muted);
-      font-size: 13px;
-      line-height: 1.45;
-    }
-
-    .chips{
-      display:flex;
-      flex-wrap:wrap;
-      gap: 8px;
-      margin-top: 2px;
-    }
-    .chip{
-      display:inline-flex;
-      align-items:center;
-      gap:6px;
-      padding: 6px 8px;
-      border-radius: 999px;
-      font-size: 11px;
-      font-weight: 900;
-      color: var(--text);
-      background: var(--chipBg);
-      border: 1px solid var(--chipBorder);
-    }
-
-    .projFooter{
-      margin-top:auto;
-      display:flex;
-      flex-wrap:wrap;
-      gap: 10px;
-      padding-top: 6px;
-    }
-
-    .btnx{
-      display:inline-flex;
-      align-items:center;
-      gap:8px;
-      padding: 8px 10px;
-      border-radius: 12px;
-      font-weight: 900;
-      font-size: 12px;
-      border: 1px solid rgba(255,255,255,.12);
-      background: rgba(255,255,255,.06);
-      color: var(--text);
-      text-decoration:none !important;
-      box-shadow: var(--shadow2);
-    }
-    .btnx.primary{
-      border:none;
-      background: linear-gradient(135deg, var(--brand), #5BB8FF);
-    }
-    .btnx.ok{
-      border:none;
-      background: linear-gradient(135deg, rgba(46,233,166,.95), rgba(91,184,255,.85));
-      color:#071019;
-    }
-
-    /* Scholar callout */
-    .scholarCallout{
-      border-radius: var(--radius2);
-      padding: 12px 14px;
-      background: linear-gradient(135deg, rgba(255,77,125,.14), rgba(124,92,255,.14));
-      border: 1px solid rgba(255,255,255,.12);
-      box-shadow: var(--shadow2);
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap: 12px;
-      flex-wrap:wrap;
-    }
-    .scholarCallout h3{
-      margin:0;
-      font-size: 14px;
-      font-weight: 950;
-      letter-spacing: .2px;
-    }
-    .scholarCallout p{
-      margin:0;
-      color: var(--muted);
-      font-size: 13px;
-    }
-
-    .footerBox{
-      text-align:center;
-      color: var(--muted2);
-      font-size: 12px;
-      padding-top: 18px;
-      padding-bottom: 8px;
-    }
-  </style>
+    <meta name="description" content="Imran Razzak — Associate Professor of Computational Biology at MBZUAI. Medical foundation models, personalized medicine, and multimodal clinical AI.">
+    <link rel="canonical" href="https://imranrazzak.github.io/projects.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Research &amp; Projects - Imran Razzak">
+    <meta property="og:description" content="Imran Razzak — Associate Professor of Computational Biology at MBZUAI. Medical foundation models, personalized medicine, and multimodal clinical AI.">
+    <meta property="og:url" content="https://imranrazzak.github.io/projects.html">
+    <meta property="og:image" content="https://imranrazzak.github.io/img/imrazzak.jpg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Research &amp; Projects - Imran Razzak">
+    <meta name="twitter:description" content="Imran Razzak — Associate Professor of Computational Biology at MBZUAI. Medical foundation models, personalized medicine, and multimodal clinical AI.">
+    <meta name="twitter:image" content="https://imranrazzak.github.io/img/imrazzak.jpg">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.1/css/academicons.min.css" integrity="sha512-b1ASx0WHgVFL5ZQhTgiPWX+68KjS38Jk87jg7pe+qC7q9YkEtFq0z7xCglv7qGIs/68d3mAp+StfC8WKC5SSAg==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/global.css">
 </head>
+<body class="bg-light" >
+    <nav class="navbar navbar-expand-xl navbar-light fixed-top mb-5 shadow-sm">
+    <div class="container-lg">
+        <a class="navbar-brand" href="/"><strong>Imran Razzak</strong></a>
+        <button class="navbar-toggler" style="font-size: 1em; padding: 0.5em;" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-map"></i> Menu
+        </button>
 
-<body>
-  <div class="container">
-
-    <!-- Hero -->
-    <div class="hero">
-      <h1>Projects</h1>
-      <p class="sub">
-        A selection of projects spanning <b>Personalized Medicine</b>, <b>Medical Imaging</b>, and <b>Multimodal AI</b>.
-        We build systems that connect vision + language for clinical reasoning, spatial grounding, and robust decision support.
-      </p>
-      <div class="pillrow">
-        <span class="pill"><span class="dot" aria-hidden="true"></span> Medical Imaging</span>
-        <span class="pill">Personalized Medicine</span>
-        <span class="pill">Clinical Reasoning</span>
-        <span class="pill">Segmentation & Localization</span>
-        <span class="pill">Multimodal AI</span>
-      </div>
-    </div>
-
-    <!-- Nav -->
-    <ul class="nav nav-justified" style="margin-top:10px;">
-      <li><a href="index.html">Home</a></li>
-      <li class="active"><a href="projects.html">Publication and Projects</a></li>
-      <li><a href="research.html">Datasets</a></li>
-      <li><a href="grants-awards.html">Grants &amp; Awards</a></li>
-      <li><a href="publications.html">Teaching</a></li>
-      <li><a href="teaching.html">Research Team</a></li>
-      <li><a href="student.html">Prospective PhD Student</a></li>
-      <li><a href="services.html">Services</a></li>
-    </ul>
-
-    <!-- Scholar callout -->
-    <div class="section-card">
-      <div class="scholarCallout">
-        <div>
-          <h3>📚 Publications</h3>
-          <p>For the full and up-to-date list of papers, please visit my Google Scholar profile.</p>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="/publications.html">Publications</a>
+                </li>
+                
+                <li class="nav-item active">
+                    <a class="nav-link" href="/projects.html">Research</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="/team.html">Team</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="/teaching.html">Teaching</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="/grants-awards.html">Grants & Awards</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="/student.html">Students</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="/services.html">Service</a>
+                </li>
+                
+            </ul>
         </div>
-        <a class="btnx primary"
-           href="https://scholar.google.com/citations?hl=en&user=GlXI4N8AAAAJ&view_op=list_works&sortby=pubdate"
-           target="_blank" rel="noopener noreferrer">
-          Visit Google Scholar →
-        </a>
-      </div>
     </div>
+</nav>
 
-    <!-- Featured projects -->
-    <div class="section-card">
-      <h2 class="section-title">Selected Projects</h2>
-      <p class="mutedText" style="margin-top:0;">
+    <div class="container-lg">
+        <h1 class="h2 my-4">Research & Projects</h1>
+<div class="card border-0 shadow-sm bg-white my-3"><div class="card-body p-4"><h2 class="h4">MedMO: medical foundation models</h2><p>Multimodal understanding, clinical reasoning, report generation, and spatial grounding across medical imaging.</p><p><a href="https://arxiv.org/abs/2602.06965">Paper</a> · <a href="https://github.com/genmilab/MedMO">Code</a> · <a href="https://huggingface.co/collections/MBZUAI/medmo">Models</a></p><p class="mb-0"><a href="/research.html">Explore datasets and benchmarks</a> · <a href="/publications.html">Browse all publications</a></p></div></div>
+<div class="card border-0 shadow-sm bg-white my-3"><div class="card-body p-4"><div>
+<h2 class="h4 mb-3">Selected Projects</h2>
+<p>
         Below are representative research directions from our lab. Each card highlights the clinical goal,
         the AI task, and the type of evidence we aim to produce (localization, segmentation, reports, or reasoning).
       </p>
+<div class="row">
 
-      <div class="projGrid">
+<div class="col-md-6 mb-4">
+<div>
+<video class="w-100 rounded" controls="" playsinline="" preload="none" src="img/brain.mp4"></video>
+</div>
+<div>
+<p class="h5 mt-3">Brain Tumor Segmentation</p>
+<p>High-precision tumor delineation to support treatment planning and longitudinal monitoring.</p>
+<div>
+<span class="badge badge-light mr-1">🧠 MRI</span>
+<span class="badge badge-light mr-1">✂️ Segmentation</span>
+<span class="badge badge-light mr-1">📍 Localization</span>
+</div>
+</div>
+</div>
 
-        <!-- Brain Tumor Segmentation (mp4 fixed: use video) -->
-        <div class="projCard">
-          <div class="projMedia">
-            <video src="img/brain.mp4" controls playsinline preload="metadata"></video>
-          </div>
-          <div class="projBody">
-            <p class="projTitle">Brain Tumor Segmentation</p>
-            <p class="projDesc">High-precision tumor delineation to support treatment planning and longitudinal monitoring.</p>
-            <div class="chips">
-              <span class="chip">🧠 MRI</span>
-              <span class="chip">✂️ Segmentation</span>
-              <span class="chip">📍 Localization</span>
-            </div>
-          </div>
-        </div>
+<div class="col-md-6 mb-4">
+<div>
+<img alt="Multiomics visualization" class="img-fluid rounded" loading="lazy" src="img/genom.gif"/>
+</div>
+<div>
+<p class="h5 mt-3">Early Diagnosis with Multi-omics</p>
+<p>Integrating heterogeneous omics signals to improve early risk prediction and patient stratification.</p>
+<div>
+<span class="badge badge-light mr-1">🧬 Multi-omics</span>
+<span class="badge badge-light mr-1">📈 Risk Modeling</span>
+<span class="badge badge-light mr-1">🧠 Representation</span>
+</div>
+</div>
+</div>
 
-        <!-- Early Diagnosis: Multiomics -->
-        <div class="projCard">
-          <div class="projMedia">
-            <img src="img/genom.gif" alt="Multiomics visualization">
-          </div>
-          <div class="projBody">
-            <p class="projTitle">Early Diagnosis with Multi-omics</p>
-            <p class="projDesc">Integrating heterogeneous omics signals to improve early risk prediction and patient stratification.</p>
-            <div class="chips">
-              <span class="chip">🧬 Multi-omics</span>
-              <span class="chip">📈 Risk Modeling</span>
-              <span class="chip">🧠 Representation</span>
-            </div>
-          </div>
-        </div>
+<div class="col-md-6 mb-4">
+<div>
+<img alt="Migraine diagnosis visualization" class="img-fluid rounded" loading="lazy" src="img/migarinegif.gif"/>
+</div>
+<div>
+<p class="h5 mt-3">Early Migraine Diagnosis</p>
+<p>Learning multimodal biomarkers to enable earlier screening and improved patient outcomes.</p>
+<div>
+<span class="badge badge-light mr-1">🧠 Neurology</span>
+<span class="badge badge-light mr-1">🧪 Biomarkers</span>
+<span class="badge badge-light mr-1">🤖 ML</span>
+</div>
+</div>
+</div>
 
-        <!-- Early Migraine Diagnosis -->
-        <div class="projCard">
-          <div class="projMedia">
-            <img src="img/migarinegif.gif" alt="Migraine diagnosis visualization">
-          </div>
-          <div class="projBody">
-            <p class="projTitle">Early Migraine Diagnosis</p>
-            <p class="projDesc">Learning multimodal biomarkers to enable earlier screening and improved patient outcomes.</p>
-            <div class="chips">
-              <span class="chip">🧠 Neurology</span>
-              <span class="chip">🧪 Biomarkers</span>
-              <span class="chip">🤖 ML</span>
-            </div>
-          </div>
-        </div>
+<div class="col-md-6 mb-4">
+<div>
+<img alt="Heart segmentation visualization" class="img-fluid rounded" loading="lazy" src="img/heartgif.gif"/>
+</div>
+<div>
+<p class="h5 mt-3">Heart Segmentation &amp; Mesh Construction</p>
+<p>Accurate cardiac structures with geometry-aware modeling for quantitative analysis and simulation.</p>
+<div>
+<span class="badge badge-light mr-1">❤️ Cardiac</span>
+<span class="badge badge-light mr-1">✂️ Segmentation</span>
+<span class="badge badge-light mr-1">🧩 Mesh</span>
+</div>
+</div>
+</div>
 
-        <!-- Heart Segmentation and Mesh Construction -->
-        <div class="projCard">
-          <div class="projMedia">
-            <img src="img/heartgif.gif" alt="Heart segmentation visualization">
-          </div>
-          <div class="projBody">
-            <p class="projTitle">Heart Segmentation & Mesh Construction</p>
-            <p class="projDesc">Accurate cardiac structures with geometry-aware modeling for quantitative analysis and simulation.</p>
-            <div class="chips">
-              <span class="chip">❤️ Cardiac</span>
-              <span class="chip">✂️ Segmentation</span>
-              <span class="chip">🧩 Mesh</span>
-            </div>
-          </div>
-        </div>
+<div class="col-md-6 mb-4">
+<div>
+<img alt="Alzheimer diagnosis visualization" class="img-fluid rounded" loading="lazy" src="img/alzgif.gif"/>
+</div>
+<div>
+<p class="h5 mt-3">Early Alzheimer’s Diagnosis</p>
+<p>Imaging-driven prediction with robust evaluation and clinically meaningful interpretability.</p>
+<div>
+<span class="badge badge-light mr-1">🧠 Brain</span>
+<span class="badge badge-light mr-1">📉 Progression</span>
+<span class="badge badge-light mr-1">🧾 Explainability</span>
+</div>
+</div>
+</div>
 
-        <!-- Early Alzheimer's Diagnosis -->
-        <div class="projCard">
-          <div class="projMedia">
-            <img src="img/alzgif.gif" alt="Alzheimer diagnosis visualization">
-          </div>
-          <div class="projBody">
-            <p class="projTitle">Early Alzheimer’s Diagnosis</p>
-            <p class="projDesc">Imaging-driven prediction with robust evaluation and clinically meaningful interpretability.</p>
-            <div class="chips">
-              <span class="chip">🧠 Brain</span>
-              <span class="chip">📉 Progression</span>
-              <span class="chip">🧾 Explainability</span>
-            </div>
-          </div>
-        </div>
+<div class="col-md-6 mb-4">
+<div>
+<img alt="Medication effect visualization" class="img-fluid rounded" loading="lazy" src="img/diseasegif.gif"/>
+</div>
+<div>
+<p class="h5 mt-3">Impact of Medication</p>
+<p>Understanding treatment effects with longitudinal signals to support personalized care pathways.</p>
+<div>
+<span class="badge badge-light mr-1">🧪 Treatment</span>
+<span class="badge badge-light mr-1">⏳ Longitudinal</span>
+<span class="badge badge-light mr-1">🎯 Personalization</span>
+</div>
+</div>
+</div>
 
-        <!-- Impact of Medication -->
-        <div class="projCard">
-          <div class="projMedia">
-            <img src="img/diseasegif.gif" alt="Medication effect visualization">
-          </div>
-          <div class="projBody">
-            <p class="projTitle">Impact of Medication</p>
-            <p class="projDesc">Understanding treatment effects with longitudinal signals to support personalized care pathways.</p>
-            <div class="chips">
-              <span class="chip">🧪 Treatment</span>
-              <span class="chip">⏳ Longitudinal</span>
-              <span class="chip">🎯 Personalization</span>
-            </div>
-          </div>
-        </div>
+<div class="col-md-6 mb-4">
+<div>
+<img alt="Brain shift correction visualization" class="img-fluid rounded" loading="lazy" src="img/curious.gif"/>
+</div>
+<div>
+<p class="h5 mt-3">Brain Shift Correction (Intra-operative iUS)</p>
+<p>Improving surgical guidance by correcting deformation and aligning intra-operative signals.</p>
+<div>
+<span class="badge badge-light mr-1">🧠 Neurosurgery</span>
+<span class="badge badge-light mr-1">🩻 iUS</span>
+<span class="badge badge-light mr-1">🧭 Registration</span>
+</div>
+</div>
+</div>
 
-        <!-- Brain Shift Correction: iUS -->
-        <div class="projCard">
-          <div class="projMedia">
-            <img src="img/curious.gif" alt="Brain shift correction visualization">
-          </div>
-          <div class="projBody">
-            <p class="projTitle">Brain Shift Correction (Intra-operative iUS)</p>
-            <p class="projDesc">Improving surgical guidance by correcting deformation and aligning intra-operative signals.</p>
-            <div class="chips">
-              <span class="chip">🧠 Neurosurgery</span>
-              <span class="chip">🩻 iUS</span>
-              <span class="chip">🧭 Registration</span>
-            </div>
-          </div>
-        </div>
+<div class="col-md-6 mb-4">
+<div>
+<img alt="Cardiac MR motion visualization" class="img-fluid rounded" loading="lazy" src="img/hm.gif"/>
+</div>
+<div>
+<p class="h5 mt-3">Cardiac MR under Respiratory Motion</p>
+<p>Motion-robust reconstruction and analysis for reliable cardiac quantification.</p>
+<div>
+<span class="badge badge-light mr-1">❤️ CMR</span>
+<span class="badge badge-light mr-1">🌬️ Motion</span>
+<span class="badge badge-light mr-1">🛠️ Reconstruction</span>
+</div>
+</div>
+</div>
 
-        <!-- Cardiac MR under Respiratory Motion -->
-        <div class="projCard">
-          <div class="projMedia">
-            <img src="img/hm.gif" alt="Cardiac MR motion visualization">
-          </div>
-          <div class="projBody">
-            <p class="projTitle">Cardiac MR under Respiratory Motion</p>
-            <p class="projDesc">Motion-robust reconstruction and analysis for reliable cardiac quantification.</p>
-            <div class="chips">
-              <span class="chip">❤️ CMR</span>
-              <span class="chip">🌬️ Motion</span>
-              <span class="chip">🛠️ Reconstruction</span>
-            </div>
-          </div>
-        </div>
+<div class="col-md-6 mb-4">
+<div>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/YRMRc8tIupA" title="EveSense Demo"></iframe>
+</div>
+<div>
+<p class="h5 mt-3">EveSense (ECIR Demo): Event Detection on Social Media</p>
+<p>Detecting and summarizing real-world events from social streams for timely situational awareness.</p>
+<div>
+<span class="badge badge-light mr-1">🕸️ Social</span>
+<span class="badge badge-light mr-1">🧠 NLP</span>
+<span class="badge badge-light mr-1">⚡ Detection</span>
+</div>
+</div>
+</div>
 
-        <!-- Event Detection on Social Media (YouTube) -->
-        <div class="projCard">
-          <div class="projMedia">
-            <iframe
-              src="https://www.youtube.com/embed/YRMRc8tIupA"
-              title="EveSense Demo"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-          </div>
-          <div class="projBody">
-            <p class="projTitle">EveSense (ECIR Demo): Event Detection on Social Media</p>
-            <p class="projDesc">Detecting and summarizing real-world events from social streams for timely situational awareness.</p>
-            <div class="chips">
-              <span class="chip">🕸️ Social</span>
-              <span class="chip">🧠 NLP</span>
-              <span class="chip">⚡ Detection</span>
-            </div>
-          </div>
-        </div>
+<div class="col-md-6 mb-4">
+<div>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/YRMRc8tIupA" title="Jarvis Demo"></iframe>
+</div>
+<div>
+<p class="h5 mt-3">Jarvis (MDM Best Demo): Voice-based Context-as-a-Service for Smart Homes</p>
+<p>A voice-driven assistant that uses context signals for adaptive, personalized interactions.</p>
+<div>
+<span class="badge badge-light mr-1">🎙️ Voice</span>
+<span class="badge badge-light mr-1">🏠 Smart Home</span>
+<span class="badge badge-light mr-1">🧩 Context</span>
+</div>
+</div>
+</div>
 
-        <!-- Jarvis (MDM Best Demo) -->
-        <div class="projCard">
-          <div class="projMedia">
-            <iframe
-              src="https://www.youtube.com/embed/YRMRc8tIupA"
-              title="Jarvis Demo"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-          </div>
-          <div class="projBody">
-            <p class="projTitle">Jarvis (MDM Best Demo): Voice-based Context-as-a-Service for Smart Homes</p>
-            <p class="projDesc">A voice-driven assistant that uses context signals for adaptive, personalized interactions.</p>
-            <div class="chips">
-              <span class="chip">🎙️ Voice</span>
-              <span class="chip">🏠 Smart Home</span>
-              <span class="chip">🧩 Context</span>
-            </div>
-          </div>
-        </div>
+<div class="col-md-6 mb-4">
+<div>
+<img alt="Hierarchical image classification visualization" class="img-fluid rounded" loading="lazy" src="img/h1.gif"/>
+</div>
+<div>
+<p class="h5 mt-3">Hierarchical Image Classification</p>
+<p>Structured visual recognition that leverages label hierarchies for better generalization.</p>
+<div>
+<span class="badge badge-light mr-1">🖼️ Vision</span>
+<span class="badge badge-light mr-1">🌲 Hierarchy</span>
+<span class="badge badge-light mr-1">📊 Generalization</span>
+</div>
+</div>
+</div>
 
-        <!-- Hierarchical Image Classification -->
-        <div class="projCard">
-          <div class="projMedia">
-            <img src="img/h1.gif" alt="Hierarchical image classification visualization">
-          </div>
-          <div class="projBody">
-            <p class="projTitle">Hierarchical Image Classification</p>
-            <p class="projDesc">Structured visual recognition that leverages label hierarchies for better generalization.</p>
-            <div class="chips">
-              <span class="chip">🖼️ Vision</span>
-              <span class="chip">🌲 Hierarchy</span>
-              <span class="chip">📊 Generalization</span>
-            </div>
-          </div>
-        </div>
+<div class="col-md-6 mb-4">
+<div>
+<img alt="Event detection on social media visualization" class="img-fluid rounded" loading="lazy" src="img/twitter.gif"/>
+</div>
+<div>
+<p class="h5 mt-3">Event Detection on Social Media</p>
+<p>From noisy streams to actionable signals: detection, clustering, and narrative summarization.</p>
+<div>
+<span class="badge badge-light mr-1">🧠 NLP</span>
+<span class="badge badge-light mr-1">🧵 Summarization</span>
+<span class="badge badge-light mr-1">🔎 Retrieval</span>
+</div>
+</div>
+</div>
+</div>
+</div></div></div>
 
-        <!-- Social Media Event Detection (image) -->
-        <div class="projCard">
-          <div class="projMedia">
-            <img src="img/twitter.gif" alt="Event detection on social media visualization">
-          </div>
-          <div class="projBody">
-            <p class="projTitle">Event Detection on Social Media</p>
-            <p class="projDesc">From noisy streams to actionable signals: detection, clustering, and narrative summarization.</p>
-            <div class="chips">
-              <span class="chip">🧠 NLP</span>
-              <span class="chip">🧵 Summarization</span>
-              <span class="chip">🔎 Retrieval</span>
-            </div>
-          </div>
-        </div>
-
-      </div>
     </div>
-
-    <div class="footerBox">
-      <hr style="border-color: rgba(255,255,255,.12);" />
-      © Imran Razzak | MBZUAI
+    <footer class="footer border-top py-2 mt-5 bg-white small">
+    <div class="container-lg">
+        <div class="row my-3">
+            <div class="col-6">
+                <div class="text-muted">
+                    <i>Last updated: Sep 2026</i>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="text-right text-muted">
+                    © Imran Razzak · Personal website. Views are my own. · <a href="https://github.com/luost26/academic-homepage">academic-homepage</a>
+                </div>
+            </div>
+        </div>
     </div>
+</footer>
 
-  </div>
 
-  <!-- Scripts -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="dist/js/bootstrap.min.js"></script>
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/github-buttons/2.14.2/buttons.min.js" integrity="sha512-OYwZx04hKFeFNYrWxIyo3atgGpb+cxU0ENWBZs72X7T9U+NoHPM1ftUn/Mfw7dRDXrqWA6M1wBg6z6fGE32aeA==" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" integrity="sha384-7zkQWkzuo3B5mTepMUcHkMB5jZaolc2xDwL6VFqjFALcbeS9Ggm/Yr2r3Dy4lfFg" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+              delimiters: [
+                  {left: '$$', right: '$$', display: true},
+                  {left: '$', right: '$', display: false}
+              ],
+              throwOnError : false
+            });
+        });
+    </script>
+    <script src="/assets/js/common.js"></script>
+    <script src="/assets/js/bubble_visual_hash.js"></script>
+    <script src="/assets/js/semantic_scholar_citation_count.js"></script>
 </body>
 </html>

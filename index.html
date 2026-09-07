@@ -1,752 +1,928 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+<!-- Template: https://github.com/luost26/academic-homepage -->
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Imran Razzak | MBZUAI</title>
-  <meta name="description" content="Imran Razzak — Associate Professor at MBZUAI. Personalized Medicine, Medical Imaging, Multimodal AI." />
-  <meta name="author" content="Imran Razzak" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Homepage - Imran Razzak</title>
 
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="justified-nav.css" />
-
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="img/logo.webp" type="image/webp" />
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
-  <!-- Chart.js for visualization (kept for medical viz if you want later) -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-
-  <!-- Google Analytics (kept, https explicit) -->
-  <script>
-    (function (i, s, o, g, r, a, m) {
-      i["GoogleAnalyticsObject"] = r;
-      i[r] =
-        i[r] ||
-        function () {
-          (i[r].q = i[r].q || []).push(arguments);
-        };
-      i[r].l = 1 * new Date();
-      a = s.createElement(o);
-      m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m);
-    })(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga");
-
-    ga("create", "UA-60795702-1", "auto");
-    ga("send", "pageview");
-  </script>
-
-  <!-- Optional legacy scripts -->
-  <script src="assets/js/ie-emulation-modes-warning.js"></script>
-  <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-
-  <style>
-    :root{
-      --bg0:#070A12;
-      --bg1:#0A1022;
-      --text:#EAF0FF;
-      --muted:#B6C2E2;
-      --muted2:#8FA0C8;
-      --brand:#7C5CFF;
-      --brand2:#2EE9A6;
-      --shadow: 0 16px 60px rgba(0,0,0,.45);
-      --shadow2: 0 10px 30px rgba(0,0,0,.35);
-      --radius: 18px;
-      --radius2: 14px;
-
-      --red:#ff2d2d;
-      --orange:#ff9a2f;
-    }
-
-    body{
-      font-family:"Plus Jakarta Sans", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-      background:
-        radial-gradient(1100px 700px at 10% 0%, rgba(124,92,255,.24), transparent 55%),
-        radial-gradient(900px 600px at 95% 10%, rgba(46,233,166,.18), transparent 50%),
-        radial-gradient(700px 500px at 65% 85%, rgba(255,77,125,.14), transparent 55%),
-        linear-gradient(180deg, var(--bg0), var(--bg1));
-      color: var(--text);
-    }
-
-    a { color:#B7B0FF; }
-    a:hover { color:#d8d4ff; }
-
-    .container { max-width: 1140px; }
-
-    /* Hero */
-    .hero {
-      margin-top: 18px;
-      border-radius: var(--radius);
-      padding: 20px 20px 14px;
-      background:
-        linear-gradient(135deg, rgba(124,92,255,.22), rgba(46,233,166,.10)),
-        rgba(255,255,255,.04);
-      border: 1px solid rgba(255,255,255,.10);
-      box-shadow: var(--shadow);
-      overflow: hidden;
-      position: relative;
-    }
-    .hero:before{
-      content:"";
-      position:absolute;
-      width:520px; height:520px;
-      background: radial-gradient(circle at 30% 30%, rgba(255,255,255,.12), transparent 60%);
-      right:-240px; top:-300px;
-      transform: rotate(10deg);
-      pointer-events:none;
-    }
-    .hero h1{
-      margin: 0 0 6px;
-      font-weight: 800;
-      letter-spacing: .2px;
-      font-size: 30px;
-    }
-    .hero .sub{
-      color: var(--muted);
-      margin: 0;
-      font-size: 14px;
-      max-width: 78ch;
-    }
-    .pillrow{
-      margin-top: 12px;
-      display:flex; flex-wrap:wrap; gap:10px;
-    }
-    .pill{
-      display:inline-flex; align-items:center; gap:8px;
-      padding:8px 10px;
-      border-radius:999px;
-      background: rgba(255,255,255,.06);
-      border:1px solid rgba(255,255,255,.12);
-      color: var(--muted);
-      font-weight: 700;
-      font-size: 12px;
-      box-shadow: var(--shadow2);
-    }
-    .pill .dot{
-      width:8px; height:8px; border-radius:50%;
-      background: var(--brand2);
-      box-shadow: 0 0 0 5px rgba(46,233,166,.12);
-    }
-
-    /* Section cards */
-    .section-card{
-      border-radius: var(--radius);
-      background: rgba(255,255,255,.03);
-      border: 1px solid rgba(255,255,255,.08);
-      box-shadow: var(--shadow2);
-      padding: 16px 16px 14px;
-      margin-top: 16px;
-    }
-    .section-title{
-      margin: 0 0 8px;
-      font-weight: 800;
-      letter-spacing: .2px;
-      font-size: 18px;
-    }
-    .mutedText { color: var(--muted); }
-
-    /* Profile block */
-    .profileCard{
-      border-radius: var(--radius2);
-      background: rgba(15,23,48,.70);
-      border: 1px solid rgba(255,255,255,.10);
-      box-shadow: var(--shadow2);
-      padding: 14px;
-    }
-    .profileCard .tagline { color: var(--muted); margin-top: 4px; }
-
-    /* News highlights */
-    .news-highlight{
-      border-radius: var(--radius2);
-      background: linear-gradient(135deg, rgba(255,77,125,.15), rgba(124,92,255,.14));
-      border: 1px solid rgba(255,255,255,.12);
-      box-shadow: var(--shadow2);
-      padding: 14px;
-      margin-bottom: 12px;
-    }
-    .news-highlight h3{
-      margin: 0 0 8px;
-      font-weight: 900;
-      letter-spacing: .2px;
-      font-size: 16px;
-    }
-    .news-highlight .lead{
-      margin: 0 0 10px;
-      color: var(--muted);
-      font-size: 13px;
-      line-height: 1.45;
-    }
-    .ctaRow{ display:flex; flex-wrap:wrap; gap:10px; }
-    .btnx{
-      display:inline-flex; align-items:center; gap:10px;
-      padding:8px 10px;
-      border-radius: 12px;
-      font-weight: 800;
-      font-size: 12px;
-      border:1px solid rgba(255,255,255,.12);
-      background: rgba(255,255,255,.06);
-      color: var(--text);
-      text-decoration:none !important;
-      box-shadow: var(--shadow2);
-    }
-    .btnx.primary{ border:none; background: linear-gradient(135deg, var(--brand), #5BB8FF); }
-    .btnx.ok{ border:none; background: linear-gradient(135deg, rgba(46,233,166,.95), rgba(91,184,255,.85)); color:#071019; }
-    .btnx.warn{ border:none; background: linear-gradient(135deg, rgba(255,206,92,.95), rgba(255,77,125,.75)); color:#071019; }
-
-    /* Medical visualization panel (kept) */
-    .medViz{
-      border-radius: var(--radius2);
-      background: rgba(15,23,48,.70);
-      border: 1px solid rgba(255,255,255,.10);
-      box-shadow: var(--shadow2);
-      padding: 12px;
-    }
-    .vizTitle{
-      display:flex; align-items:center; justify-content:space-between;
-      margin: 0 0 10px;
-      color: var(--muted);
-      font-weight: 900;
-      font-size: 12px;
-      letter-spacing: .2px;
-    }
-    .vizGrid{
-      display:grid;
-      grid-template-columns: 1.2fr .8fr;
-      gap: 12px;
-    }
-    @media (max-width: 992px){ .vizGrid{ grid-template-columns: 1fr; } }
-    .dicomGrid{
-      display:grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 10px;
-    }
-    .slice{
-      border-radius: 12px;
-      border: 1px solid rgba(255,255,255,.10);
-      background: radial-gradient(140px 120px at 35% 35%, rgba(255,255,255,.10), transparent 60%),
-                  linear-gradient(135deg, rgba(124,92,255,.10), rgba(46,233,166,.06));
-      height: 140px;
-      position: relative;
-      overflow:hidden;
-    }
-    .slice:before{
-      content:"";
-      position:absolute;
-      inset:-40px;
-      background: repeating-linear-gradient(90deg, rgba(255,255,255,.06) 0, rgba(255,255,255,.06) 2px, transparent 2px, transparent 10px);
-      transform: rotate(7deg);
-      opacity:.35;
-    }
-    .slice .label{
-      position:absolute; left:10px; top:10px;
-      font-weight:900;
-      color: rgba(234,240,255,.9);
-      font-size: 11px;
-      letter-spacing: .2px;
-      padding:6px 8px;
-      border-radius: 999px;
-      background: rgba(0,0,0,.25);
-      border: 1px solid rgba(255,255,255,.12);
-    }
-    .slice .meta{
-      position:absolute; left:10px; bottom:10px;
-      color: var(--muted);
-      font-size: 11px;
-      line-height: 1.25;
-      background: rgba(0,0,0,.18);
-      border: 1px solid rgba(255,255,255,.10);
-      border-radius: 12px;
-      padding: 8px 10px;
-      max-width: 88%;
-    }
-
-    /* ALERT blocks */
-    .blink-red {
-      animation: blinker 2.3s linear infinite;
-      color: var(--red);
-      font-size: 14px;
-      font-weight: 950;
-      background: rgba(255, 45, 45, .10);
-      border: 1px solid rgba(255, 45, 45, .30);
-      padding: 10px 12px;
-      border-radius: 14px;
-      margin-bottom: 10px;
-    }
-    .orange-callout {
-      color: var(--orange);
-      font-size: 14px;
-      font-weight: 900;
-      background: rgba(255, 154, 47, .10);
-      border: 1px solid rgba(255, 154, 47, .28);
-      padding: 10px 12px;
-      border-radius: 14px;
-      margin: 0;
-    }
-    @keyframes blinker { 50% { opacity: .55; } }
-
-    /* Dark nav */
-    .nav-justified > li > a{
-      background: rgba(255,255,255,.04) !important;
-      border: 1px solid rgba(255,255,255,.10) !important;
-      color: var(--muted) !important;
-      font-weight: 800;
-      border-radius: 12px !important;
-      margin: 4px;
-    }
-    .nav-justified > .active > a,
-    .nav-justified > li > a:hover{
-      background: rgba(124,92,255,.18) !important;
-      border-color: rgba(124,92,255,.35) !important;
-      color: var(--text) !important;
-    }
-
-    /* News list */
-    .newsList li{
-      margin-bottom: 8px;
-      line-height: 1.45;
-      color: var(--muted);
-    }
-    .newsList img{ filter: drop-shadow(0 6px 16px rgba(0,0,0,.35)); }
-
-    /* Paper links inside news */
-    .paperLinks{
-      margin-top: 6px;
-      display:flex;
-      flex-wrap:wrap;
-      gap:8px;
-    }
-    .paperLinks a{
-      display:inline-flex;
-      align-items:center;
-      gap:6px;
-      padding:6px 8px;
-      border-radius: 999px;
-      font-weight: 900;
-      font-size: 11px;
-      text-decoration:none !important;
-      background: rgba(255,255,255,.06);
-      border: 1px solid rgba(255,255,255,.12);
-      color: var(--text);
-    }
-
-    /* Footer */
-    .footerBox{
-      text-align:center;
-      color: var(--muted2);
-      font-size: 12px;
-      padding-top: 10px;
-    }
-  </style>
+    <meta name="description" content="Imran Razzak — Associate Professor of Computational Biology at MBZUAI. Medical foundation models, personalized medicine, and multimodal clinical AI.">
+    <link rel="canonical" href="https://imranrazzak.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Homepage - Imran Razzak">
+    <meta property="og:description" content="Imran Razzak — Associate Professor of Computational Biology at MBZUAI. Medical foundation models, personalized medicine, and multimodal clinical AI.">
+    <meta property="og:url" content="https://imranrazzak.github.io/">
+    <meta property="og:image" content="https://imranrazzak.github.io/img/imrazzak.jpg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Homepage - Imran Razzak">
+    <meta name="twitter:description" content="Imran Razzak — Associate Professor of Computational Biology at MBZUAI. Medical foundation models, personalized medicine, and multimodal clinical AI.">
+    <meta name="twitter:image" content="https://imranrazzak.github.io/img/imrazzak.jpg">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.1/css/academicons.min.css" integrity="sha512-b1ASx0WHgVFL5ZQhTgiPWX+68KjS38Jk87jg7pe+qC7q9YkEtFq0z7xCglv7qGIs/68d3mAp+StfC8WKC5SSAg==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/global.css">
 </head>
+<body class="bg-light" >
+    <nav class="navbar navbar-expand-xl navbar-light fixed-top mb-5 shadow-sm">
+    <div class="container-lg">
+        <a class="navbar-brand" href="/"><strong>Imran Razzak</strong></a>
+        <button class="navbar-toggler" style="font-size: 1em; padding: 0.5em;" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-map"></i> Menu
+        </button>
 
-<body>
-  <div class="container">
-    <!-- Masthead -->
-    <div class="masthead">
-      <div class="hero">
-        <h1>Imran Razzak</h1>
-        <p class="sub">
-          Associate Professor, MBZUAI (Department of Computational Biology) • Personalized Medicine • Medical Imaging • Multimodal Clinical Reasoning
-        </p>
-        <div class="pillrow">
-          <span class="pill"><span class="dot" aria-hidden="true"></span> Abu Dhabi, UAE</span>
-          <span class="pill">Personalized Medicine</span>
-          <span class="pill">Medical Imaging AI</span>
-          <span class="pill">Clinical Reasoning & Spatial Grounding</span>
-          <span class="pill">Foundation Models</span>
-        </div>
-      </div>
-
-      <h5 style="margin-top:14px; color:var(--muted);">
-   
-        Bonjour. स्वागत , ਜੀ ਆਇਆਂ ਨੂੰ, مرحباً, ښه راغلاست, جی آیاں نوں , خوش آمدید, Haai, Grüßgott.
-        Goedendag. Oi. Guten Tag. Ciào. Malo e lelei. Hei. 欢迎, 안녕. Yo.
-      </h5>
-
-      <ul class="nav nav-justified" style="margin-top:10px;">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Publication and Projects</a></li>
-        <li><a href="research.html">Datasets</a></li>
-        <li><a href="grants-awards.html">Grants &amp; Awards</a></li>
-        <li><a href="publications.html">Teaching</a></li>
-        <li><a href="teaching.html">Research Team</a></li>
-        <li><a href="student.html">Prospective PhD Student</a></li>
-        <li><a href="services.html">Services</a></li>
-      </ul>
-    </div>
-
-    <!-- Main -->
-    <div class="theme-showcase" style="padding-top: 14px">
-      <div class="inner">
-
-        <!-- Profile row -->
-        <div class="row section-card">
-          <div class="col-lg-2">
-            <div style="text-align:center">
-              <img src="img/imrazzak.jpg" width="190" alt="Imran Razzak photo" class="img-circle" />
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="profileCard">
-              <h2 class="muted" style="margin-top:0; font-weight:900;">Imran Razzak</h2>
-              <h5 style="margin:6px 0 8px; font-weight:800;">Associate Professor, Computational Biology</h5>
-              <div class="tagline">
-                <div><b>MBZUAI</b>, Abu Dhabi, UAE</div>
-                <div style="margin-top:6px;">
-                  <span class="mutedText" style="font-weight:800;">Focus:</span>
-                  Personalized Medicine • Medical Imaging • Multimodal Clinical AI
-                </div>
-                <div style="margin-top:8px;">
-                  <span class="mutedText" style="font-weight:800;">Editorial:</span>
-                  Associate Editor — IEEE TNNLS, Neural Networks, IEEE TCSS, IEEE JBHI
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="profileCard">
-              <h2 style="text-align:left; margin-top:0; font-weight:900;">Short biography</h2>
-              <p style="text-align:justify; color:var(--muted); margin-bottom:0;">
-                Imran Razzak is an Associate Professor at MBZUAI (Abu Dhabi, UAE). His research centers on
-                <b>Personalized Medicine</b> and <b>Medical Imaging</b>, with emphasis on building multimodal AI systems that combine
-                visual understanding, clinical reasoning, and spatial grounding to support decision-making in healthcare.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Medical visualization -->
-        <div class="row section-card">
-          <div class="col-sm-12">
-            <h2 class="section-title">Medical AI at a glance</h2>
-            <p class="mutedText" style="margin-top:0;">
-              Illustrative medical visualization highlighting multimodal reasoning and spatial grounding.
-            </p>
-
-            <div class="medViz">
-              <div class="vizTitle">
-                <span>Illustrative medical visualization (decorative)</span>
-                <span class="mutedText">multimodal • reasoning • spatial grounding</span>
-              </div>
-
-              <div class="vizGrid">
-                <div style="border-radius:14px; border:1px solid rgba(255,255,255,.10); background:rgba(0,0,0,.18); padding:12px;">
-                  <!-- SVG (unchanged) -->
-                  <svg viewBox="0 0 900 280" width="100%" height="220" role="img" aria-label="Medical illustration: ECG and organ icons">
-                    <defs>
-                      <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
-                        <stop offset="0" stop-color="#7C5CFF" stop-opacity=".95"/>
-                        <stop offset="1" stop-color="#2EE9A6" stop-opacity=".90"/>
-                      </linearGradient>
-                      <linearGradient id="g2" x1="0" y1="0" x2="1" y2="0">
-                        <stop offset="0" stop-color="#FF4D7D" stop-opacity=".95"/>
-                        <stop offset="1" stop-color="#FFCE5C" stop-opacity=".90"/>
-                      </linearGradient>
-                      <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-                        <feGaussianBlur stdDeviation="4" result="blur"/>
-                        <feMerge>
-                          <feMergeNode in="blur"/>
-                          <feMergeNode in="SourceGraphic"/>
-                        </feMerge>
-                      </filter>
-                    </defs>
-                    <g opacity=".25">
-                      <path d="M0 40 H900" stroke="#ffffff" stroke-opacity=".15"/>
-                      <path d="M0 80 H900" stroke="#ffffff" stroke-opacity=".10"/>
-                      <path d="M0 120 H900" stroke="#ffffff" stroke-opacity=".10"/>
-                      <path d="M0 160 H900" stroke="#ffffff" stroke-opacity=".10"/>
-                      <path d="M0 200 H900" stroke="#ffffff" stroke-opacity=".10"/>
-                      <path d="M0 240 H900" stroke="#ffffff" stroke-opacity=".10"/>
-                    </g>
-                    <path d="M20 160 L80 160 L105 160 L120 130 L135 190 L150 160 L190 160
-                             L215 160 L230 120 L245 210 L260 160 L320 160
-                             L340 160 L355 145 L370 160 L385 160 L430 160
-                             L450 160 L465 128 L480 205 L495 160 L560 160
-                             L580 160 L595 138 L610 160 L625 160 L690 160
-                             L710 160 L725 120 L740 210 L755 160 L880 160"
-                          fill="none" stroke="url(#g1)" stroke-width="5" filter="url(#glow)"/>
-                    <g transform="translate(620,35)">
-                      <path d="M80 40 C80 15 110 10 125 30 C140 10 170 15 170 40
-                               C170 70 125 95 125 110 C125 95 80 70 80 40Z"
-                            fill="url(#g2)" opacity=".95" filter="url(#glow)"/>
-                      <text x="125" y="150" text-anchor="middle" fill="#B6C2E2" font-size="16" font-weight="800">
-                        Personalized health
-                      </text>
-                    </g>
-                    <g transform="translate(60,30)" opacity=".95">
-                      <circle cx="110" cy="70" r="48" fill="rgba(255,255,255,.06)" stroke="rgba(255,255,255,.18)" stroke-width="2"/>
-                      <path d="M90 75 C80 60 90 45 110 45 C120 35 145 45 138 62
-                               C152 66 152 88 136 90 C134 106 110 110 104 98
-                               C90 102 78 92 84 80 C74 78 76 62 90 62"
-                            fill="url(#g1)" opacity=".85"/>
-                      <text x="110" y="145" text-anchor="middle" fill="#B6C2E2" font-size="16" font-weight="800">
-                        Clinical reasoning
-                      </text>
-                    </g>
-                    <g transform="translate(320,22)" opacity=".95">
-                      <rect x="0" y="0" rx="18" ry="18" width="260" height="110"
-                            fill="rgba(255,255,255,.04)" stroke="rgba(255,255,255,.16)" stroke-width="2"/>
-                      <rect x="26" y="22" width="90" height="60" fill="rgba(124,92,255,.16)" stroke="rgba(124,92,255,.45)" stroke-width="2" rx="10"/>
-                      <rect x="136" y="35" width="96" height="32" fill="rgba(46,233,166,.12)" stroke="rgba(46,233,166,.40)" stroke-width="2" rx="10"/>
-                      <circle cx="184" cy="51" r="6" fill="#2EE9A6"/>
-                      <text x="130" y="150" text-anchor="middle" fill="#B6C2E2" font-size="16" font-weight="800">
-                        Spatial grounding
-                      </text>
-                    </g>
-                    <text x="20" y="250" fill="#8FA0C8" font-size="14" font-weight="700">
-                      Personalized Medicine • Medical Imaging • Multimodal Understanding
-                    </text>
-                  </svg>
-                </div>
-
-                <div class="dicomGrid">
-                  <div class="slice"><div class="label">CT • Chest</div><div class="meta">Findings → localization → summary</div></div>
-                  <div class="slice"><div class="label">MRI • Brain</div><div class="meta">Reasoning + report generation</div></div>
-                  <div class="slice"><div class="label">Pathology • Slide</div><div class="meta">Cross-modality grounding</div></div>
-                  <div class="slice"><div class="label">Ophthalmology • Fundus</div><div class="meta">VQA + diagnosis support</div></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Research interests -->
-        <div class="row section-card">
-          <div class="col-sm-12">
-            <h2 class="section-title">Research Interests</h2>
-            <p class="mutedText" style="margin-top:0;">
-              My work focuses on <b>Personalized Medicine</b> and <b>Medical Imaging</b>, building models that unify
-              multimodal understanding (vision + language), clinical reasoning, and spatial grounding across diverse imaging modalities.
-              I’m especially interested in trustworthy medical AI (robustness, uncertainty, and hallucination reduction),
-              longitudinal modeling, and end-to-end clinical workflows.
-            </p>
-
-            <!-- UPDATED open positions (RED line + ORANGE next line) -->
-            <p class="blink-red">
-              Open positions: Looking for <b>Visiting Students</b> and <b>Remote Internships</b> on <b>medical VLM</b> and <b>reasoning</b>.
-            </p>
-            <p class="orange-callout">
-              PhD students and postdocs for <b>Medical Foundation Models</b>, <b>VLMs for clinical reasoning</b>, and
-              <b>personalized/longitudinal healthcare AI</b>. Please email your CV + a short research proposal.
-            </p>
-          </div>
-        </div>
-
-        <!-- What's new (March 2025 and newer only) -->
-        <div class="row section-card">
-          <div class="col-sm-12">
-            <h2 class="section-title">What’s new?</h2>
-
-            <!-- MAIN NEWS (Pinned on top) -->
-            <div class="news-highlight">
-              <h3>🚀 We released MedMO (4B & 8B), MedMO-8B-Next — a SOTA generalist medical AI foundation model</h3>
-              <p class="lead">
-                <b>MedMO </b> unifies <b>multimodal understanding</b>, <b>clinical reasoning</b>, and <b>spatial grounding</b>
-                across diverse medical imaging modalities. Unlike task-specific systems, MedMO delivers end-to-end
-                medical imaging intelligence within a single unified architecture.
-              </p>
-
-              <div class="row" style="margin-top:10px;">
-                <div class="col-md-6">
-                  <p class="mutedText" style="margin:0; font-weight:900;">🔍 Core capabilities</p>
-                  <ul class="mutedText" style="margin-top:8px; padding-left:18px;">
-                    <li><b>Understanding & reasoning:</b> VQA, text-based medical QA, diagnostic reasoning</li>
-                    <li><b>Report intelligence:</b> Radiology report generation and summarization</li>
-                    <li><b>Spatial grounding:</b> Disease localization with precise bounding boxes</li>
-                    <li><b>Cross-modality localization:</b> Radiology, pathology, ophthalmology, microscopy</li>
-                  </ul>
-                </div>
-                <div class="col-md-6">
-                  <p class="mutedText" style="margin:0; font-weight:900;">Resources</p>
-                  <div class="ctaRow" style="margin-top:10px;">
-                    <a class="btnx primary" href="https://arxiv.org/pdf/2602.06965v1" target="_blank" rel="noopener noreferrer">📄 Paper</a>
-                    <a class="btnx ok" https://genmilab.github.io/MedMO-Page/" target="_blank" rel="noopener noreferrer">💻 Project Page</a>
-                    <a class="btnx warn" href="https://huggingface.co/collections/MBZUAI/medmo" target="_blank" rel="noopener noreferrer">🤗 Hugging Face</a>
-                    <a class="btnx" href="https://github.com/genmilab/MedMO" target="_blank" rel="noopener noreferrer">💾 GitHub</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <ul class="newsList">
-
-               <li>
-                <img src="img/news.png" alt="" /> <b>[Aug, 2026]</b> <b>  Eight Papers [ 4 main and 4 Findings] </b> accepted in  <b>EMNLP</b>.
-                <div class="paperLinks">
-                  <a href="https://arxiv.org/abs/2505.18283" target="_blank" rel="noopener noreferrer">Polyp Segmentation</a>
-                 <a href="https://arxiv.org/abs/2503.14800" target="_blank" rel="noopener noreferrer">ClinCoT</a>
-                  <a href="https://arxiv.org/abs/2503.14800" target="_blank" rel="noopener noreferrer"> Trustworthy Multimodal</a>
-                </div>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home</a>
                 </li>
-
-               <li>
-                <img src="img/news.png" alt="" /> <b>[July, 2026]</b> <b>  Two Papers </b> accepted in  <b>CIKM</b>.
-                <div class="paperLinks">
-                  <a href="https://arxiv.org/abs/2505.18283" target="_blank" rel="noopener noreferrer">Polyp Segmentation</a>
-                 <a href="https://arxiv.org/abs/2503.14800" target="_blank" rel="noopener noreferrer">ClinCoT</a>
-                  <a href="https://arxiv.org/abs/2503.14800" target="_blank" rel="noopener noreferrer"> Trustworthy Multimodal</a>
-                </div>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="/publications.html">Publications</a>
                 </li>
-
-                <li>
-                <img src="img/news.png" alt="" /> <b>[May, 2026]</b> <b>  Eight Papers </b> accepted in  <b>MICCAI</b>.
-                <div class="paperLinks">
-                  <a href="https://arxiv.org/abs/2505.18283" target="_blank" rel="noopener noreferrer">Polyp Segmentation</a>
-                 <a href="https://arxiv.org/abs/2503.14800" target="_blank" rel="noopener noreferrer">ClinCoT</a>
-                  <a href="https://arxiv.org/abs/2503.14800" target="_blank" rel="noopener noreferrer"> Trustworthy Multimodal</a>
-                </div>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="/projects.html">Research</a>
                 </li>
-
-                <li>
-                <img src="img/news.png" alt="" /> <b>[May, 2026]</b> <b> Three Papers on Federated Learning </b> accepted in  <b>ICML</b>.
-                <div class="paperLinks">
-                  <a href="https://arxiv.org/abs/2505.18283" target="_blank" rel="noopener noreferrer">Cocept Drift</a>
-                 <a href="https://arxiv.org/abs/2503.14800" target="_blank" rel="noopener noreferrer">Cross-task Calibration</a>
-                  <a href="https://arxiv.org/abs/2503.14800" target="_blank" rel="noopener noreferrer"> Decoupled Replay</a>
-                </div>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="/team.html">Team</a>
                 </li>
-        
-
-             <li>
-                <img src="img/news.png" alt="" /> <b>[April, 2026]</b> <b> Two Papers on RAG</b> accepted in  <b>ACL</b>.
-                <div class="paperLinks">
-                  <a href="https://arxiv.org/abs/2505.18283" target="_blank" rel="noopener noreferrer">📄 TAGS</a>
-                 <a href="https://arxiv.org/abs/2503.14800" target="_blank" rel="noopener noreferrer">📄 Long Context Modeling</a>
-                </div>
-              </li>
-        
-              <li>
-                <img src="img/news.png" alt="" /> <b>[April, 2026]</b> <b> Paper</b> on Oral Microbiome Associations with Metabolic Health accepted in  <b>Nature Communication</b>.
-                <div class="paperLinks">
-                  <a href="https://www.biorxiv.org/content/10.1101/2025.10.28.685004v2.full.pdf" target="_blank" rel="noopener noreferrer">📄 Oral Microbiome</a>
-                </div>
-              </li>
-             
-              <li>
-                <img src="img/news.png" alt="" />
-                <b>[April 2026]</b> We are organizing Three workshops at MICCAI:
-                <a href="https://mi4medfm.github.io/2026/" target="_blank"><b>Mechanistic Interpretability for Medical Foundation Models</b></a>
-               
-                <a href="https://agentic-ai-for-medicine.github.io/agentic-ai-for-medicine/" target="_blank"><b>Agentic AI for Medicine</b></a> and 
-                 <a href="https://safer-workshop.github.io/" target="_blank"><b>SAFER</b></a>.
-              </li>
-           
-              <li>
-                <img src="img/news.png" alt="" /> <b>[March, 2026]</b> <b>4 papers</b> on Medical VLM reasoning and hallucinationaccepted in <b>CVPR</b>.
-                <div class="paperLinks">
-                  
-                  <a href="https://arxiv.org/abs/2602.06965" target="_blank" rel="noopener noreferrer">📄 Medical Foundation Model</a>
-                  <a href="https://www.arxiv.org/abs/2602.17535" target="_blank" rel="noopener noreferrer">📄 LATA: Medical VLM [ORAL]</a>
-                  <a href="https://arxiv.org/abs/2511.18519" target="_blank" rel="noopener noreferrer">📄 Medical reasoning</a>
-                  <a href="https://arxiv.org/abs/2511.18519" target="_blank" rel="noopener noreferrer">📄 Efficient clip adaption</a>
-
-                 
-     
-        </div>
-
-        <!-- Contact -->
-        <div class="row section-card">
-          <div class="col-sm-6">
-            <h2 class="section-title">Contact Information</h2>
-            <ul class="mutedText" style="margin-bottom:0;">
-              <li><b>Position:</b> Associate Professor, Computational Biology</li>
-              <li><b>Department:</b> MBZUAI, Abu Dhabi</li>
-              <li><img src="img/phone.png" alt="phone" /> +971 2811 171</li>
-              <li>
-                <img src="img/email.png" alt="email" />
-                imran.razzak <img src="img/at.png" alt="at" /> {mbzuai.ac.ae}
-              </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="/teaching.html">Teaching</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="/grants-awards.html">Grants & Awards</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="/student.html">Students</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="/services.html">Service</a>
+                </li>
+                
             </ul>
-          </div>
-
-          <div class="col-sm-6" style="text-align:right;">
-            <a class="twitter-timeline" data-width="500" data-height="250" href="https://twitter.com/drimranrazzak">
-              Tweets by Imran Razzak
-            </a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          </div>
         </div>
-
-        <!-- Disclaimer -->
-        <div class="row section-card">
-          <div class="col-sm-12">
-            <h2 class="section-title">Disclaimer</h2>
-            <p class="mutedText" style="margin:0;">
-              This is a personal website. The opinions expressed are mine and do not necessarily represent the views of my employer.
-            </p>
-          </div>
-        </div>
-
-        <hr />
-
-        <!-- Social links -->
-        <div class="well" style="background:rgba(255,255,255,.03); border:1px solid rgba(255,255,255,.08); box-shadow: var(--shadow2); border-radius: var(--radius);">
-          <div class="row">
-            <div class="col-sm-2" style="text-align:center">
-              <a href="https://scholar.google.com/citations?hl=en&user=GlXI4N8AAAAJ&view_op=list_works&sortby=pubdate">
-                <img src="img/google_scholar.png" height="50" alt="google scholar" />
-              </a>
-            </div>
-            <div class="col-sm-2" style="text-align:center">
-              <a href="https://dblp.org/pid/59/8379.html" target="_blank" rel="noopener noreferrer">
-                <img src="img/dblp_logo.png" height="60" alt="dblp" />
-              </a>
-            </div>
-            <div class="col-sm-2" style="text-align:center">
-              <a href="https://dl.acm.org/profile/99659454446" target="_blank" rel="noopener noreferrer">
-                <img src="img/acm_logo.png" height="60" alt="acm" />
-              </a>
-            </div>
-            <div class="col-sm-2" style="text-align:center">
-              <a href="https://www.linkedin.com/in/imran-razzak-88a88b17/" target="_blank" rel="noopener noreferrer">
-                <img src="img/linkedin_logo.png" height="40" alt="linkedin" />
-              </a>
-            </div>
-            <div class="col-sm-2" style="text-align:center">
-              <a href="https://github.com/imranrazzak/" target="_blank" rel="noopener noreferrer">
-                <img src="img/Font_Awesome_5_brands_github.svg" height="40" alt="github" />
-                <img src="img/Octicons-logo-github.svg" height="40" alt="github" />
-              </a>
-            </div>
-            <div class="col-sm-2" style="text-align:center">
-              <a href="https://orcid.org/0000-0002-3930-6600" target="_blank" rel="noopener noreferrer">
-                <img src="img/orcid.png" height="70" alt="orcid" />
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Footer -->
-        <div class="footerBox">
-          <hr />
-          © UNSW 2022. Last update 01/08/2022.
-          <br />
-          <a href="http://www.xtrastats.com/">free counter</a>
-          <br />
-          <a href="https://info.flagcounter.com/ykSr">
-            <img
-              src="https://s11.flagcounter.com/count2/ykSr/bg_FFFFFF/txt_000000/border_CCCCCC/columns_6/maxflags_15/viewers_0/labels_1/pageviews_1/flags_0/percent_0/"
-              alt="Flag Counter"
-              border="0"
-            />
-          </a>
-        </div>
-      </div>
     </div>
-  </div>
+</nav>
 
-  <!-- Scripts at end for faster load -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="dist/js/bootstrap.min.js"></script>
+    <div class="container-lg">
+        <div class="row">
+    <div class="col-lg-3 col-md-4">
+        <div class="row sticky-top" style="top: 80px">
+    <div class="col">
+        <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body px-4 pt-4 pb-3">
+                <div class="row">
+                    <div class="col">
+                        
+                        <!-- When the screen is wider than md, float the portrait on the right -->
+                        <div class="figure d-none d-md-block">
+                            <img 
+                                src="/img/imrazzak.jpg" 
+                                class="figure-img img-fluid" alt="Imran Razzak" 
+                                data-toggle="tooltip" 
+                                data-placement="top" 
+                                title="Imran Razzak">
+                        </div>
+                        <div class="mb-3 d-md-none text-center">
+                            <img src="/img/imrazzak.jpg" class="rounded-circle" style="max-width: 50%;" alt="Portrait">
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-center h4">
+                        Imran Razzak
+                    </div>
+                </div>
+
+                <div class="row small">
+                    <div class="col text-center">
+                        
+                        Associate Professor, Computational Biology<br/>
+                        
+                        MBZUAI · Abu Dhabi, UAE<br/>
+                        
+                    </div>
+                </div>
+
+                <div class="row small">
+                    <div class="col text-center">
+                        <a class="email-text" href="mailto:%69%6D%72%61%6E.%72%61%7A%7A%61%6B@%6D%62%7A%75%61%69.%61%63.%61%65">
+                            imran.razzak(at)mbzuai.ac.ae
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row pt-2">
+                    <div class="col text-center h4">
+                        <a class="px-1 no-break" target="_blank" href="https://scholar.google.com/citations?user=GlXI4N8AAAAJ" aria-label="Google Scholar" rel="noopener noreferrer">
+                            <i class="fab fa-google-scholar"></i>
+                        </a>
+                        
+                        
+                        
+                        <a class="px-1 no-break" target="_blank" href="https://github.com/imranrazzak" aria-label="GitHub" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        
+
+                        
+
+                        
+                        <a class="px-1 no-break" target="_blank" href="https://twitter.com/drimranrazzak" aria-label="Twitter" rel="noopener noreferrer">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        
+
+                        
+                        <a class="px-1 no-break" target="_blank" href="https://www.linkedin.com/in/imran-razzak-88a88b17" aria-label="LinkedIn" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        
+
+                        
+                        <a class="px-1 no-break" target="_blank" href="https://orcid.org/0000-0002-3930-6600" aria-label="ORCID" rel="noopener noreferrer">
+                            <i class="fab fa-orcid"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+    </div>
+    <div class="col-lg-9 col-md-8">
+
+        <div class="mt-3 d-md-none"></div>
+<div class="row">
+    <div class="col">
+        <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body p-4">
+                <div class="row px-3 pt-3">
+                    <div class="col h3">
+                        About Me
+                    </div>
+                </div>
+                <div class="row p-3">
+                    <div class="col">
+                        <div class="text-profile-bio mt-0" >
+                            <p>I am an Associate Professor of Computational Biology at <a href="https://mbzuai.ac.ae/study/faculty/imran-razzak/">Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)</a>, where I lead the GenMI research lab. Previously, I worked in human-centered machine learning at UNSW and computer science at Deakin University.</p>
+<p>My research connects <strong>personalized medicine, medical imaging, and multimodal clinical AI</strong>. I develop models that bring together imaging, language, and other biomedical data for clinical reasoning and spatial grounding, with an emphasis on robust, trustworthy systems and longitudinal healthcare.</p>
+<p><strong>Open positions:</strong> I welcome prospective PhD students, postdoctoral researchers, visiting students, and remote interns interested in medical foundation models and clinical reasoning. Please <a href="/student.html">read the application guidance</a> and email your CV and a short research proposal.</p>
+                        </div>
+                        
+                    </div>
+        
+                </div>
+            </div>
+        </div>        
+    </div>
+</div>
+
+
+        <!-- Debugging widgets -->
+        
+        
+
+        
+            <div class="row mt-3">
+    <div class="col">
+        <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body p-4">
+                <div class="row" data-masonry='{"percentPosition": true }'>
+                    
+                    <div class="col-lg-6">
+                        <div class="mx-2 my-1">
+                            <h6>Education</h6>
+                            <ul class="list-unstyled mb-1">
+                                
+                                <li class="media mb-1">
+                                    
+                                    <div class="media-body">
+                                        <div>University of Technology Sydney</div>
+                                        <div class="small"></div>
+                                        <div class="small d-flex">
+                                            <div>Ph.D. in Machine Learning</div>
+                                            <div class="mt-auto ml-auto no-break"><em></em></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li class="media mb-1">
+                                    
+                                    <div class="media-body">
+                                        <div>Deakin University</div>
+                                        <div class="small"></div>
+                                        <div class="small d-flex">
+                                            <div>Graduate Certificate of Higher Education (Learning and Teaching)</div>
+                                            <div class="mt-auto ml-auto no-break"><em></em></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    
+
+                    
+                    <div class="col-lg-6">
+                        <div class="mx-2 my-1">
+                            <h6>Experience</h6>
+                            <ul class="list-unstyled mb-1">
+                                
+                                <li class="media mb-1">
+                                    
+                                    <div class="media-body">
+                                        <div>MBZUAI</div>
+                                        <div class="small"></div>
+                                        <div class="small d-flex">
+                                            <div>Associate Professor, Computational Biology</div>
+                                            <div class="mt-auto ml-auto no-break"><em>Present</em></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li class="media mb-1">
+                                    
+                                    <div class="media-body">
+                                        <div>UNSW, Sydney</div>
+                                        <div class="small"></div>
+                                        <div class="small d-flex">
+                                            <div>Human-Centered Machine Learning</div>
+                                            <div class="mt-auto ml-auto no-break"><em></em></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li class="media mb-1">
+                                    
+                                    <div class="media-body">
+                                        <div>Deakin University</div>
+                                        <div class="small"></div>
+                                        <div class="small d-flex">
+                                            <div>Senior Lecturer, Computer Science</div>
+                                            <div class="mt-auto ml-auto no-break"><em></em></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    
+
+                    
+                    <div class="col-lg-6">
+                        <div class="mx-2 my-1">
+                            <h6>Honors & Awards</h6>
+                            <ul class="list small pl-3 mb-1">
+                                
+                                <li>
+                                    <div class="d-flex">
+                                        <div>IEEE Andrew P. Sage Transactions Paper Award</div>
+                                        <div class="ml-auto mt-auto no-break"><em>2022</em></div>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="d-flex">
+                                        <div>IEEE MDM Best Demo Award</div>
+                                        <div class="ml-auto mt-auto no-break"><em>2022</em></div>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="d-flex">
+                                        <div>MICCAI CuRIOUS Challenge — 1st place</div>
+                                        <div class="ml-auto mt-auto no-break"><em>2022</em></div>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+        
+
+        
+        
+        
+        <div class="my-3 bg-white shadow-sm rounded-xl">
+    <h6 class="p-3 mb-0 border-bottom border-gray"><i class="fas fa-rss"></i> News</h6>
+    <div class="px-3 pb-1 small">
+        
+        <div class="media py-1 ">
+            
+            <div class="mr-3 text-muted my-1">2026</div>
+            <div class="media-body">
+                
+                <div class="my-1 d-flex">
+                    <div>Eight papers accepted at EMNLP: four main-conference papers and four Findings papers.</div>
+                    <div class="ml-auto mt-auto text-muted no-break"><i>Aug</i></div>
+                </div>
+                
+                <div class="my-1 d-flex">
+                    <div>Two papers accepted at CIKM.</div>
+                    <div class="ml-auto mt-auto text-muted no-break"><i>Jul</i></div>
+                </div>
+                
+                <div class="my-1 d-flex">
+                    <div>Eight papers accepted at MICCAI.</div>
+                    <div class="ml-auto mt-auto text-muted no-break"><i>May</i></div>
+                </div>
+                
+                <div class="my-1 d-flex">
+                    <div>Three papers on federated learning accepted at ICML.</div>
+                    <div class="ml-auto mt-auto text-muted no-break"><i>May</i></div>
+                </div>
+                
+                <div class="my-1 d-flex">
+                    <div>Two papers on retrieval-augmented generation accepted at ACL: <a href="https://arxiv.org/abs/2505.18283">TAGS</a> and <a href="https://arxiv.org/abs/2503.14800">Long Context Modeling with Ranked Memory-Augmented Retrieval</a>.</div>
+                    <div class="ml-auto mt-auto text-muted no-break"><i>Apr</i></div>
+                </div>
+                
+                <div class="my-1 d-flex">
+                    <div>Our paper on oral microbiome associations with metabolic health accepted in Nature Communications.</div>
+                    <div class="ml-auto mt-auto text-muted no-break"><i>Apr</i></div>
+                </div>
+                
+                <div class="my-1 d-flex">
+                    <div>We are organizing three MICCAI workshops: <a href="https://mi4medfm.github.io/2026/">Mechanistic Interpretability for Medical Foundation Models</a>, <a href="https://agentic-ai-for-medicine.github.io/agentic-ai-for-medicine/">Agentic AI for Medicine</a>, and <a href="https://safer-workshop.github.io/">SAFER</a>.</div>
+                    <div class="ml-auto mt-auto text-muted no-break"><i>Apr</i></div>
+                </div>
+                
+                <div class="my-1 d-flex">
+                    <div>Four papers accepted at CVPR, including <a href="https://arxiv.org/abs/2602.06965">MedMO</a>, <a href="https://arxiv.org/abs/2602.17535">LATA (oral)</a>, and <a href="https://arxiv.org/abs/2511.18519">CHIPS</a>.</div>
+                    <div class="ml-auto mt-auto text-muted no-break"><i>Mar</i></div>
+                </div>
+                
+                <div class="my-1 d-flex">
+                    <div>Introducing <a href="https://github.com/genmilab/MedMO">MedMO</a>: a generalist medical foundation model for multimodal understanding, clinical reasoning, and spatial grounding. <a href="https://huggingface.co/collections/MBZUAI/medmo">Explore the models</a>.</div>
+                    <div class="ml-auto mt-auto text-muted no-break"><i>Feb</i></div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+        
+        
+
+        
+        
+        
+<div class="my-3 p-0 bg-white shadow-sm rounded-xl">
+    <h6 class="border-bottom border-gray p-3 mb-0">
+        <i class="fas fa-star"></i> Selected Publications 
+        <a href="/publications.html">(view all <i class="fas fa-angle-double-right"></i>)</a>
+    </h6>
+    
+        
+<div class="d-none d-md-block">
+    <div class="row no-gutters border-bottom border-gray">
+        <div class="col-md-3 col-xl-2 mb-md-0 p-md-3"><svg class="bubble-visual-hash lazy w-100 rounded-sm" data-bubble-visual-hash="/publications/2026/e336b3e9d037bf" viewBox="0 0 300 200"></svg></div>
+        <div class="col-md-9 col-xl-10 p-3 pl-md-0">
+            <h5 class="mt-0 mb-1 font-weight-normal">MedMO: Grounding and Understanding Multimodal Large Language Model for Medical Images</h5>
+            <p class="mt-0 mb-0 small"><span class="text-body">
+            Ankan Deria, </span><span class="text-body">
+            Komal Kumar, </span><span class="text-body">
+            Adinath Madhavrao Dukre, </span><span class="text-body">
+            Eran Segal, </span><span class="text-body">
+            Salman Khan, </span><span class="text-body">
+            <strong>Imran Razzak</strong></span></p>
+            <p class="mt-0 mb-0 small"><i>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern … , 2026</i>   <span data-semantic-scholar-id=""></span></p>
+            <p class="mt-0 mb-0 small text-muted"></p>
+            
+            <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
+                
+                
+                <a target="_blank" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:e9bUPLv0EjcC">[Google Scholar]</a>
+                
+                
+                
+                <a target="_blank" href="https://arxiv.org/abs/2602.06965">[Paper]</a>
+                
+                
+                
+                <a target="_blank" href="https://github.com/genmilab/MedMO">[Code]</a>
+                
+                
+                
+                <a target="_blank" href="https://huggingface.co/collections/MBZUAI/medmo">[Models]</a>
+                
+                
+            </p>
+
+        </div>
+    </div>
+</div>
+
+<div class="row no-gutters d-md-none border-bottom border-gray   " data-src="">
+    <div class="w-100  " style="background-color: rgba(255,255,255,0.9);">
+        <div class="d-flex align-items-start flex-column py-3 px-4">
+            <div class="mb-auto"></div>
+            <div>
+                <h5 class="mt-0 mb-1 font-weight-normal">MedMO: Grounding and Understanding Multimodal Large Language Model for Medical Images</h5>
+                <p class="mt-0 mb-0 small"><span class="text-body">
+            Ankan Deria, </span><span class="text-body">
+            Komal Kumar, </span><span class="text-body">
+            Adinath Madhavrao Dukre, </span><span class="text-body">
+            Eran Segal, </span><span class="text-body">
+            Salman Khan, </span><span class="text-body">
+            <strong>Imran Razzak</strong></span></p>
+                <p class="mt-0 mb-0 small"><i>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern … , 2026</i>   <span data-semantic-scholar-id=""></span></p>
+                <p class="mt-0 mb-0 small text-muted"></p>
+                
+                <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
+                    
+                    
+                    <a target="_blank" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=100&pagesize=100&citation_for_view=GlXI4N8AAAAJ:e9bUPLv0EjcC">[Google Scholar]</a>
+                    
+                    
+                    
+                    <a target="_blank" href="https://arxiv.org/abs/2602.06965">[Paper]</a>
+                    
+                    
+                    
+                    <a target="_blank" href="https://github.com/genmilab/MedMO">[Code]</a>
+                    
+                    
+                    
+                    <a target="_blank" href="https://huggingface.co/collections/MBZUAI/medmo">[Models]</a>
+                    
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>    
+    
+        
+<div class="d-none d-md-block">
+    <div class="row no-gutters border-bottom border-gray">
+        <div class="col-md-3 col-xl-2 mb-md-0 p-md-3"><svg class="bubble-visual-hash lazy w-100 rounded-sm" data-bubble-visual-hash="/publications/2026/9add7eef082db2" viewBox="0 0 300 200"></svg></div>
+        <div class="col-md-9 col-xl-10 p-3 pl-md-0">
+            <h5 class="mt-0 mb-1 font-weight-normal">Long context modeling with ranked memory-augmented retrieval</h5>
+            <p class="mt-0 mb-0 small"><span class="text-body">
+            Ghadir Alselwi, </span><span class="text-body">
+            Hao Xue, </span><span class="text-body">
+            Shoaib Jameel, </span><span class="text-body">
+            Basem Suleiman, </span><span class="text-body">
+            Flora D. Salim, </span><span class="text-body">
+            <strong>Imran Razzak</strong></span></p>
+            <p class="mt-0 mb-0 small"><i>ACL , 2026</i>   <span data-semantic-scholar-id=""></span></p>
+            <p class="mt-0 mb-0 small text-muted"></p>
+            
+            <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
+                
+                
+                <a target="_blank" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:urP0JZOBBUsC">[Google Scholar]</a>
+                
+                
+                
+                <a target="_blank" href="https://arxiv.org/abs/2503.14800">[Paper]</a>
+                
+                
+            </p>
+
+        </div>
+    </div>
+</div>
+
+<div class="row no-gutters d-md-none border-bottom border-gray   " data-src="">
+    <div class="w-100  " style="background-color: rgba(255,255,255,0.9);">
+        <div class="d-flex align-items-start flex-column py-3 px-4">
+            <div class="mb-auto"></div>
+            <div>
+                <h5 class="mt-0 mb-1 font-weight-normal">Long context modeling with ranked memory-augmented retrieval</h5>
+                <p class="mt-0 mb-0 small"><span class="text-body">
+            Ghadir Alselwi, </span><span class="text-body">
+            Hao Xue, </span><span class="text-body">
+            Shoaib Jameel, </span><span class="text-body">
+            Basem Suleiman, </span><span class="text-body">
+            Flora D. Salim, </span><span class="text-body">
+            <strong>Imran Razzak</strong></span></p>
+                <p class="mt-0 mb-0 small"><i>ACL , 2026</i>   <span data-semantic-scholar-id=""></span></p>
+                <p class="mt-0 mb-0 small text-muted"></p>
+                
+                <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
+                    
+                    
+                    <a target="_blank" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:urP0JZOBBUsC">[Google Scholar]</a>
+                    
+                    
+                    
+                    <a target="_blank" href="https://arxiv.org/abs/2503.14800">[Paper]</a>
+                    
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>    
+    
+        
+<div class="d-none d-md-block">
+    <div class="row no-gutters border-bottom border-gray">
+        <div class="col-md-3 col-xl-2 mb-md-0 p-md-3"><svg class="bubble-visual-hash lazy w-100 rounded-sm" data-bubble-visual-hash="/publications/2026/69f9d655260476" viewBox="0 0 300 200"></svg></div>
+        <div class="col-md-9 col-xl-10 p-3 pl-md-0">
+            <h5 class="mt-0 mb-1 font-weight-normal">CHIPS: Efficient CLIP Adaptation via Curvature-aware Hybrid Influence-based Data Selection</h5>
+            <p class="mt-0 mb-0 small"><span class="text-body">
+            Xinlin Zhuang, </span><span class="text-body">
+            Yichen Li, </span><span class="text-body">
+            Xiwei Liu, </span><span class="text-body">
+            Haolin Yang, </span><span class="text-body">
+            Yifan Lu, </span><span class="text-body">
+            Ziyun Zou, </span><span class="text-body">
+            Yulong Li, </span><span class="text-body">
+            Huifa Li, </span><span class="text-body">
+            Dongliang Chen, </span><span class="text-body">
+            Qinglei Wang, </span><span class="text-body">
+            Weiyang Liu, </span><span class="text-body">
+            Ying Qian, </span><span class="text-body">
+            Jiangming Shi, </span><span class="text-body">
+            <strong>Imran Razzak</strong></span></p>
+            <p class="mt-0 mb-0 small"><i>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern … , 2026</i>   <span data-semantic-scholar-id=""></span></p>
+            <p class="mt-0 mb-0 small text-muted"></p>
+            
+            <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
+                
+                
+                <a target="_blank" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:oXKBmVzQOggC">[Google Scholar]</a>
+                
+                
+                
+                <a target="_blank" href="https://arxiv.org/abs/2511.18519">[Paper]</a>
+                
+                
+            </p>
+
+        </div>
+    </div>
+</div>
+
+<div class="row no-gutters d-md-none border-bottom border-gray   " data-src="">
+    <div class="w-100  " style="background-color: rgba(255,255,255,0.9);">
+        <div class="d-flex align-items-start flex-column py-3 px-4">
+            <div class="mb-auto"></div>
+            <div>
+                <h5 class="mt-0 mb-1 font-weight-normal">CHIPS: Efficient CLIP Adaptation via Curvature-aware Hybrid Influence-based Data Selection</h5>
+                <p class="mt-0 mb-0 small"><span class="text-body">
+            Xinlin Zhuang, </span><span class="text-body">
+            Yichen Li, </span><span class="text-body">
+            Xiwei Liu, </span><span class="text-body">
+            Haolin Yang, </span><span class="text-body">
+            Yifan Lu, </span><span class="text-body">
+            Ziyun Zou, </span><span class="text-body">
+            Yulong Li, </span><span class="text-body">
+            Huifa Li, </span><span class="text-body">
+            Dongliang Chen, </span><span class="text-body">
+            Qinglei Wang, </span><span class="text-body">
+            Weiyang Liu, </span><span class="text-body">
+            Ying Qian, </span><span class="text-body">
+            Jiangming Shi, </span><span class="text-body">
+            <strong>Imran Razzak</strong></span></p>
+                <p class="mt-0 mb-0 small"><i>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern … , 2026</i>   <span data-semantic-scholar-id=""></span></p>
+                <p class="mt-0 mb-0 small text-muted"></p>
+                
+                <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
+                    
+                    
+                    <a target="_blank" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:oXKBmVzQOggC">[Google Scholar]</a>
+                    
+                    
+                    
+                    <a target="_blank" href="https://arxiv.org/abs/2511.18519">[Paper]</a>
+                    
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>    
+    
+        
+<div class="d-none d-md-block">
+    <div class="row no-gutters border-bottom border-gray">
+        <div class="col-md-3 col-xl-2 mb-md-0 p-md-3"><svg class="bubble-visual-hash lazy w-100 rounded-sm" data-bubble-visual-hash="/publications/2026/2f16642977dbf9" viewBox="0 0 300 200"></svg></div>
+        <div class="col-md-9 col-xl-10 p-3 pl-md-0">
+            <h5 class="mt-0 mb-1 font-weight-normal">Tags: A test-time generalist-specialist framework with retrieval-augmented reasoning and verification</h5>
+            <p class="mt-0 mb-0 small"><span class="text-body">
+            Jianghao Wu, </span><span class="text-body">
+            Feilong Tang, </span><span class="text-body">
+            Yulong Li, </span><span class="text-body">
+            Ming Hu, </span><span class="text-body">
+            Haochen Xue, </span><span class="text-body">
+            Shoaib Jameel, </span><span class="text-body">
+            Yutong Xie, </span><span class="text-body">
+            <strong>Imran Razzak</strong></span></p>
+            <p class="mt-0 mb-0 small"><i>ACL,26 , 2026</i>   <span data-semantic-scholar-id=""></span></p>
+            <p class="mt-0 mb-0 small text-muted"></p>
+            
+            <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
+                
+                
+                <a target="_blank" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:feST4K8J0scC">[Google Scholar]</a>
+                
+                
+                
+                <a target="_blank" href="https://arxiv.org/abs/2505.18283">[Paper]</a>
+                
+                
+            </p>
+
+        </div>
+    </div>
+</div>
+
+<div class="row no-gutters d-md-none border-bottom border-gray   " data-src="">
+    <div class="w-100  " style="background-color: rgba(255,255,255,0.9);">
+        <div class="d-flex align-items-start flex-column py-3 px-4">
+            <div class="mb-auto"></div>
+            <div>
+                <h5 class="mt-0 mb-1 font-weight-normal">Tags: A test-time generalist-specialist framework with retrieval-augmented reasoning and verification</h5>
+                <p class="mt-0 mb-0 small"><span class="text-body">
+            Jianghao Wu, </span><span class="text-body">
+            Feilong Tang, </span><span class="text-body">
+            Yulong Li, </span><span class="text-body">
+            Ming Hu, </span><span class="text-body">
+            Haochen Xue, </span><span class="text-body">
+            Shoaib Jameel, </span><span class="text-body">
+            Yutong Xie, </span><span class="text-body">
+            <strong>Imran Razzak</strong></span></p>
+                <p class="mt-0 mb-0 small"><i>ACL,26 , 2026</i>   <span data-semantic-scholar-id=""></span></p>
+                <p class="mt-0 mb-0 small text-muted"></p>
+                
+                <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
+                    
+                    
+                    <a target="_blank" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:feST4K8J0scC">[Google Scholar]</a>
+                    
+                    
+                    
+                    <a target="_blank" href="https://arxiv.org/abs/2505.18283">[Paper]</a>
+                    
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>    
+    
+        
+<div class="d-none d-md-block">
+    <div class="row no-gutters border-bottom border-gray">
+        <div class="col-md-3 col-xl-2 mb-md-0 p-md-3"><svg class="bubble-visual-hash lazy w-100 rounded-sm" data-bubble-visual-hash="/publications/2026/184e6141601379" viewBox="0 0 300 200"></svg></div>
+        <div class="col-md-9 col-xl-10 p-3 pl-md-0">
+            <h5 class="mt-0 mb-1 font-weight-normal">LATA: Laplacian-Assisted Transductive Adaptation for Conformal Uncertainty in Medical VLMs</h5>
+            <p class="mt-0 mb-0 small"><span class="text-body">
+            Behzad Bozorgtabar, </span><span class="text-body">
+            Dwarikanath Mahapatra, </span><span class="text-body">
+            Sudipta Roy, </span><span class="text-body">
+            Muzammal Naseer, </span><span class="text-body">
+            <strong>Imran Razzak</strong>, </span><span class="text-body">
+            Zongyuan Ge</span></p>
+            <p class="mt-0 mb-0 small"><i>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern … , 2026</i>   <span data-semantic-scholar-id=""></span></p>
+            <p class="mt-0 mb-0 small text-muted"></p>
+            
+            <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
+                
+                
+                <a target="_blank" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:9CGX2owmTHMC">[Google Scholar]</a>
+                
+                
+                
+                <a target="_blank" href="https://arxiv.org/abs/2602.17535">[Paper]</a>
+                
+                
+            </p>
+
+        </div>
+    </div>
+</div>
+
+<div class="row no-gutters d-md-none border-bottom border-gray   " data-src="">
+    <div class="w-100  " style="background-color: rgba(255,255,255,0.9);">
+        <div class="d-flex align-items-start flex-column py-3 px-4">
+            <div class="mb-auto"></div>
+            <div>
+                <h5 class="mt-0 mb-1 font-weight-normal">LATA: Laplacian-Assisted Transductive Adaptation for Conformal Uncertainty in Medical VLMs</h5>
+                <p class="mt-0 mb-0 small"><span class="text-body">
+            Behzad Bozorgtabar, </span><span class="text-body">
+            Dwarikanath Mahapatra, </span><span class="text-body">
+            Sudipta Roy, </span><span class="text-body">
+            Muzammal Naseer, </span><span class="text-body">
+            <strong>Imran Razzak</strong>, </span><span class="text-body">
+            Zongyuan Ge</span></p>
+                <p class="mt-0 mb-0 small"><i>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern … , 2026</i>   <span data-semantic-scholar-id=""></span></p>
+                <p class="mt-0 mb-0 small text-muted"></p>
+                
+                <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
+                    
+                    
+                    <a target="_blank" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=300&pagesize=100&citation_for_view=GlXI4N8AAAAJ:9CGX2owmTHMC">[Google Scholar]</a>
+                    
+                    
+                    
+                    <a target="_blank" href="https://arxiv.org/abs/2602.17535">[Paper]</a>
+                    
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>    
+    
+        
+<div class="d-none d-md-block">
+    <div class="row no-gutters border-bottom border-gray">
+        <div class="col-md-3 col-xl-2 mb-md-0 p-md-3"><svg class="bubble-visual-hash lazy w-100 rounded-sm" data-bubble-visual-hash="/publications/2021/18c4345f1faa0f" viewBox="0 0 300 200"></svg></div>
+        <div class="col-md-9 col-xl-10 p-3 pl-md-0">
+            <h5 class="mt-0 mb-1 font-weight-normal">COVIDSenti: A large-scale benchmark Twitter data set for COVID-19 sentiment analysis</h5>
+            <p class="mt-0 mb-0 small"><span class="text-body">
+            U Naseem, </span><span class="text-body">
+            <strong>I Razzak</strong>, </span><span class="text-body">
+            M Khushi, </span><span class="text-body">
+            PW Eklund, </span><span class="text-body">
+            J Kim</span></p>
+            <p class="mt-0 mb-0 small"><i>IEEE transactions on computational social systems 8 (4), 1003-1015 , 2021</i>   <span data-semantic-scholar-id=""></span></p>
+            <p class="mt-0 mb-0 small text-muted"></p>
+            
+            <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
+                
+                
+                <a target="_blank" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:5bg8sr1QxYwC">[Google Scholar]</a>
+                
+                
+            </p>
+
+        </div>
+    </div>
+</div>
+
+<div class="row no-gutters d-md-none border-bottom border-gray   " data-src="">
+    <div class="w-100  " style="background-color: rgba(255,255,255,0.9);">
+        <div class="d-flex align-items-start flex-column py-3 px-4">
+            <div class="mb-auto"></div>
+            <div>
+                <h5 class="mt-0 mb-1 font-weight-normal">COVIDSenti: A large-scale benchmark Twitter data set for COVID-19 sentiment analysis</h5>
+                <p class="mt-0 mb-0 small"><span class="text-body">
+            U Naseem, </span><span class="text-body">
+            <strong>I Razzak</strong>, </span><span class="text-body">
+            M Khushi, </span><span class="text-body">
+            PW Eklund, </span><span class="text-body">
+            J Kim</span></p>
+                <p class="mt-0 mb-0 small"><i>IEEE transactions on computational social systems 8 (4), 1003-1015 , 2021</i>   <span data-semantic-scholar-id=""></span></p>
+                <p class="mt-0 mb-0 small text-muted"></p>
+                
+                <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
+                    
+                    
+                    <a target="_blank" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:5bg8sr1QxYwC">[Google Scholar]</a>
+                    
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>    
+    
+        
+<div class="d-none d-md-block">
+    <div class="row no-gutters border-bottom border-gray">
+        <div class="col-md-3 col-xl-2 mb-md-0 p-md-3"><svg class="bubble-visual-hash lazy w-100 rounded-sm" data-bubble-visual-hash="/publications/2018/a737440faf1b7d" viewBox="0 0 300 200"></svg></div>
+        <div class="col-md-9 col-xl-10 p-3 pl-md-0">
+            <h5 class="mt-0 mb-1 font-weight-normal">Deep learning for medical image processing: Overview, challenges and the future</h5>
+            <p class="mt-0 mb-0 small"><span class="text-body">
+            <strong>MI Razzak</strong>, </span><span class="text-body">
+            S Naz, </span><span class="text-body">
+            A Zaib</span></p>
+            <p class="mt-0 mb-0 small"><i>Classification in BioApps, 323-350 , 2018</i>   <span data-semantic-scholar-id=""></span></p>
+            <p class="mt-0 mb-0 small text-muted"></p>
+            
+            <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
+                
+                
+                <a target="_blank" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:Mojj43d5GZwC">[Google Scholar]</a>
+                
+                
+            </p>
+
+        </div>
+    </div>
+</div>
+
+<div class="row no-gutters d-md-none border-bottom border-gray   " data-src="">
+    <div class="w-100  " style="background-color: rgba(255,255,255,0.9);">
+        <div class="d-flex align-items-start flex-column py-3 px-4">
+            <div class="mb-auto"></div>
+            <div>
+                <h5 class="mt-0 mb-1 font-weight-normal">Deep learning for medical image processing: Overview, challenges and the future</h5>
+                <p class="mt-0 mb-0 small"><span class="text-body">
+            <strong>MI Razzak</strong>, </span><span class="text-body">
+            S Naz, </span><span class="text-body">
+            A Zaib</span></p>
+                <p class="mt-0 mb-0 small"><i>Classification in BioApps, 323-350 , 2018</i>   <span data-semantic-scholar-id=""></span></p>
+                <p class="mt-0 mb-0 small text-muted"></p>
+                
+                <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
+                    
+                    
+                    <a target="_blank" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:Mojj43d5GZwC">[Google Scholar]</a>
+                    
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>    
+    
+    <h6 class="d-block p-3 mt-0 text-right">
+        <a href="/publications.html">All publications <i class="fas fa-angle-double-right"></i></a>
+    </h6>
+</div>
+
+
+        
+    </div>
+</div>
+
+    </div>
+    <footer class="footer border-top py-2 mt-5 bg-white small">
+    <div class="container-lg">
+        <div class="row my-3">
+            <div class="col-6">
+                <div class="text-muted">
+                    <i>Last updated: Sep 2026</i>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="text-right text-muted">
+                    © Imran Razzak · Personal website. Views are my own. · <a href="https://github.com/luost26/academic-homepage">academic-homepage</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/github-buttons/2.14.2/buttons.min.js" integrity="sha512-OYwZx04hKFeFNYrWxIyo3atgGpb+cxU0ENWBZs72X7T9U+NoHPM1ftUn/Mfw7dRDXrqWA6M1wBg6z6fGE32aeA==" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" integrity="sha384-7zkQWkzuo3B5mTepMUcHkMB5jZaolc2xDwL6VFqjFALcbeS9Ggm/Yr2r3Dy4lfFg" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+              delimiters: [
+                  {left: '$$', right: '$$', display: true},
+                  {left: '$', right: '$', display: false}
+              ],
+              throwOnError : false
+            });
+        });
+    </script>
+    <script src="/assets/js/common.js"></script>
+    <script src="/assets/js/bubble_visual_hash.js"></script>
+    <script src="/assets/js/semantic_scholar_citation_count.js"></script>
 </body>
 </html>
