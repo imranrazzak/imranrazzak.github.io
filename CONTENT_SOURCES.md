@@ -28,3 +28,6 @@ The full imported bibliography is available at `assets/data/publications.json`; 
 - Sources checked: arXiv author API, public Scholar detail pages, the UNSW publication bibliography and its publisher links, accessible publisher full texts, Brunel repository, and Europe PMC. Scholar detail requests stopped upon HTTP 429. Login challenges, restricted publisher resources and unavailable files were not bypassed.
 - The remaining 306 records are preserved without a thumbnail; no suitable figure could be retrieved from the accessible material during this pass. The exact records are listed in `assets/data/figure-coverage.json` for future additions.
 - Navigation now groups projects/datasets under Research, team/applications under People, and teaching/grants/service under Academic. All existing routes remain intact. The upstream `assets/css/global.css` is unchanged; a small additive stylesheet aligns cards and renders figures with `object-fit: contain` on desktop and mobile. Each publication is rendered once rather than in duplicate desktop/mobile blocks.
+
+## MedOS logo video
+User-provided `Desktop/Medos Video.mov`, added September 7, 2026. Converted to a silent, optimized H.264 MP4 with metadata removed; poster extracted from the same clip. Shared centered background uses 70% opacity (30% transparency), a pause control, and reduced-motion/data-saving defaults.
