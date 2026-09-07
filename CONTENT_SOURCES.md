@@ -14,3 +14,17 @@ Migration date: 7 September 2026.
 - No invented employment dates, citation counts, paper abstracts, publication covers, or institutional logos were added. Portrait reused from the original site. Upstream publication bubble graphics remain the theme's default, not paper figures.
 
 The full imported bibliography is available at `assets/data/publications.json`; editable theme publication entries are in `_publications/`.
+
+## MedOS and figure update — 7 September 2026
+
+- Added CEO, MedOS, as explicitly supplied by Imran Razzak; also corroborated by the TIME 2026 workshop biography at https://time.griffith.edu.au/workshop/time2026/.
+- Company description: https://medos.tech/. Correct LinkedIn identity verified directly at https://www.linkedin.com/company/medos-tech/, whose website field links to medos.tech. Unrelated MedOS companies were excluded. No company performance metrics, customer counts, regulatory claims, or founding date were copied.
+- Official MedOS logo reused from https://medos.tech/__l5e/assets-v1/32604b1a-4f46-4371-ab4f-1187f080b713/medos-logo.png, proportionally resized without redesign.
+- All 517 imported Scholar record IDs remain present. Source records can contain alternate versions of the same publication; the count describes records, not a deduplicated count of distinct scholarly works.
+- 141 records matched to arXiv metadata; full author lists were expanded where the match was verified. Publication years and original venue fields remain from Scholar.
+- 211 records now have genuine paper figures, including all 7 selected homepage papers. Architecture, pipeline, study overview and teaser figures were prioritized. Where no architecture diagram was retrievable, an informative figure from the paper was used. No synthetic scientific diagrams or generic decorative thumbnails were introduced.
+- Figure provenance (paper URL, image URL or PDF page and crop coordinates) is recorded in `assets/data/figure-sources.json`. PDF figures were rendered directly from the paper; HTML figures use the publisher/arXiv asset, proportionally resized to WebP. All published figure thumbnails were visually reviewed in contact sheets; the selected PDF crops were additionally checked against full source pages.
+- Open-access COVIDSenti figure source: https://bura.brunel.ac.uk/bitstream/2438/33458/3/FullText.pdf, page 4, Figure 2. Deep Learning for Medical Image Processing: https://arxiv.org/pdf/1704.06825v1, page 8, Figure 3.
+- Sources checked: arXiv author API, public Scholar detail pages, the UNSW publication bibliography and its publisher links, accessible publisher full texts, Brunel repository, and Europe PMC. Scholar detail requests stopped upon HTTP 429. Login challenges, restricted publisher resources and unavailable files were not bypassed.
+- The remaining 306 records are preserved without a thumbnail; no suitable figure could be retrieved from the accessible material during this pass. The exact records are listed in `assets/data/figure-coverage.json` for future additions.
+- Navigation now groups projects/datasets under Research, team/applications under People, and teaching/grants/service under Academic. All existing routes remain intact. The upstream `assets/css/global.css` is unchanged; a small additive stylesheet aligns cards and renders figures with `object-fit: contain` on desktop and mobile. Each publication is rendered once rather than in duplicate desktop/mobile blocks.

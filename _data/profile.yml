@@ -4,6 +4,8 @@ navbar_name: Imran Razzak
 positions:
 - name: Associate Professor, Computational Biology
 - name: MBZUAI · Abu Dhabi, UAE
+- name: CEO, MedOS
+  url: https://medos.tech/
 email: imran.razzak@mbzuai.ac.ae
 gscholar: GlXI4N8AAAAJ
 github: imranrazzak
@@ -14,8 +16,9 @@ portrait_url: /img/imrazzak.jpg
 portrait_caption: Imran Razzak
 short_bio_text_justify: false
 short_bio: '<p>I am an Associate Professor of Computational Biology at <a href="https://mbzuai.ac.ae/study/faculty/imran-razzak/">Mohamed
-  bin Zayed University of Artificial Intelligence (MBZUAI)</a>, where I lead the GenMI research lab. Previously,
-  I worked in human-centered machine learning at UNSW and computer science at Deakin University.</p>
+  bin Zayed University of Artificial Intelligence (MBZUAI)</a>, where I lead the GenMI research lab. I am also CEO
+  of <a href="https://medos.tech/">MedOS</a>, where we build AI for medicine. Previously, I worked in human-centered
+  machine learning at UNSW and computer science at Deakin University.</p>
 
   <p>My research connects <strong>personalized medicine, medical imaging, and multimodal clinical AI</strong>. I
   develop models that bring together imaging, language, and other biomedical data for clinical reasoning and spatial
@@ -33,6 +36,11 @@ experience:
 - name: MBZUAI
   position: Associate Professor, Computational Biology
   date: Present
+- name: MedOS
+  position: Chief Executive Officer
+  date: Present
+  logo: /assets/images/medos-logo.png
+  url: https://medos.tech/
 - name: UNSW, Sydney
   position: Human-Centered Machine Learning
 - name: Deakin University
@@ -44,3 +52,9 @@ awards:
   date: '2022'
 - name: MICCAI CuRIOUS Challenge — 1st place
   date: '2022'
+company:
+  name: MedOS
+  role: Chief Executive Officer
+  url: https://medos.tech/
+  linkedin: https://www.linkedin.com/company/medos-tech/
+  logo: /assets/images/medos-logo.png

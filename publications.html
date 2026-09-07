@@ -1,34 +1,37 @@
 ---
 layout: default
-title : Publications
+title: Publications
 navbar_title: Publications
 body_attr: >-
   data-spy="scroll" data-target="#navbar-year" data-offset="100"
 ---
-
-{% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
-
-<div class="card border-0 shadow-sm bg-white my-3"><div class="card-body p-4"><h1 class="h2">Publications</h1><p>517 records imported from <a href="https://scholar.google.com/citations?user=GlXI4N8AAAAJ&amp;hl=en">Google Scholar</a>, supplemented with verified arXiv records. Browse by year below. Author lists and venue details follow the source; some Scholar entries are abbreviated.</p><p class="mb-0"><a href="/assets/data/publications.json">Download bibliography (JSON)</a> · <a href="https://dblp.org/pid/59/8379.html">DBLP</a></p></div></div>
-
+{% assign pubs_by_year = site.publications | sort: 'date' | reverse | group_by_exp: 'item', "item.date | date: '%Y'" %}
+<div class="card border-0 shadow-sm bg-white my-3"><div class="card-body p-4">
+  <h1 class="h2">Publications</h1>
+  <p>Browse all {{ site.publications.size }} publications, with figures from the papers where available. Select a figure to enlarge it, or follow its source link to the paper.</p>
+  <div class="publication-search mb-2">
+    <label for="publication-search" class="small font-weight-bold">Search by title, author, or venue</label>
+    <div class="input-group"><input id="publication-search" class="form-control" type="search" placeholder="e.g. medical VLM, federated, MICCAI" aria-describedby="publication-count" autocomplete="off"><div class="input-group-append"><button id="publication-clear" class="btn btn-outline-secondary" type="button">Clear</button></div></div>
+  </div>
+  <p id="publication-count" class="small text-muted mb-3" role="status" aria-live="polite">{{ site.publications.size }} publications</p>
+  <p class="small mb-0"><a href="https://scholar.google.com/citations?user=GlXI4N8AAAAJ&amp;hl=en">Google Scholar</a> · <a href="https://dblp.org/pid/59/8379.html">DBLP</a> · <a href="/assets/data/publications.json">Download bibliography</a></p>
+</div></div>
 <div class="row">
-    <div class="col-12 col-lg-10">
-        {% for year in pubs_by_year %}
-        {% assign num_papers = year.items | size %}
-        <h2 class="pt-4" id="year-{{ year.name }}">{% if year.name == "1900" %}Undated{% else %}{{ year.name }}{% endif %}</h2>
-        <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
-            {% for item in year.items %}
-                {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
-            {% endfor %}
-        </div>
-        {% endfor %}
+  <div class="col-12 col-lg-10">
+    <p id="publication-empty" class="p-4 bg-white rounded shadow-sm" hidden>No publications match your search. Try a different title, author, or venue.</p>
+    {% for year in pubs_by_year %}
+    <section class="publication-year" id="year-{{ year.name }}" aria-labelledby="heading-{{ year.name }}">
+      <h2 class="pt-4" id="heading-{{ year.name }}">{% if year.name == '1900' %}Undated{% else %}{{ year.name }}{% endif %}</h2>
+      <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
+        {% for item in year.items %}{% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}{% endfor %}
+      </div>
+    </section>
+    {% endfor %}
+  </div>
+  <div class="col-2 d-none d-lg-block">
+    <div id="navbar-year" class="nav nav-pills flex-column sticky-top" style="top: 80px" aria-label="Publication years">
+      {% for year in pubs_by_year %}<a class="nav-link d-block" href="#year-{{ year.name }}">{% if year.name == '1900' %}Undated{% else %}{{ year.name }}{% endif %}</a>{% endfor %}
     </div>
-
-    <div class="col-2 d-none d-lg-block">
-        <div id="navbar-year" class="nav nav-pills flex-column sticky-top" style="top: 80px">
-            {% for year in pubs_by_year %}
-            <a class="nav-link d-block" href="#year-{{ year.name }}">{% if year.name == "1900" %}Undated{% else %}{{ year.name }}{% endif %}</a>
-            {% endfor %}
-        </div>
-    </div>
-
+  </div>
 </div>
+<script src="{{ '/assets/js/publication-search.js' | relative_url }}" defer></script>

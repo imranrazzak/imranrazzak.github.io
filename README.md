@@ -25,3 +25,9 @@ To deploy a validated build, update a clean checkout of `main` with the contents
 The original website and every old file remain available in repository history.
 
 The `.github/workflows/deploy.yml` workflow publishes the generated `main` branch on every push, including pushes made with a deploy key. Preserve this workflow when replacing generated output.
+
+## Publication figures
+
+The bibliography retains all 517 Scholar records. Figures are local WebP assets in `assets/images/publications/`; each entry with a figure includes `cover`, `cover_source`, `cover_figure`, `cover_width`, and `cover_height`. Keep `assets/data/publications.json` synchronized with `_publications/`. See `assets/data/figure-sources.json` for source attribution and `assets/data/figure-coverage.json` for the remaining records that need an accessible paper figure. Do not restore synthetic placeholder graphics for missing figures.
+
+`assets/js/publication-search.js` filters the bibliography by title, author, and venue without sending queries to a server. The MedOS company card is configured in `_data/profile.yml` and `_includes/widgets/company_card.html`.

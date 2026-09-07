@@ -11,6 +11,12 @@ authors:
 - '...'
 links:
   Google Scholar: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=200&pagesize=100&citation_for_view=GlXI4N8AAAAJ:I9gX6wnfuA8C
+  Paper: https://aclanthology.org/2025.abjadnlp-1.11.pdf
 scholar_id: GlXI4N8AAAAJ:I9gX6wnfuA8C
 selected: false
+cover: /assets/images/publications/aec3cadaaa963a.webp
+cover_source: https://aclanthology.org/2025.abjadnlp-1.11.pdf#page=4
+cover_figure: Figure 1
+cover_width: 1021
+cover_height: 560
 ---
