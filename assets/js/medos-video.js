@@ -1,5 +1,5 @@
 (() => {
-  const video = document.getElementById('medos-background-video');
+  const video = document.getElementById('medos-profile-video');
   const button = document.querySelector('.medos-motion-toggle');
   if (!video || !button) return;
   const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
