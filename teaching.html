@@ -29,6 +29,13 @@
     <link rel="stylesheet" href="/assets/css/profile.css">
 </head>
 <body class="bg-light" >
+    <div class="medos-backdrop" aria-hidden="true">
+  <video id="medos-background-video" muted loop playsinline preload="none" poster="/assets/images/medos-video-poster.webp" tabindex="-1">
+    <source data-src="/assets/video/medos-logo.mp4" type="video/mp4">
+  </video>
+</div>
+<button type="button" class="medos-motion-toggle" aria-controls="medos-background-video" hidden>Play MedOS animation</button>
+
     <nav class="navbar navbar-expand-lg navbar-light fixed-top mb-5 shadow-sm" aria-label="Main navigation">
   <div class="container-lg">
     <a class="navbar-brand" href="/"><strong>Imran Razzak</strong></a>
@@ -79,7 +86,7 @@
   </div>
 </nav>
 
-    <div class="container-lg">
+    <div class="site-content container-lg">
         <h1 class="h2 my-4">Teaching</h1>
 <div class="card border-0 shadow-sm bg-white my-3"><div class="card-body p-4"><div>
 <h2 class="h4 mb-3">MBZUAI — Abu Dhabi, UAE</h2>
@@ -166,6 +173,7 @@
 </footer>
 
 
+    <script defer src="/assets/js/medos-video.js"></script>
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>

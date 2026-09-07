@@ -20,3 +20,14 @@
 .text-profile-bio > p:last-child { margin-bottom: 0; }
 .email-text { overflow-wrap: anywhere; }
 .publication-entry h3, .publication-entry p { overflow-wrap: anywhere; }
+
+/* Centered MedOS logo film: 30% transparent, behind readable page content. */
+body { isolation: isolate; }
+.medos-backdrop { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; pointer-events: none; z-index: -1; overflow: hidden; }
+.medos-backdrop video { width: min(72vw, 680px); max-height: 80vh; object-fit: contain; opacity: .7; border-radius: 2rem; box-shadow: 18px 18px 48px rgba(32,105,140,.16), -18px -18px 48px rgba(255,255,255,.9); }
+.site-content { position: relative; }
+.site-content .card.bg-white { background-color: rgba(255,255,255,.9) !important; }
+.medos-motion-toggle { position: fixed; right: 1rem; bottom: 1rem; z-index: 1020; padding: .45rem .75rem; border: 1px solid #d5e3ec; border-radius: 1.5rem; background: #fff; color: #315268; font-size: .75rem; box-shadow: 0 2px 10px #203c5214; }
+.medos-motion-toggle:focus-visible { outline: 3px solid #168bcd; outline-offset: 3px; }
+@media (max-width: 575.98px) { .medos-backdrop video { width: 92vw; border-radius: 1rem; } .medos-motion-toggle { right: .5rem; bottom: .5rem; } }
+@media print { .medos-backdrop, .medos-motion-toggle { display: none !important; } }
