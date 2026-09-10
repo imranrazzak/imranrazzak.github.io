@@ -27,3 +27,5 @@
 .medos-motion-toggle:focus-visible { outline: 3px solid #168bcd; outline-offset: 3px; }
 @media (max-width: 767.98px) { .medos-profile-video { width: 50%; } }
 @media print { .medos-motion-toggle { display: none !important; } }
+
+#team-life, #should, #fit, #choose, #workflow, #youexpect, #iexpect, #apply, #reading { scroll-margin-top: 80px; }
