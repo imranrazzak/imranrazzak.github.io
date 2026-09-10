@@ -31,3 +31,6 @@ The `.github/workflows/deploy.yml` workflow publishes the generated `main` branc
 The bibliography retains all 517 Scholar records. Figures are local WebP assets in `assets/images/publications/`; each entry with a figure includes `cover`, `cover_source`, `cover_figure`, `cover_width`, and `cover_height`. Keep `assets/data/publications.json` synchronized with `_publications/`. See `assets/data/figure-sources.json` for source attribution and `assets/data/figure-coverage.json` for the remaining records that need an accessible paper figure. Do not restore synthetic placeholder graphics for missing figures.
 
 `assets/js/publication-search.js` filters the bibliography by title, author, and venue without sending queries to a server. The MedOS company card is configured in `_data/profile.yml` and `_includes/widgets/company_card.html`.
+
+### Team life events
+Add lunch, gathering, or celebration photos under `assets/images/team/` and add entries to `_data/team_events.yml` with `title`, `date` (YYYY-MM-DD), `location`, `image` (site-relative path), `alt`, and `caption`. They appear newest first at `/team.html#team-life`. Only add actual events; the empty list publishes no sample entries.

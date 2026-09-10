@@ -13,6 +13,8 @@ pages:
   children:
   - name: Research Team
     url: /team.html
+  - name: Team Life
+    url: /team.html#team-life
   - name: Prospective Students
     url: /student.html
 - name: Academic
