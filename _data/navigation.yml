@@ -15,8 +15,12 @@ pages:
     url: /team.html
   - name: Team Life
     url: /team.html#team-life
+- name: Open Position
+  children:
   - name: Prospective Students
     url: /student.html
+  - name: Research Position
+    url: /research-position.html
 - name: Academic
   children:
   - name: Teaching
