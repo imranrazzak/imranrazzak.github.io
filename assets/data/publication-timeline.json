@@ -1,0 +1,3611 @@
+{
+  "records": 517,
+  "distinct_works": 502,
+  "undated": 23,
+  "method": "Merge exact normalized titles or shared arXiv/DOI identifiers; assign each group to its latest recorded year. Title changes without a shared identifier may remain separate.",
+  "years": [
+    {
+      "year": 2009,
+      "count": 5
+    },
+    {
+      "year": 2010,
+      "count": 8
+    },
+    {
+      "year": 2011,
+      "count": 5
+    },
+    {
+      "year": 2012,
+      "count": 2
+    },
+    {
+      "year": 2013,
+      "count": 3
+    },
+    {
+      "year": 2014,
+      "count": 5
+    },
+    {
+      "year": 2015,
+      "count": 9
+    },
+    {
+      "year": 2016,
+      "count": 13
+    },
+    {
+      "year": 2017,
+      "count": 11
+    },
+    {
+      "year": 2018,
+      "count": 10
+    },
+    {
+      "year": 2019,
+      "count": 30
+    },
+    {
+      "year": 2020,
+      "count": 25
+    },
+    {
+      "year": 2021,
+      "count": 38
+    },
+    {
+      "year": 2022,
+      "count": 55
+    },
+    {
+      "year": 2023,
+      "count": 43
+    },
+    {
+      "year": 2024,
+      "count": 60
+    },
+    {
+      "year": 2025,
+      "count": 91
+    },
+    {
+      "year": 2026,
+      "count": 66
+    }
+  ],
+  "groups": [
+    {
+      "title": "Automatic detection and classification of malarial parasite",
+      "year": 2015,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:dfsIfKJdRG4C"
+      ]
+    },
+    {
+      "title": "Lexicon reduction for Urdu/Arabic script based character recognition: a multilingual OCR",
+      "year": 2016,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:738O_yMBCRsC"
+      ]
+    },
+    {
+      "title": "Unit-vise: Deep Shallow Unit-Vise Residual Neural Networks with Transition Layer For Expert Level Skin Cancer Classification",
+      "year": 2020,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:w1MjKQ0l0TYC"
+      ]
+    },
+    {
+      "title": "Deep Analysis of Handwritten Notes for Early Diagnosis of Neurological Disorders",
+      "year": 2020,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:1yWc8FF-_SYC"
+      ]
+    },
+    {
+      "title": "Ra-net: Region-aware attention network for skin lesion segmentation",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Vztgr1qGG8IC"
+      ]
+    },
+    {
+      "title": "Efficient skew detection and correction in scanned document images through clustering of probabilistic hough transforms",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:v6i8RKmR8ToC"
+      ]
+    },
+    {
+      "title": "DFSat: Deep Federated Learning for Identifying Cyber Threats in IoT-based Satellite Networks",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Vr2j17o0sqMC"
+      ]
+    },
+    {
+      "title": "Content-based image retrieval using texture color shape and region",
+      "year": 2016,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:jmjb1lOE9QIC"
+      ]
+    },
+    {
+      "title": "Semi-supervised 3D-InceptionNet for segmentation and survival prediction of head and neck primary cancers",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:7H_jS4BsgvYC"
+      ]
+    },
+    {
+      "title": "Locally baseline detection for online Arabic script based languages character recognition",
+      "year": 2010,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:NaGl4SEjCO4C"
+      ]
+    },
+    {
+      "title": "A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:jKT558fuBk8C"
+      ]
+    },
+    {
+      "title": "Saeeda Naz, Muhammad Imran Razzak, Faiza Akram, and Muhammad Imran. A deep learning-based framework for automatic brain tumors classification using transfer learning",
+      "year": 2020,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:lbI08cpqPnQC"
+      ]
+    },
+    {
+      "title": "Multi-Class Support Matrix Machines by Maximizing the Inter-class Margin for Single Trial EEG Classification",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Ehil0879vHcC"
+      ]
+    },
+    {
+      "title": "Uncovering Political Hate Speech During Indian Election Campaign: A New Low-Resource Dataset and Baselines",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:J3LtWjKFLicC"
+      ]
+    },
+    {
+      "title": "Marine-tree: A Large-scale Marine Organisms Dataset for Hierarchical Image Classification",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:M0leSnx2MbUC"
+      ]
+    },
+    {
+      "title": "Visual question answering: from early developments to recent advances -- a survey",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:MGPUR4WVBMEC"
+      ]
+    },
+    {
+      "title": "Do Large Language Models Speak All Languages Equally? A Comparative Study in Low-Resource Settings",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:cB__R-XWw9UC"
+      ]
+    },
+    {
+      "title": "Integrating joint feature selection into subspace learning: A formulation of 2DPCA for outliers robust feature selection",
+      "year": 2020,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:U4n9YNQMCAIC"
+      ]
+    },
+    {
+      "title": "PitVis-2023 Challenge: Workflow Recognition in videos of Endoscopic Pituitary Surgery",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:a2necdfpwlEC"
+      ]
+    },
+    {
+      "title": "MMRC: A Large-Scale Benchmark for Understanding Multimodal Large Language Model in Real-World Conversation",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:wkm4DBaukwsC"
+      ]
+    },
+    {
+      "title": "Review on chest pathogies detection systems using deep learning techniques",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Nw_I7GeUguwC"
+      ]
+    },
+    {
+      "title": "A Convolutional Attention Network for Unifying General and Sequential Recommenders",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:isU91gLudPYC"
+      ]
+    },
+    {
+      "title": "A novel dataset for English-Arabic scene text recognition (EASTR)-42K and its evaluation using invariant feature extraction on detected extremal regions",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:u-coK7KVo8oC"
+      ]
+    },
+    {
+      "title": "Text Stream to Temporal Network - A Dynamic Heartbeat Graph to Detect Emerging Events on Twitter",
+      "year": 2018,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:uWiczbcajpAC"
+      ]
+    },
+    {
+      "title": "Face recognition using layered linear discriminant analysis and small subspace",
+      "year": 2010,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:RGFaLdJalmkC"
+      ]
+    },
+    {
+      "title": "Combining offline and online preprocessing for online urdu character recognition",
+      "year": 2009,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:pQTOvowfQioC"
+      ]
+    },
+    {
+      "title": "Unsupervised unpaired multiple fusion adaptation aided with self-attention generative adversarial network for scar tissues segmentation framework",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:nWoA1JPTheMC"
+      ]
+    },
+    {
+      "title": "A novel uncertainty-aware deep learning technique with an application on skin cancer diagnosis",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:uUvzmPk0f8oC"
+      ]
+    },
+    {
+      "title": "PCA: Progressive class-wise attention for skin lesions diagnosis",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:g_UdREhPGEoC"
+      ]
+    },
+    {
+      "title": "StreamAgent: Towards Anticipatory Agents for Streaming Video Understanding",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Ei5r6KrKXVQC"
+      ]
+    },
+    {
+      "title": "Vulnerability Detection in Smart Contracts: A Comprehensive Survey",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Oo1CbQkBAzEC"
+      ]
+    },
+    {
+      "title": "3D shallow deep neural network for fast and precise segmentation of left atrium: A. Kausar et al.",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:SGW5VrABaM0C"
+      ]
+    },
+    {
+      "title": "Better to Ask in English: Evaluation of Large Language Models on English, Low-resource and Cross-Lingual Settings",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:VnuxuLaQPLMC"
+      ]
+    },
+    {
+      "title": "Skin lesion analysis toward accurate detection of melanoma using multistage fully connected residual network",
+      "year": 2020,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:O0nohqN1r9EC"
+      ]
+    },
+    {
+      "title": "Robust sparse representation and multiclass support matrix machines for the classification of motor imagery EEG signals",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:jgBuDB5drN8C"
+      ]
+    },
+    {
+      "title": "Malarial parasite classification using recurrent neural network",
+      "year": 2015,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:4fKUyHm3Qg0C"
+      ]
+    },
+    {
+      "title": "Advancing Medical Image Segmentation with Mini-Net: A Lightweight Solution Tailored for Efficient Segmentation of Medical Images",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:hefNtdE4IMkC"
+      ]
+    },
+    {
+      "title": "Social responses to the COVID-19 pandemic",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:KTwcwpFFj4wC"
+      ]
+    },
+    {
+      "title": "A cross population study of retinal aging biomarkers with longitudinal pre-training and label distribution learning",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:dFKc6_kCK1wC"
+      ]
+    },
+    {
+      "title": "Deep autoencoder-decoder framework for semantic segmentation of brain tumor",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:DBa1UEJaJKAC"
+      ]
+    },
+    {
+      "title": "Automatic detection of malarial parasite using microscopic blood images",
+      "year": 2015,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:u_35RYKgDlwC"
+      ]
+    },
+    {
+      "title": "Challenges in baseline detection of Arabic script based languages",
+      "year": 2014,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:4OULZ7Gr8RgC"
+      ]
+    },
+    {
+      "title": "TESL-Net: A Transformer-Enhanced CNN for Accurate Skin Lesion Segmentation",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:pUxgyZctzPYC"
+      ]
+    },
+    {
+      "title": "Hybrid unsupervised paradigm based deformable image fusion for 4D CT lung image modality",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:q0uBw5dMOAkC"
+      ]
+    },
+    {
+      "title": "Strategies for evaluating visual analytics systems: A systematic review and new perspectives",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:as0KMg8qHbkC"
+      ]
+    },
+    {
+      "title": "Glan: Gan assisted lightweight attention network for biomedical imaging based diagnostics",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:PlWzFYVEG4EC"
+      ]
+    },
+    {
+      "title": "Performance comparison of transformer-based models on twitter health mention classification",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:orDZ08hpP44C"
+      ]
+    },
+    {
+      "title": "Arabic cursive text recognition from natural scene images",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:tYavs44e6CUC"
+      ]
+    },
+    {
+      "title": "Two-stage self-supervised contrastive learning aided transformer for real-time medical image segmentation",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:BJtnxTr0fRcC"
+      ]
+    },
+    {
+      "title": "Simple and robust depth-wise cascaded network for polyp segmentation",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:wyM6WWKXmoIC"
+      ]
+    },
+    {
+      "title": "SPAD+: An Improved Probabilistic Anomaly Detector based on One-dimensional Histograms",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:c1e4I3QdEKYC"
+      ]
+    },
+    {
+      "title": "Evaluation of handwritten Urdu text by integration of MNIST dataset learning experience",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:43bX7VzcjpAC"
+      ]
+    },
+    {
+      "title": "DHGCN: Dynamic Hop Graph Convolution Network for Self-Supervised Point Cloud Learning",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:txeM2kYbVNMC"
+      ]
+    },
+    {
+      "title": "A Cascaded Mutliresolution Ensemble Deep Learning Framework for Large Scale Alzheimer's Disease Detection using Brain MRIs",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:WwIwg2wKZ0QC"
+      ]
+    },
+    {
+      "title": "An Intelligent Risk Management Framework for Monitoring Vehicular Engine Health",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:xm0LlTxljI0C",
+        "GlXI4N8AAAAJ:o9ULDYDKYbIC"
+      ]
+    },
+    {
+      "title": "Lightweight Face Anti-Spoofing Network for Telehealth Applications",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:SIv7DqKytYAC"
+      ]
+    },
+    {
+      "title": "An Improved Dense V-Network for Fast and Precise Segmentation of Left Atrium",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:1tZ8xJnm2c8C"
+      ]
+    },
+    {
+      "title": "Hot-Spot zone detection to tackle COVID19 spread by fusing the traditional machine learning and deep learning approaches of computer vision",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:k_7cPK9k7w8C"
+      ]
+    },
+    {
+      "title": "BTS: Building Timeseries Dataset: Empowering Large-Scale Building Analytics",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:q1zXlPLtbUIC"
+      ]
+    },
+    {
+      "title": "Renewable energy re-distribution via multiscale IoT for 6G-oriented green highway management",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Tfl4UtY-dJUC"
+      ]
+    },
+    {
+      "title": "Multi-objective flower pollination algorithm: A new technique for EEG signal denoising",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:FsLZdJ3BAzkC"
+      ]
+    },
+    {
+      "title": "Mutliresolutional ensemble PartialNet for Alzheimer detection using magnetic resonance imaging data",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:SxCCDk4iOpsC"
+      ]
+    },
+    {
+      "title": "Automated Detection and Segmentation of Glioblastoma in MRI using Multi-Level Diffusion Transformer U-Net",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:EBV337fEn3EC"
+      ]
+    },
+    {
+      "title": "IoT-Enabled Multimodal Biometric Recognition System in Secure Environment",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:3lUAU8Oskd0C"
+      ]
+    },
+    {
+      "title": "LSSF-Net: Lightweight Segmentation with Self-Awareness, Spatial Attention, and Focal Modulation",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:zzCxg_vo7cAC"
+      ]
+    },
+    {
+      "title": "Multilevel depth-wise context attention network with atrous mechanism for segmentation of COVID19 affected regions",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:D_tqNUsBuKoC"
+      ]
+    },
+    {
+      "title": "Multipath Deep Shallow Convolutional Networks for Large Scale Plant Species Identification in Wild Image",
+      "year": 2020,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:hsZV8lGYWTMC"
+      ]
+    },
+    {
+      "title": "EveSense: What can you sense from Twitter?",
+      "year": 2020,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:FiytvqdAVhgC"
+      ]
+    },
+    {
+      "title": "Arabic script based language character recognition: Nasta'liq vs Naskh analysis",
+      "year": 2013,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:uLbwQdceFCQC"
+      ]
+    },
+    {
+      "title": "Multi-font numerals recognition for Urdu script based languages",
+      "year": 2009,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:ldfaerwXgEUC"
+      ]
+    },
+    {
+      "title": "Numeral recognition for Urdu script in unconstrained environment",
+      "year": 2009,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:gsN89kCJA0AC"
+      ]
+    },
+    {
+      "title": "Reducing rip current drowning: An improved residual based lightweight deep architecture for rip detection",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:ijdKiLOsEJMC"
+      ]
+    },
+    {
+      "title": "Multimodal biometric recognition based on fusion of low resolution face and finger veins",
+      "year": 2011,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:vV6vV6tmYwMC"
+      ]
+    },
+    {
+      "title": "Collaborative image compression in wireless sensor networks",
+      "year": 2010,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:RYcK_YlVTxYC"
+      ]
+    },
+    {
+      "title": "Energy efficient image compression in wireless sensor networks",
+      "year": 2009,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:lSLTfruPkqcC"
+      ]
+    },
+    {
+      "title": "RipDet: A fast and lightweight deep neural network for rip currents detection",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:wvYxNZNCP7wC"
+      ]
+    },
+    {
+      "title": "Deep optical character recognition: a case of Pashto language",
+      "year": 2020,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:owLR8QvbtFgC"
+      ]
+    },
+    {
+      "title": "Efficient distributed face recognition in wireless sensor network",
+      "year": 2012,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:70eg2SAEIzsC"
+      ]
+    },
+    {
+      "title": "Leveraging Taxonomy and LLMs for Improved Multimodal Hierarchical Classification",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:BPS1z4jHU5cC"
+      ]
+    },
+    {
+      "title": "Exploring the impact of SEO-based ranking factors for voice queries through machine learning",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:rqnDXT1GswoC"
+      ]
+    },
+    {
+      "title": "Unveiling misogyny memes: A multimodal analysis of modality effects on identification",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:yJjnfzR0HrkC"
+      ]
+    },
+    {
+      "title": "Improving Health Mention Classification of Social Media Content Using Contrastive Adversarial Training",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:nPTYJWkExTIC"
+      ]
+    },
+    {
+      "title": "Hybrid deep shallow network for assessment of depression using electroencephalogram signals",
+      "year": 2020,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:VN7nJs4JPk0C"
+      ]
+    },
+    {
+      "title": "Feature Enhancer Segmentation Network (FES-Net) for Vessel Segmentation",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:h168fVGZblEC"
+      ]
+    },
+    {
+      "title": "ModelOps for enhanced decision-making and governance in emergency control rooms",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:LK8CI43ZvvMC"
+      ]
+    },
+    {
+      "title": "A Mask-based Output Layer for Multi-level Hierarchical Classification",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:jlhcAiayVhoC"
+      ]
+    },
+    {
+      "title": "RipNet: A lightweight one-class deep neural network for the identification of RIP currents",
+      "year": 2020,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:ce2CqMG-AY4C"
+      ]
+    },
+    {
+      "title": "An ontology-based framework aiming to support cardiac rehabilitation program",
+      "year": 2016,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:fQNAKQ3IYiAC"
+      ]
+    },
+    {
+      "title": "MHIVis: Visual Analytics for Exploring Mental Illness of Policyholders in Life Insurance Industry",
+      "year": 2020,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:FiDNX6EVdGUC"
+      ]
+    },
+    {
+      "title": "PG-SAM: Prior-Guided SAM with Medical for Multi-organ Segmentation",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:xa5BkEQK8BgC"
+      ]
+    },
+    {
+      "title": "Histone-net: a multi-paradigm computational framework for histone occupancy and modification prediction",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:2vr6o8x5NLkC"
+      ]
+    },
+    {
+      "title": "DeepCog: A Trustworthy Deep Learning-Based Human Cognitive Privacy Framework in Industrial Policing",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:KS-xo-ZNxMsC"
+      ]
+    },
+    {
+      "title": "Fusion of CNN and Sparse Representation for Threat Estimation Near Power Lines and Poles Infrastructure Using Aerial Stereo Imagery",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:mUJArPsKIAAC"
+      ]
+    },
+    {
+      "title": "MedMO: Grounding and Understanding Multimodal Large Language Model for Medical Images",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:e9bUPLv0EjcC"
+      ]
+    },
+    {
+      "title": "Region Guided Attention Network for Retinal Vessel Segmentation",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:qPeb-qHga9sC"
+      ]
+    },
+    {
+      "title": "Distributed Optimization of Graph Convolutional Network using Subgraph Variance",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:RJOyoaXV5v8C"
+      ]
+    },
+    {
+      "title": "Progressive ShallowNet for large scale dynamic and spontaneous facial behaviour analysis in children",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:cBPnxVikjH8C"
+      ]
+    },
+    {
+      "title": "Patch-CNN: Deep learning for logo detection and brand recognition",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:R-LXmdHK_14C"
+      ]
+    },
+    {
+      "title": "Robust 2D Joint Sparse Principle Component Analysis with F-norm Minimization for Sparse Modelling: 2D-RJSPCA",
+      "year": 2018,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:URolC5Kub84C"
+      ]
+    },
+    {
+      "title": "Rhythm of Opinion: A Hawkes-Graph Framework for Dynamic Propagation Analysis",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:u_mOZUIutIEC"
+      ]
+    },
+    {
+      "title": "A Knowledge-driven Adaptive Collaboration of LLMs for Enhancing Medical Decision-making",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:h1pkognVyKwC"
+      ]
+    },
+    {
+      "title": "Advancing metaverse-based healthcare with multimodal neuroimaging fusion via multi-task adversarial variational autoencoder for brain age estimation",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:3BvdIg-l-ZAC"
+      ]
+    },
+    {
+      "title": "LMBF-Net: A Lightweight Multipath Bidirectional Focal Attention Network for Multifeatures Segmentation",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:d4tt_xEv1X8C"
+      ]
+    },
+    {
+      "title": "MaLLaM--Malaysia Large Language Model",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:MqTxh1vmwXEC"
+      ]
+    },
+    {
+      "title": "Assessment of physiological states from contactless face video: a sparse representation approach",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:CRzUtm-VnGAC"
+      ]
+    },
+    {
+      "title": "Natural Language Interactions Enhanced by Data Visualization to Explore Insurance Claims and Manage Risk",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:NxmKEeNBbOMC"
+      ]
+    },
+    {
+      "title": "UCBVis: understanding customer behavior sequences with visual interactive system",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:-DxkuPiZhfEC"
+      ]
+    },
+    {
+      "title": "Multi-encoder self-adaptive hard attention network with maximum intensity projections for lung nodule segmentation",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:5F1dSjz1ScoC"
+      ]
+    },
+    {
+      "title": "The Role of AI in Early Detection of Life-Threatening Diseases: A Retinal Imaging Perspective",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:KqnX2w3egDsC"
+      ]
+    },
+    {
+      "title": "Did You Tell a Deadly Lie? Evaluating Large Language Models for Health Misinformation Identification",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Nufq_to8ts0C"
+      ]
+    },
+    {
+      "title": "Deep OCR for Arabic script‐based language like Pastho",
+      "year": 2020,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:yxmsSjX2EkcC"
+      ]
+    },
+    {
+      "title": "A novel method for scanning electron microscope image segmentation and its application to blood cell analysis",
+      "year": 2016,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:5Ul4iDaHHb8C"
+      ]
+    },
+    {
+      "title": "Multilevel fusion for fast online signature recognition using multi-section VQ and time modelling",
+      "year": 2015,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:CHSYGLWDkRkC"
+      ]
+    },
+    {
+      "title": "Challenges in baseline detection of cursive script languages",
+      "year": 2013,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:_OXeSy2IsFwC"
+      ]
+    },
+    {
+      "title": "Bio-inspired multilayered and multilanguage Arabic script character recognition system",
+      "year": 2012,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:2P1L_qKh6hAC"
+      ]
+    },
+    {
+      "title": "Energy efficient distributed face recognition in wireless sensor network",
+      "year": 2011,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:HGTzPopzzJcC",
+        "GlXI4N8AAAAJ:uQVPmWFBlwUC"
+      ]
+    },
+    {
+      "title": "ScalingNoise: Scaling Inference-Time Search for Generating Infinite Videos",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:ZysSsiWj_g4C"
+      ]
+    },
+    {
+      "title": "DSRS: DELIGHT sequential recommender system",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:mVC4hKzE2FoC"
+      ]
+    },
+    {
+      "title": "SMILE-UHURA Challenge -- Small Vessel Segmentation at Mesoscopic Scale from Ultra-High Resolution 7T Magnetic Resonance Angiograms",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:_mQi-xiA4oYC"
+      ]
+    },
+    {
+      "title": "BiTSA: Leveraging Time Series Foundation Model for Building Energy Analytics",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:hKjooKYXoHIC"
+      ]
+    },
+    {
+      "title": "EUIS-Net: A Convolutional Neural Network for Efficient Ultrasound Image Segmentation",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:NtGNdKbuCngC"
+      ]
+    },
+    {
+      "title": "Discriminating retinal microvascular and neuronal differences related to migraines: Deep Learning based Crossectional Study",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:BW2nPTmhBn4C"
+      ]
+    },
+    {
+      "title": "Multi-scale swin transformer enabled automatic detection and segmentation of lung metastases using CT images",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Ej9njvOgR2oC"
+      ]
+    },
+    {
+      "title": "Cursive Script Text Recognition in Natural Scene Images",
+      "year": 2020,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:ALROH1vI_8AC"
+      ]
+    },
+    {
+      "title": "Balinese character recognition using bidirectional LSTM classifier",
+      "year": 2016,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:sSrBHYA8nusC"
+      ]
+    },
+    {
+      "title": "Ghost character recognition theory and Arabic script based languages character recognition",
+      "year": 2011,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:3s1wT3WcHBgC"
+      ]
+    },
+    {
+      "title": "Beyond Single Pass, Looping Through Time: KG-IRAG with Iterative Knowledge Retrieval",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:XeErXHja3Z8C"
+      ]
+    },
+    {
+      "title": "MSWAL: 3D Multi-class Segmentation of Whole Abdominal Lesions Dataset",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:NXYAu82O0W8C"
+      ]
+    },
+    {
+      "title": "Decoding the flow: Causemotion for emotional causality analysis in long-form conversations",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:lRPiJ3GhvscC"
+      ]
+    },
+    {
+      "title": "SAM-aware Test-time Adaptation for Universal Medical Image Segmentation",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:BCdnXsLIVDwC"
+      ]
+    },
+    {
+      "title": "Cross Platform MultiModal Retrieval Augmented Distillation for Code-Switched Content Understanding",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:lPDSu1ZU3VAC"
+      ]
+    },
+    {
+      "title": "The Eye as a Window to Systemic Health: A Survey of Retinal Imaging from Classical Techniques to Oculomics",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:VjBpw8Hezy4C",
+        "GlXI4N8AAAAJ:8O4vDxvErlEC"
+      ]
+    },
+    {
+      "title": "Less but Better: Parameter-Efficient Fine-Tuning of Large Language Models for Personality Detection",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:GtqhT-R7ZnwC"
+      ]
+    },
+    {
+      "title": "IDoFew: Intermediate Training Using Dual-Clustering in Language Models for Few Labels Text Classification",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:NtCmTCuxid4C"
+      ]
+    },
+    {
+      "title": "A gap in time: The challenge of processing heterogeneous iot point data in buildings",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:CMvovTBb2okC"
+      ]
+    },
+    {
+      "title": "3d-incnet: Head and neck (h&n) primary tumors segmentation and survival prediction",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:W2uZP3ddy8sC"
+      ]
+    },
+    {
+      "title": "Improving Personal Health Mention Detection on Twitter Using Permutation Based Word Representation Learning",
+      "year": 2020,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:kWvqk_afx_IC"
+      ]
+    },
+    {
+      "title": "Genesis: A Large-Scale Benchmark for Multimodal Large Language Model in Emotional Causality Analysis",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:09LM3QYkMKUC"
+      ]
+    },
+    {
+      "title": "The Emergence of Deep Reinforcement Learning for Path Planning",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:RJNGbXJAtMsC"
+      ]
+    },
+    {
+      "title": "A Gap in Time: The Challenge of Processing Heterogeneous IoT Data in Digitalized Buildings",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:cdwqcPQS8ssC"
+      ]
+    },
+    {
+      "title": "The STOIC2021 COVID-19 AI challenge: applying reusable training methodologies to private data",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:0sTkTiv_uMkC"
+      ]
+    },
+    {
+      "title": "GRA:Graph Representation Alignment for Semi-Supervised Action Recognition",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:sbeIDTyQOFgC"
+      ]
+    },
+    {
+      "title": "One‐class tensor machine with randomized projection for large‐scale anomaly detection in high‐dimensional and noisy data",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:zwpXiJ37cpgC"
+      ]
+    },
+    {
+      "title": "Adaptive filtering algorithms for channel equalization in wireless communication",
+      "year": 2015,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:eflP2zaiRacC"
+      ]
+    },
+    {
+      "title": "Bio-inspired hybrid face recognition system for small sample size and large dataset",
+      "year": 2010,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:pqnbT2bcN3wC"
+      ]
+    },
+    {
+      "title": "Multi-Task Adversarial Variational Autoencoder for Estimating Biological Brain Age with Multimodal Neuroimaging",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Gb6Hms-Uo9kC"
+      ]
+    },
+    {
+      "title": "Spontaneous Facial Behavior Analysis using Deep Transformer Based Framework for Child–Computer Interaction",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:QVtou7C4vgoC"
+      ]
+    },
+    {
+      "title": "A hybrid approach for NER system for scarce resourced language-URDU: Integrating n-gram with rules and gazetteers",
+      "year": 2015,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:QyXJ3EUuO1IC"
+      ]
+    },
+    {
+      "title": "EmoPerso: Enhancing Personality Detection with Self-Supervised Emotion-Aware Modelling",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:uPCvBZYD9qUC"
+      ]
+    },
+    {
+      "title": "Cbrcl: a clip-bert with retrieval-guided contrastive learning multimodal approach for crisis-driven hate speech detection",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:5rMqqAh47xYC"
+      ]
+    },
+    {
+      "title": "Federated Focal Modulated UNet for Cardiovascular Image Segmentation",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:u0Mu_IsstPMC"
+      ]
+    },
+    {
+      "title": "Contrastive learning with self-reconstruction for 3D intracranial aneurysm detection",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Vno172sVVMwC"
+      ]
+    },
+    {
+      "title": "Sight for sore heads–using cnns to diagnose migraines",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:3vbIHxFL9FgC"
+      ]
+    },
+    {
+      "title": "Support Matrix Machine via Joint ℓ2,1 and Nuclear Norm Minimization Under Matrix completion Framework for Classification of Corrupted Data",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:TGkaJS32XoUC"
+      ]
+    },
+    {
+      "title": "Lesion Segmentation in Surgical and Diagnostic Applications: MICCAI 2022 Challenges, CuRIOUS 2022, KiPA 2022 and MELA 2022, Held in Conjunction with MICCAI 2022, Singapore …",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:QaSi33NTfwYC"
+      ]
+    },
+    {
+      "title": "Segmentation of intra-operative ultrasound using self-supervised learning based 3d-resunet model with deep supervision",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:rLGzs9wiiwIC"
+      ]
+    },
+    {
+      "title": "A Novel Approach to Train Diverse Types of Language Models for Health Mention Classification of Tweets",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:oPLKW5k6eA4C"
+      ]
+    },
+    {
+      "title": "End-to-End Analysis for Text Detection and Recognition in Natural Scene Images",
+      "year": 2020,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:sszUF3NjhM4C"
+      ]
+    },
+    {
+      "title": "The minutiae based latent fingerprint recognition system",
+      "year": 2016,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:vRqMK49ujn8C"
+      ]
+    },
+    {
+      "title": "Towards Efficient Medical Reasoning with Minimal Fine-Tuning Data",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:IvSMUa3B7yYC"
+      ]
+    },
+    {
+      "title": "DeepChest: Dynamic Gradient-Free Task Weighting for Effective Multi-Task Learning in Chest X-ray Classification",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Ul_CLA4dPeMC"
+      ]
+    },
+    {
+      "title": "A Comprehensive Survey of Multimodal LLMs for Scientific Discovery",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:KqW5X_olkfQC"
+      ]
+    },
+    {
+      "title": "QuAnTS: Question Answering on Time Series",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:F9HO9s0W2bwC"
+      ]
+    },
+    {
+      "title": "From Generation to Detection: A Multimodal Multi-Task Dataset for Benchmarking Health Misinformation",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:U5uP8zs9lfgC"
+      ]
+    },
+    {
+      "title": "LL4G: Self-Supervised Dynamic Optimization for Graph-Based Personality Detection",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Cvh0bltMcLgC"
+      ]
+    },
+    {
+      "title": "Evaluating large language models on health-related claims across Arabic dialects",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:I9gX6wnfuA8C"
+      ]
+    },
+    {
+      "title": "How Can LLMs and Knowledge Graphs Contribute to Robot Safety? A Few-Shot Learning Approach",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:LWqeokA2EBkC"
+      ]
+    },
+    {
+      "title": "Debunking Biases in Attention",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:xyvS_IvSCKsC"
+      ]
+    },
+    {
+      "title": "Jarvis: A voice-based context-as-a-service mobile tool for a smart home environment",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:hQUaER0FWQ4C"
+      ]
+    },
+    {
+      "title": "Understanding Information Spreading Mechanisms During COVID-19 Pandemic by Analyzing the Impact of Tweet Text and User Features for Retweet Prediction",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:UuEBAcK4md4C"
+      ]
+    },
+    {
+      "title": "One-Class Support Tensor Machines with Bounded Hinge Loss Function for Anomaly Detection",
+      "year": 2020,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:U_HPUtbDl20C"
+      ]
+    },
+    {
+      "title": "Sub-sampling approach for unconstrained arabic scene text analysis by implicit segmentation based deep learning classifier",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:L1USKYWJimsC"
+      ]
+    },
+    {
+      "title": "Divide by Question, Conquer by Agent: SPLIT-RAG with Question-Driven Graph Partitioning",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:DGzKIA18-3YC"
+      ]
+    },
+    {
+      "title": "TAGS: A Test-Time Generalist-Specialist Framework with Retrieval-Augmented Reasoning and Verification",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:feST4K8J0scC"
+      ]
+    },
+    {
+      "title": "UniViT: Unifying Image and Video Understanding in One Vision Encoder",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:dMpQl7XwOw4C"
+      ]
+    },
+    {
+      "title": "Electric Vehicle Charging Load Modeling: A Survey, Trends, Challenges and Opportunities",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:sfsSB7lKuh0C"
+      ]
+    },
+    {
+      "title": "KG-UQ: Knowledge Graph-Based Uncertainty Quantification for Long Text in Large Language Models",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:NnTm98qLMbgC"
+      ]
+    },
+    {
+      "title": "Visual question answering: from early developments to recent advances–a survey, 2025",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:jq04SsiGh3QC"
+      ]
+    },
+    {
+      "title": "Effectiveness of privacy-preserving algorithms in llms: A benchmark and empirical analysis",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:rpSJNIKeXWsC"
+      ]
+    },
+    {
+      "title": "Jionglong Su, Junjun He, and Yu Qiao",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:ZOYfmFL0FrgC"
+      ]
+    },
+    {
+      "title": "Biological Brain Age Estimation using Sex-Aware Adversarial Variational Autoencoder with Multimodal Neuroimages",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:adHtZc2wMuEC"
+      ]
+    },
+    {
+      "title": "Exploring Capabilities of Time Series Foundation Models in Building Analytics",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:5LPo_wSKItgC"
+      ]
+    },
+    {
+      "title": "Solving complex sequential decision-making problems by deep reinforcement learning with heuristic rules",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:aDl3D7KC1E4C"
+      ]
+    },
+    {
+      "title": "LDMRes-Net: Enabling Real-Time Disease Monitoring through Efficient Image Segmentation",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:idthP5jqfYAC"
+      ]
+    },
+    {
+      "title": "ASBiNE: Dynamic Bipartite Network Embedding for Incorporating Structural and Attribute Information",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:KI9T_ytC6pkC"
+      ]
+    },
+    {
+      "title": "ExVis: Explainable Visual Decision Support System for Risk Management",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:2ywjKiB__4kC"
+      ]
+    },
+    {
+      "title": "Saeeda Naz, and Imran Razzak. Efficient skew detection and correction in scanned document images through clustering of probabilistic hough transforms",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Mx5hWS9ctUkC"
+      ]
+    },
+    {
+      "title": "Fingerprint classification using PCA LDA L-LDA and BPN",
+      "year": 2011,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:yD5IFk8b50cC"
+      ]
+    },
+    {
+      "title": "Towards security and enrichment of the IP multimedia subsystem based multiparty conference",
+      "year": 2009,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:hFOr9nPyWt4C"
+      ]
+    },
+    {
+      "title": "FedCD: Towards Consolidated Distillation for Heterogeneous Federated Learning",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:lSLsV1MU4ZUC"
+      ]
+    },
+    {
+      "title": "SAGE: Sustainable Agent-Guided Expert-tuning for Culturally Attuned Translation in Low-Resource Southeast Asia",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:DwWRdx-KAo4C"
+      ]
+    },
+    {
+      "title": "Decoding Causal Structure: End-to-End Mediation Pathways Inference",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:UarirCmVI0EC"
+      ]
+    },
+    {
+      "title": "Towards Dynamic 3D Reconstruction of Hand-Instrument Interaction in Ophthalmic Surgery",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:L7vk9XBBNxgC"
+      ]
+    },
+    {
+      "title": "Selfai: Building a self-training ai system with llm agents",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:6pF0wJmtdfAC"
+      ]
+    },
+    {
+      "title": "Robust Multimodal Learning for Ophthalmic Disease Grading via Disentangled Representation",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:vD2iS2Kej30C"
+      ]
+    },
+    {
+      "title": "SVLA: A Unified Speech-Vision-Language Assistant with Multimodal Reasoning and Speech Generation",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:tgTmbKTkO1IC"
+      ]
+    },
+    {
+      "title": "Kg-irag: A knowledge graph-based iterative retrieval-augmented generation framework for temporal reasoning",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:xii_ZKWM4-0C"
+      ]
+    },
+    {
+      "title": "Jionglong Su, Zongyuan Ge, Imran Razzak, and Eran Segal.[nd]",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:CLhUwle04lcC"
+      ]
+    },
+    {
+      "title": "AIM 2025 Rip Current Segmentation (RipSeg) Challenge Report",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:cOfwuRB03ygC"
+      ]
+    },
+    {
+      "title": "MERCI: Multimodal Emotional and peRsonal Conversational Interactions Dataset",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:yCjxvIMm6_oC"
+      ]
+    },
+    {
+      "title": "Would You Trust an AI Doctor? Building Reliable Medical Predictions with Kernel Dropout Uncertainty",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:HqhvjgTjE9cC"
+      ]
+    },
+    {
+      "title": "ByteScience: Bridging Unstructured Scientific Literature and Structured Data with Auto Fine-tuned Large Language Model in Token Granularity",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:QKtdBID3u5MC"
+      ]
+    },
+    {
+      "title": "Percy: A multimodal dataset and conversational system for personalized and emotionally aware human-robot interaction",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:vxA22ZmNLkoC"
+      ]
+    },
+    {
+      "title": "Saeeda Naz and Ahmad Zaib Deep Learning for Medical Image Processing: Overview",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:rTD5ala9j4wC"
+      ]
+    },
+    {
+      "title": "Anatomical landmarks localization for 3d foot point clouds",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:U0iAMwwPxtsC"
+      ]
+    },
+    {
+      "title": "Automatic cardiac magnetic resonance respiratory motions assessment and segmentation",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:9NZAP19TdFAC"
+      ]
+    },
+    {
+      "title": "Saeeda Naz, Hamid Alinejad-Rokny, Tu N. Nguyen, and Fahmi Khalifa. A Cascaded Multi-resolution Ensemble Deep Learning Framework for Large Scale Alzheimer’s Disease Detection …",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:BFa5h04uPMwC"
+      ]
+    },
+    {
+      "title": "Cooperative Evolution Multiclass Support Matrix Machines",
+      "year": 2020,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:NDuN12AVoxsC"
+      ]
+    },
+    {
+      "title": "Unconstrained Arabic Scene Text Analysis in Wild Images using Concurrent Invariant Points",
+      "year": 2020,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Br1UauaknNIC"
+      ]
+    },
+    {
+      "title": "Text in a wild and its challenges",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:7BrZ7Jt4UNcC"
+      ]
+    },
+    {
+      "title": "Brain tumor classification using gray level co-occurrence matrix and convolutional neural network. IJEIS (Indonesian Journal of Electronics and Instrumentation Systems) 8 (2 …",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:5VjbC5aozO0C"
+      ]
+    },
+    {
+      "title": "Cursive Scene Text Analysis by Deep Convolutional Linear Pyramids",
+      "year": 2018,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Z5m8FVwuT1cC"
+      ]
+    },
+    {
+      "title": "Saeeda Naz, Muhammad Imran Razzak, Ahmad Zaib: Extreme learning machine based microscopic red blood cells classification",
+      "year": 2017,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:tz746QTLzJkC"
+      ]
+    },
+    {
+      "title": "Saeeda Naz",
+      "year": 2017,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:WC9gN4BGCRcC",
+        "GlXI4N8AAAAJ:T8_be82Iz5gC"
+      ]
+    },
+    {
+      "title": "Multilanguage Nasta’liq Script Printed Ligature Recognition for Arabic Script base Languages",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:9Nmd_mFXekcC"
+      ]
+    },
+    {
+      "title": "PRISM: A Personality-Driven Multi-Agent Framework for Social Media Simulation",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:8JTMrWI6FdcC"
+      ]
+    },
+    {
+      "title": "CALM: Culturally Self-Aware Language Models",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:qCaWouos7ogC"
+      ]
+    },
+    {
+      "title": "PAL: Probing Audio Encoders via LLMs -- Audio Information Transfer into LLMs",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:1Aeql8wG3wEC"
+      ]
+    },
+    {
+      "title": "RipGAN: A GAN-based rip current data augmentation method",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:uEM9VtRl8xsC"
+      ]
+    },
+    {
+      "title": "Polimeme: exploring offensive meme propagation in the Israel-Palestine conflict",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:aNch6Af-aFkC"
+      ]
+    },
+    {
+      "title": "Brick-by-Brick: Cyber-Physical Building Data Classification Challenge",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:JTtNqH-x4gYC"
+      ]
+    },
+    {
+      "title": "Uncertainty Modelling in Under-Represented Languages with Bayesian Deep Gaussian Processes",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:CCeGMaHljPEC"
+      ]
+    },
+    {
+      "title": "Zongyuan Ge. Towards dynamic 3d reconstruction of hand-instrument interaction in ophthalmic surgery",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:WHBERAHVdrEC"
+      ]
+    },
+    {
+      "title": "Unsupervised nonlinear deformable registration network for 4d ct lung imaging",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:IHkkN1K1AlAC"
+      ]
+    },
+    {
+      "title": "Hate speech classification in text-embedded images: Integrating ontology, contextual semantics, and vision-language representations",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:IT1MJ6E3JesC"
+      ]
+    },
+    {
+      "title": "NarrationDep: Narratives on Social Media For Automatic Depression Detection",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:G36d5HCDkJYC"
+      ]
+    },
+    {
+      "title": "Assessment of Left Atrium Motion Deformation Through Full Cardiac Cycle",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:j5aT6aphRxQC"
+      ]
+    },
+    {
+      "title": "LDMRes-Net: Enabling Efficient Medical Image Segmentation on IoT and Edge Platforms",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:8uzoZH4hB9AC"
+      ]
+    },
+    {
+      "title": "Identifying rising stars via supervised machine learning",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:wSy_KLzO7YEC"
+      ]
+    },
+    {
+      "title": "XSRU-IoMT: Explainable simple recurrent units for threat detection in Internet of Medical Things networks",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:C-Rn0OCouf8C",
+        "GlXI4N8AAAAJ:AYInfyleIOsC"
+      ]
+    },
+    {
+      "title": "Saeeda Naz, Abida Ashraf, Fahmi Khalifa, Mohamed Reda Bouadjenek, and Shahid Mumtaz. Mutliresolutional ensemble partialnet for alzheimer detection using magnetic resonance …",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:c1AJUTjuCtUC"
+      ]
+    },
+    {
+      "title": "DAAB: Deep Authorship Attribution in Bengali",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:6VlyvFCUEfcC"
+      ]
+    },
+    {
+      "title": "Image-based virtual try-on system: a survey of deep learning-based methods",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:CC3C2HR4nz8C"
+      ]
+    },
+    {
+      "title": "Progress in cursive wild text recognition",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:j7_hQOaDUrUC"
+      ]
+    },
+    {
+      "title": "Co-occurrence matrix features for fingerprint verification",
+      "year": 2011,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:fPk4N6BV_jEC"
+      ]
+    },
+    {
+      "title": "Long context modeling with ranked memory-augmented retrieval (2025)",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:-LHtoeeytlUC"
+      ]
+    },
+    {
+      "title": "ClinCoT: Clinical-Aware Visual Chain-of-Thought for Medical Vision Language Models",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Oo_WeVVXg5wC"
+      ]
+    },
+    {
+      "title": "LATA: Laplacian-Assisted Transductive Adaptation for Conformal Uncertainty in Medical VLMs",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:9CGX2owmTHMC"
+      ]
+    },
+    {
+      "title": "Long Context Modeling with Ranked Memory-Augmented Retrieval",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:urP0JZOBBUsC"
+      ]
+    },
+    {
+      "title": "MAGE: Multi-Agent Self-Evolution with Co-Evolutionary Knowledge Graphs",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:E2bRg1zSkIsC"
+      ]
+    },
+    {
+      "title": "Dual-Stage Value-Guided Inference with Margin-Based Reward Adjustment for Fast and Faithful VLM Captioning",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:IyxfXMz2bNAC"
+      ]
+    },
+    {
+      "title": "Phenome-Wide Multi-Omics Integration Uncovers Distinct Archetypes of Human Aging",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:FQ36aI_S1AEC"
+      ]
+    },
+    {
+      "title": "HIPPD: Brain-Inspired Hierarchical Information Processing for Personality Detection",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:oFn-K-OQSCAC"
+      ]
+    },
+    {
+      "title": "Task Allocation for Autonomous Machines using Computational Intelligence and Deep Reinforcement Learning",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:ynsZFq2pu0MC"
+      ]
+    },
+    {
+      "title": "Multi-modality guided cross-attention for visual question answering",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:v6PuF9mNY3oC"
+      ]
+    },
+    {
+      "title": "PAL: Probing Audio Encoders via LLMs--A Study of Information Transfer from Audio Encoders to LLMs",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:x2hKVfJWtf0C"
+      ]
+    },
+    {
+      "title": "SimpsonsVQA: Enhancing Inquiry-Based Learning with a Tailored Dataset",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:NU-BerS4NX4C"
+      ]
+    },
+    {
+      "title": "CLIMB: Imbalanced Data Modelling using Contrastive Learning with Limited Labels",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:DIubQTN3OvUC"
+      ]
+    },
+    {
+      "title": "Mlt-trans: Multi-level token transformer for hierarchical image classification",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:AFmTUeZ1pmEC"
+      ]
+    },
+    {
+      "title": "From Uncertainty to Trust: Kernel Dropout for AI-Powered Medical Predictions",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:oAywNP-vUhwC"
+      ]
+    },
+    {
+      "title": "BayesJudge: Bayesian Kernel Language Modelling with Confidence Uncertainty in Legal Judgment Prediction",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:l6Q3WhenKVUC"
+      ]
+    },
+    {
+      "title": "Multiscale kernel atrous convolution network for segmentation of myocardium",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:cNe27ouKFcQC"
+      ]
+    },
+    {
+      "title": "Multi-Classification of Retinal Diseases Using a Pyramidal Ensemble Deep Framework",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:XAp-VaTZjjwC"
+      ]
+    },
+    {
+      "title": "Distributed Optimization of Graph Convolutional Network Using Subgraph Variance.[J]",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:10A3hb2jUxYC"
+      ]
+    },
+    {
+      "title": "El-Hadi m",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:sgsej9ZJWHMC"
+      ]
+    },
+    {
+      "title": "Multimodal face and finger veins biometric authentication of Scientific Research and Essays",
+      "year": 2010,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:3MwzVuqRcA0C"
+      ]
+    },
+    {
+      "title": "RELOOP: Recursive Retrieval with Multi-Hop Reasoner and Planners for Heterogeneous QA",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:AubyX3KqGToC"
+      ]
+    },
+    {
+      "title": "CMSA-Net: Causal Multi-scale Aggregation with Adaptive Multi-source Reference for Video Polyp Segmentation",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:aCwMkEyfDy8C"
+      ]
+    },
+    {
+      "title": "TriALS: Triphasic-Aided Liver Lesion Segmentation Benchmark in Non-Contrast CT",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:xIusEVNJREcC"
+      ]
+    },
+    {
+      "title": "DocAtlas: Multilingual Document Understanding Across 80+ Languages",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:9o6PfxSMcEIC"
+      ]
+    },
+    {
+      "title": "VGS-Decoding: Visual Grounding Score Guided Decoding for Hallucination Mitigation in Medical VLMs",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:anDooRL1HQEC"
+      ]
+    },
+    {
+      "title": "SA-AVAE: A sex-Aware adversarial variational autoencoder network for biological brain age estimation in IoMT-Enabled multimodal neuroimages",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:uWy0R8PweswC"
+      ]
+    },
+    {
+      "title": "VALIANT: Prompt Instability for Active Learning in Black-Box Medical Imaging",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:ON9TkA72AHEC"
+      ]
+    },
+    {
+      "title": "DeLo: Dual Decomposed Low-Rank Experts Collaboration for Continual Missing Modality Learning",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:aU4yMueWZ3QC"
+      ]
+    },
+    {
+      "title": "Towards Robust Visual Continual Learning with Multi-Prototype Supervision",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:PZE8UkGerEcC"
+      ]
+    },
+    {
+      "title": "Rhythm of Opinion: Interpretable Hawkes-Graph Networks for Hierarchical Opinion Propagation",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:kQqwFFzsCTwC"
+      ]
+    },
+    {
+      "title": "Focal Modulation and Bidirectional Feature Fusion Network for Medical Image Segmentation",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:koF6b02d8EEC"
+      ]
+    },
+    {
+      "title": "HeSRN: Representation Learning On Heterogeneous Graphs via Slot-Aware Retentive Network",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:SgM-ki2adj0C"
+      ]
+    },
+    {
+      "title": "SAM-DCE: Addressing Token Uniformity and Semantic Over-Smoothing in Medical Segmentation",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:9VeumLvkZSQC"
+      ]
+    },
+    {
+      "title": "Retinal Lipidomics Associations as Candidate Biomarkers for Cardiovascular Health",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:gFrPXmx1TSsC",
+        "GlXI4N8AAAAJ:654Jc7Ppz2kC",
+        "GlXI4N8AAAAJ:Yw6v6SrDvuUC"
+      ]
+    },
+    {
+      "title": "Integrated oculomics and lipidomics reveal microvascular-metabolic signatures associated with cardiovascular health in a healthy cohort",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:i8eIfGGcn98C",
+        "GlXI4N8AAAAJ:rJyh6hJnyfgC"
+      ]
+    },
+    {
+      "title": "scAGC: Learning Adaptive Cell Graphs with Contrastive Guidance for Single-Cell Clustering",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:GUYAmugLYisC"
+      ]
+    },
+    {
+      "title": "Flick: Few Labels Text Classification using K-Aware Intermediate Learning in Multi-Task Low-Resource Languages",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:RJujIP1NYNUC"
+      ]
+    },
+    {
+      "title": "BEAST: Leveraging Contrastive Learning and Unsupervised Sentence Embeddings for Improved Drug Abuse Detection",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:vofGIMt6cyEC",
+        "GlXI4N8AAAAJ:oynPyU19kbsC"
+      ]
+    },
+    {
+      "title": "Addressing the Challenges of Mental Health Conversations with Large Language Models",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:e3CVSTJ63dQC"
+      ]
+    },
+    {
+      "title": "Unifying Image and Video Understanding in One Vision Encoder",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:tSVUDDkujAIC"
+      ]
+    },
+    {
+      "title": "THYMES: A Framework for Detecting Suicidal Ideation from Social Media Posts Using Hyperbolic Learning",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:htyGaKyDgHMC"
+      ]
+    },
+    {
+      "title": "SAFENet: Towards a Robust Suicide Assessment in Social Media Using Selective Prediction Framework",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:B2rIPIGFPLEC"
+      ]
+    },
+    {
+      "title": "MCHM'24: The 1st International Workshop on Multimedia Computing for Health and Medicine",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:AFXcoJnoRH0C"
+      ]
+    },
+    {
+      "title": "AI-Driven Predictive Analytics for Enhancing Corporate Tax Compliance",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:qSd0DAb9jMoC"
+      ]
+    },
+    {
+      "title": "Hybrid Unsupervised Deformable Image Registration for 4D CT Lung Image Intra-modalities",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:v_tt_AnqfNMC"
+      ]
+    },
+    {
+      "title": "Usability of Privacy Controls in Top Health Websites",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:JIEWM9yDoCIC"
+      ]
+    },
+    {
+      "title": "IEEE Transactions on Computational Social Systems",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:MDX3w3dAD3YC"
+      ]
+    },
+    {
+      "title": "Dynamic hypersphere embedding scale against adversarial attacks",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:lg2tdxc6qMwC"
+      ]
+    },
+    {
+      "title": "Improving healthcare outcomes using multimedia big data analytics",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:_tF6a-HnqWAC"
+      ]
+    },
+    {
+      "title": "Improving Performance of Deep Reinforcement Learning by Incorporating Human Expertise",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:dAp6zn-oMfAC"
+      ]
+    },
+    {
+      "title": "A Novel Dataset for English-Arabic Scene Text Recognition (EASTR)-42K and Its Evaluation It Using Invariant Feature Extraction on Detected Extremal Regions",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:j7XjBeKFbTsC"
+      ]
+    },
+    {
+      "title": "Saeeda Naz, Muhammad Imran Razzak, and Rubiyah Bte Yusof. A novel dataset for english-arabic scene text recognition (eastr)-42k and its evaluation using invariant feature …",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:qCpRzq7zkD8C"
+      ]
+    },
+    {
+      "title": "Automated red blood cell segmentation and classification of red cell disorders using extreme learning machine and kernel weighted fuzzy local information c-means",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:WTQy_8Ay2UsC"
+      ]
+    },
+    {
+      "title": "Grounding Isn't Knowing: Do VLMs Need Object Localization for Spatial Reasoning?",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:-BKJ5vZJwzMC"
+      ]
+    },
+    {
+      "title": "MVC-Bench: Benchmarking Calibration of Medical Vision-Language Models",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:5p9vMBpPSXYC"
+      ]
+    },
+    {
+      "title": "AsyTO: Asymmetric Temporal Operator for Parameter-Efficient Multivariate Time Series Forecasting",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:jMZTt8odoasC"
+      ]
+    },
+    {
+      "title": "UWFound, A domain-adapted foundation model for hierarchical posterior uveitis diagnosis from ultra-widefield fundus images",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:yNlG6JgpFqoC"
+      ]
+    },
+    {
+      "title": "TopoBrick: Agentic Topology Sampling of Exogenous Variables for Zero-Shot Building IoT Forecasting",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:JavbeY_VQWIC"
+      ]
+    },
+    {
+      "title": "Causal-RetiGraph: Cross-Cohort Retinal Support and Same-Subject Pathway Analysis for Diabetic Retinopathy",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:-qpA3cGbmHsC"
+      ]
+    },
+    {
+      "title": "On the Robustness of Temporal Vision-Language Models for Surgical Endoscopy Videos",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:jtOrAYjvdewC"
+      ]
+    },
+    {
+      "title": "Counterfactual Anatomy-guided Spatial-Temporal Decoding for Annotation-Free Hallucination Mitigation in Medical VLMs",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Y0RG-0fxPaAC"
+      ]
+    },
+    {
+      "title": "TAVR-VLM: Risk-Conditioned Causal Grounding for Hallucination-Resistant Report Generation",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:WgvcDLhf7hwC"
+      ]
+    },
+    {
+      "title": "PROTON: Prototype-Based Test-Time Online OOD Detection for Medical VLMs",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:hrkNWuzUpWwC"
+      ]
+    },
+    {
+      "title": "Graph-of-Differences: Anatomy-Structured Difference Alignment for Medical Image Re-Identification",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:d6JCS5z0ckYC"
+      ]
+    },
+    {
+      "title": "A Dual Edge Spatial Jacobian Image Graph for Interpretable Diabetic Retinopathy Grading",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:7XUxBq3GufIC"
+      ]
+    },
+    {
+      "title": "RetiSEM: Generalising Causal Models for Fragmented Biomedical Data",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:j6V8Syvup0UC"
+      ]
+    },
+    {
+      "title": "EnTrust: Modeling Inter-Modal Conflict for Trustworthy Multimodal Medical Image Analysis",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:2_BaaiyHPJIC"
+      ]
+    },
+    {
+      "title": "Evaluating LLM Personalization via Semantic Constraint Verification",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:71d7Y1FijdoC"
+      ]
+    },
+    {
+      "title": "Knowledge Graph Enhanced Memory-Augmented Retrieval for Long Context Modeling",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:gnsKu8c89wgC"
+      ]
+    },
+    {
+      "title": "Population-scale characterization of the oral microbiome and associations with metabolic health",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:wgKq3sYidysC"
+      ]
+    },
+    {
+      "title": "Cross-task Calibration for Asynchronous Federated Continual Learning",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:puFLaqDw8dcC"
+      ]
+    },
+    {
+      "title": "Feature Space Translation Framework for Cross-Device Alignment and Derivation of Clinically Relevant Retinal Biomarkers from Foundation Model Embeddings",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:ibZ2AwG9z6wC"
+      ]
+    },
+    {
+      "title": "RC-FCL: Combating Asynchronous Concept Drift in Federated Continual Learning via Retrospective Calibration",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:iWL_APfBKHwC"
+      ]
+    },
+    {
+      "title": "Lightweight Federated Incremental Learning via Decoupled Replay",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:oE_QS-WwsdAC"
+      ]
+    },
+    {
+      "title": "CHIPS: Efficient CLIP Adaptation via Curvature-aware Hybrid Influence-based Data Selection",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:oXKBmVzQOggC"
+      ]
+    },
+    {
+      "title": "Seeing the Journey: Progressive Multi-modal Fusion Across the Clinical Timeline for Head-and-neck Cancer Prognosis",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:zfsRRabFVBUC"
+      ]
+    },
+    {
+      "title": "MS-DKC: A Dataset Knowledge Card Framework for Designing and Adapting Medical Image Segmentation Models",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Dmoar05iI2YC"
+      ]
+    },
+    {
+      "title": "Cluster-SCP: Similarity and Contrastive Learning to Enhance Pseudo Labels for Fine Tuning under Few Labels",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:qhW0HyKmSusC"
+      ]
+    },
+    {
+      "title": "AMO: Adaptive Muon Orthogonalization",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:p-HGrieyzrAC"
+      ]
+    },
+    {
+      "title": "Lightweight Cross-Lingual Federated Prompt Tuning for Low-Resource Languages",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:0Kh4an1R61UC"
+      ]
+    },
+    {
+      "title": "GatorSC: multi-scale cell and gene graphs with mixture-of-experts fusion for single-cell transcriptomics",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:gkldIfsazJcC"
+      ]
+    },
+    {
+      "title": "CARL: Preserving Causal Structure in Representation Learning",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:PklR0melJeUC"
+      ]
+    },
+    {
+      "title": "CoME-VL: Scaling Complementary Multi-Encoder Vision-Language Learning",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:vkuYBMKU6wEC"
+      ]
+    },
+    {
+      "title": "TuLaBM: Tumor-Biased Latent Bridge Matching for Contrast-Enhanced MRI Synthesis",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:bkKuixW_xMkC"
+      ]
+    },
+    {
+      "title": "Mitigating Preference Leakage via Strict Estimator Separation for Normative Generative Ranking",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:f2PrUAIjnKUC"
+      ]
+    },
+    {
+      "title": "DoAtlas-1: A Causal Compilation Paradigm for Clinical AI",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:cx97FdCJQX8C"
+      ]
+    },
+    {
+      "title": "See Fair, Speak Truth: Equitable Attention Improves Grounding and Reduces Hallucination in Vision-Language Alignment",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:xlVdBZVQT58C"
+      ]
+    },
+    {
+      "title": "Attention-Driven Framework for Non-Rigid Medical Image Registration",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:EsrhoZGmrkoC"
+      ]
+    },
+    {
+      "title": "RetiSEM: Pathway-Aware Causal Modeling for Retinal-Mediated Vascular Mechanisms",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:WGv8Og3F3KgC"
+      ]
+    },
+    {
+      "title": "Data-Centric Sequential Recommendation with Relation-Augmented Generation",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:sYWwZaPVD1oC"
+      ]
+    },
+    {
+      "title": "Towards Robust Heterogeneous Graph Explanations under Structural Perturbations",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:qYOp8iumCsAC"
+      ]
+    },
+    {
+      "title": "Semantics Preserving Contrastive Decoding for Hallucination Robust Medical Vision-Language Models",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:4tNoA7Af41QC"
+      ]
+    },
+    {
+      "title": "Exploring the Influence of Lifestyle, Social Health, and Demographic Factors on Psychological Well-being and Engagement Levels",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:fF_gHTpLxhAC"
+      ]
+    },
+    {
+      "title": "CNText2Sign and CNSign: Unified Chinese Sign Language Datasets for Bidirectional Accessibility",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:T_0gP6tLVL0C"
+      ]
+    },
+    {
+      "title": "Asthma identification through multimodal data fusion: towards reliable clinical decision support",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:UKB2i6g6GNMC"
+      ]
+    },
+    {
+      "title": "CG-SSL: Concept-Guided Self-Supervised Learning",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:mJbmKSuM8toC"
+      ]
+    },
+    {
+      "title": "Consistent Region-Informed Self-supervised Pretraining",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:bbjcffOLshcC"
+      ]
+    },
+    {
+      "title": "Few-Label Multimodal Modeling of SNP Variants and ECG Phenotypes Using Large Language Models for Cardiovascular Risk Stratification",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:3x-KLxxGyuUC"
+      ]
+    },
+    {
+      "title": "SelfAI: A self-directed framework for long-horizon scientific discovery",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:43B52WW2E64C"
+      ]
+    },
+    {
+      "title": "Multiscale Recursive Graph Transformer for Retinal Vessel Segmentation",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:RVqaWcrwK10C"
+      ]
+    },
+    {
+      "title": "Seeing Beyond the Airways: Asthma Prediction via Cross-Attention on Dual Retinal Modalities",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:e0LTWoPxLYMC"
+      ]
+    },
+    {
+      "title": "A Machine Learning Approach to Predict Biological Age and its Longitudinal Drivers",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:s2G-WRnXBicC"
+      ]
+    },
+    {
+      "title": "Probing the Limits of Multilingual Language Understanding: Low-Resource Language Proverbs as LLM Benchmark for AI Wisdom",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:r56sNq9gaawC"
+      ]
+    },
+    {
+      "title": "Robust Atypical Mitosis Classification with DenseNet121: Stain-Aware Augmentation and Hybrid Loss for Domain Generalization",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:eIKNFFVQvJAC"
+      ]
+    },
+    {
+      "title": "Hierarchical Sequence Iteration for Heterogeneous Question Answering",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:CMPXdcK5v8EC"
+      ]
+    },
+    {
+      "title": "Machine Learning Approaches for Vulnerability Detection in Smart Contracts",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Zbx7W2Xs4QsC"
+      ]
+    },
+    {
+      "title": "MERCI: A Multimodal Dataset for Personalised and Emotionally-Aware Dialogues",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:w0odbtu79TwC"
+      ]
+    },
+    {
+      "title": "-Bench: A Comprehensive Study of Multimodal LLMs for Scientific Discovery with Benchmarking",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:-fu4zM_6qcIC"
+      ]
+    },
+    {
+      "title": "Stain-Aware Augmentation and Hybrid Loss for Domain-Generalized Atypical Mitosis Classification",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:DwFgw5hZUzMC"
+      ]
+    },
+    {
+      "title": "How Effectively Can Large Language Models Connect SNP Variants and ECG Phenotypes for Cardiovascular Risk Prediction?",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:-38epGy1wY0C"
+      ]
+    },
+    {
+      "title": "Retinal Pathways to Asthma Diagnosis: AI-Driven Insight",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:1paMEeroeoQC",
+        "GlXI4N8AAAAJ:rzmi0EmCOGEC"
+      ]
+    },
+    {
+      "title": "Rolling Ball Optimizer: Learning by ironing out loss landscape wrinkles",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Lo8V22OuN40C",
+        "GlXI4N8AAAAJ:ovGv7akYl-cC"
+      ]
+    },
+    {
+      "title": "Few Labels with Active Learning: From Weak to Strong Labels for Misinformation Detection",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:svGagg1hbZMC"
+      ]
+    },
+    {
+      "title": "Improving Visual Question Answering Through a Topic-Aware Selection Layer",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:j2GSQqY3pL0C"
+      ]
+    },
+    {
+      "title": "Navigating loss manifolds via rigid body dynamics: A promising avenue for robustness and generalisation",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:4E1Y8I9HL1wC"
+      ]
+    },
+    {
+      "title": "A Smartphone Rip-Detection Tool to Improve Rip Current Awareness in Australia",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Pqt4MY__2vwC"
+      ]
+    },
+    {
+      "title": "Beyond Words: AuralLLM and SignMST-C for Sign Language Production and Bidirectional Accessibility",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:bCjgOgSFrM0C"
+      ]
+    },
+    {
+      "title": "Efficient Deep Learning Models for Evaluating the Progression of Age-Related Macular Degeneration Through Optical Coherence Tomography",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:cF7EPgIk0B4C"
+      ]
+    },
+    {
+      "title": "Adenocarcinoma Segmentation Using Pre-trained Swin-UNet with Parallel Cross-Attention for Multi-Domain Imaging",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:8RAEygVn5_EC"
+      ]
+    },
+    {
+      "title": "Hierarchical Datasets",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:mgoTDWlsYNUC"
+      ]
+    },
+    {
+      "title": "Proceedings 24th IEEE International Conference on Data Mining Workshops ICDMW 2024",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:MnogvFdIBdwC"
+      ]
+    },
+    {
+      "title": "Enhancing Large Language Models for Arabic Dialects Using Knowledge-Based Rethinking and Contrastive Learning",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:dhpJJ7xvgBgC"
+      ]
+    },
+    {
+      "title": "AIROGS: Artificial Intelligence for RObust Glaucoma Screening Challenge., 2023",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:JqN3CTdJtl0C"
+      ]
+    },
+    {
+      "title": "Marine-tree: A large-scale hierarchically annotated dataset for marine organism classification",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:It0W0vAlS5QC"
+      ]
+    },
+    {
+      "title": "Introduction to the special section on securing IoT-based critical infrastructure (VSI-cei)",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:ndLnGcHYRF0C"
+      ]
+    },
+    {
+      "title": "Anomaly detection framework to prevent DDoS attack in fog empowered IOT networks [J]",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Gpwnp1kGG20C"
+      ]
+    },
+    {
+      "title": "Handwriting dynamics assessment using deep neural network for early identification of Parkinson’s disease [J]",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:yeL6HyUMUGUC"
+      ]
+    },
+    {
+      "title": "A deep learning-based framework for automatic brain زغم یامویلگ یاهروموت یدنب tumors classification using transfer learning",
+      "year": 2020,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:6ZzL7HXColQC"
+      ]
+    },
+    {
+      "title": "BioALBERT: A Simple and Effective Pre-trained Language Model for Biomedical Named Entity Recognition 1",
+      "year": 2020,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:m4fbC6XIj1kC"
+      ]
+    },
+    {
+      "title": "Foundations of Cursive Scene Text",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:IaI1MmNe2tcC"
+      ]
+    },
+    {
+      "title": "Arabic Scene Text Acquisition and Statistics",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:nRpfm8aw39MC"
+      ]
+    },
+    {
+      "title": "Methods and Algorithm",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:PaBasH6fAo0C"
+      ]
+    },
+    {
+      "title": "Saeeda Naz, Salahuddin Swati, and Muhammad Imran Razzak. Handwritten urdu character recognition using one-dimensional blstm classifier",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:UmS_249rOGwC"
+      ]
+    },
+    {
+      "title": "Saeeda Naz, Muhammad Imran Razzak",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:1_W9tMSvGuwC"
+      ]
+    },
+    {
+      "title": "Deep context-aware embedding for abusive and hate speech detection on twitter, Aust",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:yTLRzDEmwhEC"
+      ]
+    },
+    {
+      "title": "Nuclear Norm Minimization in Frequency Domain for Complex Noise",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:7Hz3ACDFbsoC"
+      ]
+    },
+    {
+      "title": "Deep Auto Encoder-Decoder Semantic Segmentation Framework for Brain Tumor",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:48xauSegjOkC"
+      ]
+    },
+    {
+      "title": "A Deep Learning-Based Framework for Automatic Brain Tumors Classification Using Transfer Learning",
+      "year": 2020,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:uDGL6kOW6j0C",
+        "GlXI4N8AAAAJ:g8uWPOAv7ggC"
+      ]
+    },
+    {
+      "title": "Event Detection in Twitter Stream using Weighted Dynamic Heartbeat Graph Approach",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:nZcligLrVowC"
+      ]
+    },
+    {
+      "title": "Robust 2D Joint Sparse Principal Component Analysis With F-Norm Minimization For Sparse Modelling: 2D-RJSPCA",
+      "year": 2018,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:LlXTz_FrCmAC"
+      ]
+    },
+    {
+      "title": "Saeeda Naz, Muhammad Imran Razzak, Arif Iqbal Umar, Ahmad Zaib.\" Automated Pathology Image Analysis",
+      "year": 2018,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:SWgZeABleR0C"
+      ]
+    },
+    {
+      "title": "Writer Identification Using Machine Learning Approaches: A Comprehensive Review",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:4MWp96NkSFoC",
+        "GlXI4N8AAAAJ:RXiHnyRawswC"
+      ]
+    },
+    {
+      "title": "4th International Conference on Behavioral, Economic, and Socio-Cultural Computing, BESC 2017",
+      "year": 2017,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:sJsF-0ZLhtgC"
+      ]
+    },
+    {
+      "title": "Transactions on Large-Scale Data-and Knowledge-Centered Systems XXXV.: Transactions on Large-Scale Data-and Knowledge-Centered Systems",
+      "year": 2017,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:TaaCk18tZOkC"
+      ]
+    },
+    {
+      "title": "International Conference on Behavioral, Economic, Socio-cultural Computing, BESC 2017,",
+      "year": 2017,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Bg7qf7VwUHIC"
+      ]
+    },
+    {
+      "title": "Transactions on Large-Scale Data- and Knowledge-Centered Systems-Special Issue",
+      "year": 2017,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:BJbdYPG6LGMC"
+      ]
+    },
+    {
+      "title": "Noor ul Amin Khan, Arif Iqbal Umar, Muhammad Imran Razzak, Saeeda Naz and Bandar AlHaqbani,\" Content-Based Image Retrieval Using Texture Color Shape and Region,\"",
+      "year": 2016,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:jFemdcug13IC"
+      ]
+    },
+    {
+      "title": "Khan, Sahib Zar 181 181",
+      "year": 2014,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:iKswqCX-FLkC"
+      ]
+    },
+    {
+      "title": "Face recognition using multilayered discriminant analysis",
+      "year": 2013,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:UxriW0iASnsC"
+      ]
+    },
+    {
+      "title": "Attacking Websites During Crises: Analysis and Solutions",
+      "year": 2010,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:MNNNGtAgD4EC"
+      ]
+    },
+    {
+      "title": "Voxels or Millimetres? A Controlled Comparison of Lesion-Size Filtering for Native-Space Stroke Segmentation",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:HoDPlbN_d1QC"
+      ]
+    },
+    {
+      "title": "SCALA: Semi-supervised Cascade for Left Atrial Scar, Cavity, and Multi-Structure CT Segmentation",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:w-fwKiQwpQAC"
+      ]
+    },
+    {
+      "title": "LEG-DINO: Local-Evidence-Governed DINO Fusion for Reliable Dense Prediction in Medical Image Segmentation",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:ITz7TVZQ0sgC"
+      ]
+    },
+    {
+      "title": "Perturbation-enabled Deep Federated Learning for Preserving Internet of Things-based Social Networks",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:VBDT71xRUdcC",
+        "GlXI4N8AAAAJ:JWITY9-sCbMC"
+      ]
+    },
+    {
+      "title": "A Self-Assessing Anatomical World Model for Unified Multi-Domain Ultrasound Biometry",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:cTy_cm4PQvYC"
+      ]
+    },
+    {
+      "title": "Native-Resolution Multi-Sequence Cardiac MRI Segmentation for Accurate LVEF and Scar Quantification",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:M8meJADSprsC"
+      ]
+    },
+    {
+      "title": "BEAT: Boundary-aware Efficient Anatomy-Transfer for Multimodal Mitral Valve Segmentation",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:HAmI6pRF5skC"
+      ]
+    },
+    {
+      "title": "C -AFCL: Cross-task Calibration for Asynchronous Federated Continual Learning",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:DPO9WFcz7UcC"
+      ]
+    },
+    {
+      "title": "Saeeda Naz, and Ahmad Zaib. 2017",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:g30IDTdgJMgC"
+      ]
+    },
+    {
+      "title": "24th IEEE International Conference on Data Mining Workshops",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:_9Xh93LWpsYC"
+      ]
+    },
+    {
+      "title": "Session Chairs",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:yZoBfgUKqwcC"
+      ]
+    },
+    {
+      "title": "ITCEM 2024",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:ifOnle78iJkC"
+      ]
+    },
+    {
+      "title": "ICRSS 2022",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:WWeOtg8bX_EC"
+      ]
+    },
+    {
+      "title": "IEEE GLOBECOM 2021 Reviewers",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:nqdriD65xNoC"
+      ]
+    },
+    {
+      "title": "Guest Editorial: Data Analytics for Public Health Care.......... S. Mohammed, T.-H. Kim, R.-S. Chang, and C. Ramos 1409",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:zUl2_INMlC4C"
+      ]
+    },
+    {
+      "title": "SPECIAL ISSUE ON COMPUTATIONAL SOCIAL SYSTEMS FOR COVID-19 EMERGENCY MANAGEMENT AND BEYOND",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:aIdbFUkbNIkC"
+      ]
+    },
+    {
+      "title": "Software Engineering Automation: A Natural Language Perspective (NLP-SEA)",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:DkZNVXde3BIC"
+      ]
+    },
+    {
+      "title": "T-DICE: Irony and sarcasm identification using a Transformer-based Deep Intelligent Contextual Embedding with Attention-based BiLSTM",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:KaMxkj08jr0C"
+      ]
+    },
+    {
+      "title": "Research Track Chairs: Behavioral and Economic Computing",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:rHJHxKgnXwkC"
+      ]
+    },
+    {
+      "title": "Large-Scale Data-and Knowledge-Centered Systems XXIV LNCS 9510",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:AHdEip9mkN0C"
+      ]
+    },
+    {
+      "title": "Salahuddin Swati & Muhammad Imran Razzak",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:F1b5ZUV5XREC"
+      ]
+    },
+    {
+      "title": "Deep Learning for Medical Image Processing: Overview, Challenges and Future",
+      "year": 2018,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Mojj43d5GZwC"
+      ]
+    },
+    {
+      "title": "Future smart cities requirements, emerging technologies, applications, challenges, and future aspects",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:AZju0d2GQJ0C"
+      ]
+    },
+    {
+      "title": "COVIDSenti: A large-scale benchmark Twitter data set for COVID-19 sentiment analysis",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:5bg8sr1QxYwC"
+      ]
+    },
+    {
+      "title": "Transformer based deep intelligent contextual embedding for twitter sentiment analysis",
+      "year": 2020,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Dem6FJhTUoYC"
+      ]
+    },
+    {
+      "title": "Big Data Analytics for Preventive Medicine",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:OP4eGU-M3BUC"
+      ]
+    },
+    {
+      "title": "Leveraging Big Data Analytics in Healthcare Enhancement: Trends, Challenges and Opportunities",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:prdVHNxh-e8C"
+      ]
+    },
+    {
+      "title": "A Comprehensive Survey on Word Representation Models: From Classical to State-Of-The-Art Word Representation Language Models",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:KWzIFqRkAKkC"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence in the Battle against Coronavirus (COVID-19): A Survey and Future Research Directions",
+      "year": 2020,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:H7nrzBkawXsC"
+      ]
+    },
+    {
+      "title": "Explainable depression detection with multi-aspect features using a hybrid deep learning model on social media",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:RtRctb2lSbAC"
+      ]
+    },
+    {
+      "title": "A novel approach for phishing URLs detection using lexical based machine learning in a real-time environment",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:-uzm3Y7AvW0C"
+      ]
+    },
+    {
+      "title": "Efficient brain tumor segmentation with multiscale two-pathway-group conventional neural networks",
+      "year": 2018,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:ILKRHgRFtOwC"
+      ]
+    },
+    {
+      "title": "Saeeda Naz, and Ahmad Zaib",
+      "year": 2018,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:8dzOF9BpDQoC"
+      ]
+    },
+    {
+      "title": "Middle Eastern Character Recognition",
+      "year": 2014,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:tOudhMTPpwUC"
+      ]
+    },
+    {
+      "title": "Classification of Alzheimer's disease using ensemble of deep neural networks trained through transfer learning",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:jSAVyFp_754C"
+      ]
+    },
+    {
+      "title": "Federated Intrusion Detection in Blockchain-Based Smart Transportation Systems",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:z6xuaG2dYH0C"
+      ]
+    },
+    {
+      "title": "A survey of pre-processing techniques to improve short-text quality: a case study on hate speech detection on twitter",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:pAkWuXOU-OoC"
+      ]
+    },
+    {
+      "title": "Handwriting dynamics assessment using deep neural network for early identification of Parkinson’s disease",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:F2UWTTQJPOcC"
+      ]
+    },
+    {
+      "title": "Edge Intelligence: Federated Learning-based Privacy Protection Framework for Smart Healthcare Systems",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:QsKbpXNoaWkC"
+      ]
+    },
+    {
+      "title": "Fed-Inforce-Fusion: A federated reinforcement-based fusion model for security and privacy protection of IoMT networks against cyber-attacks",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:JH5k92_tO-AC"
+      ]
+    },
+    {
+      "title": "Depression detection from social networks data based on machine learning and deep learning techniques: An interrogative survey",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:kUhpeDhEZMUC"
+      ]
+    },
+    {
+      "title": "Transfer learning using freeze features for Alzheimer neurological disorder detection using ADNI dataset: S. Naz et al.",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Kqc1aDSOPooC"
+      ]
+    },
+    {
+      "title": "An intelligent and efficient network intrusion detection system using deep learning",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:1xBWf43XMUgC"
+      ]
+    },
+    {
+      "title": "The optical character recognition of Urdu-like cursive scripts",
+      "year": 2014,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:35N4QoGY0k4C"
+      ]
+    },
+    {
+      "title": "AIROGS: Artificial Intelligence for RObust Glaucoma Screening Challenge",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:YPNY0knpFBYC"
+      ]
+    },
+    {
+      "title": "Automatic visual features for writer identification: a deep learning approach",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:LhH-TYMQEocC"
+      ]
+    },
+    {
+      "title": "Urdu Nastaliq recognition using convolutional–recursive deep learning",
+      "year": 2017,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:wbdj-CoPYUoC"
+      ]
+    },
+    {
+      "title": "Adaptive and Priority-based Resource Allocation for Efficient Resources Utilization in Mobile Edge Computing",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:JP7YXuLIOvAC"
+      ]
+    },
+    {
+      "title": "Handwritten Urdu Character Recognition using 1-Dimensional BLSTM Classifier",
+      "year": 2017,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:tKAzc9rXhukC"
+      ]
+    },
+    {
+      "title": "Microscopic blood smear segmentation and classification using deep contour aware CNN and extreme machine learning",
+      "year": 2017,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:wKETBy42zhYC"
+      ]
+    },
+    {
+      "title": "Deep transfer learning for alzheimer neurological disorder detection",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Zh0EY9V9P6UC"
+      ]
+    },
+    {
+      "title": "Predicting brain age using machine learning algorithms: A comprehensive evaluation",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:rbm3iO8VlycC"
+      ]
+    },
+    {
+      "title": "What's Happening around the World? A Survey and Framework on Event Detection Techniques on Twitter",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:nVrZBo8bIpAC"
+      ]
+    },
+    {
+      "title": "BioALBERT: A Simple and Effective Pre-trained Language Model for Biomedical Named Entity Recognition",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:SAZ1SQo2q1kC"
+      ]
+    },
+    {
+      "title": "A fine-grained access control and security approach for intelligent vehicular transport in 6g communication system",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:1r-w4gtu6w8C"
+      ]
+    },
+    {
+      "title": "Deep Residual Neural Network for Child’s Spontaneous Facial Expressions Recognition",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:eO3_k5sD8BwC"
+      ]
+    },
+    {
+      "title": "Improving coronavirus (COVID-19) diagnosis using deep transfer learning",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:CB2v5VPnA5kC"
+      ]
+    },
+    {
+      "title": "STATISTICAL FEATURES EXTRACTION FOR CHARACTER RECOGNITION USING RECURRENT NEURAL NETWORK.",
+      "year": 2018,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:XD-gHx7UXLsC"
+      ]
+    },
+    {
+      "title": "DARWIN Series: Domain Specific Large Language Models for Natural Science",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:E7VqQtBCVmcC"
+      ]
+    },
+    {
+      "title": "Depressionnet: learning multi-modalities with user post summarization for depression detection on social media",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:QAOzB4mb83kC",
+        "GlXI4N8AAAAJ:oldoQiaHq2UC"
+      ]
+    },
+    {
+      "title": "The role of unmanned aerial vehicles and mmWave in 5G: Recent advances and challenges",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:4aZ_i-5WJEQC"
+      ]
+    },
+    {
+      "title": "Discovering diabetes complications: an ontology based model",
+      "year": 2015,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:p2g8aNsByqUC"
+      ]
+    },
+    {
+      "title": "Offline cursive Urdu-Nastaliq script recognition using multidimensional recurrent neural networks",
+      "year": 2016,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:u9iWguZQMMsC"
+      ]
+    },
+    {
+      "title": "Privacy-Preserving Federated Machine Learning Solutions for Critical Energy Infrastructures",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:CNPyR2KL9-0C"
+      ]
+    },
+    {
+      "title": "Automated methods for diagnosis of Parkinson’s disease and predicting severity level",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:17ZO-CJnx_8C"
+      ]
+    },
+    {
+      "title": "Federated Learning for Privacy Preservation of Healthcare Data from Smartphone-based Side-Channel Attacks",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Ic1VZgkJnDsC"
+      ]
+    },
+    {
+      "title": "Urdu Nasta’liq text recognition system based on multi-dimensional recurrent neural network and statistical features",
+      "year": 2015,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:b0M2c_1WBrUC"
+      ]
+    },
+    {
+      "title": "Intelligent anomaly detection of trajectories for IoT empowered maritime transportation systems",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:nPT8s1NX_-sC"
+      ]
+    },
+    {
+      "title": "A smart healthcare framework for detection and monitoring of COVID-19 using IoT and cloud computing",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:-6RzNnnwWf8C"
+      ]
+    },
+    {
+      "title": "Evaluation of cursive and non-cursive scripts using recurrent neural networks",
+      "year": 2016,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:D03iK_w7-QYC"
+      ]
+    },
+    {
+      "title": "HMM and fuzzy logic: a hybrid approach for online Urdu script-based languages’ character recognition",
+      "year": 2010,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:O3NaXMp0MMsC"
+      ]
+    },
+    {
+      "title": "Federated learning-aware multi-objective modeling and blockchain-enable system for IIoT applications",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:X5YyAB84Iw4C"
+      ]
+    },
+    {
+      "title": "Anomaly detection framework to prevent DDoS attack in fog empowered IoT networks",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:x21FZCSn4ZoC"
+      ]
+    },
+    {
+      "title": "Randomized nonlinear one-class support vector machines with bounded loss function to detect of outliers for large scale IoT data",
+      "year": 2020,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:jE2MZjpN3IcC"
+      ]
+    },
+    {
+      "title": "A novel collaborative SRU network with dynamic behaviour aggregation, reduced communication overhead and explainable features",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:inmFHauC9wsC"
+      ]
+    },
+    {
+      "title": "Adversarial Attacks on Speech Recognition Systems for Mission-Critical Applications: A Survey",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:BJrgspguQaEC"
+      ]
+    },
+    {
+      "title": "Hybrid Words Representation for Airlines Sentiment Analysis",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:BzfGm06jWhQC"
+      ]
+    },
+    {
+      "title": "Width-wise vessel bifurcation for improved retinal vessel segmentation",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:H_jBuBxbQIAC"
+      ]
+    },
+    {
+      "title": "Retinal Vessel Segmentation via a Multi-resolution Contextual Network and Adversarial Learning",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:I858iXPj1OkC"
+      ]
+    },
+    {
+      "title": "High-density electroencephalography and speech signal based deep framework for clinical depression diagnosis",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:9shLKfS_uJEC"
+      ]
+    },
+    {
+      "title": "Accurate Microscopic Red Blood Cell Image Enhancement and Segmentation.",
+      "year": 2015,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:nb7KW1ujOQ8C"
+      ]
+    },
+    {
+      "title": "LDMRes-Net: A Lightweight Neural Network for Efficient Medical Image Segmentation on IoT and Edge Devices",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:rbGdIwl2e6cC"
+      ]
+    },
+    {
+      "title": "Self-supervised spatial–temporal transformer fusion based federated framework for 4D cardiovascular image segmentation",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:RfUwGJFMQ-0C"
+      ]
+    },
+    {
+      "title": "UCOM offline dataset-an Urdu handwritten dataset generation",
+      "year": 2017,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:ye4kPcJQO24C"
+      ]
+    },
+    {
+      "title": "Urdu Nasta’liq text recognition using implicit segmentation based on multi-dimensional long short term memory neural networks",
+      "year": 2016,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:BrmTIyaxlBUC"
+      ]
+    },
+    {
+      "title": "Deep Learning based Isolated Arabic Scene Character Recognition",
+      "year": 2017,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:WA5NYHcadZ8C"
+      ]
+    },
+    {
+      "title": "Seeing Far and Clearly: Mitigating Hallucinations in MLLMs with Attention Causal Decoding",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:J4E9jCG1tHUC"
+      ]
+    },
+    {
+      "title": "Event detection in Twitter stream using weighted dynamic heartbeat graph approach [application notes]",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:c59VksA5Vz4C"
+      ]
+    },
+    {
+      "title": "An Ocr system for printed Nasta'liq script: A segmentation based approach",
+      "year": 2014,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:_xSYboBqXhAC"
+      ]
+    },
+    {
+      "title": "A counter-eavesdropping technique for optimized privacy of wireless industrial iot communications",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:EaFouW7jFu4C"
+      ]
+    },
+    {
+      "title": "Cloud-connected flying edge computing for smart agriculture",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:ZqE1mSdD_DYC"
+      ]
+    },
+    {
+      "title": "Construction and Application of Materials Knowledge Graph in Multidisciplinary Materials Science via Large Language Model",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:zdX0sdgBH_kC"
+      ]
+    },
+    {
+      "title": "A Secure and Intelligent Framework for Vehicle Health Monitoring Exploiting Big-Data Analytics",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:rCNdntzdTkkC"
+      ]
+    },
+    {
+      "title": "Trustworthy and Reliable Deep Learning-Based Cyberattack Detection in Industrial IoT",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:oTdOBqtIf_kC"
+      ]
+    },
+    {
+      "title": "Efficient leukocyte segmentation and recognition in peripheral blood image",
+      "year": 2016,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:Tiz5es2fbqcC"
+      ]
+    },
+    {
+      "title": "Towards Improved Deep Contextual Embedding for the identification of Irony and Sarcasm",
+      "year": 2020,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:mKu_rENv82IC"
+      ]
+    },
+    {
+      "title": "Segmentation techniques for recognition of Arabic-like scripts: A comprehensive survey",
+      "year": 2016,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:zA6iFVUQeVQC"
+      ]
+    },
+    {
+      "title": "Tracking anti-vax social movement using AI-based social media monitoring",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:ji7lAbPyDbYC"
+      ]
+    },
+    {
+      "title": "Enhanced Heartbeat Graph for Emerging Event Detection on Twitter using Time Series Networks",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:2tRrZ1ZAMYUC"
+      ]
+    },
+    {
+      "title": "GAN‐LSTM‐3D: An efficient method for lung tumour 3D reconstruction enhanced by attention‐based LSTM",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:eH23hyXCXa4C"
+      ]
+    },
+    {
+      "title": "A multi-modal dataset for hate speech detection on social media: Case-study of russia-ukraine conflict",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:3_LpOwP6eMYC"
+      ]
+    },
+    {
+      "title": "A Blockchain-Based Emergency Message Transmission Protocol for Cooperative VANET",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:QoJ_w57xiyAC"
+      ]
+    },
+    {
+      "title": "Hierarchical convolutional attention network for depression detection on social media and its impact during pandemic",
+      "year": 2023,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:xGWFX6Gbr9MC"
+      ]
+    },
+    {
+      "title": "Prompt deep light-weight vessel segmentation network (PLVS-Net)",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:n3vGvpFsckwC"
+      ]
+    },
+    {
+      "title": "Cursive handwritten text recognition using bi-directional LSTMs: a case study on Urdu handwriting",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:DyXnQzXoVgIC"
+      ]
+    },
+    {
+      "title": "Conv-ERVFL: Convolutional Neural Network Based Ensemble RVFL Classifier for Alzheimer's Disease Diagnosis",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:DXE8ND7PrJAC"
+      ]
+    },
+    {
+      "title": "Multimodal face and finger veins biometric authentication",
+      "year": 2010,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:SjuI4pbJlxcC"
+      ]
+    },
+    {
+      "title": "LLM as GNN: Graph Vocabulary Learning for Text-Attributed Graph Foundation Models",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:3_f9JqYsqVQC"
+      ]
+    },
+    {
+      "title": "Privacy-preserved learning from non-iid data in fog-assisted IoT: A federated learning approach",
+      "year": 2024,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:L24QuVWYgZ0C"
+      ]
+    },
+    {
+      "title": "Deep Context-Aware Embedding for Abusive and Hate Speech detection on Twitter.",
+      "year": 2019,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:lYAcb2jw7qUC"
+      ]
+    },
+    {
+      "title": "GAMED: Knowledge Adaptive Multi-Experts Decoupling for Multimodal Fake News Detection",
+      "year": 2025,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:M0j1y4EgrScC"
+      ]
+    },
+    {
+      "title": "Depth-Wise Dense Neural Network for Automatic COVID19 Infection Detection and Diagnosis",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:HJSXoJQnj-YC"
+      ]
+    },
+    {
+      "title": "Extreme learning machine based microscopic red blood cells classification",
+      "year": 2018,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:z8nqeaKD1nsC"
+      ]
+    },
+    {
+      "title": "Zoning features and 2DLSTM for Urdu text-line recognition",
+      "year": 2016,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:VOx2b1Wkg3QC"
+      ]
+    },
+    {
+      "title": "Applying deep neural networks for user intention identification: A. Khattak et al.",
+      "year": 2021,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:-jrNzM816MMC"
+      ]
+    },
+    {
+      "title": "Restricted Boltzmann machine Assisted Secure Serverless Edge System for Internet of Medical Things",
+      "year": 2022,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:7Frjd3zlGBUC"
+      ]
+    }
+  ]
+}
