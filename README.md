@@ -34,3 +34,6 @@ The bibliography retains all 517 Scholar records. Figures are local WebP assets 
 
 ### Team life events
 Add lunch, gathering, or celebration photos under `assets/images/team/` and add entries to `_data/team_events.yml` with `title`, `date` (YYYY-MM-DD), `location`, `image` (site-relative path), `alt`, and `caption`. They appear newest first at `/team.html#team-life`. Only add actual events; the empty list publishes no sample entries.
+
+### Homepage visuals
+The research map, featured project cards, demo selector, publication timeline, and Team Life preview are Jekyll widgets. Update `_data/featured_research.yml` and `_data/research_demos.yml` to change their content. After bibliography changes, run `../.venv/bin/python scripts/build_publication_timeline.py` before building. Videos are click-to-play paper walkthroughs and use native browser controls; all examples remain available without JavaScript.

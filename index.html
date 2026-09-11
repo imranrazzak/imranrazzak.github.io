@@ -1,35 +1,29 @@
 ---
 layout: default
-title : Homepage
+title: Homepage
 navbar_title: Home
 ---
-
 <div class="row">
-    <div class="col-lg-3 col-md-4">
-        {% include widgets/profile_card_mini.html %}
-    </div>
-    <div class="col-lg-9 col-md-8">
-
-        {% include widgets/profile_card_bio_only.html %}
-        {% include widgets/company_card.html %}
-
-        <!-- Debugging widgets -->
-        
-        
-
-        {% if site.data.display.homepage.show_experience %}
-            {% include widgets/experience_card.html %}
-        {% endif %}
-
-        {% if site.data.display.homepage.show_news %}
-        {% assign count_news = site.news | size %}
-        {% if count_news > 0 %}
-        {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
-        {% endif %}
-        {% endif %}
-
-        {% if site.data.display.homepage.show_selected_publications %}
-        {% include widgets/recent_publications.html %}
-        {% endif %}
-    </div>
+  <div class="col-lg-3 col-md-4">
+    {% include widgets/profile_card_mini.html %}
+  </div>
+  <div class="col-lg-9 col-md-8">
+    {% include widgets/profile_card_bio_only.html %}
+    {% include widgets/research_overview.html %}
+    {% include widgets/company_card.html %}
+    {% if site.data.display.homepage.show_news %}
+      {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
+    {% endif %}
+    {% include widgets/featured_research.html %}
+    {% if site.data.display.homepage.show_selected_publications %}
+      {% include widgets/recent_publications.html %}
+    {% endif %}
+    {% include widgets/publication_timeline.html %}
+    {% include widgets/research_demos.html %}
+    {% include widgets/team_life_preview.html %}
+    {% if site.data.display.homepage.show_experience %}
+      {% include widgets/experience_card.html %}
+    {% endif %}
+  </div>
 </div>
+<script defer src="{{ '/assets/js/home-visuals.js' | relative_url }}"></script>

@@ -1,0 +1,21 @@
+- key: medmo
+  title: Medical image reasoning
+  description: Compare a report-generation example with its reference annotation.
+  poster: /assets/images/publications/e336b3e9d037bf.webp
+  image: /assets/images/demos/medmo-results.png
+  video: /assets/video/medmo-walkthrough.mp4
+  source: https://arxiv.org/html/2602.06965v2#A5.F17
+- key: sam
+  title: Medical image segmentation
+  description: Compare segmentation masks across anatomical targets and methods.
+  poster: /assets/images/publications/c4386947789865.webp
+  image: /assets/images/demos/sam-results.png
+  video: /assets/video/sam-walkthrough.mp4
+  source: https://arxiv.org/html/2506.05221v2#S3.F3
+- key: registration
+  title: Medical image registration
+  description: Inspect source, reference and warped images on CT and MRI examples.
+  poster: /assets/images/publications/b84654b860ba02.webp
+  image: /assets/images/demos/registration-results.png
+  video: /assets/video/registration-walkthrough.mp4
+  source: https://arxiv.org/html/2602.07088v1#S4.F5

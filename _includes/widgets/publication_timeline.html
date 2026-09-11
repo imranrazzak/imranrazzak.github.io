@@ -1,0 +1,12 @@
+{% assign timeline = site.data.publication_timeline %}
+{% assign max_count = timeline.years | map: 'count' | sort | last %}
+<section class="card border-0 shadow-sm bg-white my-3" aria-labelledby="timeline-title"><div class="card-body p-4">
+<h2 class="h5" id="timeline-title">Publication Timeline</h2>
+<p class="small text-muted">{{ timeline.distinct_works }} works after matching duplicate records · Select a year to browse its publications.</p>
+<div class="timeline-scroll" tabindex="0" role="region" aria-label="Publication counts by year; scroll horizontally for all years">
+<div class="publication-timeline">
+{% for point in timeline.years %}<a href="{{ '/publications.html' | relative_url }}#year-{{ point.year }}" class="timeline-column" aria-label="{{ point.year }}: {{ point.count }} works">
+<span class="timeline-count">{{ point.count }}</span><span class="timeline-bar" style="height: {{ point.count | times: 130.0 | divided_by: max_count }}px" aria-hidden="true"></span><span class="timeline-year">{{ point.year }}</span>
+</a>{% endfor %}</div></div>
+<details class="small mt-3 text-muted"><summary>How the counts are calculated</summary><p class="mt-2">{{ timeline.method }} {{ timeline.undated }} undated works are excluded from the bars. The bibliography retains all {{ timeline.records }} Scholar entries. The current year is incomplete.</p><a href="{{ '/assets/data/publication-timeline.json' | relative_url }}">Download counts and matching details</a></details>
+</div></section>

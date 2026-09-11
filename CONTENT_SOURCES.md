@@ -37,3 +37,12 @@ Two team photographs added with descriptive captions; event dates and locations 
 
 ## IEEE acceptance news (September 11, 2026)
 TIP acceptance for arXiv:2506.05221 and JBHI acceptance for arXiv:2602.07088 were confirmed by Imran Razzak. Acceptance month was subsequently confirmed as September 2026 by Imran Razzak. Both records are grouped and sorted using September 2026 (the first day is a month-only sort key). Architecture figures appear in the bibliography and recent publications; news is text-only. No volume, issue, pages, or publisher DOI was inferred.
+
+## Homepage visualizations (September 11, 2026)
+- Research overview is an editorial diagram linking existing research directions, not an experimental causal graph.
+- Featured project cards reuse the existing MedMO paper figure and user-supplied CARL and microbiome illustrations. Team preview reuses supplied photographs without cropping people.
+- Timeline is reproducible with `scripts/build_publication_timeline.py`. Exact normalized titles or shared arXiv/DOI identifiers merge records; each group uses its latest recorded year. The downloadable audit identifies all groups. This is not a citation metric; changed titles without shared IDs may remain separate.
+- Research demo videos are silent, 12-second paper-figure walkthroughs, not model executions: 5 seconds of the existing architecture figure, followed by 7 seconds of qualitative results. Entire figures are fitted without cropping or synthesizing results.
+- SAM-TTA results: https://arxiv.org/html/2506.05221v2#S3.F3 (result_seg_sota_3.png).
+- AD-RegNet results: https://arxiv.org/html/2602.07088v1#S4.F5 (dir_ixi.png).
+- MedMO results: https://arxiv.org/html/2602.06965v2#A5.F17 (result1.png).
