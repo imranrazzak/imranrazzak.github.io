@@ -29,7 +29,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/global.css">
-    <link rel="stylesheet" href="/assets/css/profile.css">
+    <link rel="stylesheet" href="/assets/css/profile.css?v=compact-20260911">
 </head>
 <body class="bg-light" >
     <nav class="navbar navbar-expand-lg navbar-light fixed-top mb-5 shadow-sm" aria-label="Main navigation">
@@ -317,21 +317,21 @@
 <h2 class="h5 mb-3" id="featured-research-title">Featured Research</h2>
 <div class="row">
 
-<article class="col-md-4 mb-3 mb-md-0" id="featured-medmo">
-<a href="/assets/images/publications/e336b3e9d037bf.webp" aria-label="Enlarge MedMO figure"><img class="featured-research-image" src="/assets/images/publications/e336b3e9d037bf.webp" alt="Figure 2" loading="lazy"></a>
-<h3 class="h6 mt-3">MedMO</h3><p class="small">Medical image understanding, spatial grounding and report generation in one multimodal model.</p>
+<article class="col-md-4 mb-3 mb-md-0 featured-research-card" id="featured-medmo">
+<a href="/assets/images/publications/e336b3e9d037bf.webp" aria-label="Enlarge MedMO figure"><img class="featured-research-image" width="160" height="85" src="/assets/images/publications/e336b3e9d037bf.webp" alt="Figure 2" loading="lazy"></a>
+<div class="featured-research-copy"><h3 class="h6 mt-2">MedMO</h3><p class="small">Medical image understanding, spatial grounding and report generation in one multimodal model.</p>
 <p class="small mb-0"><a href="https://arxiv.org/abs/2602.06965">Paper</a> · <a href="https://github.com/genmilab/MedMO">Code</a> · <a href="https://huggingface.co/collections/MBZUAI/medmo">Models</a></p>
-</article>
-<article class="col-md-4 mb-3 mb-md-0" id="featured-carl">
-<a href="/assets/images/publications/carl-overview.png" aria-label="Enlarge CARL figure"><img class="featured-research-image" src="/assets/images/publications/carl-overview.png" alt="CARL overview" loading="lazy"></a>
-<h3 class="h6 mt-3">CARL</h3><p class="small">Representation learning designed to preserve causal structure.</p>
+</div></article>
+<article class="col-md-4 mb-3 mb-md-0 featured-research-card" id="featured-carl">
+<a href="/assets/images/publications/carl-overview.png" aria-label="Enlarge CARL figure"><img class="featured-research-image" width="160" height="85" src="/assets/images/publications/carl-overview.png" alt="CARL overview" loading="lazy"></a>
+<div class="featured-research-copy"><h3 class="h6 mt-2">CARL</h3><p class="small">Representation learning designed to preserve causal structure.</p>
 <p class="small mb-0"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:PklR0melJeUC">Paper</a></p>
-</article>
-<article class="col-md-4 mb-3 mb-md-0" id="featured-oral-microbiome">
-<a href="/assets/images/publications/oral-microbiome.png" aria-label="Enlarge Oral microbiome figure"><img class="featured-research-image" src="/assets/images/publications/oral-microbiome.png" alt="Oral microbiome illustration" loading="lazy"></a>
-<h3 class="h6 mt-3">Oral microbiome</h3><p class="small">Population-scale investigation of links between the oral microbiome and metabolic health.</p>
+</div></article>
+<article class="col-md-4 mb-3 mb-md-0 featured-research-card" id="featured-oral-microbiome">
+<a href="/assets/images/publications/oral-microbiome.png" aria-label="Enlarge Oral microbiome figure"><img class="featured-research-image" width="160" height="85" src="/assets/images/publications/oral-microbiome.png" alt="Oral microbiome illustration" loading="lazy"></a>
+<div class="featured-research-copy"><h3 class="h6 mt-2">Oral microbiome</h3><p class="small">Population-scale investigation of links between the oral microbiome and metabolic health.</p>
 <p class="small mb-0"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:wgKq3sYidysC">Paper</a></p>
-</article>
+</div></article>
 </div></div></section>
 
     
@@ -744,26 +744,29 @@
 
     <section class="card border-0 shadow-sm bg-white my-3" aria-labelledby="demo-title"><div class="card-body p-4">
 <h2 class="h5" id="demo-title">Research Demos</h2>
-<p class="small text-muted">Short paper walkthroughs: architecture followed by published results. These clips present recorded figures, not live model inference.</p>
+<p class="small text-muted">12-second walkthroughs of paper figures and results.</p>
 <div class="demo-picker mb-3" hidden aria-label="Choose a research walkthrough">
 <button type="button" class="btn btn-sm btn-outline-primary mr-2 mb-2" data-demo-target="demo-medmo" aria-controls="demo-medmo" aria-pressed="true">Medical image reasoning</button><button type="button" class="btn btn-sm btn-outline-primary mr-2 mb-2" data-demo-target="demo-sam" aria-controls="demo-sam" aria-pressed="false">Medical image segmentation</button><button type="button" class="btn btn-sm btn-outline-primary mr-2 mb-2" data-demo-target="demo-registration" aria-controls="demo-registration" aria-pressed="false">Medical image registration</button>
 </div>
 <article id="demo-medmo" class="research-demo mb-3">
-<h3 class="h6">Medical image reasoning</h3><p class="small">Compare a report-generation example with its reference annotation.</p>
-<video class="research-demo-video" controls playsinline preload="none" poster="/assets/images/publications/e336b3e9d037bf.webp" aria-label="Medical image reasoning paper walkthrough" aria-describedby="demo-note-medmo"><source src="/assets/video/medmo-walkthrough.mp4" type="video/mp4"></video>
-<p class="small text-muted mt-2" id="demo-note-medmo">0–5 seconds: architecture · 5–12 seconds: published results. Silent walkthrough.</p>
+<div class="demo-compact-layout">
+<video class="research-demo-video" width="240" height="150" controls playsinline preload="none" poster="/assets/images/publications/e336b3e9d037bf.webp" aria-label="Medical image reasoning paper walkthrough" aria-describedby="demo-note-medmo"><source src="/assets/video/medmo-walkthrough.mp4" type="video/mp4"></video>
+<div class="demo-copy"><h3 class="h6">Medical image reasoning</h3><p class="small mb-2">Compare a report-generation example with its reference annotation.</p>
+<p class="small text-muted mt-2" id="demo-note-medmo">Architecture → results · Silent figure walkthrough; no live inference.</p>
 <p class="small mb-0"><a href="/assets/images/demos/medmo-results.png">Enlarge results</a> · <a href="https://arxiv.org/html/2602.06965v2#A5.F17">Source figure and paper</a> · <a href="https://github.com/genmilab/MedMO">Run MedMO</a></p>
-</article><article id="demo-sam" class="research-demo mb-3">
-<h3 class="h6">Medical image segmentation</h3><p class="small">Compare segmentation masks across anatomical targets and methods.</p>
-<video class="research-demo-video" controls playsinline preload="none" poster="/assets/images/publications/c4386947789865.webp" aria-label="Medical image segmentation paper walkthrough" aria-describedby="demo-note-sam"><source src="/assets/video/sam-walkthrough.mp4" type="video/mp4"></video>
-<p class="small text-muted mt-2" id="demo-note-sam">0–5 seconds: architecture · 5–12 seconds: published results. Silent walkthrough.</p>
+</div></div></article><article id="demo-sam" class="research-demo mb-3">
+<div class="demo-compact-layout">
+<video class="research-demo-video" width="240" height="150" controls playsinline preload="none" poster="/assets/images/publications/c4386947789865.webp" aria-label="Medical image segmentation paper walkthrough" aria-describedby="demo-note-sam"><source src="/assets/video/sam-walkthrough.mp4" type="video/mp4"></video>
+<div class="demo-copy"><h3 class="h6">Medical image segmentation</h3><p class="small mb-2">Compare segmentation masks across anatomical targets and methods.</p>
+<p class="small text-muted mt-2" id="demo-note-sam">Architecture → results · Silent figure walkthrough; no live inference.</p>
 <p class="small mb-0"><a href="/assets/images/demos/sam-results.png">Enlarge results</a> · <a href="https://arxiv.org/html/2506.05221v2#S3.F3">Source figure and paper</a></p>
-</article><article id="demo-registration" class="research-demo mb-3">
-<h3 class="h6">Medical image registration</h3><p class="small">Inspect source, reference and warped images on CT and MRI examples.</p>
-<video class="research-demo-video" controls playsinline preload="none" poster="/assets/images/publications/b84654b860ba02.webp" aria-label="Medical image registration paper walkthrough" aria-describedby="demo-note-registration"><source src="/assets/video/registration-walkthrough.mp4" type="video/mp4"></video>
-<p class="small text-muted mt-2" id="demo-note-registration">0–5 seconds: architecture · 5–12 seconds: published results. Silent walkthrough.</p>
+</div></div></article><article id="demo-registration" class="research-demo mb-3">
+<div class="demo-compact-layout">
+<video class="research-demo-video" width="240" height="150" controls playsinline preload="none" poster="/assets/images/publications/b84654b860ba02.webp" aria-label="Medical image registration paper walkthrough" aria-describedby="demo-note-registration"><source src="/assets/video/registration-walkthrough.mp4" type="video/mp4"></video>
+<div class="demo-copy"><h3 class="h6">Medical image registration</h3><p class="small mb-2">Inspect source, reference and warped images on CT and MRI examples.</p>
+<p class="small text-muted mt-2" id="demo-note-registration">Architecture → results · Silent figure walkthrough; no live inference.</p>
 <p class="small mb-0"><a href="/assets/images/demos/registration-results.png">Enlarge results</a> · <a href="https://arxiv.org/html/2602.07088v1#S4.F5">Source figure and paper</a></p>
-</article>
+</div></div></article>
 </div></section>
 
     <section class="card border-0 shadow-sm bg-white my-3" aria-labelledby="team-preview-title"><div class="card-body p-4">
