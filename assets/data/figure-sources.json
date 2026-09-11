@@ -2872,5 +2872,27 @@
     "width": 521,
     "height": 175,
     "method": "publisher-figure"
+  },
+  {
+    "scholar_id": "GlXI4N8AAAAJ:wgKq3sYidysC",
+    "title": "Population-scale characterization of the oral microbiome and associations with metabolic health",
+    "cover": "/assets/images/publications/oral-microbiome.png",
+    "cover_source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:wgKq3sYidysC",
+    "cover_figure": "Oral microbiome illustration",
+    "width": 1470,
+    "height": 1182,
+    "method": "user-supplied",
+    "attribution": "Image supplied by Imran Razzak"
+  },
+  {
+    "scholar_id": "GlXI4N8AAAAJ:PklR0melJeUC",
+    "title": "CARL: Preserving Causal Structure in Representation Learning",
+    "cover": "/assets/images/publications/carl-overview.png",
+    "cover_source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:PklR0melJeUC",
+    "cover_figure": "CARL overview",
+    "width": 1390,
+    "height": 748,
+    "method": "user-supplied",
+    "attribution": "Image supplied by Imran Razzak"
   }
 ]

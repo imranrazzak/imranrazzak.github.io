@@ -6641,7 +6641,13 @@
       "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:wgKq3sYidysC"
     },
     "scholar_id": "GlXI4N8AAAAJ:wgKq3sYidysC",
-    "selected": false
+    "selected": false,
+    "cover": "/assets/images/publications/oral-microbiome.png",
+    "cover_width": 1470,
+    "cover_height": 1182,
+    "cover_figure": "Oral microbiome illustration",
+    "cover_attribution": "Image supplied by Imran Razzak",
+    "cover_source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:wgKq3sYidysC"
   },
   {
     "title": "Cross-task Calibration for Asynchronous Federated Continual Learning",
@@ -6915,7 +6921,13 @@
       "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:PklR0melJeUC"
     },
     "scholar_id": "GlXI4N8AAAAJ:PklR0melJeUC",
-    "selected": false
+    "selected": false,
+    "cover": "/assets/images/publications/carl-overview.png",
+    "cover_width": 1390,
+    "cover_height": 748,
+    "cover_figure": "CARL overview",
+    "cover_attribution": "Image supplied by Imran Razzak",
+    "cover_source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:PklR0melJeUC"
   },
   {
     "title": "CoME-VL: Scaling Complementary Multi-Encoder Vision-Language Learning",

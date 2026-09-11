@@ -1,6 +1,6 @@
 {
   "total_scholar_records": 517,
-  "records_with_figures": 211,
+  "records_with_figures": 213,
   "selected_papers_with_figures": 7,
   "unresolved": [
     {
@@ -988,12 +988,6 @@
       "reason": "No usable figure could be retrieved from the accessible source material in this pass."
     },
     {
-      "scholar_id": "GlXI4N8AAAAJ:wgKq3sYidysC",
-      "title": "Population-scale characterization of the oral microbiome and associations with metabolic health",
-      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:wgKq3sYidysC",
-      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
-    },
-    {
       "scholar_id": "GlXI4N8AAAAJ:puFLaqDw8dcC",
       "title": "Cross-task Calibration for Asynchronous Federated Continual Learning",
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:puFLaqDw8dcC",
@@ -1027,12 +1021,6 @@
       "scholar_id": "GlXI4N8AAAAJ:gkldIfsazJcC",
       "title": "GatorSC: multi-scale cell and gene graphs with mixture-of-experts fusion for single-cell transcriptomics",
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:gkldIfsazJcC",
-      "reason": "No usable figure could be retrieved from the accessible source material in this pass."
-    },
-    {
-      "scholar_id": "GlXI4N8AAAAJ:PklR0melJeUC",
-      "title": "CARL: Preserving Causal Structure in Representation Learning",
-      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&cstart=400&pagesize=100&citation_for_view=GlXI4N8AAAAJ:PklR0melJeUC",
       "reason": "No usable figure could be retrieved from the accessible source material in this pass."
     },
     {
