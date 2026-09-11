@@ -62,3 +62,9 @@
 }
 
 #medomni-title { scroll-margin-top: 80px; }
+
+.profile-sidebar .figure { display: block; max-width: 145px; margin: 0 auto .75rem; }
+.profile-sidebar .rounded-circle { width: 145px; max-width: 100% !important; }
+.profile-sidebar .medos-profile-video { width: 125px; height: 125px; max-width: 100%; }
+.medomni-sidebar-logo { display: block; width: 125px; height: 125px; max-width: 100%; object-fit: contain; margin: 0 auto; }
+@media (max-height: 900px), (max-width: 767.98px) { .profile-sidebar.sticky-top { position: static; } }
