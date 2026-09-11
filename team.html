@@ -123,12 +123,12 @@ navbar_title: Team
 <p class="mb-0">Beyond research, we make time to connect through team lunches, informal gatherings, and shared celebrations. These moments are part of life in our group at MBZUAI.</p>
 {% if site.data.team_events.size > 0 %}
 <div class="row mt-3">
-{% assign events = site.data.team_events | sort: 'date' | reverse %}
+{% assign events = site.data.team_events %}
 {% for event in events %}
 <div class="col-md-6 mb-3"><article>
 {% if event.image %}<a href="{{ event.image | relative_url }}"><img class="img-fluid rounded mb-2" src="{{ event.image | relative_url }}" alt="{{ event.alt | escape }}" loading="lazy"></a>{% endif %}
 <h3 class="h5">{{ event.title | escape }}</h3>
-<p class="small text-muted"><time datetime="{{ event.date | date: '%Y-%m-%d' }}">{{ event.date | date: '%B %-d, %Y' }}</time>{% if event.location %} · {{ event.location | escape }}{% endif %}</p>
+{% if event.date %}<p class="small text-muted"><time datetime="{{ event.date | date: '%Y-%m-%d' }}">{{ event.date | date: '%B %-d, %Y' }}</time>{% if event.location %} · {{ event.location | escape }}{% endif %}</p>{% endif %}
 <p>{{ event.caption | escape }}</p>
 </article></div>
 {% endfor %}

@@ -5,7 +5,8 @@
     <a href="{{ item.cover | relative_url }}" target="_blank" rel="noopener noreferrer" class="publication-figure" aria-label="Enlarge {{ item.cover_figure | default: 'paper figure' | escape }} from {{ item.title | escape }}">
       <img src="{{ item.cover | relative_url }}" alt="{{ item.cover_figure | default: 'Figure' | escape }} from {{ item.title | escape }}" loading="lazy" decoding="async" width="{{ item.cover_width | default: 640 }}" height="{{ item.cover_height | default: 400 }}">
     </a>
-    <a href="{{ item.cover_source }}" target="_blank" rel="noopener noreferrer" class="figure-source small text-muted">{{ item.cover_figure | default: 'Figure' }} · source paper <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+    {% if item.cover_attribution %}<span class="figure-source small text-muted">{{ item.cover_attribution | escape }}</span>{% else %}
+    <a href="{{ item.cover_source }}" target="_blank" rel="noopener noreferrer" class="figure-source small text-muted">{{ item.cover_figure | default: 'Figure' }} · source paper <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>{% endif %}
   </div>
   {% endif %}
   <div class="{% if item.cover %}col-md-9{% else %}col-12{% endif %} p-3">

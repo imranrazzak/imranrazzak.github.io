@@ -34,7 +34,7 @@ assert sum(p.get('selected',False) for p in records)==7, 'Missing selected paper
 text=(root/'publications.html').read_text()
 for p in records:
  if p['scholar_id'] not in text:errors.append(f'Missing publication: {p["title"]}')
-assert sum('cover' in p for p in records)==211, 'Unexpected figure coverage'
+assert sum('cover' in p for p in records)==213, 'Unexpected figure coverage'
 assert all('cover' in p for p in records if p.get('selected')), 'Featured paper missing its figure'
 figures=json.loads((root/'assets/data/figure-sources.json').read_text())
 assert {p['scholar_id'] for p in figures}=={p['scholar_id'] for p in records if 'cover' in p}, 'Figure provenance mismatch'
@@ -51,4 +51,4 @@ for f in pages:
  for marker in ['Your Name','your@email.com','Convallis a cras','bicolor cat','/academic-homepage/assets','© UNSW 2022']:
   if marker in f.read_text().replace('[Your Name]', '[Applicant name]'):errors.append(f'{f.name}: template placeholder {marker}')
 if errors:print('\n'.join(errors));sys.exit(1)
-print(f'PASS: {len(pages)} pages; all local links, assets, anchors and metadata; 517 unique Scholar records; 7 selected papers; 211 sourced figures and MedOS profile.')
+print(f'PASS: {len(pages)} pages; all local links, assets, anchors and metadata; 517 unique Scholar records; 7 selected papers; 213 publication images and MedOS profile.')

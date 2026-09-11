@@ -1,2 +1,8 @@
-# Add events with title, date (YYYY-MM-DD), location, image, alt, and caption.
-[]
+- title: Team lunch
+  image: /assets/images/team/team-lunch.jpeg
+  alt: Research team sharing a meal around a restaurant table.
+  caption: Taking a break from research to share a meal together.
+- title: Team gathering
+  image: /assets/images/team/team-gathering.jpeg
+  alt: Research team posing together for a group photo indoors.
+  caption: A moment together beyond the lab.

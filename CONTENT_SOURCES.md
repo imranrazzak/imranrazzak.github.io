@@ -31,3 +31,6 @@ The full imported bibliography is available at `assets/data/publications.json`; 
 
 ## MedOS logo video
 User-provided `Desktop/Medos Video.mov`, added September 7, 2026. Converted to a silent, optimized H.264 MP4 with metadata removed; poster extracted from the same clip. A compact card below the portrait and social links uses the portrait column width, 70% opacity (30% transparency), a pause control, and reduced-motion/data-saving defaults.
+
+## User-supplied photos and publication images (September 11, 2026)
+Two team photographs added with descriptive captions; event dates and locations were not supplied and are omitted. The oral microbiome and CARL illustrations were supplied and assigned by Imran Razzak; they are labeled as supplied images rather than extracted paper figures. There are now 213 publication images (211 retrieved figures plus 2 supplied images). The CVPR workshop entry remains in the full bibliography but is omitted from homepage highlights.
