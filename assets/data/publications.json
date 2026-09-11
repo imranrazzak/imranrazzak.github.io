@@ -2706,8 +2706,8 @@
   },
   {
     "title": "SAM-aware Test-time Adaptation for Universal Medical Image Segmentation",
-    "date": "2025-01-01",
-    "pub": "IEEE Transactions on Image Processing (TIP) — Accepted",
+    "date": "2026-09-01",
+    "pub": "IEEE Transactions on Image Processing (TIP) — Accepted, September 2026",
     "authors": [
       "Jianghao Wu",
       "Yicheng Wu",
@@ -2732,7 +2732,8 @@
     "cover_figure": "Fig. 2",
     "cover_width": 1600,
     "cover_height": 721,
-    "acceptance_reported": "2026-09-11"
+    "acceptance_reported": "2026-09-11",
+    "acceptance_month": "2026-09"
   },
   {
     "title": "Cross Platform MultiModal Retrieval Augmented Distillation for Code-Switched Content Understanding",
@@ -7063,8 +7064,8 @@
   },
   {
     "title": "Attention-Driven Framework for Non-Rigid Medical Image Registration",
-    "date": "2026-01-01",
-    "pub": "IEEE Journal of Biomedical and Health Informatics (JBHI) — Accepted",
+    "date": "2026-09-01",
+    "pub": "IEEE Journal of Biomedical and Health Informatics (JBHI) — Accepted, September 2026",
     "authors": [
       "Muhammad Zafar Iqbal",
       "Ghazanfar Farooq Siddiqui",
@@ -7083,7 +7084,8 @@
     "cover_figure": "Fig. 4",
     "cover_width": 1600,
     "cover_height": 865,
-    "acceptance_reported": "2026-09-11"
+    "acceptance_reported": "2026-09-11",
+    "acceptance_month": "2026-09"
   },
   {
     "title": "RetiSEM: Pathway-Aware Causal Modeling for Retinal-Mediated Vascular Mechanisms",
