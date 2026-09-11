@@ -60,3 +60,5 @@
   .demo-compact-layout { grid-template-columns: 1fr; gap: .75rem; }
   .research-demo-video { width: 220px; height: 138px; margin: 0 auto; }
 }
+
+#medomni-title { scroll-margin-top: 80px; }

@@ -46,3 +46,6 @@ TIP acceptance for arXiv:2506.05221 and JBHI acceptance for arXiv:2602.07088 wer
 - SAM-TTA results: https://arxiv.org/html/2506.05221v2#S3.F3 (result_seg_sota_3.png).
 - AD-RegNet results: https://arxiv.org/html/2602.07088v1#S4.F5 (dir_ixi.png).
 - MedMO results: https://arxiv.org/html/2602.06965v2#A5.F17 (result1.png).
+
+## MedOmni profile
+CEO role, company name, evidence-based medicine focus and logo supplied directly by Imran Razzak. Company text describes this focus; no external website, LinkedIn URL, performance claims or released products were inferred.
