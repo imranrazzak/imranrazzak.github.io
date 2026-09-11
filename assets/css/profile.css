@@ -37,8 +37,8 @@
 .research-node i { font-size: 1.5rem; color: #1589c3; }
 .research-node strong { font-size: .9rem; }.research-node span { font-size: .75rem; color: #526773; }
 .research-connector { color: #7996a8; font-size: 1.3rem; }
-.featured-research-image { display: block; width: 100%; height: 135px; object-fit: contain; border: 1px solid #edf0f2; border-radius: .25rem; }
-.research-demo-video { display: block; width: 100%; aspect-ratio: 8 / 5; max-height: 420px; background: #fff; border: 1px solid #edf0f2; border-radius: .25rem; }
+.featured-research-image { display: block; width: 100%; height: 85px; max-width: 160px; margin: 0 auto; object-fit: contain; border: 1px solid #edf0f2; border-radius: .25rem; }
+.research-demo-video { display: block; width: 240px; max-width: 100%; height: 150px; object-fit: contain; background: #fff; border: 1px solid #edf0f2; border-radius: .25rem; }
 .research-demo[hidden], .demo-picker[hidden] { display: none !important; }
 .timeline-scroll { overflow-x: auto; padding: .5rem 0; }
 .publication-timeline { display: flex; align-items: flex-end; gap: .45rem; min-width: max-content; height: 180px; }
@@ -47,4 +47,16 @@
 .timeline-column:hover .timeline-bar, .timeline-column:focus .timeline-bar { background: #154e76; }
 .timeline-count { font-weight: 700; }.timeline-year { font-variant-numeric: tabular-nums; }
 [id^="featured-"] { scroll-margin-top: 80px; }
-@media (max-width: 575.98px) { .research-map { grid-template-columns: 1fr; }.research-connector { text-align: center; }.research-node { padding: .85rem; }.featured-research-image { height: 170px; } }
+@media (max-width: 575.98px) { .research-map { grid-template-columns: 1fr; }.research-connector { text-align: center; }.research-node { padding: .85rem; } }
+
+.demo-compact-layout { display: grid; grid-template-columns: minmax(0, 240px) minmax(0, 1fr); gap: 1rem; align-items: center; }
+.featured-research-copy p { margin-bottom: .5rem; }
+@media (max-width: 767.98px) {
+  .featured-research-card { display: grid; grid-template-columns: 95px minmax(0, 1fr); gap: .75rem; align-items: start; }
+  .featured-research-image { width: 95px; height: 75px; }
+  .featured-research-copy h3 { margin-top: 0 !important; }
+}
+@media (max-width: 575.98px) {
+  .demo-compact-layout { grid-template-columns: 1fr; gap: .75rem; }
+  .research-demo-video { width: 220px; height: 138px; margin: 0 auto; }
+}

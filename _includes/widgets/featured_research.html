@@ -2,9 +2,9 @@
 <h2 class="h5 mb-3" id="featured-research-title">Featured Research</h2>
 <div class="row">
 {% for feature in site.data.featured_research %}{% assign paper = site.publications | where: 'scholar_id', feature.scholar_id | first %}
-<article class="col-md-4 mb-3 mb-md-0" id="featured-{{ feature.name | slugify }}">
-<a href="{{ paper.cover | relative_url }}" aria-label="Enlarge {{ feature.name | escape }} figure"><img class="featured-research-image" src="{{ paper.cover | relative_url }}" alt="{{ paper.cover_figure | escape }}" loading="lazy"></a>
-<h3 class="h6 mt-3">{{ feature.name }}</h3><p class="small">{{ feature.summary }}</p>
+<article class="col-md-4 mb-3 mb-md-0 featured-research-card" id="featured-{{ feature.name | slugify }}">
+<a href="{{ paper.cover | relative_url }}" aria-label="Enlarge {{ feature.name | escape }} figure"><img class="featured-research-image" width="160" height="85" src="{{ paper.cover | relative_url }}" alt="{{ paper.cover_figure | escape }}" loading="lazy"></a>
+<div class="featured-research-copy"><h3 class="h6 mt-2">{{ feature.name }}</h3><p class="small">{{ feature.summary }}</p>
 <p class="small mb-0"><a href="{{ paper.links.Paper | default: paper.links['Google Scholar'] }}">Paper</a>{% if paper.links.Code %} · <a href="{{ paper.links.Code }}">Code</a>{% endif %}{% if paper.links.Models %} · <a href="{{ paper.links.Models }}">Models</a>{% endif %}</p>
-</article>{% endfor %}
+</div></article>{% endfor %}
 </div></div></section>

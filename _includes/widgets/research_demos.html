@@ -1,13 +1,14 @@
 <section class="card border-0 shadow-sm bg-white my-3" aria-labelledby="demo-title"><div class="card-body p-4">
 <h2 class="h5" id="demo-title">Research Demos</h2>
-<p class="small text-muted">Short paper walkthroughs: architecture followed by published results. These clips present recorded figures, not live model inference.</p>
+<p class="small text-muted">12-second walkthroughs of paper figures and results.</p>
 <div class="demo-picker mb-3" hidden aria-label="Choose a research walkthrough">
 {% for demo in site.data.research_demos %}<button type="button" class="btn btn-sm btn-outline-primary mr-2 mb-2" data-demo-target="demo-{{ demo.key }}" aria-controls="demo-{{ demo.key }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}">{{ demo.title }}</button>{% endfor %}
 </div>
 {% for demo in site.data.research_demos %}<article id="demo-{{ demo.key }}" class="research-demo mb-3">
-<h3 class="h6">{{ demo.title }}</h3><p class="small">{{ demo.description }}</p>
-<video class="research-demo-video" controls playsinline preload="none" poster="{{ demo.poster | relative_url }}" aria-label="{{ demo.title }} paper walkthrough" aria-describedby="demo-note-{{ demo.key }}"><source src="{{ demo.video | relative_url }}" type="video/mp4"></video>
-<p class="small text-muted mt-2" id="demo-note-{{ demo.key }}">0–5 seconds: architecture · 5–12 seconds: published results. Silent walkthrough.</p>
+<div class="demo-compact-layout">
+<video class="research-demo-video" width="240" height="150" controls playsinline preload="none" poster="{{ demo.poster | relative_url }}" aria-label="{{ demo.title }} paper walkthrough" aria-describedby="demo-note-{{ demo.key }}"><source src="{{ demo.video | relative_url }}" type="video/mp4"></video>
+<div class="demo-copy"><h3 class="h6">{{ demo.title }}</h3><p class="small mb-2">{{ demo.description }}</p>
+<p class="small text-muted mt-2" id="demo-note-{{ demo.key }}">Architecture → results · Silent figure walkthrough; no live inference.</p>
 <p class="small mb-0"><a href="{{ demo.image | relative_url }}">Enlarge results</a> · <a href="{{ demo.source }}">Source figure and paper</a>{% if demo.key == 'medmo' %} · <a href="https://github.com/genmilab/MedMO">Run MedMO</a>{% endif %}</p>
-</article>{% endfor %}
+</div></div></article>{% endfor %}
 </div></section>
