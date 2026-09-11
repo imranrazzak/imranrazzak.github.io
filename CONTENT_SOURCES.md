@@ -34,3 +34,6 @@ User-provided `Desktop/Medos Video.mov`, added September 7, 2026. Converted to a
 
 ## User-supplied photos and publication images (September 11, 2026)
 Two team photographs added with descriptive captions; event dates and locations were not supplied and are omitted. The oral microbiome and CARL illustrations were supplied and assigned by Imran Razzak; they are labeled as supplied images rather than extracted paper figures. There are now 213 publication images (211 retrieved figures plus 2 supplied images). The CVPR workshop entry remains in the full bibliography but is omitted from homepage highlights.
+
+## IEEE acceptance news (September 11, 2026)
+TIP acceptance for arXiv:2506.05221 and JBHI acceptance for arXiv:2602.07088 were confirmed by Imran Razzak. News is dated to the announcement; original bibliography year groupings are retained. Existing arXiv architecture figures are reused in the homepage news. No volume, issue, pages, or publisher DOI was inferred.

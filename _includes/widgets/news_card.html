@@ -10,7 +10,13 @@
             <div class="media-body">
                 {% for item in year.items %}
                 <div class="my-1 d-flex">
-                    <div>{{ item.title }}</div>
+                    <div class="flex-grow-1">{{ item.title }}
+                    {% if item.images %}<div class="row mt-2">
+                    {% for photo in item.images %}<figure class="col-sm-6 mb-2">
+                      <a href="{{ photo.url }}"><img src="{{ photo.src | relative_url }}" alt="{{ photo.alt | escape }}" class="news-paper-image" loading="lazy"></a>
+                      <figcaption class="small text-muted mt-1">{{ photo.caption | escape }}</figcaption>
+                    </figure>{% endfor %}
+                    </div>{% endif %}</div>
                     <div class="ml-auto mt-auto text-muted no-break"><i>{{ item.date | date: "%b" }}</i></div>
                 </div>
                 {% endfor %}
