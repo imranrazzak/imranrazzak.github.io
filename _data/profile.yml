@@ -44,7 +44,7 @@ experience:
 - name: MedOmni
   position: Chief Executive Officer
   date: Present
-  logo: /assets/images/medomni-logo.png
+  logo: /assets/images/medomni-logo-animated.gif
   url: https://medomni.ai/
 - name: UNSW, Sydney
   position: Human-Centered Machine Learning
@@ -67,5 +67,5 @@ medomni:
   name: MedOmni
   role: Chief Executive Officer
   focus: Evidence-based medicine
-  logo: /assets/images/medomni-logo.png
+  logo: /assets/images/medomni-logo-animated.gif
   url: https://medomni.ai/
