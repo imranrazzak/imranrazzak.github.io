@@ -49,3 +49,5 @@ TIP acceptance for arXiv:2506.05221 and JBHI acceptance for arXiv:2602.07088 wer
 
 ## MedOmni profile
 CEO role, company name, evidence-based medicine focus and logo supplied directly by Imran Razzak. Company text describes this focus; no external website, LinkedIn URL, performance claims or released products were inferred.
+
+MedOmni.ai was subsequently supplied by Imran Razzak as the planned company domain; the link is labeled “Website coming soon.”
