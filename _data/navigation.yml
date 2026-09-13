@@ -9,6 +9,12 @@ pages:
     url: /projects.html
   - name: Datasets & Benchmarks
     url: /research.html
+- name: Open Source Models
+  children:
+  - name: DoAtlas-2
+    url: /model-doatlas-2.html
+  - name: MedMO
+    url: /model-medmo.html
 - name: People
   children:
   - name: Research Team
