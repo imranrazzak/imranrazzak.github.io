@@ -11,8 +11,10 @@ pages:
     url: /research.html
 - name: Open Source Models
   children:
-  - name: DoAtlas-2
+  - name: DoAtlas Family
     url: /model-doatlas-2.html
+  - name: MedOS Family
+    url: /model-medos.html
   - name: MedMO
     url: /model-medmo.html
 - name: People
