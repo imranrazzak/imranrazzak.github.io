@@ -4,17 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>DoAtlas Family - Imran Razzak</title>
+    <title>DoAtlas-2 - Imran Razzak</title>
 
-    <meta name="description" content="Imran Razzak — Associate Professor of Computational Biology at MBZUAI and CEO of MedOS and MedOmni. Medical foundation models, personalized medicine, and multimodal clinical AI.">
+    <meta name="description" content="DoAtlas-2 is a causal world model of human biology that runs the full research cycle on its own: it asks a question, freezes the study design, tests it in real human data, and lets the result decide what to study next.">
     <link rel="canonical" href="https://imranrazzak.github.io/model-doatlas-2.html">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="DoAtlas Family - Imran Razzak">
-    <meta property="og:description" content="Imran Razzak — Associate Professor of Computational Biology at MBZUAI and CEO of MedOS and MedOmni. Medical foundation models, personalized medicine, and multimodal clinical AI.">
+    <meta property="og:title" content="DoAtlas-2 - Imran Razzak">
+    <meta property="og:description" content="DoAtlas-2 is a causal world model of human biology that runs the full research cycle on its own: it asks a question, freezes the study design, tests it in real human data, and lets the result decide what to study next.">
     <meta property="og:url" content="https://imranrazzak.github.io/model-doatlas-2.html">
     <meta property="og:image" content="https://imranrazzak.github.io/img/imrazzak.jpg">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="DoAtlas Family - Imran Razzak">
+    <meta name="twitter:title" content="DoAtlas-2 - Imran Razzak">
     <meta name="twitter:description" content="Imran Razzak — Associate Professor of Computational Biology at MBZUAI and CEO of MedOS and MedOmni. Medical foundation models, personalized medicine, and multimodal clinical AI.">
     <meta name="twitter:image" content="https://imranrazzak.github.io/img/imrazzak.jpg">
     <link rel="icon" href="/favicon.ico?v=medos" sizes="any">
@@ -29,7 +29,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/global.css">
-    <link rel="stylesheet" href="/assets/css/profile.css?v=sidebar-medomni-20260911">
+    <link rel="stylesheet" href="/assets/css/profile.css?v=doatlas2-20261008">
 </head>
 <body class="bg-light" >
     <nav class="navbar navbar-expand-xl navbar-light fixed-top mb-5 shadow-sm" aria-label="Main navigation">
@@ -62,7 +62,7 @@
         <li class="nav-item dropdown active">
           <a class="nav-link dropdown-toggle" href="#" id="nav-4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Open Source Models</a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="nav-4">
-            <a class="dropdown-item active" href="/model-doatlas-2.html" aria-current="page">DoAtlas Family</a><a class="dropdown-item" href="/model-medos.html">MedOS Family</a><a class="dropdown-item" href="/model-medmo.html">MedMO</a>
+            <a class="dropdown-item" href="/model-doatlas.html">DoAtlas Family</a><a class="dropdown-item active" href="/model-doatlas-2.html" aria-current="page">DoAtlas-2</a><a class="dropdown-item" href="/model-medos.html">MedOS Family</a><a class="dropdown-item" href="/model-medmo.html">MedMO</a>
           </div>
         </li>
         
@@ -103,17 +103,302 @@
 </nav>
 
     <div class="site-content container-lg">
-        <h1 class="h2 my-4">DoAtlas Family</h1>
-<section class="card border-0 shadow-sm bg-white my-3"><div class="card-body p-4">
-<h2 class="h5">DoAtlas model family</h2>
-<p>DoAtlas is part of our research on causal clinical AI. This page brings together the DoAtlas family, including DoAtlas-1 and DoAtlas-2.</p>
-<p class="small text-muted mb-0">DoAtlas-2 checkpoint links and release documentation will be added here.</p>
+        <link rel="stylesheet" href="/assets/css/doatlas.css?v=20261008">
+<div class="da">
+
+<section class="da-hero shadow-sm my-3" aria-labelledby="doatlas2-title">
+  <div class="da-hero-body">
+    <div>
+      <p class="da-eyebrow">New release · Technical report, September 2026</p>
+      <h1 id="doatlas2-title">DoAtlas-2</h1>
+      <p class="da-tagline">A causal world model for autonomous scientific discovery</p>
+      <p class="da-hero-lede">AI can now generate hypotheses faster than science can test them. The harder question is which of them are true. DoAtlas-2 is built for that question: a causal world model of human biology that runs the full research cycle on its own, from asking the question to testing it in real human data.</p>
+      <p class="mb-0">
+        <a class="btn btn-light btn-sm" href="https://arxiv.org/abs/2609.35107"><i class="fas fa-file-lines mr-1" aria-hidden="true"></i>Technical report</a>
+        <a class="btn btn-outline-light btn-sm" href="https://arxiv.org/pdf/2609.35107">PDF</a>
+        <a class="btn btn-outline-light btn-sm" href="#release">Open-source release</a>
+        <a class="btn btn-outline-light btn-sm" href="/model-doatlas.html">DoAtlas Family</a>
+      </p>
+    </div>
+    <img class="da-emblem" src="/assets/images/doatlas/doatlas-2-emblem.webp" alt="" width="150" height="150">
+  </div>
+  <div class="da-hero-video">
+    <video id="doatlas2-video" controls playsinline preload="metadata" poster="/assets/images/doatlas/doatlas-2-evidence-map.webp" aria-label="DoAtlas-2 explainer video, 88 seconds">
+      <source src="/assets/video/doatlas-2-explainer.mp4" type="video/mp4">
+      <a href="/assets/video/doatlas-2-explainer.mp4">Download the DoAtlas-2 explainer video (MP4)</a>
+    </video>
+  </div>
+  <p class="da-hero-caption mb-0">DoAtlas-2 in 88 seconds: from a map of biomedical evidence to a mechanism tested in human population data. Pathways shown are candidate mechanisms with observational evidence, not established causes.</p>
+</section>
+
+<nav class="da-toc my-3" aria-label="On this page">
+  <a href="#glance">At a glance</a>
+  <a href="#different">What is different</a>
+  <a href="#loop">How it works</a>
+  <a href="#data">Data</a>
+  <a href="#evidence">What the loop produced</a>
+  <a href="#findings">Key findings</a>
+  <a href="#interpretable">Why causal</a>
+  <a href="#research">Supporting research</a>
+  <a href="#release">Open source</a>
+  <a href="#cite">Cite</a>
+</nav>
+
+<section class="card border-0 shadow-sm bg-white my-3 da-section" id="glance" aria-labelledby="glance-title"><div class="card-body p-4">
+  <p class="da-eyebrow">At a glance</p>
+  <h2 class="h4 mb-3" id="glance-title">What DoAtlas-2 is built on</h2>
+  <div class="da-stats">
+    <div class="da-stat"><span class="da-stat-value">720,000+</span><span class="da-stat-label">participants across 48 countries</span></div>
+    <div class="da-stat"><span class="da-stat-value">771</span><span class="da-stat-label">research resources integrated</span></div>
+    <div class="da-stat"><span class="da-stat-value">93,566</span><span class="da-stat-label">biomedical concepts</span></div>
+    <div class="da-stat"><span class="da-stat-value">149,383</span><span class="da-stat-label">candidate causal relationships</span></div>
+    <div class="da-stat"><span class="da-stat-value">4.7 million</span><span class="da-stat-label">literature-derived evidence records</span></div>
+    <div class="da-stat"><span class="da-stat-value">8</span><span class="da-stat-label">molecular layers: seven omics layers plus immunology assays</span></div>
+    <div class="da-stat"><span class="da-stat-value">2,031</span><span class="da-stat-label">research questions evaluated end to end</span></div>
+    <div class="da-stat"><span class="da-stat-value">60,000+</span><span class="da-stat-label">completed analyses over a 70-day run</span></div>
+  </div>
+  <p class="da-note mt-3 mb-0">Figures as of 22 September 2026. Participant totals are source-reported and not deduplicated across resources.</p>
 </div></section>
-<section class="card border-0 shadow-sm bg-white my-3"><div class="card-body p-4">
-<h2 class="h5">Related research: DoAtlas-1</h2>
-<p>The earlier paper, <em>DoAtlas-1: A Causal Compilation Paradigm for Clinical AI</em>, provides background on the DoAtlas research direction.</p>
-<a href="https://arxiv.org/abs/2602.19158">Read the DoAtlas-1 paper ↗</a>
+
+<section class="card border-0 shadow-sm bg-white my-3 da-section" id="different" aria-labelledby="different-title"><div class="card-body p-4">
+  <p class="da-eyebrow">What makes it different</p>
+  <h2 class="h4 mb-2" id="different-title">It tests its own hypotheses, and the results decide what it studies next</h2>
+  <p class="da-lede mb-3">Most AI-for-science systems stop once a hypothesis has been generated. DoAtlas-2 carries each one through to a test in human population data and keeps the outcome, whatever it is.</p>
+  <div class="da-grid-2">
+    <div class="da-tile da-tile-wash"><i class="fas fa-rotate da-tile-icon" aria-hidden="true"></i><h3>It closes the loop</h3><p>Questions are generated from gaps and conflicts in the evidence, tested, and the results set the questions for the next round.</p></div>
+    <div class="da-tile da-tile-wash"><i class="fas fa-lock da-tile-icon" aria-hidden="true"></i><h3>It cannot fit questions to answers</h3><p>The study population, timing, causal estimand and identification conditions are frozen before any outcome is revealed.</p></div>
+    <div class="da-tile da-tile-wash"><i class="fas fa-code-branch da-tile-icon" aria-hidden="true"></i><h3>It learns from failure</h3><p>Contradictions, failed tests and analyses that could not be estimated are kept, and they redirect the next round of research.</p></div>
+    <div class="da-tile da-tile-wash"><i class="fas fa-route da-tile-icon" aria-hidden="true"></i><h3>It shows its reasoning</h3><p>Every revision to the evidence state can be traced to the result that caused it, with its context and remaining uncertainty.</p></div>
+  </div>
 </div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3 da-section" id="loop" aria-labelledby="loop-title"><div class="card-body p-4">
+  <p class="da-eyebrow">How it works</p>
+  <h2 class="h4 mb-2" id="loop-title">One research round, then the next</h2>
+  <p class="da-measure">DoAtlas-2 keeps three things in step: the causal evidence it currently holds, the frontier of open questions, and the evidence it still needs. A round changes all three together.</p>
+  <ol class="da-loop">
+    <li><strong>Ask</strong><span>A causal discovery agent reads the evidence graph for gaps, conflicts and unresolved paths, and proposes mechanism questions with the earlier results that motivated them.</span></li>
+    <li><strong>Freeze the design</strong><span>Each selected question is turned into a study: population, measurement windows, estimand and identification conditions, fixed before outcomes are seen.</span></li>
+    <li><strong>Test in human data</strong><span>Research agents write and check the analysis, run it on cohort and public data, and report every prespecified outcome with diagnostics and falsification checks.</span></li>
+    <li><strong>Revise</strong><span>A scientific learning agent compares outcomes with prior evidence and updates what is supported, where, and what to study next.</span></li>
+  </ol>
+  <p class="da-loop-return">↻ The revised state is the starting point for the next round.</p>
+
+  <h3 class="h6 mt-4 mb-2">What each kind of result leads to</h3>
+  <div class="da-grid-4">
+    <div class="da-tile"><h4>Supported</h4><p>Extend the pathway upstream and downstream, and look for replication.</p></div>
+    <div class="da-tile"><h4>Challenged</h4><p>Test alternatives: new mediators, or the reverse direction.</p></div>
+    <div class="da-tile"><h4>Context-limited</h4><p>Test the boundaries in new populations and time windows.</p></div>
+    <div class="da-tile"><h4>Unresolved</h4><p>Close the gap with a shorter chain, a proxy, or new measurements.</p></div>
+  </div>
+
+  <figure class="da-figure da-figure-narrow">
+    <a href="/assets/images/doatlas/doatlas-2-fig2-architecture.webp" aria-label="Enlarge the DoAtlas-2 agent architecture figure"><img src="/assets/images/doatlas/doatlas-2-fig2-architecture.webp" alt="DoAtlas-2 agent architecture. A shared causal foundation holds an evidence ledger, a research-question frontier and evidence needs. A causal discovery agent proposes and prioritizes mechanism questions; research agents formulate studies, analyze and verify them, and evaluate them on cohorts and public datasets; a scientific learning agent classifies outcomes as supported, challenged, context-limited or unresolved and updates the causal network." width="1500" height="1625" loading="lazy"></a>
+    <figcaption><strong>Agent architecture.</strong> The causal discovery agent proposes mechanism questions, research agents turn them into studies and report outcomes with diagnostics, and the scientific learning agent revises the evidence, the frontier and the evidence needs. Figure 2 of the <a href="https://arxiv.org/abs/2609.35107">technical report</a>.</figcaption>
+  </figure>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3 da-section" id="data" aria-labelledby="data-title"><div class="card-body p-4">
+  <p class="da-eyebrow">Data foundation</p>
+  <h2 class="h4 mb-2" id="data-title">Populations, organ systems and molecular scales in one place</h2>
+  <p class="da-measure">The data landscape brings together 771 research resources covering more than 720,000 participants in 48 countries. Measurements run from population surveys, longitudinal cohorts and clinical records to continuous physiological signals, medical imaging, and eight molecular layers: genomics, epigenomics, transcriptomics, proteomics, metabolomics, lipidomics, microbiomics and immunology assays.</p>
+  <p class="da-measure">The Human Phenotype Project (HPP) is the core longitudinal cohort. It links long-term follow-up, deep phenotyping and multi-omics at the participant level, and it is where candidate mechanisms are tested and the evidence state is revised.</p>
+  <figure class="da-figure">
+    <a href="/assets/images/doatlas/doatlas-2-fig1-data.webp" aria-label="Enlarge the DoAtlas-2 data coverage figure"><img src="/assets/images/doatlas/doatlas-2-fig1-data.webp" alt="World map of DoAtlas-2 population coverage across 48 countries and more than 720,000 participants, with labelled source-reported totals for the United States, the United Kingdom, China, Canada and Panama, and the Israel Human Phenotype Project anchoring longitudinal deep phenotyping. Lower panels list molecular tests, clinical measures and biobanked samples, and the study collection timeline." width="1546" height="868" loading="lazy"></a>
+    <figcaption><strong>Population coverage, molecular profiling and study design.</strong> Resources span 48 countries; the HPP anchors longitudinal deep phenotyping. Figure 1 of the technical report.</figcaption>
+  </figure>
+  <h3 class="h6 mt-4 mb-2">Inside the Human Phenotype Project</h3>
+  <div class="da-stats">
+    <div class="da-stat"><span class="da-stat-value">27,916</span><span class="da-stat-label">participants enrolled; 13,072 with a first deep-phenotyping visit</span></div>
+    <div class="da-stat"><span class="da-stat-value">63 million</span><span class="da-stat-label">field-level measurements in 3,067 fields across 37 domains</span></div>
+    <div class="da-stat"><span class="da-stat-value">109,788</span><span class="da-stat-label">participant-days of continuous glucose monitoring</span></div>
+    <div class="da-stat"><span class="da-stat-value">25 years</span><span class="da-stat-label">of planned follow-up</span></div>
+  </div>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3 da-section" id="evidence" aria-labelledby="evidence-title"><div class="card-body p-4">
+  <p class="da-eyebrow">Evidence for the loop</p>
+  <h2 class="h4 mb-2" id="evidence-title">What three rounds of research produced</h2>
+  <p class="da-measure">From a research space of 8,724 candidate questions, DoAtlas-2 has evaluated 2,031 end to end, producing 88,731 result estimates. In the Human Phenotype Project the catalog of pathway questions grew from 175 in round one to 1,079 after round two and 4,014 by round three (3,941 distinct pathways), across vascular, early-glycemic and hepatic-metabolic systems. Of the first 1,079 questions screened, 756 received statistical support.</p>
+  <figure class="da-figure">
+    <a href="/assets/images/doatlas/doatlas-2-fig3-atlas.webp" aria-label="Enlarge the cross-system pathway atlas figure"><img src="/assets/images/doatlas/doatlas-2-fig3-atlas.webp" alt="Cross-system pathway atlas. A circular network links phenotypes and biomarkers grouped by domain: vascular, kidney, liver, metabolism, adiposity, muscle, sleep and breathing, other biomarkers, and background or behavior. Three smaller networks show the hypothesis set growing from 175 in round one to 1,079 after round two and 3,941 distinct pathways after round three. A worked example shows two round-one results leading to the round-two question waist-to-hip ratio to ALT to diastolic blood pressure to pulse-wave velocity, with a standardized path association of 0.01073." width="1927" height="1386" loading="lazy"></a>
+    <figcaption><strong>Cross-system pathway atlas and iterative expansion.</strong> (a) Phenotype and biomarker concepts by domain. (b) Growth of the hypothesis set across rounds. (c) A result-driven follow-up linking adiposity, liver and vascular phenotypes. Estimates are observational. Figure 3 of the technical report.</figcaption>
+  </figure>
+
+  <div class="row mt-4">
+    <div class="col-lg-6 mb-4 mb-lg-0">
+      <figure class="da-chart" aria-labelledby="chart-families-title">
+        <h3 class="da-chart-title" id="chart-families-title">Follow-up questions that held up at screening</h3>
+        <p class="da-chart-sub">All 904 round-two questions trace to a round-one result. Share with screening-level support, by type of follow-up.</p>
+        <div class="da-bars" role="list">
+          <span class="da-bar-label" role="listitem">Liver-related</span><span class="da-bar-track" title="Liver-related: 95 of 108 supported (88.0%)"><span class="da-bar-fill" style="width:88.0%"></span></span><span class="da-bar-value"><strong>88.0%</strong> · 95 of 108</span>
+          <span class="da-bar-label" role="listitem">Hemodynamic convergence</span><span class="da-bar-track" title="Hemodynamic convergence: 120 of 142 supported (84.5%)"><span class="da-bar-fill" style="width:84.5%"></span></span><span class="da-bar-value"><strong>84.5%</strong> · 120 of 142</span>
+          <span class="da-bar-label" role="listitem">Serial metabolic–hemodynamic</span><span class="da-bar-track" title="Serial metabolic–hemodynamic: 252 of 326 supported (77.3%)"><span class="da-bar-fill" style="width:77.3%"></span></span><span class="da-bar-value"><strong>77.3%</strong> · 252 of 326</span>
+          <span class="da-bar-label" role="listitem">Competing mediator</span><span class="da-bar-track" title="Competing mediator: 166 of 264 supported (62.9%)"><span class="da-bar-fill" style="width:62.9%"></span></span><span class="da-bar-value"><strong>62.9%</strong> · 166 of 264</span>
+          <span class="da-bar-label" role="listitem">Sleep-related</span><span class="da-bar-track" title="Sleep-related: 37 of 64 supported (57.8%)"><span class="da-bar-fill" style="width:57.8%"></span></span><span class="da-bar-value"><strong>57.8%</strong> · 37 of 64</span>
+          <span class="da-bar-rule" aria-hidden="true"></span>
+          <span class="da-bar-label da-bar-total" role="listitem">All round-two questions</span><span class="da-bar-track da-bar-total" title="All round-two questions: 670 of 904 supported (74.1%)"><span class="da-bar-fill" style="width:74.1%"></span></span><span class="da-bar-value"><strong>74.1%</strong> · 670 of 904</span>
+        </div>
+        <p class="da-note mt-2 mb-0">Screening is unadjusted and does not set a relation's state; only primary records from full designs do.</p>
+      </figure>
+    </div>
+    <div class="col-lg-6">
+      <figure class="da-chart" aria-labelledby="chart-states-title">
+        <h3 class="da-chart-title" id="chart-states-title">Where the evidence stands after testing</h3>
+        <p class="da-chart-sub">200 causal relations acquired a state from population evidence.</p>
+        <div class="da-stack" role="img" aria-label="Of 200 relations: 81 supported, 2 challenged, 117 unresolved">
+          <span class="da-c1" style="flex:81" title="Supported: 81 of 200"></span><span class="da-c2" style="flex:2" title="Challenged: 2 of 200"></span><span class="da-cn" style="flex:117" title="Unresolved: 117 of 200"></span>
+        </div>
+        <ul class="da-legend">
+          <li><i class="da-c1"></i><span><strong>81</strong> supported</span></li>
+          <li><i class="da-c2"></i><span><strong>2</strong> challenged</span></li>
+          <li><i class="da-cn"></i><span><strong>117</strong> unresolved</span></li>
+        </ul>
+        <p class="da-chart-sub mt-3">The 81 supported relations, against the literature-derived network.</p>
+        <div class="da-stack" role="img" aria-label="Of 81 supported relations: 49 have no counterpart in the literature network, 16 match a literature direction, and for 16 the literature is conflicted or gives no direction">
+          <span class="da-c1" style="flex:49" title="No literature counterpart: 49 of 81"></span><span class="da-c3" style="flex:16" title="Match a literature direction: 16 of 81"></span><span class="da-c4" style="flex:16" title="Literature conflicted or non-directional: 16 of 81"></span>
+        </div>
+        <ul class="da-legend">
+          <li><i class="da-c1"></i><span><strong>49</strong> with no literature counterpart</span></li>
+          <li><i class="da-c3"></i><span><strong>16</strong> match the literature direction</span></li>
+          <li><i class="da-c4"></i><span><strong>16</strong> where the literature is conflicted or gives no direction</span></li>
+        </ul>
+        <p class="da-note mt-2 mb-0">Unresolved means the direction is not yet established, not that the relation is absent. Of the 117, 38 are supported in at least one evidence context. These relations form the frontier for the next rounds.</p>
+      </figure>
+    </div>
+  </div>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3 da-section" id="findings" aria-labelledby="findings-title"><div class="card-body p-4">
+  <p class="da-eyebrow">Key findings</p>
+  <h2 class="h4 mb-2" id="findings-title">Blood pressure links body fat, the liver and lipids to the arteries</h2>
+  <p class="da-measure">Representative analyses cover 15 pathways with complete serial estimates, forming a cross-system network of 19 phenotypes and 29 connections. Three results stand out.</p>
+  <div class="row">
+    <div class="col-lg-7">
+      <h3 class="h6 mt-2">1. Blood pressure is a convergence node</h3>
+      <div class="da-path" aria-label="Pathway: waist-to-hip ratio to ALT to diastolic blood pressure to pulse-wave velocity">
+        <span class="da-step"><span class="da-node da-node-start">Waist-to-hip ratio<small>body-fat distribution</small></span></span>
+        <span class="da-step"><span class="da-arrow" aria-hidden="true">→</span><span class="da-node">ALT<small>liver enzyme</small></span></span>
+        <span class="da-step"><span class="da-arrow" aria-hidden="true">→</span><span class="da-node da-node-hub">Diastolic blood pressure<small>intermediate</small></span></span>
+        <span class="da-step"><span class="da-arrow" aria-hidden="true">→</span><span class="da-node">Pulse-wave velocity<small>arterial stiffness</small></span></span>
+      </div>
+      <p class="small">Liver and lipid branches from adiposity converge on diastolic blood pressure and lower-limb pulse-wave velocity. The standardized path association for the pathway above is 0.01073 (95% CI 0.007575 to 0.01389). In an independent cohort of 912 adults, metabolic-to-pressure routes to brachial–ankle pulse-wave velocity replicate (BMI–triglycerides–diastolic pressure, GGT–triglycerides–systolic pressure, ALT–diastolic pressure and triglycerides–diastolic pressure). In a second cohort of 879 adults, all serial estimates share the same sign.</p>
+      <h3 class="h6 mt-3">2. Liver and lipid markers come first</h3>
+      <p class="small">ALT → diastolic pressure → pulse-wave velocity and triglycerides → diastolic pressure → pulse-wave velocity are both supported under strict temporal ordering, consistent with a metabolic-to-hemodynamic sequence. Among ApoB-related sequences, visceral fat → ApoB → systolic pressure → pulse-wave velocity differs by sex, and weight → ApoB → diastolic pressure → pulse-wave velocity is weaker at older ages.</p>
+      <h3 class="h6 mt-3">3. One pathway mostly dissolves under adjustment</h3>
+      <p class="small">The waist-to-hip ratio → inflammation (GlycA) → systolic pressure → pulse-wave velocity association falls from 0.01218 to 0.002022 after joint adjustment for BMI and smoking. The pathway reflects overall adiposity and smoking more than fat distribution: a result that narrows a mechanism instead of extending it.</p>
+      <p class="small mb-0">A fourth example shows why the conditioning set matters: higher nocturnal oxygen saturation goes with lower systolic pressure, until waist circumference is in the model, when the association turns weakly positive. Waist circumference is a shared determinant of both.</p>
+    </div>
+    <div class="col-lg-5">
+      <figure class="da-figure mt-3 mt-lg-0">
+        <a href="/assets/images/doatlas/doatlas-2-fig4b-network.webp" aria-label="Enlarge the pathway network figure"><img src="/assets/images/doatlas/doatlas-2-fig4b-network.webp" alt="Pathway network of 19 phenotypes. Liver, lipid and sleep modules connect adiposity measures such as waist, hip, waist-to-hip ratio, BMI and visceral fat, through ALT, triglycerides, ApoB, GlycA and nocturnal oxygen saturation, to systolic and diastolic blood pressure and on to pulse-wave velocity and carotid intima-media thickness." width="636" height="792" loading="lazy"></a>
+        <figcaption><strong>The discovered vascular network.</strong> Liver, lipid and sleep modules meet at blood pressure. Figure 4b of the technical report.</figcaption>
+      </figure>
+    </div>
+  </div>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3 da-section" id="interpretable" aria-labelledby="interpretable-title"><div class="card-body p-4">
+  <p class="da-eyebrow">Why causal</p>
+  <h2 class="h4 mb-2" id="interpretable-title">The discovered network is the predictive model</h2>
+  <p class="da-measure">Black-box models give answers without reasons. DoAtlas-2 keeps a traceable causal path and the evidence behind every claim. The vascular network above is used directly as a predictive model: every prediction is an explicit closed-form expression, and every term belongs to a named variable or a source relationship. We see this as a way beyond black-box Transformer and agent-based foundation models, toward causally interpretable AI.</p>
+  <div class="da-grid-3 my-3">
+    <div class="da-tile da-tile-wash"><h3>Exact attribution</h3><p>Each prediction decomposes into node, interaction and branch contributions as an exact identity. Independent recomputation reproduced all 14,079 real predictions to within 1.42 × 10<sup>−14</sup>.</p></div>
+    <div class="da-tile da-tile-wash"><h3>Closed-form mediation</h3><p>For BMI → nocturnal oxygen saturation → carotid wall thickness, a BMI contrast of about 22.9 to 28.4 kg/m² gives a total effect of 0.02306 mm: a direct part of 0.02678 mm and a mediated part of −0.00372 mm.</p></div>
+    <div class="da-tile da-tile-wash"><h3>Works with incomplete inputs</h3><p>With 70% of inputs additionally masked, held-out R² for future pulse-wave velocity moves from 0.378 to 0.248, and every prediction keeps its full decomposition.</p></div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6 mb-4 mb-lg-0">
+      <h3 class="h6">Phenotype prediction on held-out HPP participants</h3>
+      <div class="da-table-wrap"><table class="da-table">
+        <thead><tr><th scope="col">Task</th><th scope="col" class="da-num">Test n</th><th scope="col" class="da-num">R²</th><th scope="col" class="da-num">Coverage</th></tr></thead>
+        <tbody>
+          <tr><td>Future pulse-wave velocity</td><td class="da-num">166</td><td class="da-num">0.378</td><td class="da-num">89.2%</td></tr>
+          <tr><td>Future carotid intima-media thickness</td><td class="da-num">172</td><td class="da-num">0.176</td><td class="da-num">83.1%</td></tr>
+          <tr><td>Liver ultrasound attenuation</td><td class="da-num">1,380</td><td class="da-num">0.155</td><td class="da-num">92.0%</td></tr>
+          <tr><td>ApoB</td><td class="da-num">297</td><td class="da-num">0.203</td><td class="da-num">93.3%</td></tr>
+          <tr><td>GlycA</td><td class="da-num">297</td><td class="da-num">0.332</td><td class="da-num">87.2%</td></tr>
+          <tr><td>Nocturnal oxygen saturation</td><td class="da-num">1,177</td><td class="da-num">0.346</td><td class="da-num">90.7%</td></tr>
+        </tbody>
+      </table></div>
+      <p class="da-note mt-2 mb-0">Coverage is for nominal 90% prediction intervals. Queried outcomes are hidden from their own inputs. Table 2 of the technical report.</p>
+    </div>
+    <div class="col-lg-6">
+      <h3 class="h6">Transfer to a different population: 60-month all-cause mortality in NHANES</h3>
+      <div class="da-table-wrap"><table class="da-table">
+        <thead><tr><th scope="col">Model</th><th scope="col" class="da-num">AUC</th></tr></thead>
+        <tbody>
+          <tr><td><strong>DoAtlas-2 network</strong>, relationship parameters frozen from HPP</td><td class="da-num"><strong>0.798</strong></td></tr>
+          <tr><td>DoAtlas-2 network, refit on NHANES</td><td class="da-num">0.799</td></tr>
+          <tr><td>Generalized additive model</td><td class="da-num">0.798</td></tr>
+          <tr><td>Gradient-boosted tree</td><td class="da-num">0.803</td></tr>
+        </tbody>
+      </table></div>
+      <p class="da-note mt-2 mb-0">1,587 test participants, 110 deaths; 95% CI for the frozen model 0.730 to 0.859. NHANES measures 9 of the 19 network nodes. The refit network's differences from both baselines have confidence intervals that include zero.</p>
+    </div>
+  </div>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3 da-section" id="research" aria-labelledby="research-title"><div class="card-body p-4">
+  <p class="da-eyebrow">For researchers</p>
+  <h2 class="h4 mb-2" id="research-title">How DoAtlas-2 supports research</h2>
+  <p class="da-measure">DoAtlas-2 is meant to work alongside researchers, not replace their judgment. It takes on the part of the research cycle that scales poorly by hand: enumerating what could be tested, fixing how it will be tested, running the analyses, and keeping an honest record of what happened.</p>
+  <div class="da-grid-3 my-3">
+    <div class="da-tile"><i class="fas fa-list-check da-tile-icon" aria-hidden="true"></i><h3>Decide what to study next</h3><p>A prioritized frontier of open mechanism questions, each with the earlier results and reasoning that produced it, ranked by coherence, uncertainty and how much a test would discriminate.</p></div>
+    <div class="da-tile"><i class="fas fa-clipboard-check da-tile-icon" aria-hidden="true"></i><h3>Start from a frozen design</h3><p>Each question arrives with its population, measurement windows, estimand and identification conditions, usable as a preregistration-style analysis plan.</p></div>
+    <div class="da-tile"><i class="fas fa-scale-balanced da-tile-icon" aria-hidden="true"></i><h3>See the whole denominator</h3><p>Every candidate question and its outcome is retained: supported, challenged, unresolved and non-estimable. Negative and null results are first-class.</p></div>
+    <div class="da-tile"><i class="fas fa-shield-halved da-tile-icon" aria-hidden="true"></i><h3>Stress-test a claim</h3><p>Reverse-direction, within-person, off-path and confounding-sensitivity analyses accompany the primary estimates, so a pathway can be judged on more than one number.</p></div>
+    <div class="da-tile"><i class="fas fa-magnifying-glass-chart da-tile-icon" aria-hidden="true"></i><h3>Know what evidence is missing</h3><p>When a question cannot be answered, DoAtlas-2 records why and what would resolve it: another data resource, a larger or longer cohort, measured confounders, or an intervention.</p></div>
+    <div class="da-tile"><i class="fas fa-diagram-project da-tile-icon" aria-hidden="true"></i><h3>Predict with reasons attached</h3><p>Use the discovered network as a fully interpretable predictor, with an exact contribution for every variable and branch behind each prediction.</p></div>
+  </div>
+  <h3 class="h6 mt-4">Who it is for</h3>
+  <ul class="da-list da-measure">
+    <li><strong>Epidemiologists and clinical researchers:</strong> candidate mechanisms with designs and robustness checks to take into your own cohort for replication or refutation.</li>
+    <li><strong>Causal inference and statistics researchers:</strong> a large, fully recorded set of designed analyses to audit, benchmark methods on, and improve.</li>
+    <li><strong>AI-for-science researchers:</strong> an end-to-end reference for evaluating discovery systems on whether their hypotheses survive contact with data, not only on whether they sound plausible.</li>
+    <li><strong>Cohort and biobank teams:</strong> a view of which measurements, populations and follow-up would most change current scientific judgment.</li>
+  </ul>
+  <h3 class="h6 mt-4">Work with us</h3>
+  <p class="da-measure mb-0">We welcome collaborations, in particular replication in independent cohorts, new data resources and methods review. Write to <a href="mailto:imran.razzak@mbzuai.ac.ae">imran.razzak@mbzuai.ac.ae</a>. If you would like to join the team, see the pages for <a href="/student.html">prospective students</a> and <a href="/research-position.html">research positions</a>.</p>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3 da-section" id="release" aria-labelledby="release-title"><div class="card-body p-4">
+  <p class="da-eyebrow">Open source</p>
+  <h2 class="h4 mb-2" id="release-title">Release status</h2>
+  <p class="da-measure">DoAtlas will be open source and available to researchers soon. The first release includes 1,000 research questions with 30,000 corresponding experimental results. Links will be added here when it is published.</p>
+  <div class="da-table-wrap"><table class="da-table">
+    <thead><tr><th scope="col">Component</th><th scope="col">What it contains</th><th scope="col">Status</th></tr></thead>
+    <tbody>
+      <tr><td><a href="https://arxiv.org/abs/2609.35107">Technical report</a></td><td>Method, evaluation and complete evidence for the key findings (arXiv:2609.35107, 185 pages)</td><td><span class="da-status da-status-live">Available</span></td></tr>
+      <tr><td><a href="#doatlas2-video">Explainer video</a></td><td>DoAtlas-2 in 88 seconds</td><td><span class="da-status da-status-live">Available</span></td></tr>
+      <tr><td>First open-source release</td><td>1,000 research questions with 30,000 corresponding experimental results</td><td><span class="da-status da-status-soon">Coming soon</span></td></tr>
+    </tbody>
+  </table></div>
+  <h3 class="h6 mt-4">Reading the results responsibly</h3>
+  <ul class="da-list da-measure small">
+    <li>Estimates are observational. Pathways are candidate mechanisms tested against human population data, not established causes or clinical guidance.</li>
+    <li>Participant totals are as reported by each source and are not deduplicated across resources.</li>
+    <li>Screening-level support is unadjusted. A relation's state is set only by primary records from full, prespecified designs.</li>
+    <li>The interpretable predictive model reported so far is the first, disease-specific one, built on the vascular network.</li>
+  </ul>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3 da-section" id="cite" aria-labelledby="cite-title"><div class="card-body p-4">
+  <p class="da-eyebrow">Technical report</p>
+  <h2 class="h4 mb-2" id="cite-title">DoAtlas-2: A Foundation for Self-Evolving Causal Biomedical Discovery</h2>
+  <p class="da-authors mb-2">Yulong Li*, Rong Xia*, Yuxuan Zhang*, Jianxu Chen, Xiwei Liu, Haochen Xue, Maosheng Li, Yuhang Liu, Yibo Yuan, Yutong Xie, Chong Li, Jionglong Su, Hagai Rossman, Eran Segal†, Imran Razzak†</p>
+  <p class="da-note">DoAtlas Team · MBZUAI. * Equal contribution. † Corresponding authors. arXiv:2609.35107, submitted 28 September 2026.</p>
+  <p><a class="btn btn-primary btn-sm mr-2 mb-2" href="https://arxiv.org/abs/2609.35107">Read on arXiv</a><a class="btn btn-outline-primary btn-sm mr-2 mb-2" href="https://arxiv.org/pdf/2609.35107">PDF</a><a class="btn btn-outline-primary btn-sm mb-2" href="/model-doatlas.html">DoAtlas Family</a></p>
+<pre class="da-cite"><code>@article{li2026doatlas2,
+  title   = {DoAtlas-2: A Foundation for Self-Evolving Causal Biomedical Discovery},
+  author  = {Li, Yulong and Xia, Rong and Zhang, Yuxuan and Chen, Jianxu and Liu, Xiwei and Xue, Haochen and Li, Maosheng and Liu, Yuhang and Yuan, Yibo and Xie, Yutong and Li, Chong and Su, Jionglong and Rossman, Hagai and Segal, Eran and Razzak, Imran},
+  journal = {arXiv preprint arXiv:2609.35107},
+  year    = {2026}
+}</code></pre>
+  <p class="da-note mt-3 mb-0">Updates on what DoAtlas is discovering are coming. Stay tuned.</p>
+</div></section>
+
+</div>
 
     </div>
     <footer class="footer border-top py-2 mt-5 bg-white small">
@@ -129,7 +414,7 @@
         <div class="row my-3">
             <div class="col-6">
                 <div class="text-muted">
-                    <i>Last updated: Sep 2026</i>
+                    <i>Last updated: Oct 2026</i>
                 </div>
             </div>
             <div class="col-6">
