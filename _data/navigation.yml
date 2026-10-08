@@ -12,6 +12,8 @@ pages:
 - name: Open Source Models
   children:
   - name: DoAtlas Family
+    url: /model-doatlas.html
+  - name: DoAtlas-2
     url: /model-doatlas-2.html
   - name: MedOS Family
     url: /model-medos.html
