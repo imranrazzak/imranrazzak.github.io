@@ -1,0 +1,62 @@
+---
+layout: default
+title: DoAtlas Family
+navbar_title: Open Source Models
+description: "The DoAtlas family: causal AI for medicine and biomedical discovery. DoAtlas-1 compiles medical evidence into executable causal queries; DoAtlas-2 is a causal world model that generates, tests and revises its own research questions in human data."
+---
+<link rel="stylesheet" href="{{ '/assets/css/doatlas.css?v=20261008' | relative_url }}">
+<div class="da">
+<h1 class="h2 my-4">DoAtlas Family</h1>
+
+<section class="card border-0 shadow-sm bg-white my-3" aria-labelledby="family-intro-title"><div class="card-body p-4">
+  <p class="da-eyebrow">Causal AI for medicine</p>
+  <h2 class="h4 mb-2" id="family-intro-title">From executable evidence to autonomous discovery</h2>
+  <p class="da-lede mb-0">DoAtlas is our line of research on causal AI for medicine and biomedical science. The aim is AI whose claims rest on explicit causal structure that can be queried, checked against real human data, and revised when the evidence changes, in place of answers that cannot be audited.</p>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3" aria-labelledby="family-models-title"><div class="card-body p-4">
+  <h2 class="h5 mb-3" id="family-models-title">The models</h2>
+  <div class="da-family">
+    <article class="da-family-card" id="doatlas-2">
+      <a class="da-family-media da-dark" href="{{ '/model-doatlas-2.html' | relative_url }}" aria-label="Open the DoAtlas-2 page"><img src="{{ '/assets/images/doatlas/doatlas-2-evidence-map.webp' | relative_url }}" alt="Still from the DoAtlas-2 explainer: a network map of biomedical evidence with 93,566 concepts and 149,383 candidate causal relations" width="1280" height="720" loading="lazy"></a>
+      <div class="da-family-body">
+        <h3><a href="{{ '/model-doatlas-2.html' | relative_url }}">DoAtlas-2</a> <span class="da-badge-new">New</span></h3>
+        <p class="da-family-sub">A causal world model for autonomous scientific discovery · September 2026</p>
+        <p>DoAtlas-2 runs the full research cycle on its own. It formulates research questions from gaps and conflicts in the evidence, freezes each study design before outcomes are revealed, tests it in real human data, and lets supporting, challenging and unresolved results decide what it studies next.</p>
+        <p>Built on 771 research resources covering more than 720,000 participants in 48 countries, with 93,566 concepts and 149,383 candidate causal relationships. So far it has evaluated 2,031 research questions end to end.</p>
+        <p class="da-family-links mb-0"><a href="{{ '/model-doatlas-2.html' | relative_url }}">Release page and video →</a> · <a href="https://arxiv.org/abs/2609.35107">Technical report ↗</a></p>
+      </div>
+    </article>
+    <article class="da-family-card" id="doatlas-1">
+      <a class="da-family-media" href="{{ '/assets/images/publications/df2ae5030043a9.webp' | relative_url }}" aria-label="Enlarge the DoAtlas-1 overview figure"><img src="{{ '/assets/images/publications/df2ae5030043a9.webp' | relative_url }}" alt="Overview figure from the DoAtlas-1 paper" width="1600" height="670" loading="lazy"></a>
+      <div class="da-family-body">
+        <h3>DoAtlas-1</h3>
+        <p class="da-family-sub">A causal compilation paradigm for clinical AI · February 2026</p>
+        <p>DoAtlas-1 introduced causal compilation: converting medical evidence from narrative text into executable code. Findings are standardized into estimand objects that state the intervention contrast, effect scale, time horizon and target population, and support six kinds of executable causal query, including do-calculus, counterfactuals and joint interventions.</p>
+        <p>It compiles 1,445 effect kernels from 754 studies and validates them against Human Phenotype Project data, reaching 98.5% canonicalization accuracy and 80.5% query executability.</p>
+        <p class="da-family-links mb-0"><a href="https://arxiv.org/abs/2602.19158">Paper ↗</a> · <a href="https://arxiv.org/html/2602.19158v1#S1.F2">Figure source ↗</a></p>
+      </div>
+    </article>
+  </div>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3" aria-labelledby="family-compare-title"><div class="card-body p-4">
+  <h2 class="h5 mb-3" id="family-compare-title">How the two relate</h2>
+  <div class="da-table-wrap"><table class="da-table">
+    <thead><tr><th scope="col"></th><th scope="col">DoAtlas-1</th><th scope="col">DoAtlas-2</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">Question it answers</th><td>What does the existing evidence say, in a form that can be executed and audited?</td><td>Which hypotheses are true, and what should be studied next?</td></tr>
+      <tr><th scope="row">Core idea</th><td>Causal compilation of published findings into executable estimand objects</td><td>A closed loop of hypothesis generation, prespecified testing in human data, and evidence-driven revision</td></tr>
+      <tr><th scope="row">Scale</th><td>1,445 effect kernels from 754 studies</td><td>93,566 concepts, 149,383 candidate causal relationships, 2,031 research questions evaluated</td></tr>
+      <tr><th scope="row">Grounding in human data</th><td>Validation against the Human Phenotype Project</td><td>771 research resources, more than 720,000 participants, with the Human Phenotype Project as the core longitudinal cohort</td></tr>
+      <tr><th scope="row">Output</th><td>Executable, auditable causal queries</td><td>An evolving causal evidence state and a fully interpretable predictive model</td></tr>
+      <tr><th scope="row">Availability</th><td><a href="https://arxiv.org/abs/2602.19158">Paper</a></td><td><a href="https://arxiv.org/abs/2609.35107">Technical report</a>; open-source release coming soon</td></tr>
+    </tbody>
+  </table></div>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3" aria-labelledby="family-open-title"><div class="card-body p-4">
+  <h2 class="h5 mb-2" id="family-open-title">Open source</h2>
+  <p class="da-measure mb-0">DoAtlas will be open source and available to researchers soon. The first release includes 1,000 research questions with 30,000 corresponding experimental results. See the <a href="{{ '/model-doatlas-2.html#release' | relative_url }}">DoAtlas-2 release status</a> for what is available today, and <a href="{{ '/model-doatlas-2.html#research' | relative_url }}">how DoAtlas-2 supports research</a>.</p>
+</div></section>
+</div>
