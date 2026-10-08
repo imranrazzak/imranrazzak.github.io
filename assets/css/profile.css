@@ -68,3 +68,13 @@
 .profile-sidebar .medos-profile-video { width: 125px; height: 125px; max-width: 100%; }
 .medomni-sidebar-logo { display: block; width: 125px; height: 125px; max-width: 100%; object-fit: contain; margin: 0 auto; }
 @media (max-height: 900px), (max-width: 767.98px) { .profile-sidebar.sticky-top { position: static; } }
+
+/* Homepage: featured model release strip. */
+.release-strip { display: grid; grid-template-columns: 210px minmax(0, 1fr); gap: 1rem; align-items: center; padding: .8rem; margin-bottom: 1.25rem; border: 1px solid #dce9f2; border-radius: .6rem; background: #f6fafc; }
+.release-strip-media { display: block; position: relative; border-radius: .4rem; overflow: hidden; background: #061a33; aspect-ratio: 16 / 9; }
+.release-strip-media img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.release-strip-media::after { content: "\25B6"; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: flex; align-items: center; justify-content: center; width: 2.2rem; height: 2.2rem; padding-left: .12rem; border-radius: 50%; background: rgba(255, 255, 255, .92); color: #061a33; font-size: .75rem; }
+.release-strip-badge { display: inline-block; padding: .05rem .5rem; border-radius: 999px; background: #e3f1f9; color: #154e76; font-size: .68rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; }
+.release-strip h3 { margin: .3rem 0 .3rem; line-height: 1.35; }
+.release-strip p { margin-bottom: .35rem; }
+@media (max-width: 575.98px) { .release-strip { grid-template-columns: 1fr; } }
