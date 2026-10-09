@@ -28,8 +28,9 @@ for f,p in pages.items():
   if not dest.exists():errors.append(f'{f.name}: missing {link}')
   elif u.fragment and dest in pages and unquote(u.fragment) not in pages[dest].ids:errors.append(f'{f.name}: missing anchor {link}')
 records=json.loads((root/'assets/data/publications.json').read_text())
-assert len(records)==517, 'Unexpected publication count'
-assert len({p['scholar_id'] for p in records})==517, 'Duplicate or missing Scholar record IDs'
+total=len(records)  # grows as the weekly Scholar sync (scripts/sync_scholar.py) adds records
+assert total>=517, 'Publication records are missing'
+assert len({p['scholar_id'] for p in records})==total, 'Duplicate or missing Scholar record IDs'
 assert sum(p.get('selected',False) for p in records)==7, 'Missing selected papers'
 text=(root/'publications.html').read_text()
 for p in records:
@@ -46,9 +47,9 @@ for p in records:
 assert 'https://www.linkedin.com/company/medos-tech/' in (root/'index.html').read_text(), 'MedOS LinkedIn missing'
 assert 'CEO' in (root/'index.html').read_text(), 'CEO role missing'
 assert 'bubble-visual-hash' not in (root/'publications.html').read_text(), 'Synthetic publication thumbnails remain'
-assert (root/'publications.html').read_text().count('<article class="publication-entry')==517, 'Duplicate or missing rendered publications'
+assert (root/'publications.html').read_text().count('<article class="publication-entry')==total, 'Duplicate or missing rendered publications'
 for f in pages:
  for marker in ['Your Name','your@email.com','Convallis a cras','bicolor cat','/academic-homepage/assets','© UNSW 2022']:
   if marker in f.read_text().replace('[Your Name]', '[Applicant name]'):errors.append(f'{f.name}: template placeholder {marker}')
 if errors:print('\n'.join(errors));sys.exit(1)
-print(f'PASS: {len(pages)} pages; all local links, assets, anchors and metadata; 517 unique Scholar records; 7 selected papers; 213 publication images and MedOS profile.')
+print(f'PASS: {len(pages)} pages; all local links, assets, anchors and metadata; {total} unique Scholar records; 7 selected papers; 213 publication images and MedOS profile.')

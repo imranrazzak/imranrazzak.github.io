@@ -1,0 +1,6 @@
+# Google Scholar record IDs that the weekly sync must never add to the site.
+# One ID per line, either the full form (GlXI4N8AAAAJ:AbCdEfGhIjkC) or just the
+# part after the colon. Text after a # is a comment.
+#
+# Use this for papers Scholar attributed to the profile by mistake, or for a
+# second Scholar record of a paper that is already listed.
