@@ -99,6 +99,12 @@ jobs:
             echo '```'
             git diff --cached --stat | tail -n 40
             echo '```'
+            echo "<details><summary>First changed lines</summary>"
+            echo
+            echo '```diff'
+            git diff --cached -U0 --no-color | grep -E '^[+-]' | grep -vE '^(\+\+\+|---)' | cut -c1-220 | head -n 80 || true
+            echo '```'
+            echo "</details>"
           } >> "$GITHUB_STEP_SUMMARY"
 
           deleted="$(git diff --cached --name-only --diff-filter=D | wc -l)"

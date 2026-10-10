@@ -1,0 +1,99 @@
+---
+layout: default
+title: Wearable Language Models
+navbar_title: Open Source Models
+description: "Wearable Language Models (WLMs): a series of world models for continuous physiological signals. SleepWorld for sleep, CGMWorld for glucose, ECGWorld for cardiac electrical activity, and PhysioWorld as the potential umbrella model."
+---
+<link rel="stylesheet" href="{{ '/assets/css/wlm.css?v=20261010' | relative_url }}">
+<div class="wlm">
+<nav class="model-crumbs" aria-label="Breadcrumb"><ol><li>Open Source Models</li><li aria-current="page">Wearable Language Models</li></ol></nav>
+
+<section class="wlm-hero shadow-sm my-3" aria-labelledby="wlm-title">
+  <div class="wlm-hero-body">
+    <div>
+      <p class="wlm-eyebrow">Model series · WLMs</p>
+      <h1 id="wlm-title">Wearable Language Models</h1>
+      <p class="wlm-tagline">World models for continuous physiological signals</p>
+      <p class="wlm-hero-lede">Wearable Language Models (WLMs) are a model series for the signals the body produces around the clock: sleep, glucose and cardiac electrical activity. Each model in the series learns the dynamics of one signal over time.</p>
+      <p class="mb-0">
+        <a class="btn btn-light btn-sm" href="#models">The models</a>
+        <a class="btn btn-outline-light btn-sm" href="#series">How the series fits together</a>
+      </p>
+    </div>
+    <div>
+      <svg class="wlm-signals" viewBox="0 0 440 264" role="img" aria-label="Schematic of three continuous body signals on a shared timeline: sleep stages, glucose and ECG">
+        <line class="wlm-lane-rule" x1="0" y1="94" x2="440" y2="94"/><line class="wlm-lane-rule" x1="0" y1="182" x2="440" y2="182"/>
+        <text class="wlm-lane-label" x="0" y="48">Sleep</text><text class="wlm-lane-sub" x="0" y="64">SleepWorld</text>
+        <text class="wlm-lane-label" x="0" y="136">Glucose</text><text class="wlm-lane-sub" x="0" y="152">CGMWorld</text>
+        <text class="wlm-lane-label" x="0" y="224">ECG</text><text class="wlm-lane-sub" x="0" y="240">ECGWorld</text>
+        <path class="wlm-trace wlm-trace-1" pathLength="1" d="M96 28H105.3V60H124V76H155.1V60H167.5V44H179.9V60H201.7V76H226.6V60H242.1V44H263.9V60H288.8V76H301.2V60H316.7V44H344.7V28H349.4V60H371.1V44H402.2V60H414.7V28H424"/>
+        <path class="wlm-trace wlm-trace-2" pathLength="1" d="M96 155.7L98.7 155.1L101.5 154.5L104.2 153.8L106.9 153.1L109.7 152.3L112.4 151.3L115.1 150L117.9 148.4L120.6 146.3L123.3 143.7L126.1 140.6L128.8 136.9L131.5 132.8L134.3 128.5L137 124.3L139.7 120.6L142.5 117.6L145.2 115.8L147.9 115.3L150.7 115.9L153.4 116.8L156.1 117.9L158.9 119.2L161.6 120.7L164.3 122.3L167.1 124.1L169.8 126.1L172.5 128.1L175.3 130.2L178 132.3L180.7 134.4L183.5 136.6L186.2 138.6L188.9 140.6L191.7 142.5L194.4 144.2L197.1 145.8L199.9 147L202.6 148L205.3 148.6L208.1 148.8L210.8 148.6L213.5 148L216.3 146.9L219 145.5L221.7 143.8L224.5 141.9L227.2 139.9L229.9 138.1L232.7 136.5L235.4 135.2L238.1 134.4L240.9 134.2L243.6 134.2L246.3 134.1L249.1 134.2L251.8 134.3L254.5 134.5L257.3 134.8L260 135.1L262.7 135.6L265.5 136.2L268.2 137L270.9 137.8L273.7 138.7L276.4 139.8L279.1 140.9L281.9 142L284.6 143.1L287.3 144.1L290.1 145L292.8 145.6L295.5 145.9L298.3 145.8L301 145.2L303.7 144L306.5 142.2L309.2 139.7L311.9 136.8L314.7 133.4L317.4 129.7L320.1 126.1L322.9 122.6L325.6 119.7L328.3 117.5L331.1 116.3L333.8 115.9L336.5 115.8L339.3 115.9L342 116.2L344.7 116.8L347.5 117.7L350.2 118.8L352.9 120.2L355.7 121.8L358.4 123.6L361.1 125.6L363.9 127.7L366.6 130L369.3 132.4L372.1 134.8L374.8 137.2L377.5 139.6L380.3 141.9L383 144.1L385.7 146.1L388.5 148L391.2 149.7L393.9 151.2L396.7 152.6L399.4 153.7L402.1 154.6L404.9 155.4L407.6 156L410.3 156.5L413.1 156.8L415.8 157.1L418.5 157.3L421.3 157.4L424 157.6"/>
+        <path class="wlm-trace wlm-trace-3" pathLength="1" d="M96 236L102.6 236L106.5 232L109.1 230.8L111.7 232L115.7 236L119.6 236L121.3 240.8L123.2 196L125.2 247.2L127.2 236L132.7 236L137.3 229.6L140.6 226.4L143.9 229.6L148.5 236L161.6 236L168.2 236L172.1 232L174.7 230.8L177.3 232L181.3 236L185.2 236L186.9 240.8L188.8 196L190.8 247.2L192.8 236L198.3 236L202.9 229.6L206.2 226.4L209.5 229.6L214.1 236L227.2 236L233.8 236L237.7 232L240.3 230.8L242.9 232L246.9 236L250.8 236L252.5 240.8L254.4 196L256.4 247.2L258.4 236L263.9 236L268.5 229.6L271.8 226.4L275.1 229.6L279.7 236L292.8 236L299.4 236L303.3 232L305.9 230.8L308.5 232L312.5 236L316.4 236L318.1 240.8L320 196L322 247.2L324 236L329.5 236L334.1 229.6L337.4 226.4L340.7 229.6L345.3 236L358.4 236L365 236L368.9 232L371.5 230.8L374.1 232L378.1 236L382 236L383.7 240.8L385.6 196L387.6 247.2L389.6 236L395.1 236L399.7 229.6L403 226.4L406.3 229.6L410.9 236L424 236"/>
+        <circle class="wlm-now wlm-now-1" cx="424" cy="28" r="4"/><circle class="wlm-now wlm-now-2" cx="424" cy="157.6" r="4"/><circle class="wlm-now wlm-now-3" cx="424" cy="236" r="4"/>
+      </svg>
+    </div>
+  </div>
+  <p class="wlm-hero-caption mb-0">Signal traces on this page are schematic illustrations. They are not recorded data or model output.</p>
+</section>
+
+<section class="card border-0 shadow-sm bg-white my-3" id="series" aria-labelledby="series-title" style="scroll-margin-top: 80px;"><div class="card-body p-4">
+  <p class="wlm-eyebrow">The series</p>
+  <h2 class="h4 mb-2" id="series-title">Three signal models and a potential umbrella</h2>
+  <p class="wlm-measure mb-0">SleepWorld, CGMWorld and ECGWorld each model one physiological signal. PhysioWorld is the potential umbrella model: a unified physiological world model integrating sleep, glucose, and other signals.</p>
+  <div class="wlm-map">
+    <a class="wlm-node wlm-node-top wlm-c4" href="#physioworld"><strong>PhysioWorld</strong><span>Potential umbrella model</span></a>
+    <div class="wlm-map-rail" aria-hidden="true"></div>
+    <a class="wlm-node wlm-map-child wlm-c1" href="#sleepworld"><strong>SleepWorld</strong><span>Sleep</span></a>
+    <a class="wlm-node wlm-map-child wlm-c2" href="#cgmworld"><strong>CGMWorld</strong><span>Glucose</span></a>
+    <a class="wlm-node wlm-map-child wlm-c3" href="#ecgworld"><strong>ECGWorld</strong><span>Electrocardiography</span></a>
+    <div class="wlm-node wlm-map-child wlm-node-ghost"><strong>Other signals</strong></div>
+  </div>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3" id="models" aria-labelledby="models-title" style="scroll-margin-top: 80px;"><div class="card-body p-4">
+  <h2 class="h5 mb-3" id="models-title">The models</h2>
+  <div class="wlm-models">
+    <article class="wlm-model wlm-c1" id="sleepworld">
+      <div class="wlm-model-media"><svg viewBox="0 0 320 122" role="img" aria-label="Schematic of sleep stages across a night: a stepped line moving between wake, REM, light and deep sleep"><line class="wlm-guide" x1="52" y1="24" x2="308" y2="24"/><text class="wlm-tick" x="8" y="27.5">Wake</text><line class="wlm-guide" x1="52" y1="48" x2="308" y2="48"/><text class="wlm-tick" x="8" y="51.5">REM</text><line class="wlm-guide" x1="52" y1="72" x2="308" y2="72"/><text class="wlm-tick" x="8" y="75.5">Light</text><line class="wlm-guide" x1="52" y1="96" x2="308" y2="96"/><text class="wlm-tick" x="8" y="99.5">Deep</text><line class="wlm-axis" x1="52" y1="110" x2="308" y2="110"/><text class="wlm-tick" x="308" y="119.5" text-anchor="end">time →</text><path class="wlm-trace" d="M52 24H59.3V72H73.8V96H98.1V72H107.8V48H117.5V72H134.5V96H153.9V72H166V48H183V72H202.4V96H212.2V72H224.3V48H246.1V24H249.8V72H266.7V48H291V72H300.7V24H308"/></svg></div>
+      <div class="wlm-model-body">
+        <h3><span class="wlm-dot" aria-hidden="true"></span>SleepWorld</h3>
+        <p class="wlm-model-sub">Sleep world model</p>
+        <p>Models overnight sleep patterns and physiological dynamics.</p>
+        <p class="wlm-model-foot"><span class="wlm-soon">Details coming soon</span></p>
+      </div>
+    </article>
+    <article class="wlm-model wlm-c2" id="cgmworld">
+      <div class="wlm-model-media"><svg viewBox="0 0 320 122" role="img" aria-label="Schematic of a continuous glucose curve over a day, with three rises and returns towards baseline"><line class="wlm-axis" x1="16" y1="110" x2="304" y2="110"/><text class="wlm-tick" x="304" y="119.5" text-anchor="end">time →</text><path class="wlm-area" d="M16 86.4L18.4 85.6L20.8 84.7L23.2 83.8L25.6 82.9L28 81.8L30.4 80.5L32.8 78.9L35.2 76.7L37.6 74L40 70.6L42.4 66.4L44.8 61.5L47.2 56.1L49.6 50.5L52 45L54.4 40L56.8 36.2L59.2 33.8L61.6 33.1L64 33.9L66.4 35L68.8 36.4L71.2 38.2L73.6 40.1L76 42.3L78.4 44.7L80.8 47.3L83.2 49.9L85.6 52.7L88 55.5L90.4 58.3L92.8 61.1L95.2 63.8L97.6 66.5L100 69L102.4 71.2L104.8 73.2L107.2 74.9L109.6 76.2L112 77L114.4 77.3L116.8 77L119.2 76.2L121.6 74.8L124 72.9L126.4 70.6L128.8 68.1L131.2 65.6L133.6 63.1L136 61L138.4 59.3L140.8 58.3L143.2 58L145.6 57.9L148 57.9L150.4 58L152.8 58.1L155.2 58.4L157.6 58.7L160 59.2L162.4 59.9L164.8 60.7L167.2 61.6L169.6 62.7L172 64L174.4 65.3L176.8 66.8L179.2 68.3L181.6 69.7L184 71.1L186.4 72.2L188.8 73.1L191.2 73.5L193.6 73.3L196 72.5L198.4 70.9L200.8 68.5L203.2 65.3L205.6 61.4L208 56.9L210.4 52.1L212.8 47.3L215.2 42.8L217.6 38.9L220 36L222.4 34.4L224.8 33.8L227.2 33.7L229.6 33.8L232 34.3L234.4 35.1L236.8 36.2L239.2 37.7L241.6 39.5L244 41.6L246.4 44L248.8 46.6L251.2 49.5L253.6 52.5L256 55.6L258.4 58.8L260.8 61.9L263.2 65.1L265.6 68.1L268 71L270.4 73.7L272.8 76.2L275.2 78.4L277.6 80.5L280 82.2L282.4 83.7L284.8 84.9L287.2 85.9L289.6 86.7L292 87.3L294.4 87.8L296.8 88.1L299.2 88.4L301.6 88.6L304 88.8L304 110L16 110Z"/><path class="wlm-trace" d="M16 86.4L18.4 85.6L20.8 84.7L23.2 83.8L25.6 82.9L28 81.8L30.4 80.5L32.8 78.9L35.2 76.7L37.6 74L40 70.6L42.4 66.4L44.8 61.5L47.2 56.1L49.6 50.5L52 45L54.4 40L56.8 36.2L59.2 33.8L61.6 33.1L64 33.9L66.4 35L68.8 36.4L71.2 38.2L73.6 40.1L76 42.3L78.4 44.7L80.8 47.3L83.2 49.9L85.6 52.7L88 55.5L90.4 58.3L92.8 61.1L95.2 63.8L97.6 66.5L100 69L102.4 71.2L104.8 73.2L107.2 74.9L109.6 76.2L112 77L114.4 77.3L116.8 77L119.2 76.2L121.6 74.8L124 72.9L126.4 70.6L128.8 68.1L131.2 65.6L133.6 63.1L136 61L138.4 59.3L140.8 58.3L143.2 58L145.6 57.9L148 57.9L150.4 58L152.8 58.1L155.2 58.4L157.6 58.7L160 59.2L162.4 59.9L164.8 60.7L167.2 61.6L169.6 62.7L172 64L174.4 65.3L176.8 66.8L179.2 68.3L181.6 69.7L184 71.1L186.4 72.2L188.8 73.1L191.2 73.5L193.6 73.3L196 72.5L198.4 70.9L200.8 68.5L203.2 65.3L205.6 61.4L208 56.9L210.4 52.1L212.8 47.3L215.2 42.8L217.6 38.9L220 36L222.4 34.4L224.8 33.8L227.2 33.7L229.6 33.8L232 34.3L234.4 35.1L236.8 36.2L239.2 37.7L241.6 39.5L244 41.6L246.4 44L248.8 46.6L251.2 49.5L253.6 52.5L256 55.6L258.4 58.8L260.8 61.9L263.2 65.1L265.6 68.1L268 71L270.4 73.7L272.8 76.2L275.2 78.4L277.6 80.5L280 82.2L282.4 83.7L284.8 84.9L287.2 85.9L289.6 86.7L292 87.3L294.4 87.8L296.8 88.1L299.2 88.4L301.6 88.6L304 88.8"/></svg></div>
+      <div class="wlm-model-body">
+        <h3><span class="wlm-dot" aria-hidden="true"></span>CGMWorld</h3>
+        <p class="wlm-model-sub">Glucose world model</p>
+        <p>Models continuous glucose trajectories and their dynamics.</p>
+        <p class="wlm-model-foot"><span class="wlm-soon">Details coming soon</span></p>
+      </div>
+    </article>
+    <article class="wlm-model wlm-c3" id="ecgworld">
+      <div class="wlm-model-media"><svg viewBox="0 0 320 122" role="img" aria-label="Schematic of an electrocardiogram trace with four heartbeats"><line class="wlm-grid" x1="16" y1="12" x2="16" y2="108"/><line class="wlm-grid" x1="40" y1="12" x2="40" y2="108"/><line class="wlm-grid" x1="64" y1="12" x2="64" y2="108"/><line class="wlm-grid" x1="88" y1="12" x2="88" y2="108"/><line class="wlm-grid" x1="112" y1="12" x2="112" y2="108"/><line class="wlm-grid" x1="136" y1="12" x2="136" y2="108"/><line class="wlm-grid" x1="160" y1="12" x2="160" y2="108"/><line class="wlm-grid" x1="184" y1="12" x2="184" y2="108"/><line class="wlm-grid" x1="208" y1="12" x2="208" y2="108"/><line class="wlm-grid" x1="232" y1="12" x2="232" y2="108"/><line class="wlm-grid" x1="256" y1="12" x2="256" y2="108"/><line class="wlm-grid" x1="280" y1="12" x2="280" y2="108"/><line class="wlm-grid" x1="304" y1="12" x2="304" y2="108"/><line class="wlm-grid" x1="16" y1="12" x2="304" y2="12"/><line class="wlm-grid" x1="16" y1="36" x2="304" y2="36"/><line class="wlm-grid" x1="16" y1="60" x2="304" y2="60"/><line class="wlm-grid" x1="16" y1="84" x2="304" y2="84"/><line class="wlm-grid" x1="16" y1="108" x2="304" y2="108"/><line class="wlm-axis" x1="16" y1="110" x2="304" y2="110"/><text class="wlm-tick" x="304" y="119.5" text-anchor="end">time →</text><path class="wlm-trace" d="M16 78L23.2 78L27.5 72.8L30.4 71.2L33.3 72.8L37.6 78L41.9 78L43.7 84.2L45.9 26L48 92.6L50.2 78L56.3 78L61.4 69.7L65 65.5L68.6 69.7L73.6 78L88 78L95.2 78L99.5 72.8L102.4 71.2L105.3 72.8L109.6 78L113.9 78L115.7 84.2L117.9 26L120 92.6L122.2 78L128.3 78L133.4 69.7L137 65.5L140.6 69.7L145.6 78L160 78L167.2 78L171.5 72.8L174.4 71.2L177.3 72.8L181.6 78L185.9 78L187.7 84.2L189.9 26L192 92.6L194.2 78L200.3 78L205.4 69.7L209 65.5L212.6 69.7L217.6 78L232 78L239.2 78L243.5 72.8L246.4 71.2L249.3 72.8L253.6 78L257.9 78L259.7 84.2L261.9 26L264 92.6L266.2 78L272.3 78L277.4 69.7L281 65.5L284.6 69.7L289.6 78L304 78"/></svg></div>
+      <div class="wlm-model-body">
+        <h3><span class="wlm-dot" aria-hidden="true"></span>ECGWorld</h3>
+        <p class="wlm-model-sub">Electrocardiography world model</p>
+        <p>Models cardiac electrical activity and its temporal dynamics.</p>
+        <p class="wlm-model-foot"><span class="wlm-soon">Details coming soon</span></p>
+      </div>
+    </article>
+    <article class="wlm-model wlm-c4" id="physioworld">
+      <div class="wlm-model-media"><svg viewBox="0 0 320 122" role="img" aria-label="Schematic of sleep, glucose, ECG and other signals shown together on a shared timeline"><text class="wlm-tick" x="8" y="23.5">Sleep</text><text class="wlm-tick" x="8" y="51.5">Glucose</text><text class="wlm-tick" x="8" y="81.5">ECG</text><text class="wlm-tick" x="8" y="105.5">Other signals</text><line class="wlm-axis" x1="96" y1="110" x2="304" y2="110"/><text class="wlm-tick" x="304" y="119.5" text-anchor="end">time →</text><path class="wlm-trace wlm-t1" d="M96 12H101.9V22H113.7V27H133.5V22H141.3V17H149.2V22H163V27H178.8V22H188.7V17H202.5V22H218.2V27H226.1V22H236V17H253.7V12H256.7V22H270.5V17H290.2V22H298.1V12H304"/><path class="wlm-trace wlm-t2" d="M96 52.5L97.7 52.3L99.5 52.1L101.2 51.9L102.9 51.6L104.7 51.4L106.4 51L108.1 50.6L109.9 50.1L111.6 49.3L113.3 48.5L115.1 47.4L116.8 46.1L118.5 44.7L120.3 43.3L122 41.8L123.7 40.6L125.5 39.6L127.2 38.9L128.9 38.8L130.7 39L132.4 39.3L134.1 39.6L135.9 40.1L137.6 40.6L139.3 41.2L141.1 41.8L142.8 42.4L144.5 43.1L146.3 43.8L148 44.6L149.7 45.3L151.5 46L153.2 46.7L154.9 47.4L156.7 48L158.4 48.6L160.1 49.1L161.9 49.6L163.6 49.9L165.3 50.1L167.1 50.2L168.8 50.1L170.5 49.9L172.3 49.5L174 49.1L175.7 48.5L177.5 47.8L179.2 47.2L180.9 46.5L182.7 46L184.4 45.5L186.1 45.3L187.9 45.2L189.6 45.2L191.3 45.2L193.1 45.2L194.8 45.2L196.5 45.3L198.3 45.4L200 45.5L201.7 45.7L203.5 45.9L205.2 46.1L206.9 46.4L208.7 46.8L210.4 47.1L212.1 47.5L213.9 47.9L215.6 48.2L217.3 48.6L219.1 48.9L220.8 49.1L222.5 49.2L224.3 49.2L226 49L227.7 48.5L229.5 47.9L231.2 47.1L232.9 46.1L234.7 44.9L236.4 43.7L238.1 42.4L239.9 41.3L241.6 40.3L243.3 39.5L245.1 39.1L246.8 39L248.5 38.9L250.3 39L252 39.1L253.7 39.3L255.5 39.6L257.2 39.9L258.9 40.4L260.7 41L262.4 41.6L264.1 42.3L265.9 43L267.6 43.8L269.3 44.6L271.1 45.4L272.8 46.2L274.5 47L276.3 47.8L278 48.6L279.7 49.3L281.5 49.9L283.2 50.5L284.9 51L286.7 51.5L288.4 51.9L290.1 52.2L291.9 52.4L293.6 52.6L295.3 52.8L297.1 52.9L298.8 53L300.5 53.1L302.3 53.1L304 53.2"/><path class="wlm-trace wlm-t3" d="M96 80L100.2 80L102.7 78.6L104.3 78.2L106 78.6L108.5 80L111 80L112 81.7L113.3 66L114.5 83.9L115.8 80L119.3 80L122.2 77.8L124.3 76.6L126.4 77.8L129.3 80L137.6 80L141.8 80L144.3 78.6L145.9 78.2L147.6 78.6L150.1 80L152.6 80L153.6 81.7L154.9 66L156.1 83.9L157.4 80L160.9 80L163.8 77.8L165.9 76.6L168 77.8L170.9 80L179.2 80L183.4 80L185.9 78.6L187.5 78.2L189.2 78.6L191.7 80L194.2 80L195.2 81.7L196.5 66L197.7 83.9L199 80L202.5 80L205.4 77.8L207.5 76.6L209.6 77.8L212.5 80L220.8 80L225 80L227.5 78.6L229.1 78.2L230.8 78.6L233.3 80L235.8 80L236.8 81.7L238.1 66L239.3 83.9L240.6 80L244.1 80L247 77.8L249.1 76.6L251.2 77.8L254.1 80L262.4 80L266.6 80L269.1 78.6L270.7 78.2L272.4 78.6L274.9 80L277.4 80L278.4 81.7L279.7 66L280.9 83.9L282.2 80L285.7 80L288.6 77.8L290.7 76.6L292.8 77.8L295.7 80L304 80"/><path class="wlm-other" d="M96 102H304"/></svg></div>
+      <div class="wlm-model-body">
+        <h3><span class="wlm-dot" aria-hidden="true"></span>PhysioWorld</h3>
+        <p class="wlm-model-sub">Potential umbrella model</p>
+        <p>A unified physiological world model integrating sleep, glucose, and other signals.</p>
+        <p class="wlm-model-foot"><span class="wlm-soon">Details coming soon</span></p>
+      </div>
+    </article>
+  </div>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3" aria-labelledby="wlm-status-title"><div class="card-body p-4">
+  <h2 class="h5 mb-2" id="wlm-status-title">Status</h2>
+  <p class="wlm-measure mb-0">This page introduces the series. Model details, papers, checkpoints and release documentation will be added here as they become available.</p>
+</div></section>
+</div>

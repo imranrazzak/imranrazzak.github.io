@@ -5,7 +5,8 @@ navbar_title: Publications
 body_attr: >-
   data-spy="scroll" data-target="#navbar-year" data-offset="100"
 ---
-{% assign pubs_by_year = site.publications | sort: 'date' | reverse | group_by_exp: 'item', "item.date | date: '%Y'" %}
+{% comment %}site.publications is already ordered by date, then file path. Reversing it keeps same-date entries in a fixed order on every build; a second `sort` would not, because its tie order depends on the machine.{% endcomment %}
+{% assign pubs_by_year = site.publications | reverse | group_by_exp: 'item', "item.date | date: '%Y'" %}
 <div class="card border-0 shadow-sm bg-white my-3"><div class="card-body p-4">
   <h1 class="h2">Publications</h1>
   <p>Browse all {{ site.publications.size }} publications, with figures from the papers where available. Select a figure to enlarge it, or follow its source link to the paper.</p>

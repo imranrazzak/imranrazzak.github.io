@@ -26,6 +26,20 @@ The original website and every old file remain available in repository history.
 
 The `.github/workflows/deploy.yml` workflow publishes the generated `main` branch on every push, including pushes made with a deploy key. Preserve this workflow when replacing generated output.
 
+## Weekly Google Scholar sync
+
+New publications are picked up from the [Google Scholar profile](https://scholar.google.com/citations?user=GlXI4N8AAAAJ&hl=en) automatically:
+
+1. Every Monday `.github/workflows/scholar-sync.yml` runs `scripts/sync_scholar.py`. It compares the profile with `assets/data/publications.json` by Scholar record ID and, for each new record, adds a `_publications/<year>/<id>.md` file plus matching entries in `assets/data/publications.json` and `assets/data/figure-coverage.json`, then refreshes the timeline data.
+2. If anything is new it opens (or refreshes) a pull request from the `scholar-sync` branch into `academic-homepage-source`, listing the papers. Nothing is published until that pull request is merged.
+3. Merging it triggers `.github/workflows/publish.yml`, which builds the site, runs `scripts/validate_site.py`, copies `_site/` onto `main` and starts the Pages deployment. The same workflow publishes any other content change pushed to this branch; run it by hand with "dry run" ticked to build and validate without publishing.
+
+Existing records are never edited or removed by the sync. Records that disappear from Scholar, and new Scholar IDs whose title is already listed, are only reported in the pull request. To keep a record off the site for good, add its ID to `scripts/scholar_ignore.txt`. New entries have no figure and are not `selected`; add those by hand as before.
+
+Google Scholar has no API and often refuses requests from GitHub's servers. When that happens the run fails with a clear message and tries again the following week. For reliable runs add a repository secret named `SERPAPI_KEY` ([SerpApi](https://serpapi.com/) free plan is enough); the script then falls back to SerpApi whenever the direct read is refused. The script also runs locally: `pip install -r scripts/requirements.txt && python scripts/sync_scholar.py --dry-run`.
+
+Both workflow files must be present, identical, on `main` and on this branch: schedules and the "Run workflow" button read them from `main`, merges into this branch read them from here. The pull request can only be opened if "Allow GitHub Actions to create and approve pull requests" is enabled under Settings → Actions → General.
+
 ## Publication figures
 
 The bibliography retains all 517 Scholar records. Figures are local WebP assets in `assets/images/publications/`; each entry with a figure includes `cover`, `cover_source`, `cover_figure`, `cover_width`, and `cover_height`. Keep `assets/data/publications.json` synchronized with `_publications/`. See `assets/data/figure-sources.json` for source attribution and `assets/data/figure-coverage.json` for the remaining records that need an accessible paper figure. Do not restore synthetic placeholder graphics for missing figures.

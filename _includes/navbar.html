@@ -6,11 +6,11 @@
       <ul class="navbar-nav ml-auto">
         {% for item in site.data.navigation.pages %}
         {% if item.children %}
-        {% assign group_active = false %}{% for child in item.children %}{% if child.url == page.url %}{% assign group_active = true %}{% endif %}{% endfor %}
+        {% assign group_active = false %}{% for child in item.children %}{% if child.url == page.url %}{% assign group_active = true %}{% endif %}{% for sub in child.children %}{% if sub.url == page.url %}{% assign group_active = true %}{% endif %}{% endfor %}{% endfor %}
         <li class="nav-item dropdown{% if group_active %} active{% endif %}">
           <a class="nav-link dropdown-toggle" href="#" id="nav-{{ forloop.index }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ item.name }}</a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="nav-{{ forloop.index }}">
-            {% for child in item.children %}<a class="dropdown-item{% if child.url == page.url %} active{% endif %}" href="{{ child.url | relative_url }}"{% if child.url == page.url %} aria-current="page"{% endif %}>{{ child.name }}</a>{% endfor %}
+            {% for child in item.children %}<a class="dropdown-item{% if child.url == page.url %} active{% endif %}" href="{{ child.url | relative_url }}"{% if child.url == page.url %} aria-current="page"{% endif %}>{{ child.name }}</a>{% for sub in child.children %}<a class="dropdown-item dropdown-subitem{% if sub.url == page.url %} active{% endif %}" href="{{ sub.url | relative_url }}"{% if sub.url == page.url %} aria-current="page"{% endif %}>{{ sub.name }}</a>{% endfor %}{% endfor %}
           </div>
         </li>
         {% else %}
