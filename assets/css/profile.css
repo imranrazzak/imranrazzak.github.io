@@ -28,7 +28,19 @@
 @media (max-width: 767.98px) { .medos-profile-video { width: 50%; } }
 @media print { .medos-motion-toggle { display: none !important; } }
 
-#team-life, #should, #fit, #choose, #workflow, #youexpect, #iexpect, #apply, #reading { scroll-margin-top: 80px; }
+#team-life, #group, #should, #fit, #skills, #choose, #workflow, #youexpect, #iexpect, #mbzuai-life, #uae-life, #apply, #reading { scroll-margin-top: 80px; }
+
+/* Prospective Students guide */
+.guide-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: .6rem; }
+.guide-fact { padding: .6rem .75rem; border: 1px solid #dce9f2; border-radius: .5rem; background: #f6fafc; overflow-wrap: anywhere; }
+.guide-fact span { display: block; font-size: .7rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: #526773; }
+.guide-fact strong { font-size: .9rem; color: #235772; }
+.guide-tile { padding: .85rem 1rem; border: 1px solid #dce9f2; border-radius: .5rem; background: #f6fafc; }
+.guide-tile h3, .guide-tile h4 { color: #235772; }
+.guide-table th[scope="row"] { width: 32%; font-weight: 700; }
+.guide-table thead th { border-top: 0; font-size: .75rem; letter-spacing: .05em; text-transform: uppercase; color: #526773; }
+.guide-table caption { caption-side: top; padding-top: 0; }
+@media (max-width: 575.98px) { .guide-table th[scope="row"] { width: 40%; } }
 
 .news-paper-image { width: 100%; height: 150px; object-fit: contain; background: #fff; border: 1px solid #edf0f2; border-radius: .25rem; }
 
