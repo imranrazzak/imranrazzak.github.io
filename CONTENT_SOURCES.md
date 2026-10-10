@@ -82,3 +82,7 @@ Restored the existing Flag Counter account `ykSr` from the original website, ret
 - Abu Dhabi safety ranking: https://www.mediaoffice.abudhabi/en/security/abu-dhabi-ranked-worlds-safest-city-for-10th-consecutive-year/ (Numbeo 2026, published 17 January 2026). Climate, geography and landmarks are general knowledge, stated without figures. No ranking of MBZUAI, GPU counts or cost-of-living figures were added, because no current official figure was found.
 - The Life at MBZUAI photo is the newest entry in `_data/team_events.yml`, so it follows Team Life automatically.
 - The student numbers and the safety ranking on this page will go out of date; review them each academic year.
+
+## Navigation bar — 10 October 2026
+
+- Requested by Imran Razzak: the menu (Home, Publications, Research, Open Source Models, People, Open Position, Academic) should show in the top bar. It previously collapsed behind the menu button below 1200px, which includes a laptop window with a side panel open. It now shows from 992px up; between 992px and 1199px the entries are set slightly tighter so all seven fit on one line. Below 992px the menu button remains.
