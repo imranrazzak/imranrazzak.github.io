@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>MedMO - Imran Razzak</title>
 
-    <meta name="description" content="MedMO is a multimodal medical model for image understanding, question answering, spatial grounding and report generation. Part of the MedOS Family.">
+    <meta name="description" content="MedMO is an open-source medical multimodal foundation model for image understanding, question answering, report generation and spatial grounding, trained on 26M+ samples from 45 medical datasets. Part of the MedOS Family.">
     <link rel="canonical" href="https://imranrazzak.github.io/model-medmo.html">
     <meta property="og:type" content="website">
     <meta property="og:title" content="MedMO - Imran Razzak">
-    <meta property="og:description" content="MedMO is a multimodal medical model for image understanding, question answering, spatial grounding and report generation. Part of the MedOS Family.">
+    <meta property="og:description" content="MedMO is an open-source medical multimodal foundation model for image understanding, question answering, report generation and spatial grounding, trained on 26M+ samples from 45 medical datasets. Part of the MedOS Family.">
     <meta property="og:url" content="https://imranrazzak.github.io/model-medmo.html">
     <meta property="og:image" content="https://imranrazzak.github.io/img/imrazzak.jpg">
     <meta name="twitter:card" content="summary">
@@ -103,19 +103,258 @@
 </nav>
 
     <div class="site-content container-lg">
-        <nav aria-label="Breadcrumb" class="family-crumb mt-4"><a href="/model-medos.html">MedOS Family</a> <span aria-hidden="true">›</span> <span aria-current="page">MedMO</span></nav>
-<h1 class="h2 mt-1 mb-4">MedMO</h1>
-<section class="card border-0 shadow-sm bg-white my-3"><div class="card-body p-4">
-<h2 class="h5">Medical image understanding and grounding</h2>
-<p>MedMO is a multimodal medical model for image understanding, question answering, spatial grounding and report generation.</p>
-<p><a class="btn btn-primary btn-sm mr-2 mb-2" href="https://huggingface.co/collections/MBZUAI/medmo">Models on Hugging Face</a><a class="btn btn-outline-primary btn-sm mr-2 mb-2" href="https://github.com/genmilab/MedMO">Code and usage guide</a><a class="btn btn-outline-primary btn-sm mb-2" href="https://arxiv.org/abs/2602.06965">Read the paper</a></p>
-<h3 class="h6">Available checkpoints</h3><p><a href="https://huggingface.co/MBZUAI/MedMO-4B">MedMO-4B</a> · <a href="https://huggingface.co/MBZUAI/MedMO-8B">MedMO-8B</a></p>
-<p class="small text-muted mb-0">See the model cards for checkpoint-specific requirements, licensing and usage instructions. MedMO is part of the <a href="/model-medos.html">MedOS Family</a>.</p>
+        <link rel="stylesheet" href="/assets/css/doatlas.css?v=20261008">
+<link rel="stylesheet" href="/assets/css/wlm.css?v=20261010">
+<link rel="stylesheet" href="/assets/css/medmo.css?v=20261010">
+<div class="da mm">
+
+<section class="da-hero shadow-sm my-3" aria-labelledby="medmo-title">
+  <div class="da-hero-body mm-hero-body">
+    <div>
+      <p class="wlm-crumb"><a href="/model-medos.html">MedOS Family</a> <span aria-hidden="true">›</span> MedMO</p>
+      <p class="da-eyebrow">Open-source medical foundation model</p>
+      <h1 id="medmo-title">MedMO</h1>
+      <p class="da-tagline">Grounding and understanding multimodal large language model for medical images</p>
+      <p class="da-hero-lede">MedMO unifies visual grounding, clinical reasoning and language understanding across medical imaging modalities. It is trained only on medical data, 26M+ samples from 45 datasets, and released in 4B and 8B sizes.</p>
+      <p class="mb-2">
+        <a class="btn btn-light btn-sm" href="https://huggingface.co/collections/MBZUAI/medmo">Models on Hugging Face</a>
+        <a class="btn btn-outline-light btn-sm" href="https://github.com/genmilab/MedMO"><i class="fab fa-github mr-1" aria-hidden="true"></i>Code</a>
+        <a class="btn btn-outline-light btn-sm" href="https://arxiv.org/abs/2602.06965"><i class="fas fa-file-lines mr-1" aria-hidden="true"></i>Paper</a>
+        <a class="btn btn-outline-light btn-sm" href="https://genmilab.github.io/MedMO-Page/">Project page</a>
+      </p>
+      <p class="mm-authors mb-0">Ankan Deria, Komal Kumar, Adinath Madhavrao Dukre, Eran Segal, Salman Khan, Imran Razzak · Mohamed bin Zayed University of Artificial Intelligence</p>
+    </div>
+  </div>
+</section>
+
+<nav class="da-toc my-3" aria-label="On this page">
+  <a href="#glance">At a glance</a>
+  <a href="#why">Why MedMO</a>
+  <a href="#training">Training</a>
+  <a href="#results">Results</a>
+  <a href="#grounding">Grounding example</a>
+  <a href="#data">Data</a>
+  <a href="#contributions">Contributions</a>
+  <a href="#get">Get the model</a>
+</nav>
+
+<section class="card border-0 shadow-sm bg-white my-3 da-section" id="glance" aria-labelledby="glance-title"><div class="card-body p-4">
+  <p class="da-eyebrow">At a glance</p>
+  <h2 class="h4 mb-3" id="glance-title">One model for medical images, questions, reports and localization</h2>
+  <div class="da-stats">
+    <div class="da-stat"><span class="da-stat-value">26M+</span><span class="da-stat-label">training samples</span></div>
+    <div class="da-stat"><span class="da-stat-value">45</span><span class="da-stat-label">medical datasets</span></div>
+    <div class="da-stat"><span class="da-stat-value">4</span><span class="da-stat-label">training stages</span></div>
+    <div class="da-stat"><span class="da-stat-value">4B and 8B</span><span class="da-stat-label">model sizes, each with a Next variant</span></div>
+    <div class="da-stat"><span class="da-stat-value">72.7%</span><span class="da-stat-label">average medical VQA accuracy, +6.6 points over Fleming-VL-8B</span></div>
+    <div class="da-stat"><span class="da-stat-value">60.1%</span><span class="da-stat-label">average text QA accuracy, +14.4 points over Fleming-VL-8B</span></div>
+    <div class="da-stat"><span class="da-stat-value">56.1</span><span class="da-stat-label">IoU on Bacteria grounding, +47.8 over Fleming-VL-8B</span></div>
+    <div class="da-stat"><span class="da-stat-value">143.4</span><span class="da-stat-label">CIDEr for report generation on MIMIC-CXR</span></div>
+  </div>
+  <p class="da-note mt-3 mb-0">Result figures are for MedMO-8B-Next, as reported on the <a href="https://genmilab.github.io/MedMO-Page/">MedMO project page</a>.</p>
 </div></section>
-<section class="card border-0 shadow-sm bg-white my-3"><div class="card-body p-4"><h2 class="h5">Model overview</h2>
-<a href="/assets/images/publications/e336b3e9d037bf.webp"><img src="/assets/images/publications/e336b3e9d037bf.webp" alt="MedMO training architecture and capabilities" width="480" height="230" style="display:block;max-width:100%;height:auto;max-height:230px;object-fit:contain;" loading="lazy"></a>
-<p class="small mt-2 mb-0"><a href="https://arxiv.org/html/2602.06965v2#S3.F2">Figure source</a> · <a href="/assets/images/demos/medmo-results.png">View a published result</a></p>
+
+<section class="card border-0 shadow-sm bg-white my-3 da-section" id="why" aria-labelledby="why-title"><div class="card-body p-4">
+  <p class="da-eyebrow">Why MedMO</p>
+  <h2 class="h4 mb-2" id="why-title">Three limits of existing medical multimodal models</h2>
+  <p class="da-measure">Multimodal large language models have advanced quickly, but their use in medicine is held back by limited domain coverage, imperfect alignment between modalities and too little grounded reasoning.</p>
+  <div class="da-grid-3 mt-3">
+    <div class="da-tile"><h3>Reliance on distilled data</h3><p>Most existing models are trained on data distilled from proprietary models, which often lacks the domain grounding needed for fine-grained clinical reasoning.</p></div>
+    <div class="da-tile"><h3>Hallucination risk</h3><p>Distillation pipelines without structured supervision amplify hallucinations and inconsistencies in medical outputs.</p></div>
+    <div class="da-tile"><h3>Narrow modality coverage</h3><p>Current models focus on single tasks or a few modalities instead of unified generalization across them.</p></div>
+  </div>
 </div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3 da-section" id="training" aria-labelledby="training-title"><div class="card-body p-4">
+  <p class="da-eyebrow">Training</p>
+  <h2 class="h4 mb-2" id="training-title">A four-stage training pipeline</h2>
+  <p class="da-measure">MedMO is built on Qwen3-VL and post-trained in four stages. Each stage adds a capability: broad medical understanding, high-resolution localization, instruction following, and reward-driven grounding.</p>
+  <ol class="da-loop mt-3">
+    <li><strong>General medical SFT</strong><span>Large-scale training for foundational understanding</span><span class="mm-stage-meta">18.5M samples · 768×768 images</span></li>
+    <li><strong>High-resolution SFT</strong><span>Spatial localization and fine-grained grounding</span><span class="mm-stage-meta">3M samples · 1280×1280 images</span></li>
+    <li><strong>Instruction tuning</strong><span>Human-style medical instruction following</span><span class="mm-stage-meta">4.3M samples · Multi-task</span></li>
+    <li><strong>Reinforcement learning</strong><span>GRPO with verifiable rewards</span><span class="mm-stage-meta">300K samples · Bounding-box IoU reward</span></li>
+  </ol>
+  <h3 class="h6 mt-4 mb-2">Where the training samples go</h3>
+  <div class="wlm-bar" role="img" aria-label="Share of training samples by stage. The values are listed below the bar."><span style="flex:18.5 1 0;background:#86b6ef" title="Stage 1, General medical SFT: 18.5M samples"></span><span style="flex:3.0 1 0;background:#3987e5" title="Stage 2, High-resolution SFT: 3M samples"></span><span style="flex:4.3 1 0;background:#1c5cab" title="Stage 3, Instruction tuning: 4.3M samples"></span><span style="flex:0.3 1 0;background:#0d366b" title="Stage 4, Reinforcement learning: 300K samples"></span></div>
+  <ul class="wlm-legend"><li><span class="wlm-key" style="background:#86b6ef"></span>Stage 1: General medical SFT <b>18.5M samples</b></li><li><span class="wlm-key" style="background:#3987e5"></span>Stage 2: High-resolution SFT <b>3M samples</b></li><li><span class="wlm-key" style="background:#1c5cab"></span>Stage 3: Instruction tuning <b>4.3M samples</b></li><li><span class="wlm-key" style="background:#0d366b"></span>Stage 4: Reinforcement learning <b>300K samples</b></li></ul>
+  <p class="da-note mt-2 mb-0">26.1M samples across the four stages. Stage 4 is 1% of the samples.</p>
+  <div class="da-grid-2 mt-4">
+    <div class="da-tile da-tile-wash"><h3>Cross-modal pretraining</h3><p>Heterogeneous visual encoders are aligned with a medical language backbone using a DeepStack fusion mechanism.</p></div>
+    <div class="da-tile da-tile-wash"><h3>Multi-task supervision</h3><p>Training spans captioning, VQA, report generation, retrieval and grounded disease localization with bounding boxes.</p></div>
+    <div class="da-tile da-tile-wash"><h3>Verifiable rewards</h3><p>A bounding-box GIoU reward is combined with factuality checks to improve spatial grounding and step-by-step reasoning.</p></div>
+    <div class="da-tile da-tile-wash"><h3>Scalable architecture</h3><p>The modular design on Qwen3-VL allows later expansion to additional modalities.</p></div>
+  </div>
+  <figure class="da-figure">
+    <a href="/assets/images/publications/e336b3e9d037bf.webp"><img src="/assets/images/publications/e336b3e9d037bf.webp" alt="MedMO training architecture and capabilities" width="1600" height="770" loading="lazy"></a>
+    <figcaption><strong>Training architecture and capabilities.</strong> <a href="https://arxiv.org/html/2602.06965v2#S3.F2">Figure 2 of the paper</a>.</figcaption>
+  </figure>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3 da-section" id="results" aria-labelledby="results-title"><div class="card-body p-4">
+  <p class="da-eyebrow">Results</p>
+  <h2 class="h4 mb-2" id="results-title">Where MedMO-8B-Next gains over the previous best open model</h2>
+  <p class="da-measure">Each row compares MedMO-8B-Next with Fleming-VL-8B on one benchmark, sorted by the size of the gain. Grounding improves the most.</p>
+  <ul class="wlm-legend mb-3">
+    <li><span class="mm-dot mm-dot-ref mm-dot-key"></span>Fleming-VL-8B</li>
+    <li><span class="mm-dot mm-dot-ours mm-dot-key"></span>MedMO-8B-Next</li>
+  </ul>
+  <div class="mm-gains" role="list" aria-label="MedMO-8B-Next compared with Fleming-VL-8B">
+    <div class="mm-gain" role="listitem">
+      <span class="mm-gain-label">Bacteria grounding <span class="mm-unit">IoU</span></span>
+      <span class="mm-gain-track" aria-hidden="true"><span class="mm-gain-link" style="left:8.3%;width:47.8%"></span><span class="mm-dot mm-dot-ref" style="left:8.3%"></span><span class="mm-dot mm-dot-ours" style="left:56.1%"></span></span>
+      <span class="mm-gain-vals">8.3 → <strong>56.1</strong></span>
+      <span class="mm-gain-delta">+47.8</span>
+    </div>
+    <div class="mm-gain" role="listitem">
+      <span class="mm-gain-label">Grounding, average <span class="mm-unit">IoU</span></span>
+      <span class="mm-gain-track" aria-hidden="true"><span class="mm-gain-link" style="left:17.2%;width:39.6%"></span><span class="mm-dot mm-dot-ref" style="left:17.2%"></span><span class="mm-dot mm-dot-ours" style="left:56.8%"></span></span>
+      <span class="mm-gain-vals">17.2 → <strong>56.8</strong></span>
+      <span class="mm-gain-delta">+39.6</span>
+    </div>
+    <div class="mm-gain" role="listitem">
+      <span class="mm-gain-label">MedQA (text QA)</span>
+      <span class="mm-gain-track" aria-hidden="true"><span class="mm-gain-link" style="left:53.7%;width:30.1%"></span><span class="mm-dot mm-dot-ref" style="left:53.7%"></span><span class="mm-dot mm-dot-ours" style="left:83.8%"></span></span>
+      <span class="mm-gain-vals">53.7 → <strong>83.8</strong></span>
+      <span class="mm-gain-delta">+30.1</span>
+    </div>
+    <div class="mm-gain" role="listitem">
+      <span class="mm-gain-label">MedXpertQA (VQA)</span>
+      <span class="mm-gain-track" aria-hidden="true"><span class="mm-gain-link" style="left:21.6%;width:21.3%"></span><span class="mm-dot mm-dot-ref" style="left:21.6%"></span><span class="mm-dot mm-dot-ours" style="left:42.9%"></span></span>
+      <span class="mm-gain-vals">21.6 → <strong>42.9</strong></span>
+      <span class="mm-gain-delta">+21.3</span>
+    </div>
+    <div class="mm-gain" role="listitem">
+      <span class="mm-gain-label">Text QA, average</span>
+      <span class="mm-gain-track" aria-hidden="true"><span class="mm-gain-link" style="left:45.7%;width:14.4%"></span><span class="mm-dot mm-dot-ref" style="left:45.7%"></span><span class="mm-dot mm-dot-ours" style="left:60.1%"></span></span>
+      <span class="mm-gain-vals">45.7 → <strong>60.1</strong></span>
+      <span class="mm-gain-delta">+14.4</span>
+    </div>
+    <div class="mm-gain" role="listitem">
+      <span class="mm-gain-label">PMC-VQA</span>
+      <span class="mm-gain-track" aria-hidden="true"><span class="mm-gain-link" style="left:64.3%;width:9.8%"></span><span class="mm-dot mm-dot-ref" style="left:64.3%"></span><span class="mm-dot mm-dot-ours" style="left:74.1%"></span></span>
+      <span class="mm-gain-vals">64.3 → <strong>74.1</strong></span>
+      <span class="mm-gain-delta">+9.8</span>
+    </div>
+    <div class="mm-gain" role="listitem">
+      <span class="mm-gain-label">MMLU-Med (text QA)</span>
+      <span class="mm-gain-track" aria-hidden="true"><span class="mm-gain-link" style="left:71.8%;width:8.4%"></span><span class="mm-dot mm-dot-ref" style="left:71.8%"></span><span class="mm-dot mm-dot-ours" style="left:80.2%"></span></span>
+      <span class="mm-gain-vals">71.8 → <strong>80.2</strong></span>
+      <span class="mm-gain-delta">+8.4</span>
+    </div>
+    <div class="mm-gain" role="listitem">
+      <span class="mm-gain-label">Medical VQA, average</span>
+      <span class="mm-gain-track" aria-hidden="true"><span class="mm-gain-link" style="left:66.1%;width:6.6%"></span><span class="mm-dot mm-dot-ref" style="left:66.1%"></span><span class="mm-dot mm-dot-ours" style="left:72.7%"></span></span>
+      <span class="mm-gain-vals">66.1 → <strong>72.7</strong></span>
+      <span class="mm-gain-delta">+6.6</span>
+    </div>
+    <div class="mm-gain" role="listitem">
+      <span class="mm-gain-label">MMMU-Med (VQA)</span>
+      <span class="mm-gain-track" aria-hidden="true"><span class="mm-gain-link" style="left:63.3%;width:6.0%"></span><span class="mm-dot mm-dot-ref" style="left:63.3%"></span><span class="mm-dot mm-dot-ours" style="left:69.3%"></span></span>
+      <span class="mm-gain-vals">63.3 → <strong>69.3</strong></span>
+      <span class="mm-gain-delta">+6.0</span>
+    </div>
+    <div class="mm-gain mm-gain-axis" aria-hidden="true"><span class="mm-gain-label"></span><span class="mm-gain-track mm-axis"><span style="left:0%">0</span><span style="left:25%">25</span><span style="left:50%">50</span><span style="left:75%">75</span><span style="left:100%">100</span></span><span class="mm-gain-vals"></span><span class="mm-gain-delta"></span></div>
+  </div>
+  <p class="da-note mt-2 mb-0">Scores are accuracy in percent, or IoU in percent for grounding. Gains are differences in points.</p>
+
+  <h3 class="h5 mt-4 mb-2" id="explorer-title">Compare every model on every benchmark</h3>
+  <p class="da-measure">Pick a task and a benchmark to rank all models reported for it.</p>
+  <div class="mm-controls" role="group" aria-labelledby="explorer-title">
+    <span class="mm-seg" role="group" aria-label="Task"><button type="button" data-mm-suite="vqa" aria-pressed="true">Medical VQA</button><button type="button" data-mm-suite="qa" aria-pressed="false">Text QA</button><button type="button" data-mm-suite="report" aria-pressed="false">Report generation</button><button type="button" data-mm-suite="grounding" aria-pressed="false">Grounding</button></span>
+    <label for="mm-col">Benchmark <select id="mm-col" class="custom-select custom-select-sm"></select></label>
+    <label class="mm-check"><input type="checkbox" id="mm-prop" checked> Include proprietary models</label>
+  </div>
+  <ul class="wlm-legend mb-2">
+    <li><span class="wlm-key mm-key-ours"></span>MedMO</li>
+    <li><span class="wlm-key mm-key-open"></span>Other open-source models</li>
+    <li><span class="wlm-key mm-key-prop"></span>Proprietary models</li>
+  </ul>
+  <div class="mm-bars" id="mm-bars" role="list" aria-label="Models ranked on the selected benchmark"></div>
+  <p class="da-note mt-2" id="mm-summary" aria-live="polite"></p>
+  <noscript><p class="da-note">The interactive comparison needs JavaScript. The full tables below contain the same numbers.</p></noscript>
+
+  <h3 class="h6 mt-4 mb-2">Full results tables</h3>
+  <p class="da-note">VQA-RAD, SLAKE and Medbullets are reported in two variants for some models (closed/all, or 4 and 5 options), so they appear in the tables but not in the chart. MedMO rows are highlighted. A dash means not reported.</p>
+<details class="mm-details"><summary>Medical VQA: full table (accuracy, %)</summary><div class="da-table-wrap"><table class="da-table mm-table"><thead><tr><th scope="col">Model</th><th scope="col" class="da-num">MMMU-Med</th><th scope="col" class="da-num">VQA-RAD (closed/all)</th><th scope="col" class="da-num">SLAKE (closed/all)</th><th scope="col" class="da-num">PathVQA (all)</th><th scope="col" class="da-num">PMC-VQA</th><th scope="col" class="da-num">OMVQA</th><th scope="col" class="da-num">MedXQA</th><th scope="col" class="da-num">Avg.</th></tr></thead><tbody><tr class="mm-tr-prop"><th scope="row">GPT-4.1</th><td class="da-num">75.2</td><td class="da-num">65.0</td><td class="da-num">72.2</td><td class="da-num">55.5</td><td class="da-num">55.2</td><td class="da-num">75.5</td><td class="da-num">45.2</td><td class="da-num">63.4</td></tr><tr class="mm-tr-prop"><th scope="row">Claude Sonnet 4</th><td class="da-num">74.6</td><td class="da-num">67.6</td><td class="da-num">70.6</td><td class="da-num">54.2</td><td class="da-num">54.4</td><td class="da-num">65.5</td><td class="da-num">43.3</td><td class="da-num">61.5</td></tr><tr class="mm-tr-prop"><th scope="row">Gemini-2.5-Flash</th><td class="da-num">76.9</td><td class="da-num">68.5</td><td class="da-num">75.8</td><td class="da-num">55.4</td><td class="da-num">55.4</td><td class="da-num">71.0</td><td class="da-num">52.8</td><td class="da-num">65.1</td></tr><tr class="mm-tr-open"><th scope="row">BiomedGPT</th><td class="da-num">24.9</td><td class="da-num">16.6</td><td class="da-num">13.6</td><td class="da-num">11.3</td><td class="da-num">27.6</td><td class="da-num">27.9</td><td class="da-num">–</td><td class="da-num">–</td></tr><tr class="mm-tr-open"><th scope="row">Med-R1-2B</th><td class="da-num">34.8</td><td class="da-num">39.0</td><td class="da-num">54.5</td><td class="da-num">15.3</td><td class="da-num">47.4</td><td class="da-num">–</td><td class="da-num">21.1</td><td class="da-num">–</td></tr><tr class="mm-tr-open"><th scope="row">MedVLM-R1-2B</th><td class="da-num">35.2</td><td class="da-num">48.6</td><td class="da-num">56.0</td><td class="da-num">32.5</td><td class="da-num">47.6</td><td class="da-num">77.7</td><td class="da-num">20.4</td><td class="da-num">45.4</td></tr><tr class="mm-tr-open"><th scope="row">MedGemma-4B-IT</th><td class="da-num">43.7</td><td class="da-num">72.5</td><td class="da-num">76.4</td><td class="da-num">48.8</td><td class="da-num">49.9</td><td class="da-num">69.8</td><td class="da-num">22.3</td><td class="da-num">54.8</td></tr><tr class="mm-tr-open"><th scope="row">LLaVA-Med-7B</th><td class="da-num">29.3</td><td class="da-num">53.7</td><td class="da-num">48.0</td><td class="da-num">38.8</td><td class="da-num">30.5</td><td class="da-num">44.3</td><td class="da-num">20.3</td><td class="da-num">37.8</td></tr><tr class="mm-tr-open"><th scope="row">HuatuoGPT-V-7B</th><td class="da-num">47.3</td><td class="da-num">67.0</td><td class="da-num">67.8</td><td class="da-num">48.0</td><td class="da-num">53.3</td><td class="da-num">74.2</td><td class="da-num">21.6</td><td class="da-num">54.2</td></tr><tr class="mm-tr-open"><th scope="row">BioMediX2-8B</th><td class="da-num">39.8</td><td class="da-num">49.2</td><td class="da-num">57.7</td><td class="da-num">37.0</td><td class="da-num">43.5</td><td class="da-num">63.3</td><td class="da-num">21.8</td><td class="da-num">44.6</td></tr><tr class="mm-tr-open"><th scope="row">Qwen2.5VL-7B</th><td class="da-num">50.6</td><td class="da-num">64.5</td><td class="da-num">67.2</td><td class="da-num">44.1</td><td class="da-num">51.9</td><td class="da-num">63.6</td><td class="da-num">22.3</td><td class="da-num">52.0</td></tr><tr class="mm-tr-open"><th scope="row">InternVL2.5-8B</th><td class="da-num">53.5</td><td class="da-num">59.4</td><td class="da-num">69.0</td><td class="da-num">42.1</td><td class="da-num">51.3</td><td class="da-num">81.3</td><td class="da-num">21.7</td><td class="da-num">54.0</td></tr><tr class="mm-tr-open"><th scope="row">InternVL3-8B</th><td class="da-num">59.2</td><td class="da-num">76.4/52.9</td><td class="da-num">72.1/62.4</td><td class="da-num">39.0</td><td class="da-num">53.8</td><td class="da-num">79.1</td><td class="da-num">22.4</td><td class="da-num">57.4</td></tr><tr class="mm-tr-open"><th scope="row">Lingshu-7B</th><td class="da-num">54.0</td><td class="da-num">77.2/43.0</td><td class="da-num">82.4/33.2</td><td class="da-num">41.9</td><td class="da-num">54.2</td><td class="da-num">82.9</td><td class="da-num">26.9</td><td class="da-num">55.1</td></tr><tr class="mm-tr-open"><th scope="row">Fleming-VL-8B</th><td class="da-num">63.3</td><td class="da-num">78.4/56.4</td><td class="da-num">86.9/80.0</td><td class="da-num">56.5</td><td class="da-num">64.3</td><td class="da-num">88.2</td><td class="da-num">21.6</td><td class="da-num">66.1</td></tr><tr class="mm-tr-open"><th scope="row">Qwen3VL-8B (base model)</th><td class="da-num">61.4</td><td class="da-num">54.1/31.2</td><td class="da-num">34.3/15.0</td><td class="da-num">14.6</td><td class="da-num">52.3</td><td class="da-num">77.2</td><td class="da-num">24.8</td><td class="da-num">40.5</td></tr><tr class="mm-tr-ours"><th scope="row">MedMO-4B</th><td class="da-num">54.6</td><td class="da-num">50.9/35.0</td><td class="da-num">41.0/30.0</td><td class="da-num">42.4</td><td class="da-num">50.6</td><td class="da-num">79.7</td><td class="da-num">24.8</td><td class="da-num">45.4</td></tr><tr class="mm-tr-ours"><th scope="row">MedMO-4B-Next</th><td class="da-num">58.7</td><td class="da-num">79.7/59.6</td><td class="da-num">78.0/74.0</td><td class="da-num">73.3</td><td class="da-num">75.7</td><td class="da-num">90.6</td><td class="da-num">27.0</td><td class="da-num">68.5</td></tr><tr class="mm-tr-ours"><th scope="row">MedMO-8B</th><td class="da-num">64.6</td><td class="da-num">72.3/64.7</td><td class="da-num">70.6/70.0</td><td class="da-num">56.3</td><td class="da-num">59.4</td><td class="da-num">84.8</td><td class="da-num">26.2</td><td class="da-num">63.2</td></tr><tr class="mm-tr-ours"><th scope="row">MedMO-8B-Next</th><td class="da-num">69.3</td><td class="da-num">86.4/68.0</td><td class="da-num">83.0/81.6</td><td class="da-num">56.3</td><td class="da-num">74.1</td><td class="da-num">93.3</td><td class="da-num">42.9</td><td class="da-num">72.7</td></tr></tbody></table></div></details>
+<details class="mm-details"><summary>Text QA: full table (accuracy, %)</summary><div class="da-table-wrap"><table class="da-table mm-table"><thead><tr><th scope="col">Model</th><th scope="col" class="da-num">MMLU-Med</th><th scope="col" class="da-num">PubMedQA</th><th scope="col" class="da-num">MedMCQA</th><th scope="col" class="da-num">MedQA</th><th scope="col" class="da-num">Medbullets (op4/op5)</th><th scope="col" class="da-num">MedXQA</th><th scope="col" class="da-num">SGPQA</th><th scope="col" class="da-num">Avg.</th></tr></thead><tbody><tr class="mm-tr-prop"><th scope="row">GPT-4.1</th><td class="da-num">89.6</td><td class="da-num">75.6</td><td class="da-num">77.7</td><td class="da-num">89.1</td><td class="da-num">77.0</td><td class="da-num">30.9</td><td class="da-num">49.9</td><td class="da-num">70.0</td></tr><tr class="mm-tr-prop"><th scope="row">Claude Sonnet 4</th><td class="da-num">91.3</td><td class="da-num">78.6</td><td class="da-num">79.3</td><td class="da-num">92.1</td><td class="da-num">80.2</td><td class="da-num">33.6</td><td class="da-num">56.3</td><td class="da-num">73.1</td></tr><tr class="mm-tr-prop"><th scope="row">Gemini-2.5-Flash</th><td class="da-num">84.2</td><td class="da-num">73.8</td><td class="da-num">73.6</td><td class="da-num">91.2</td><td class="da-num">77.6</td><td class="da-num">35.6</td><td class="da-num">53.3</td><td class="da-num">69.9</td></tr><tr class="mm-tr-open"><th scope="row">BiomedGPT</th><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">–</td></tr><tr class="mm-tr-open"><th scope="row">Med-R1-2B</th><td class="da-num">51.5</td><td class="da-num">66.2</td><td class="da-num">39.1</td><td class="da-num">39.9</td><td class="da-num">33.6</td><td class="da-num">11.2</td><td class="da-num">17.9</td><td class="da-num">37.0</td></tr><tr class="mm-tr-open"><th scope="row">MedVLM-R1-2B</th><td class="da-num">51.8</td><td class="da-num">66.4</td><td class="da-num">39.7</td><td class="da-num">42.3</td><td class="da-num">33.8</td><td class="da-num">11.8</td><td class="da-num">19.1</td><td class="da-num">37.8</td></tr><tr class="mm-tr-open"><th scope="row">MedGemma-4B-IT</th><td class="da-num">66.7</td><td class="da-num">72.2</td><td class="da-num">52.2</td><td class="da-num">56.2</td><td class="da-num">45.6</td><td class="da-num">12.8</td><td class="da-num">21.6</td><td class="da-num">46.8</td></tr><tr class="mm-tr-open"><th scope="row">LLaVA-Med-7B</th><td class="da-num">50.6</td><td class="da-num">26.4</td><td class="da-num">39.4</td><td class="da-num">42.0</td><td class="da-num">34.4</td><td class="da-num">9.9</td><td class="da-num">16.1</td><td class="da-num">31.3</td></tr><tr class="mm-tr-open"><th scope="row">HuatuoGPT-V-7B</th><td class="da-num">69.3</td><td class="da-num">72.8</td><td class="da-num">51.2</td><td class="da-num">52.9</td><td class="da-num">40.9</td><td class="da-num">10.1</td><td class="da-num">21.9</td><td class="da-num">45.6</td></tr><tr class="mm-tr-open"><th scope="row">BioMediX2-8B</th><td class="da-num">68.6</td><td class="da-num">75.2</td><td class="da-num">52.9</td><td class="da-num">58.9</td><td class="da-num">45.9</td><td class="da-num">13.4</td><td class="da-num">25.2</td><td class="da-num">48.6</td></tr><tr class="mm-tr-open"><th scope="row">Qwen2.5VL-7B</th><td class="da-num">73.4</td><td class="da-num">76.4</td><td class="da-num">52.6</td><td class="da-num">57.3</td><td class="da-num">42.1</td><td class="da-num">12.8</td><td class="da-num">26.3</td><td class="da-num">48.7</td></tr><tr class="mm-tr-open"><th scope="row">InternVL2.5-8B</th><td class="da-num">74.2</td><td class="da-num">76.4</td><td class="da-num">52.4</td><td class="da-num">53.7</td><td class="da-num">42.4</td><td class="da-num">11.6</td><td class="da-num">26.1</td><td class="da-num">48.1</td></tr><tr class="mm-tr-open"><th scope="row">InternVL3-8B</th><td class="da-num">77.5</td><td class="da-num">75.4</td><td class="da-num">57.7</td><td class="da-num">62.1</td><td class="da-num">50.2/42.8</td><td class="da-num">13.1</td><td class="da-num">31.2</td><td class="da-num">51.2</td></tr><tr class="mm-tr-open"><th scope="row">Lingshu-7B</th><td class="da-num">69.6</td><td class="da-num">75.8</td><td class="da-num">56.3</td><td class="da-num">63.5</td><td class="da-num">62.0/53.8</td><td class="da-num">16.4</td><td class="da-num">27.5</td><td class="da-num">53.1</td></tr><tr class="mm-tr-open"><th scope="row">Fleming-VL-8B</th><td class="da-num">71.8</td><td class="da-num">74.0</td><td class="da-num">51.8</td><td class="da-num">53.7</td><td class="da-num">40.5/37.3</td><td class="da-num">12.1</td><td class="da-num">24.9</td><td class="da-num">45.7</td></tr><tr class="mm-tr-open"><th scope="row">Qwen3VL-8B (base model)</th><td class="da-num">79.3</td><td class="da-num">70.4</td><td class="da-num">60.0</td><td class="da-num">66.1</td><td class="da-num">56.1/47.7</td><td class="da-num">15.1</td><td class="da-num">34.7</td><td class="da-num">53.6</td></tr><tr class="mm-tr-ours"><th scope="row">MedMO-4B</th><td class="da-num">75.7</td><td class="da-num">78.0</td><td class="da-num">58.0</td><td class="da-num">78.5</td><td class="da-num">57.5/47.7</td><td class="da-num">16.4</td><td class="da-num">29.4</td><td class="da-num">55.1</td></tr><tr class="mm-tr-ours"><th scope="row">MedMO-4B-Next</th><td class="da-num">74.8</td><td class="da-num">78.2</td><td class="da-num">58.1</td><td class="da-num">78.3</td><td class="da-num">57.4/47.6</td><td class="da-num">16.5</td><td class="da-num">29.5</td><td class="da-num">55.0</td></tr><tr class="mm-tr-ours"><th scope="row">MedMO-8B</th><td class="da-num">81.0</td><td class="da-num">77.6</td><td class="da-num">65.0</td><td class="da-num">84.3</td><td class="da-num">66.5/60.2</td><td class="da-num">19.9</td><td class="da-num">36.0</td><td class="da-num">61.3</td></tr><tr class="mm-tr-ours"><th scope="row">MedMO-8B-Next</th><td class="da-num">80.2</td><td class="da-num">75.6</td><td class="da-num">62.0</td><td class="da-num">83.8</td><td class="da-num">65.2/57.8</td><td class="da-num">20.9</td><td class="da-num">35.5</td><td class="da-num">60.1</td></tr></tbody></table></div></details>
+<details class="mm-details"><summary>Report generation: full table</summary><div class="da-table-wrap"><table class="da-table mm-table"><thead><tr><th scope="col" rowspan="2">Model</th><th scope="colgroup" colspan="4" class="mm-colgroup">MIMIC-CXR</th><th scope="colgroup" colspan="4" class="mm-colgroup">CheXpert Plus</th><th scope="colgroup" colspan="4" class="mm-colgroup">IU-Xray</th><th scope="colgroup" colspan="4" class="mm-colgroup">Med-Trinity</th></tr><tr><th scope="col" class="da-num">R-L</th><th scope="col" class="da-num">CIDEr</th><th scope="col" class="da-num">RaTE</th><th scope="col" class="da-num">Semb</th><th scope="col" class="da-num">R-L</th><th scope="col" class="da-num">CIDEr</th><th scope="col" class="da-num">RaTE</th><th scope="col" class="da-num">Semb</th><th scope="col" class="da-num">R-L</th><th scope="col" class="da-num">CIDEr</th><th scope="col" class="da-num">RaTE</th><th scope="col" class="da-num">Semb</th><th scope="col" class="da-num">R-L</th><th scope="col" class="da-num">CIDEr</th><th scope="col" class="da-num">RaTE</th><th scope="col" class="da-num">Semb</th></tr></thead><tbody><tr class="mm-tr-prop"><th scope="row">GPT-4.1</th><td class="da-num">9.0</td><td class="da-num">82.8</td><td class="da-num">51.3</td><td class="da-num">23.9</td><td class="da-num">24.5</td><td class="da-num">78.8</td><td class="da-num">45.5</td><td class="da-num">23.2</td><td class="da-num">30.2</td><td class="da-num">124.6</td><td class="da-num">51.3</td><td class="da-num">47.5</td><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">–</td></tr><tr class="mm-tr-prop"><th scope="row">Claude Sonnet 4</th><td class="da-num">20.0</td><td class="da-num">56.6</td><td class="da-num">45.6</td><td class="da-num">19.7</td><td class="da-num">22.0</td><td class="da-num">59.5</td><td class="da-num">43.5</td><td class="da-num">18.9</td><td class="da-num">25.4</td><td class="da-num">88.3</td><td class="da-num">55.4</td><td class="da-num">41.0</td><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">–</td></tr><tr class="mm-tr-prop"><th scope="row">Gemini-2.5-Flash</th><td class="da-num">25.4</td><td class="da-num">80.7</td><td class="da-num">50.3</td><td class="da-num">29.7</td><td class="da-num">23.6</td><td class="da-num">72.2</td><td class="da-num">44.3</td><td class="da-num">27.4</td><td class="da-num">33.5</td><td class="da-num">129.3</td><td class="da-num">55.6</td><td class="da-num">50.9</td><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">–</td></tr><tr class="mm-tr-open"><th scope="row">Med-R1-2B</th><td class="da-num">19.3</td><td class="da-num">35.4</td><td class="da-num">40.6</td><td class="da-num">14.8</td><td class="da-num">18.6</td><td class="da-num">37.1</td><td class="da-num">38.5</td><td class="da-num">17.8</td><td class="da-num">16.1</td><td class="da-num">38.3</td><td class="da-num">41.4</td><td class="da-num">12.5</td><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">–</td></tr><tr class="mm-tr-open"><th scope="row">MedVLM-R1-2B</th><td class="da-num">20.3</td><td class="da-num">40.1</td><td class="da-num">41.6</td><td class="da-num">14.2</td><td class="da-num">20.9</td><td class="da-num">43.5</td><td class="da-num">38.9</td><td class="da-num">15.5</td><td class="da-num">22.7</td><td class="da-num">61.1</td><td class="da-num">46.1</td><td class="da-num">22.7</td><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">–</td></tr><tr class="mm-tr-open"><th scope="row">MedGemma-4B-IT</th><td class="da-num">25.6</td><td class="da-num">81.0</td><td class="da-num">52.4</td><td class="da-num">29.2</td><td class="da-num">27.1</td><td class="da-num">79.0</td><td class="da-num">47.2</td><td class="da-num">29.3</td><td class="da-num">30.8</td><td class="da-num">103.6</td><td class="da-num">57.0</td><td class="da-num">46.8</td><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">–</td></tr><tr class="mm-tr-open"><th scope="row">LLaVA-Med-7B</th><td class="da-num">15.0</td><td class="da-num">43.4</td><td class="da-num">12.8</td><td class="da-num">18.3</td><td class="da-num">18.4</td><td class="da-num">45.5</td><td class="da-num">38.8</td><td class="da-num">23.5</td><td class="da-num">18.8</td><td class="da-num">68.2</td><td class="da-num">40.9</td><td class="da-num">16.0</td><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">–</td></tr><tr class="mm-tr-open"><th scope="row">HuatuoGPT-V-7B</th><td class="da-num">23.4</td><td class="da-num">69.5</td><td class="da-num">48.9</td><td class="da-num">20.0</td><td class="da-num">21.3</td><td class="da-num">64.7</td><td class="da-num">44.2</td><td class="da-num">19.3</td><td class="da-num">29.6</td><td class="da-num">104.3</td><td class="da-num">52.9</td><td class="da-num">40.7</td><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">–</td></tr><tr class="mm-tr-open"><th scope="row">BioMediX2-8B</th><td class="da-num">20.0</td><td class="da-num">52.8</td><td class="da-num">44.4</td><td class="da-num">17.7</td><td class="da-num">18.1</td><td class="da-num">47.9</td><td class="da-num">40.8</td><td class="da-num">21.6</td><td class="da-num">19.6</td><td class="da-num">58.8</td><td class="da-num">40.1</td><td class="da-num">11.6</td><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">–</td></tr><tr class="mm-tr-open"><th scope="row">Qwen2.5VL-7B</th><td class="da-num">24.1</td><td class="da-num">63.7</td><td class="da-num">47.0</td><td class="da-num">18.4</td><td class="da-num">22.2</td><td class="da-num">62.0</td><td class="da-num">41.0</td><td class="da-num">17.2</td><td class="da-num">26.5</td><td class="da-num">78.1</td><td class="da-num">48.4</td><td class="da-num">36.3</td><td class="da-num">23.5</td><td class="da-num">81.5</td><td class="da-num">44.9</td><td class="da-num">38.3</td></tr><tr class="mm-tr-open"><th scope="row">InternVL2.5-8B</th><td class="da-num">23.2</td><td class="da-num">61.8</td><td class="da-num">47.0</td><td class="da-num">21.0</td><td class="da-num">20.6</td><td class="da-num">58.5</td><td class="da-num">43.1</td><td class="da-num">19.7</td><td class="da-num">24.8</td><td class="da-num">75.4</td><td class="da-num">51.1</td><td class="da-num">36.7</td><td class="da-num">13.5</td><td class="da-num">47.1</td><td class="da-num">42.5</td><td class="da-num">12.8</td></tr><tr class="mm-tr-open"><th scope="row">InternVL3-8B</th><td class="da-num">22.9</td><td class="da-num">66.2</td><td class="da-num">48.2</td><td class="da-num">21.5</td><td class="da-num">20.9</td><td class="da-num">65.4</td><td class="da-num">44.3</td><td class="da-num">25.2</td><td class="da-num">22.9</td><td class="da-num">76.2</td><td class="da-num">51.2</td><td class="da-num">31.3</td><td class="da-num">12.9</td><td class="da-num">46.6</td><td class="da-num">42.2</td><td class="da-num">3.7</td></tr><tr class="mm-tr-open"><th scope="row">Lingshu-7B</th><td class="da-num">30.8</td><td class="da-num">109.4</td><td class="da-num">52.1</td><td class="da-num">30.0</td><td class="da-num">26.5</td><td class="da-num">79.0</td><td class="da-num">45.4</td><td class="da-num">26.8</td><td class="da-num">41.2</td><td class="da-num">180.7</td><td class="da-num">57.6</td><td class="da-num">48.4</td><td class="da-num">16.0</td><td class="da-num">74.5</td><td class="da-num">44.4</td><td class="da-num">24.0</td></tr><tr class="mm-tr-open"><th scope="row">Fleming-VL-8B</th><td class="da-num">35.7</td><td class="da-num">132.5</td><td class="da-num">56.7</td><td class="da-num">33.6</td><td class="da-num">26.1</td><td class="da-num">82.2</td><td class="da-num">47.1</td><td class="da-num">40.1</td><td class="da-num">44.9</td><td class="da-num">198.6</td><td class="da-num">66.0</td><td class="da-num">51.3</td><td class="da-num">13.1</td><td class="da-num">35.8</td><td class="da-num">41.9</td><td class="da-num">18.1</td></tr><tr class="mm-tr-open"><th scope="row">Qwen3VL-8B (base model)</th><td class="da-num">25.1</td><td class="da-num">77.9</td><td class="da-num">50.3</td><td class="da-num">33.4</td><td class="da-num">21.9</td><td class="da-num">67.4</td><td class="da-num">44.4</td><td class="da-num">37.9</td><td class="da-num">25.0</td><td class="da-num">91.44</td><td class="da-num">52.5</td><td class="da-num">42.9</td><td class="da-num">20.2</td><td class="da-num">69.9</td><td class="da-num">45.9</td><td class="da-num">33.6</td></tr><tr class="mm-tr-ours"><th scope="row">MedMO-4B</th><td class="da-num">26.0</td><td class="da-num">92.6</td><td class="da-num">49.8</td><td class="da-num">31.6</td><td class="da-num">15.1</td><td class="da-num">62.3</td><td class="da-num">36.6</td><td class="da-num">34.2</td><td class="da-num">26.6</td><td class="da-num">94.0</td><td class="da-num">42.1</td><td class="da-num">41.3</td><td class="da-num">22.5</td><td class="da-num">152.6</td><td class="da-num">47.8</td><td class="da-num">34.3</td></tr><tr class="mm-tr-ours"><th scope="row">MedMO-4B-Next</th><td class="da-num">28.3</td><td class="da-num">96.7</td><td class="da-num">52.0</td><td class="da-num">34.3</td><td class="da-num">23.5</td><td class="da-num">74.5</td><td class="da-num">42.6</td><td class="da-num">38.7</td><td class="da-num">38.0</td><td class="da-num">147.8</td><td class="da-num">62.0</td><td class="da-num">49.4</td><td class="da-num">26.3</td><td class="da-num">183.8</td><td class="da-num">49.5</td><td class="da-num">38.6</td></tr><tr class="mm-tr-ours"><th scope="row">MedMO-8B</th><td class="da-num">31.7</td><td class="da-num">140.0</td><td class="da-num">57.1</td><td class="da-num">50.0</td><td class="da-num">23.6</td><td class="da-num">87.5</td><td class="da-num">47.3</td><td class="da-num">42.2</td><td class="da-num">31.1</td><td class="da-num">169.7</td><td class="da-num">45.3</td><td class="da-num">41.3</td><td class="da-num">37.0</td><td class="da-num">270.4</td><td class="da-num">53.0</td><td class="da-num">39.2</td></tr><tr class="mm-tr-ours"><th scope="row">MedMO-8B-Next</th><td class="da-num">32.6</td><td class="da-num">143.4</td><td class="da-num">57.7</td><td class="da-num">51.5</td><td class="da-num">25.7</td><td class="da-num">88.3</td><td class="da-num">48.1</td><td class="da-num">43.8</td><td class="da-num">31.8</td><td class="da-num">171.9</td><td class="da-num">56.0</td><td class="da-num">43.1</td><td class="da-num">38.5</td><td class="da-num">272.1</td><td class="da-num">53.8</td><td class="da-num">40.7</td></tr></tbody></table></div></details>
+<details class="mm-details"><summary>Grounding: full table (IoU, %)</summary><div class="da-table-wrap"><table class="da-table mm-table"><thead><tr><th scope="col">Model</th><th scope="col" class="da-num">NIH</th><th scope="col" class="da-num">DeepLesion</th><th scope="col" class="da-num">Bacteria</th><th scope="col" class="da-num">MedSG (multi_view)</th><th scope="col" class="da-num">MedSG (object_tracking)</th><th scope="col" class="da-num">MedSG (referring)</th><th scope="col" class="da-num">Avg.</th></tr></thead><tbody><tr class="mm-tr-open"><th scope="row">InternVL3-8B</th><td class="da-num">10.1</td><td class="da-num">0.00</td><td class="da-num">0.7</td><td class="da-num">6.3</td><td class="da-num">13.0</td><td class="da-num">3.3</td><td class="da-num">5.6</td></tr><tr class="mm-tr-open"><th scope="row">Fleming-VL-8B</th><td class="da-num">0.00</td><td class="da-num">0.00</td><td class="da-num">8.3</td><td class="da-num">42.0</td><td class="da-num">36.7</td><td class="da-num">16.6</td><td class="da-num">17.2</td></tr><tr class="mm-tr-open"><th scope="row">Lingshu-7B</th><td class="da-num">5.3</td><td class="da-num">0.7</td><td class="da-num">10.8</td><td class="da-num">28.3</td><td class="da-num">38.7</td><td class="da-num">10.4</td><td class="da-num">13.9</td></tr><tr class="mm-tr-open"><th scope="row">Qwen3VL-8B</th><td class="da-num">16.4</td><td class="da-num">0.00</td><td class="da-num">9.16</td><td class="da-num">8.4</td><td class="da-num">17.8</td><td class="da-num">31.4</td><td class="da-num">13.8</td></tr><tr class="mm-tr-open"><th scope="row">MedSG-Bench</th><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">–</td><td class="da-num">55.0</td><td class="da-num">62.1</td><td class="da-num">60.4</td><td class="da-num">–</td></tr><tr class="mm-tr-ours"><th scope="row">MedMO-8B</th><td class="da-num">8.83</td><td class="da-num">38.5</td><td class="da-num">54.6</td><td class="da-num">75.8</td><td class="da-num">77.2</td><td class="da-num">70.1</td><td class="da-num">54.2</td></tr><tr class="mm-tr-ours"><th scope="row">MedMO-8B-Next</th><td class="da-num">15.9</td><td class="da-num">40.5</td><td class="da-num">56.1</td><td class="da-num">77.5</td><td class="da-num">78.8</td><td class="da-num">71.9</td><td class="da-num">56.8</td></tr></tbody></table></div></details>
+
+  <figure class="da-figure">
+    <a href="/assets/images/medmo/benchmarks.webp"><img src="/assets/images/medmo/benchmarks.webp" alt="Bar chart from the MedMO project page comparing the four MedMO models with Lingshu-7B, Fleming-VL-8B and Qwen3VL-8B on VQA, text QA, bounding-box and report generation benchmarks" width="2400" height="796" loading="lazy"></a>
+    <figcaption><strong>Benchmark overview from the project page.</strong> VQA, text QA, grounding and report generation. <a href="https://genmilab.github.io/MedMO-Page/#performance">Source</a>.</figcaption>
+  </figure>
+  <p class="da-measure mt-3 mb-0">For report generation, MedMO-8B-Next reaches CIDEr 143.4 on MIMIC-CXR (Fleming-VL-8B: 132.5) and CIDEr 272.1 on Med-Trinity, where the next best open-source model reaches 81.5. MedMO-4B-Next exceeds Fleming-VL-8B on average medical VQA and text QA at half the size.</p>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3 da-section" id="grounding" aria-labelledby="grounding-title"><div class="card-body p-4">
+  <p class="da-eyebrow">Grounding example</p>
+  <h2 class="h4 mb-2" id="grounding-title">Finding one cell in a microscopy image</h2>
+  <p class="da-measure">Asked to detect and localize all cells in an image, MedMO returns a box on the cell. The two compared models return boxes covering almost the whole image.</p>
+  <div class="mm-boxes mt-3">
+    <figure><div class="mm-boxfig"><svg viewBox="-4 -4 308 308" role="img" aria-label="Whole image on a 0 to 999 grid: the two compared models return boxes covering almost the entire image; the ground-truth cell is a small box at the lower left."><rect x="0" y="0" width="300" height="300" class="mm-img"/><rect x="0.0" y="0.0" width="299.7" height="299.7" class="mm-b-fl" stroke-width="2"/><rect x="9.3" y="6.3" width="280.2" height="280.8" class="mm-b-qw" stroke-width="2"/><rect x="12.0" y="160.5" width="10.8" height="10.8" class="mm-zoombox"/><text x="150" y="150" text-anchor="middle" class="mm-svgnote">Boxes from Fleming-VL and Qwen3-VL</text><text x="28.8" y="169.9" class="mm-svgnote">cell, enlarged at right</text></svg></div><figcaption>The whole image, on a 0 to 999 coordinate grid.</figcaption></figure>
+    <figure><div class="mm-boxfig"><svg viewBox="-4 -4 308 308" role="img" aria-label="Enlarged view around the cell: the MedMO box overlaps the ground-truth box, offset by at most 3 grid units."><rect x="0" y="0" width="300" height="300" class="mm-img"/><rect x="116.7" y="83.3" width="75.0" height="75.0" class="mm-b-gt" stroke-width="2.5"/><rect x="108.3" y="108.3" width="75.0" height="75.0" class="mm-b-ours" stroke-width="2.5"/><text x="116.7" y="75.3" class="mm-svgnote">Ground truth</text><text x="191.3" y="183.3" class="mm-svgnote">MedMO</text></svg></div><figcaption>Enlarged about 28 times around the cell.</figcaption></figure>
+    <div class="da-table-wrap"><table class="da-table">
+      <thead><tr><th scope="col">Source</th><th scope="col">Predicted box</th></tr></thead>
+      <tbody>
+        <tr><th scope="row"><span class="mm-sw mm-b-gt"></span>Ground truth</th><td class="mm-mono">[54, 545, 63, 554]</td></tr>
+        <tr><th scope="row"><span class="mm-sw mm-b-ours"></span>MedMO</th><td class="mm-mono">[53, 548, 62, 557]</td></tr>
+        <tr><th scope="row"><span class="mm-sw mm-b-fl"></span>Fleming-VL</th><td class="mm-mono">[0, 0, 999, 999]</td></tr>
+        <tr><th scope="row"><span class="mm-sw mm-b-qw"></span>Qwen3-VL</th><td class="mm-mono">[31, 21, 965, 957]</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <p class="da-note mt-3 mb-0">Coordinates as listed on the <a href="https://genmilab.github.io/MedMO-Page/#results">project page</a>, drawn here as schematic boxes without the microscopy image. Each MedMO coordinate is within 3 grid units of the ground truth.</p>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3 da-section" id="data" aria-labelledby="data-title"><div class="card-body p-4">
+  <p class="da-eyebrow">Data</p>
+  <h2 class="h4 mb-2" id="data-title">A unified multimodal medical dataset</h2>
+  <div class="wlm-two">
+    <figure class="da-figure mt-0">
+      <a href="/assets/images/medmo/dataset-composition.webp"><img src="/assets/images/medmo/dataset-composition.webp" alt="Sunburst diagram of the unified multimodal medical dataset: imaging modalities on the left and biological systems on the right" width="1185" height="1200" loading="lazy"></a>
+      <figcaption><strong>Dataset composition.</strong> <a href="https://genmilab.github.io/MedMO-Page/#contributions">Source: project page</a>.</figcaption>
+    </figure>
+    <div>
+      <p>The training data brings together 26M+ samples from 45 medical datasets, covering both how an image was acquired and which part of the body it shows.</p>
+      <h3 class="h6 mt-3">Imaging modalities</h3>
+      <p class="mm-chips"><span>X-ray</span><span>CT</span><span>MRI</span><span>Ultrasound</span><span>Nuclear medicine</span><span>Optical imaging</span><span>Pathology and microscopy</span></p>
+      <h3 class="h6 mt-3">Biological systems</h3>
+      <p class="mm-chips"><span>Nervous</span><span>Respiratory</span><span>Cardiovascular</span><span>Digestive</span><span>Hepatobiliary</span><span>Urinary</span><span>Reproductive</span><span>Musculoskeletal</span></p>
+      <h3 class="h6 mt-3">Tasks</h3>
+      <p class="mm-chips mb-0"><span>Captioning</span><span>Visual question answering</span><span>Report generation</span><span>Retrieval</span><span>Bounding-box disease localization</span></p>
+    </div>
+  </div>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3 da-section" id="contributions" aria-labelledby="contributions-title"><div class="card-body p-4">
+  <p class="da-eyebrow">Contributions</p>
+  <h2 class="h4 mb-3" id="contributions-title">What MedMO contributes</h2>
+  <div class="da-grid-2">
+    <div class="da-tile"><h3>Open-source foundation model</h3><p>A post-trained multimodal vision-language model for medical image understanding and grounding, available in 4B and 8B variants.</p></div>
+    <div class="da-tile"><h3>Scalable training pipeline</h3><p>26M+ multimodal medical samples curated from 45 datasets, with multi-stage post-training that progressively improves cross-modal alignment.</p></div>
+    <div class="da-tile"><h3>New evaluation benchmark</h3><p>A dedicated Cell dataset built from open-source microscopy images with varying sizes, shapes and densities, for evaluating detection.</p></div>
+    <div class="da-tile"><h3>Comprehensive analysis</h3><p>Experiments across data and methodology, providing an open benchmark for future multimodal medical LLM research.</p></div>
+  </div>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3 da-section" id="get" aria-labelledby="get-title"><div class="card-body p-4">
+  <p class="da-eyebrow">Open source</p>
+  <h2 class="h4 mb-2" id="get-title">Get the model</h2>
+  <p><a class="btn btn-primary btn-sm mr-2 mb-2" href="https://huggingface.co/collections/MBZUAI/medmo">Models on Hugging Face</a><a class="btn btn-outline-primary btn-sm mr-2 mb-2" href="https://github.com/genmilab/MedMO">Code and usage guide</a><a class="btn btn-outline-primary btn-sm mr-2 mb-2" href="https://arxiv.org/abs/2602.06965">Read the paper</a><a class="btn btn-outline-primary btn-sm mb-2" href="https://genmilab.github.io/MedMO-Page/">Project page</a></p>
+  <h3 class="h6">Available checkpoints</h3><p><a href="https://huggingface.co/MBZUAI/MedMO-4B">MedMO-4B</a> · <a href="https://huggingface.co/MBZUAI/MedMO-8B">MedMO-8B</a> · <a href="https://huggingface.co/collections/MBZUAI/medmo">full collection</a></p>
+  <p class="small text-muted">See the model cards for checkpoint-specific requirements, licensing and usage instructions. MedMO is part of the <a href="/model-medos.html">MedOS Family</a>. A qualitative example from the paper: <a href="/assets/images/demos/medmo-results.png">view a published result</a>.</p>
+  <h3 class="h6">Cite</h3>
+<pre class="da-cite">@article{deria2026medmo,
+  title   = {MedMO: Grounding and Understanding Multimodal Large Language Model for Medical Images},
+  author  = {Deria, Ankan and Kumar, Komal and Dukre, Adinath Madhavrao and Segal, Eran and Khan, Salman and Razzak, Imran},
+  journal = {arXiv preprint arXiv:2602.06965},
+  year    = {2026}
+}</pre>
+</div></section>
+</div>
+<script defer src="/assets/js/medmo.js?v=20261010"></script>
 
     </div>
     <footer class="footer border-top py-2 mt-5 bg-white small">
