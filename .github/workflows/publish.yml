@@ -1,0 +1,121 @@
+name: Build and publish site
+
+# Builds the Jekyll source on `academic-homepage-source`, validates it, copies
+# the result onto `main` (the branch GitHub Pages serves) and starts the
+# existing deploy workflow. Runs when content changes on the source branch,
+# for example when a Scholar sync pull request is merged.
+#
+# Push-triggered runs use the copy of this file on `academic-homepage-source`;
+# the "Run workflow" button uses the copy on `main`. Keep both identical.
+
+on:
+  push:
+    branches: [academic-homepage-source]
+    paths-ignore:
+      - ".github/**"
+      - "scripts/**"
+      - "README.md"
+      - "CONTENT_SOURCES.md"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Build and validate only (publish nothing)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: publish-site
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out the site source
+        uses: actions/checkout@v4
+        with:
+          ref: academic-homepage-source
+          path: source
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          working-directory: source
+
+      - name: Install gems
+        working-directory: source
+        run: |
+          # Gemfile.lock was written on macOS; add this runner's platform for
+          # the build only (the change is not committed).
+          bundle lock --add-platform x86_64-linux
+          bundle config set --local path vendor/bundle
+          bundle install --jobs 4 --retry 3
+
+      - name: Build
+        working-directory: source
+        run: bundle exec jekyll build
+
+      - name: Validate the build
+        working-directory: source
+        run: python3 scripts/validate_site.py _site
+
+      - name: Check out the published branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: public
+
+      - name: Publish to main
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DRY_RUN: ${{ inputs.dry_run || false }}
+        run: |
+          set -euo pipefail
+          sha="$(git -C source rev-parse --short HEAD)"
+
+          # main = Jekyll output + the files that only live on main
+          # (.github/, .nojekyll and the branch README).
+          cd public
+          find . -mindepth 1 -maxdepth 1 \
+            ! -name .git ! -name .github ! -name .nojekyll ! -name README.md \
+            -exec rm -rf {} +
+          cp -a ../source/_site/. .
+          git restore --source=HEAD --worktree -- .github .nojekyll README.md
+          git add -A
+
+          if git diff --cached --quiet; then
+            echo "The build is identical to what is already published." | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+
+          {
+            echo "### Changes to the published site (source ${sha})"
+            echo '```'
+            git diff --cached --stat | tail -n 40
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          deleted="$(git diff --cached --name-only --diff-filter=D | wc -l)"
+          if [ "$deleted" -gt 20 ]; then
+            echo "::error::This build would delete ${deleted} files from the published site. Refusing to publish; check the build."
+            exit 1
+          fi
+
+          if [ "$DRY_RUN" = "true" ]; then
+            echo "Dry run: nothing was published." | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -q -m "Publish site from academic-homepage-source@${sha}"
+          git push origin HEAD:main
+          # Pushes made with the workflow token do not start other workflows,
+          # so start the Pages deployment explicitly.
+          gh workflow run deploy.yml --repo "$GITHUB_REPOSITORY" --ref main

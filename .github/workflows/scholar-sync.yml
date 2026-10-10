@@ -1,0 +1,90 @@
+name: Weekly Google Scholar sync
+
+# Looks for publications on the Google Scholar profile that are not on the site
+# yet and opens (or refreshes) a pull request against the source branch.
+# Merging that pull request triggers "Build and publish site" (publish.yml).
+#
+# Scheduled runs only fire from the default branch, so this file has to exist
+# on `main`. Keep the copy on `academic-homepage-source` identical.
+
+on:
+  schedule:
+    - cron: "17 3 * * 1" # Mondays 03:17 UTC = 07:17 in Dubai
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: scholar-sync
+  cancel-in-progress: false
+
+env:
+  SOURCE_BRANCH: academic-homepage-source
+  SYNC_BRANCH: scholar-sync
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out the site source
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ env.SOURCE_BRANCH }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Look for new publications
+        id: sync
+        env:
+          # Optional. Without it the job reads the public profile page only.
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: python scripts/sync_scholar.py --summary "$RUNNER_TEMP/scholar-summary.md"
+
+      - name: Refresh the publication timeline
+        if: steps.sync.outputs.new_count != '0'
+        run: python scripts/build_publication_timeline.py
+
+      - name: Open or refresh the pull request
+        if: steps.sync.outputs.new_count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NEW_COUNT: ${{ steps.sync.outputs.new_count }}
+        run: |
+          set -euo pipefail
+          title="Add ${NEW_COUNT} new publication(s) from Google Scholar"
+          body="$RUNNER_TEMP/scholar-summary.md"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # The branch is rebuilt from the source branch on every run, so an
+          # unmerged proposal is simply replaced by an up-to-date one.
+          git switch -C "$SYNC_BRANCH"
+          git add _publications assets/data _data/publication_timeline.yml
+          git commit -m "$title"
+          git push --force origin "$SYNC_BRANCH"
+
+          number="$(gh api "repos/${GITHUB_REPOSITORY}/pulls?state=open&base=${SOURCE_BRANCH}&head=${GITHUB_REPOSITORY_OWNER}:${SYNC_BRANCH}" --jq '.[0].number // empty')"
+          if [ -n "$number" ]; then
+            gh api -X PATCH "repos/${GITHUB_REPOSITORY}/pulls/${number}" -f title="$title" -F body=@"$body" --jq '.html_url'
+          elif ! gh api -X POST "repos/${GITHUB_REPOSITORY}/pulls" -f title="$title" -f head="$SYNC_BRANCH" -f base="$SOURCE_BRANCH" -F body=@"$body" --jq '.html_url'; then
+            compare="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/compare/${SOURCE_BRANCH}...${SYNC_BRANCH}?expand=1"
+            echo "::warning::The new publications were pushed to '${SYNC_BRANCH}' but the pull request could not be opened. Enable 'Allow GitHub Actions to create and approve pull requests' under Settings > Actions > General, or open it yourself: ${compare}"
+          fi
+
+      - name: Show the result on the run page
+        if: always()
+        run: |
+          if [ -f "$RUNNER_TEMP/scholar-summary.md" ]; then
+            cat "$RUNNER_TEMP/scholar-summary.md" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "Google Scholar could not be read on this run; see the log of the 'Look for new publications' step." >> "$GITHUB_STEP_SUMMARY"
+          fi
