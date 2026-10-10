@@ -4,17 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>MedMO - Imran Razzak</title>
+    <title>ECGWM - Imran Razzak</title>
 
-    <meta name="description" content="MedMO is a multimodal medical model for image understanding, question answering, spatial grounding and report generation. Part of the MedOS Family.">
-    <link rel="canonical" href="https://imranrazzak.github.io/model-medmo.html">
+    <meta name="description" content="ECGWM is the WLMs model for the electrocardiogram (ECG). Model information is coming soon; this page shows interactive, illustrative views of the ECG signal.">
+    <link rel="canonical" href="https://imranrazzak.github.io/model-ecgwm.html">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="MedMO - Imran Razzak">
-    <meta property="og:description" content="MedMO is a multimodal medical model for image understanding, question answering, spatial grounding and report generation. Part of the MedOS Family.">
-    <meta property="og:url" content="https://imranrazzak.github.io/model-medmo.html">
+    <meta property="og:title" content="ECGWM - Imran Razzak">
+    <meta property="og:description" content="ECGWM is the WLMs model for the electrocardiogram (ECG). Model information is coming soon; this page shows interactive, illustrative views of the ECG signal.">
+    <meta property="og:url" content="https://imranrazzak.github.io/model-ecgwm.html">
     <meta property="og:image" content="https://imranrazzak.github.io/img/imrazzak.jpg">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="MedMO - Imran Razzak">
+    <meta name="twitter:title" content="ECGWM - Imran Razzak">
     <meta name="twitter:description" content="Imran Razzak — Associate Professor of Computational Biology at MBZUAI and CEO of MedOS and MedOmni. Medical foundation models, personalized medicine, and multimodal clinical AI.">
     <meta name="twitter:image" content="https://imranrazzak.github.io/img/imrazzak.jpg">
     <link rel="icon" href="/favicon.ico?v=medos" sizes="any">
@@ -59,10 +59,10 @@
         
         
         
-        <li class="nav-item dropdown active">
+        <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="nav-4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Open Source Models</a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="nav-4">
-            <a class="dropdown-item" href="/model-doatlas.html">DoAtlas Family</a><a class="dropdown-item" href="/model-doatlas-2.html">DoAtlas-2</a><a class="dropdown-item" href="/model-medos.html">MedOS Family</a><a class="dropdown-item active" href="/model-medmo.html" aria-current="page">MedMO</a>
+            <a class="dropdown-item" href="/model-doatlas.html">DoAtlas Family</a><a class="dropdown-item" href="/model-doatlas-2.html">DoAtlas-2</a><a class="dropdown-item" href="/model-medos.html">MedOS Family</a><a class="dropdown-item" href="/model-medmo.html">MedMO</a>
           </div>
         </li>
         
@@ -103,19 +103,96 @@
 </nav>
 
     <div class="site-content container-lg">
-        <nav aria-label="Breadcrumb" class="family-crumb mt-4"><a href="/model-medos.html">MedOS Family</a> <span aria-hidden="true">›</span> <span aria-current="page">MedMO</span></nav>
-<h1 class="h2 mt-1 mb-4">MedMO</h1>
-<section class="card border-0 shadow-sm bg-white my-3"><div class="card-body p-4">
-<h2 class="h5">Medical image understanding and grounding</h2>
-<p>MedMO is a multimodal medical model for image understanding, question answering, spatial grounding and report generation.</p>
-<p><a class="btn btn-primary btn-sm mr-2 mb-2" href="https://huggingface.co/collections/MBZUAI/medmo">Models on Hugging Face</a><a class="btn btn-outline-primary btn-sm mr-2 mb-2" href="https://github.com/genmilab/MedMO">Code and usage guide</a><a class="btn btn-outline-primary btn-sm mb-2" href="https://arxiv.org/abs/2602.06965">Read the paper</a></p>
-<h3 class="h6">Available checkpoints</h3><p><a href="https://huggingface.co/MBZUAI/MedMO-4B">MedMO-4B</a> · <a href="https://huggingface.co/MBZUAI/MedMO-8B">MedMO-8B</a></p>
-<p class="small text-muted mb-0">See the model cards for checkpoint-specific requirements, licensing and usage instructions. MedMO is part of the <a href="/model-medos.html">MedOS Family</a>.</p>
+        <link rel="stylesheet" href="/assets/css/doatlas.css?v=20261008">
+<link rel="stylesheet" href="/assets/css/wlm.css?v=20261010">
+<div class="da wlm" data-wlm="ecg">
+
+<section class="da-hero shadow-sm my-3" aria-labelledby="wlm-title">
+  <div class="da-hero-body">
+    <div>
+      <p class="da-eyebrow">WLMs · Model information coming soon</p>
+      <h1 id="wlm-title">ECGWM</h1>
+      <p class="da-tagline">Electrocardiogram (ECG)</p>
+      <p class="da-hero-lede mb-0">ECGWM is the WLMs model for the electrocardiogram, the recording of the heart's electrical activity. Its description, results and release details will be added here. Until then, this page shows what the signal looks like.</p>
+    </div>
+  </div>
+  <div class="wlm-controls" role="group" aria-label="ECG illustration controls">
+    <label for="wlm-hr">Heart rate <input type="range" id="wlm-hr" min="40" max="140" step="1" value="64"> <output id="wlm-hr-out" for="wlm-hr">64 bpm</output></label>
+    <span class="wlm-spacer"></span>
+    <button type="button" class="wlm-btn" id="wlm-play" aria-pressed="true">Pause</button>
+    <button type="button" class="wlm-btn" id="wlm-new">New recording</button>
+  </div>
+  <div class="wlm-stage"><canvas id="wlm-monitor" role="img" aria-label="Animated synthetic ECG trace sweeping across a monitor grid.">Animated synthetic ECG trace.</canvas></div>
+  <div class="wlm-readouts" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
+    <div class="wlm-readout"><b id="wlm-r-hr">–</b><span>Rate of the latest beat</span></div>
+    <div class="wlm-readout"><b id="wlm-r-rr">–</b><span>Latest RR interval</span></div>
+  </div>
+  <div class="da-hero-caption">Illustrative synthetic ECG, generated in your browser. It is not patient data and not the output of ECGWM. Each large grid square is 0.2 s wide and 0.5 mV tall.</div>
+</section>
+<nav class="da-toc my-3" aria-label="WLMs models">
+  <a href="/model-ecgwm.html" aria-current="page">ECGWM</a>
+  <a href="/model-cgmwm.html">CGMWM</a>
+  <a href="/model-sleepwm.html">SleepWM</a>
+  <a href="#signal">The signal</a>
+  <a href="#model">Model information</a>
+</nav>
+
+<noscript><p class="da-note">The interactive illustrations on this page need JavaScript.</p></noscript>
+
+<section class="card border-0 shadow-sm bg-white my-3 wlm-section" id="signal" aria-labelledby="signal-title"><div class="card-body p-4">
+  <p class="da-eyebrow">The signal</p>
+  <h2 class="h4 mb-2" id="signal-title">One heartbeat, wave by wave <span class="wlm-synth">Illustrative</span></h2>
+  <p class="da-measure">Every heartbeat leaves the same sequence of waves on an ECG. Their shape, size and timing are what clinicians and models read.</p>
+  <div class="wlm-two mt-3">
+    <div class="wlm-chart" id="wlm-beat"></div>
+    <dl class="wlm-dl">
+      <dt><span class="wlm-key" style="background:var(--wlm-blue)"></span>P wave</dt><dd>The upper chambers (atria) activate.</dd>
+      <dt><span class="wlm-key" style="background:var(--wlm-orange)"></span>QRS complex</dt><dd>The lower chambers (ventricles) activate. In adults it normally lasts under 120 ms.</dd>
+      <dt><span class="wlm-key" style="background:var(--wlm-aqua)"></span>T wave</dt><dd>The ventricles recover before the next beat.</dd>
+      <dt>PR interval</dt><dd>Start of the P wave to the start of the QRS complex, normally 120 to 200 ms.</dd>
+      <dt>QT interval</dt><dd>Start of the QRS complex to the end of the T wave. It shortens as the heart beats faster.</dd>
+    </dl>
+  </div>
+  <p class="da-note mt-3 mb-0">Synthetic beat drawn at 60 beats per minute. Hover, or focus the chart and use the arrow keys, to read values.</p>
 </div></section>
-<section class="card border-0 shadow-sm bg-white my-3"><div class="card-body p-4"><h2 class="h5">Model overview</h2>
-<a href="/assets/images/publications/e336b3e9d037bf.webp"><img src="/assets/images/publications/e336b3e9d037bf.webp" alt="MedMO training architecture and capabilities" width="480" height="230" style="display:block;max-width:100%;height:auto;max-height:230px;object-fit:contain;" loading="lazy"></a>
-<p class="small mt-2 mb-0"><a href="https://arxiv.org/html/2602.06965v2#S3.F2">Figure source</a> · <a href="/assets/images/demos/medmo-results.png">View a published result</a></p>
+
+<section class="card border-0 shadow-sm bg-white my-3 wlm-section" aria-labelledby="rhythm-title"><div class="card-body p-4">
+  <p class="da-eyebrow">Rhythm</p>
+  <h2 class="h4 mb-2" id="rhythm-title">No two beats are the same length <span class="wlm-synth">Illustrative</span></h2>
+  <p class="da-measure">The time between successive R peaks, the RR interval, rises and falls with breathing and slower regulation of the circulation. This is heart rate variability. Move the heart rate control above to see the pattern shift.</p>
+  <div class="da-stats wlm-stats-3 my-3">
+    <div class="da-stat"><span class="da-stat-value" id="wlm-s-hr">–</span><span class="da-stat-label">Mean heart rate</span></div>
+    <div class="da-stat"><span class="da-stat-value" id="wlm-s-sdnn">–</span><span class="da-stat-label">SDNN: standard deviation of RR intervals</span></div>
+    <div class="da-stat"><span class="da-stat-value" id="wlm-s-rmssd">–</span><span class="da-stat-label">RMSSD: beat-to-beat variation</span></div>
+  </div>
+  <div class="wlm-chart" id="wlm-tacho"></div>
+  <p class="da-note mt-3 mb-0">120 synthetic beats. The values describe this illustration only.</p>
 </div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3 wlm-section" id="model" aria-labelledby="model-title"><div class="card-body p-4">
+  <p class="da-eyebrow">Model information</p>
+  <h2 class="h4 mb-2" id="model-title">Coming soon</h2>
+  <p class="da-measure">The description of ECGWM, its evaluation and its release details will be added to this page.</p>
+  <div class="da-table-wrap"><table class="da-table">
+    <thead><tr><th scope="col">Component</th><th scope="col">Status</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">Model description</th><td><span class="da-status da-status-soon">Coming soon</span></td></tr>
+      <tr><th scope="row">Evaluation and results</th><td><span class="da-status da-status-soon">Coming soon</span></td></tr>
+      <tr><th scope="row">Paper or technical report</th><td><span class="da-status da-status-soon">Coming soon</span></td></tr>
+      <tr><th scope="row">Code and checkpoints</th><td><span class="da-status da-status-soon">Coming soon</span></td></tr>
+    </tbody>
+  </table></div>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3" aria-labelledby="family-title"><div class="card-body p-4">
+  <h2 class="h5 mb-3" id="family-title">Other WLMs</h2>
+  <div class="da-grid-2">
+    <div class="da-tile"><h3><a href="/model-cgmwm.html">CGMWM</a></h3><p><strong>Continuous glucose monitoring (CGM).</strong> Glucose measured every few minutes, day and night.</p></div>
+    <div class="da-tile"><h3><a href="/model-sleepwm.html">SleepWM</a></h3><p><strong>Sleep.</strong> Sleep stages and overnight physiology.</p></div>
+  </div>
+</div></section>
+</div>
+<script defer src="/assets/js/wlm.js?v=20261010"></script>
 
     </div>
     <footer class="footer border-top py-2 mt-5 bg-white small">
