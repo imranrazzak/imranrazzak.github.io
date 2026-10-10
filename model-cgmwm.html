@@ -1,0 +1,102 @@
+---
+layout: default
+title: CGMWM
+navbar_title: WLMs
+description: "CGMWM is the WLMs model for continuous glucose monitoring (CGM). Model information is coming soon; this page shows interactive, illustrative views of CGM data."
+---
+<link rel="stylesheet" href="{{ '/assets/css/doatlas.css?v=20261008' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/wlm.css?v=20261010' | relative_url }}">
+<div class="da wlm" data-wlm="cgm">
+
+<section class="da-hero shadow-sm my-3" aria-labelledby="wlm-title">
+  <div class="da-hero-body">
+    <div>
+      <p class="da-eyebrow">WLMs · Model information coming soon</p>
+      <h1 id="wlm-title">CGMWM</h1>
+      <p class="da-tagline">Continuous glucose monitoring (CGM)</p>
+      <p class="da-hero-lede mb-0">CGMWM is the WLMs model for continuous glucose monitoring, where a wearable sensor reads glucose every few minutes, day and night. Its description, results and release details will be added here. Until then, this page shows what the signal looks like.</p>
+    </div>
+  </div>
+  <div class="wlm-controls" role="group" aria-label="CGM illustration controls">
+    <span class="wlm-step"><button type="button" class="wlm-btn" id="wlm-prev" aria-label="Previous day">‹</button><output id="wlm-day-out" aria-live="polite">Day 1 of 14</output><button type="button" class="wlm-btn" id="wlm-next" aria-label="Next day">›</button></span>
+    <span class="wlm-seg" role="group" aria-label="Units"><button type="button" data-unit="mg" aria-pressed="true">mg/dL</button><button type="button" data-unit="mmol" aria-pressed="false">mmol/L</button></span>
+    <span class="wlm-spacer"></span>
+    <button type="button" class="wlm-btn" id="wlm-new">New data</button>
+  </div>
+  <div class="wlm-stage"><div class="wlm-chart wlm-dark" id="wlm-day"></div></div>
+  <ul class="wlm-legend wlm-dark-legend">
+    <li><span class="wlm-key wlm-key-line" style="background:#49dcc0"></span>Glucose</li>
+    <li><span class="wlm-key" style="background:#eb6834;opacity:.6"></span>Above range</li>
+    <li><span class="wlm-key" style="background:#3987e5;opacity:.7"></span>Below range</li>
+    <li><span class="wlm-key" style="background:#cfe2f3;clip-path:polygon(50% 10%,100% 90%,0 90%)"></span>Meal</li>
+  </ul>
+  <div class="wlm-readouts">
+    <div class="wlm-readout"><b id="wlm-r-mean">–</b><span>Mean glucose, this day</span></div>
+    <div class="wlm-readout"><b id="wlm-r-range">–</b><span>Lowest to highest reading</span></div>
+    <div class="wlm-readout"><b id="wlm-r-tir">–</b><span>Time in target range</span></div>
+    <div class="wlm-readout"><b id="wlm-r-peak">–</b><span>Time of the highest reading</span></div>
+  </div>
+  <div class="da-hero-caption">Illustrative synthetic CGM day with a reading every 5 minutes, generated in your browser. It is not patient data and not the output of CGMWM. The shaded band is the widely used 70 to 180 mg/dL (3.9 to 10.0 mmol/L) target range.</div>
+</section>
+<nav class="da-toc my-3" aria-label="WLMs models">
+  <a href="{{ '/model-ecgwm.html' | relative_url }}">ECGWM</a>
+  <a href="{{ '/model-cgmwm.html' | relative_url }}" aria-current="page">CGMWM</a>
+  <a href="{{ '/model-sleepwm.html' | relative_url }}">SleepWM</a>
+  <a href="#signal">The signal</a>
+  <a href="#model">Model information</a>
+</nav>
+
+<noscript><p class="da-note">The interactive illustrations on this page need JavaScript.</p></noscript>
+
+<section class="card border-0 shadow-sm bg-white my-3 wlm-section" id="signal" aria-labelledby="signal-title"><div class="card-body p-4">
+  <p class="da-eyebrow">The signal</p>
+  <h2 class="h4 mb-2" id="signal-title">Fourteen days in one bar <span class="wlm-synth">Illustrative</span></h2>
+  <p class="da-measure">A CGM produces about 288 readings a day. The most common summary is time in range: the share of readings below, inside and above the target range.</p>
+  <div class="wlm-bar mt-3" id="wlm-tir-bar" role="img" aria-label="Share of readings below, in and above the target range. The values are listed below the bar."></div>
+  <ul class="wlm-legend" id="wlm-tir-legend"></ul>
+  <div class="da-stats wlm-stats-3 mt-3">
+    <div class="da-stat"><span class="da-stat-value" id="wlm-s-tir">–</span><span class="da-stat-label">Time in range across 14 days</span></div>
+    <div class="da-stat"><span class="da-stat-value" id="wlm-s-mean">–</span><span class="da-stat-label">Mean glucose</span></div>
+    <div class="da-stat"><span class="da-stat-value" id="wlm-s-cv">–</span><span class="da-stat-label">Coefficient of variation: variability relative to the mean</span></div>
+  </div>
+  <p class="da-note mt-3 mb-0">Computed from the 14 synthetic days behind this page. The values describe this illustration only.</p>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3 wlm-section" aria-labelledby="agp-title"><div class="card-body p-4">
+  <p class="da-eyebrow">Daily pattern</p>
+  <h2 class="h4 mb-2" id="agp-title">The same 14 days, folded onto one clock <span class="wlm-synth">Illustrative</span></h2>
+  <p class="da-measure">Stacking every day by time of day shows what is typical and what varies: the line is the median reading at each time, and the bands show how far individual days spread around it. This view is known as an ambulatory glucose profile.</p>
+  <div class="wlm-chart mt-3" id="wlm-agp"></div>
+  <ul class="wlm-legend">
+    <li><span class="wlm-key wlm-key-line" style="background:var(--wlm-navy)"></span>Median</li>
+    <li><span class="wlm-key" style="background:var(--wlm-blue);opacity:.36"></span>25th to 75th percentile</li>
+    <li><span class="wlm-key" style="background:var(--wlm-blue);opacity:.13"></span>5th to 95th percentile</li>
+    <li><span class="wlm-key wlm-key-line" style="background:var(--wlm-ink-3);height:1px"></span>Target range limits</li>
+  </ul>
+  <p class="da-note mt-3 mb-0">Synthetic data in 15-minute bins. Hover, or focus the chart and use the arrow keys, to read values.</p>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3 wlm-section" id="model" aria-labelledby="model-title"><div class="card-body p-4">
+  <p class="da-eyebrow">Model information</p>
+  <h2 class="h4 mb-2" id="model-title">Coming soon</h2>
+  <p class="da-measure">The description of CGMWM, its evaluation and its release details will be added to this page.</p>
+  <div class="da-table-wrap"><table class="da-table">
+    <thead><tr><th scope="col">Component</th><th scope="col">Status</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">Model description</th><td><span class="da-status da-status-soon">Coming soon</span></td></tr>
+      <tr><th scope="row">Evaluation and results</th><td><span class="da-status da-status-soon">Coming soon</span></td></tr>
+      <tr><th scope="row">Paper or technical report</th><td><span class="da-status da-status-soon">Coming soon</span></td></tr>
+      <tr><th scope="row">Code and checkpoints</th><td><span class="da-status da-status-soon">Coming soon</span></td></tr>
+    </tbody>
+  </table></div>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3" aria-labelledby="family-title"><div class="card-body p-4">
+  <h2 class="h5 mb-3" id="family-title">Other WLMs</h2>
+  <div class="da-grid-2">
+    <div class="da-tile"><h3><a href="{{ '/model-ecgwm.html' | relative_url }}">ECGWM</a></h3><p><strong>Electrocardiogram (ECG).</strong> The heart's electrical activity, beat by beat.</p></div>
+    <div class="da-tile"><h3><a href="{{ '/model-sleepwm.html' | relative_url }}">SleepWM</a></h3><p><strong>Sleep.</strong> Sleep stages and overnight physiology.</p></div>
+  </div>
+</div></section>
+</div>
+<script defer src="{{ '/assets/js/wlm.js?v=20261010' | relative_url }}"></script>

@@ -1,0 +1,92 @@
+---
+layout: default
+title: SleepWM
+navbar_title: WLMs
+description: "SleepWM is the WLMs model for sleep. Model information is coming soon; this page shows interactive, illustrative views of a night of sleep."
+---
+<link rel="stylesheet" href="{{ '/assets/css/doatlas.css?v=20261008' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/wlm.css?v=20261010' | relative_url }}">
+<div class="da wlm" data-wlm="sleep">
+
+<section class="da-hero shadow-sm my-3" aria-labelledby="wlm-title">
+  <div class="da-hero-body">
+    <div>
+      <p class="da-eyebrow">WLMs · Model information coming soon</p>
+      <h1 id="wlm-title">SleepWM</h1>
+      <p class="da-tagline">Sleep</p>
+      <p class="da-hero-lede mb-0">SleepWM is the WLMs model for sleep: how a night moves through wake, light, deep and REM sleep, and what the body does meanwhile. Its description, results and release details will be added here. Until then, this page shows what the signal looks like.</p>
+    </div>
+  </div>
+  <div class="wlm-controls" role="group" aria-label="Sleep illustration controls">
+    <span>One night, 23:00 to 07:00</span>
+    <span class="wlm-spacer"></span>
+    <button type="button" class="wlm-btn" id="wlm-replay">Replay</button>
+    <button type="button" class="wlm-btn" id="wlm-new">New night</button>
+  </div>
+  <div class="wlm-stage"><div class="wlm-chart wlm-dark" id="wlm-hyp"></div></div>
+  <div class="wlm-readouts">
+    <div class="wlm-readout"><b id="wlm-r-tib">–</b><span>Time in bed</span></div>
+    <div class="wlm-readout"><b id="wlm-r-tst">–</b><span>Total sleep time</span></div>
+    <div class="wlm-readout"><b id="wlm-r-eff">–</b><span>Sleep efficiency: asleep as a share of time in bed</span></div>
+    <div class="wlm-readout"><b id="wlm-r-sol">–</b><span>Time taken to fall asleep</span></div>
+  </div>
+  <div class="da-hero-caption">Illustrative synthetic hypnogram, generated in your browser. It is not patient data and not the output of SleepWM. Stages follow the usual scoring: wake, REM, and non-REM stages N1 to N3.</div>
+</section>
+<nav class="da-toc my-3" aria-label="WLMs models">
+  <a href="{{ '/model-ecgwm.html' | relative_url }}">ECGWM</a>
+  <a href="{{ '/model-cgmwm.html' | relative_url }}">CGMWM</a>
+  <a href="{{ '/model-sleepwm.html' | relative_url }}" aria-current="page">SleepWM</a>
+  <a href="#signal">The signal</a>
+  <a href="#model">Model information</a>
+</nav>
+
+<noscript><p class="da-note">The interactive illustrations on this page need JavaScript.</p></noscript>
+
+<section class="card border-0 shadow-sm bg-white my-3 wlm-section" id="signal" aria-labelledby="signal-title"><div class="card-body p-4">
+  <p class="da-eyebrow">The signal</p>
+  <h2 class="h4 mb-2" id="signal-title">How the night divides between stages <span class="wlm-synth">Illustrative</span></h2>
+  <p class="da-measure">Sleep runs in cycles of roughly 90 minutes. Deep sleep (N3) is concentrated in the first cycles and REM sleep in the last ones, so the mix of stages says a lot about a night.</p>
+  <div class="wlm-bar mt-3" id="wlm-comp-bar" role="img" aria-label="Share of the night spent in each sleep stage. The values are listed below the bar."></div>
+  <ul class="wlm-legend" id="wlm-comp-legend"></ul>
+  <p class="da-note mt-3 mb-0">Minutes and share of the eight hours in bed for the synthetic night shown above.</p>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3 wlm-section" aria-labelledby="phys-title"><div class="card-body p-4">
+  <p class="da-eyebrow">Overnight physiology</p>
+  <h2 class="h4 mb-2" id="phys-title">The body follows the stages <span class="wlm-synth">Illustrative</span></h2>
+  <p class="da-measure">Heart rate falls as sleep deepens and becomes faster and less regular in REM sleep and around awakenings. Blood oxygen saturation stays in a narrow band, with small dips. The strip on top repeats the stages for the same night.</p>
+  <div class="wlm-chart mt-3" id="wlm-phys"></div>
+  <ul class="wlm-legend">
+    <li><span class="wlm-key" style="background:var(--wlm-wake)"></span>Wake</li>
+    <li><span class="wlm-key" style="background:var(--wlm-rem)"></span>REM</li>
+    <li><span class="wlm-key" style="background:var(--wlm-n1)"></span>N1</li>
+    <li><span class="wlm-key" style="background:var(--wlm-n2)"></span>N2</li>
+    <li><span class="wlm-key" style="background:var(--wlm-n3)"></span>N3</li>
+  </ul>
+  <p class="da-note mt-3 mb-0">Synthetic per-minute values. Hover, or focus the chart and use the arrow keys, to read values.</p>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3 wlm-section" id="model" aria-labelledby="model-title"><div class="card-body p-4">
+  <p class="da-eyebrow">Model information</p>
+  <h2 class="h4 mb-2" id="model-title">Coming soon</h2>
+  <p class="da-measure">The description of SleepWM, its evaluation and its release details will be added to this page.</p>
+  <div class="da-table-wrap"><table class="da-table">
+    <thead><tr><th scope="col">Component</th><th scope="col">Status</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">Model description</th><td><span class="da-status da-status-soon">Coming soon</span></td></tr>
+      <tr><th scope="row">Evaluation and results</th><td><span class="da-status da-status-soon">Coming soon</span></td></tr>
+      <tr><th scope="row">Paper or technical report</th><td><span class="da-status da-status-soon">Coming soon</span></td></tr>
+      <tr><th scope="row">Code and checkpoints</th><td><span class="da-status da-status-soon">Coming soon</span></td></tr>
+    </tbody>
+  </table></div>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3" aria-labelledby="family-title"><div class="card-body p-4">
+  <h2 class="h5 mb-3" id="family-title">Other WLMs</h2>
+  <div class="da-grid-2">
+    <div class="da-tile"><h3><a href="{{ '/model-ecgwm.html' | relative_url }}">ECGWM</a></h3><p><strong>Electrocardiogram (ECG).</strong> The heart's electrical activity, beat by beat.</p></div>
+    <div class="da-tile"><h3><a href="{{ '/model-cgmwm.html' | relative_url }}">CGMWM</a></h3><p><strong>Continuous glucose monitoring (CGM).</strong> Glucose measured every few minutes, day and night.</p></div>
+  </div>
+</div></section>
+</div>
+<script defer src="{{ '/assets/js/wlm.js?v=20261010' | relative_url }}"></script>

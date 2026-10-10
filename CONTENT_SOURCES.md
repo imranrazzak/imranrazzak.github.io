@@ -54,3 +54,11 @@ MedOmni.ai was subsequently supplied by Imran Razzak as the planned company doma
 
 ## Visitor counter
 Restored the existing Flag Counter account `ykSr` from the original website, retaining its recorded country history. The counter loads in the shared footer on all pages. A requested 20,000 starting value cannot be set through the documented public embed options; no fabricated count or country history was added.
+
+## Model families and WLMs pages (October 10, 2026)
+- Requested by Imran Razzak: MedMO is listed under the MedOS Family, the DoAtlas models under the DoAtlas Family, and a separate "WLMs" navigation tab has three pages: ECGWM, CGMWM and SleepWM.
+- Navigation: `_data/navigation.yml` now allows a family entry to carry its own `children`; `_includes/navbar.html` renders them as indented member links under the family link. DoAtlas-1 has no page of its own, so its menu entry points to its card on the DoAtlas Family page.
+- MedOS Family page: the MedMO card reuses the existing MedMO paper figure, description and links from `model-medmo.html`. No new claims were added.
+- WLMs pages: no model information was supplied yet, so none is stated. The expansion of "WLMs" and of the "WM" suffix was not supplied and is not spelled out. Each page says only which signal the model is for (taken from its name) and marks description, evaluation, paper and code as "Coming soon".
+- Visualizations on the WLMs pages are illustrations of the signal type, not results. All traces are synthesised in the visitor's browser by `assets/js/wlm.js` (sum-of-Gaussians heartbeat; meal-response glucose curve; cycle-based hypnogram with stage-dependent heart rate and SpO₂). They are labelled "Illustrative" and captioned as not patient data and not model output. Replace or remove them when real figures are available.
+- General reference values shown: adult PR interval 120 to 200 ms and QRS duration under 120 ms; the 70 to 180 mg/dL (3.9 to 10.0 mmol/L) CGM target range used for time in range; sleep stages wake, REM, N1 to N3.

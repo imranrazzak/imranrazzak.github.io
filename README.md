@@ -20,6 +20,8 @@ bundle exec jekyll serve
 
 Edit `_data/profile.yml`, `_data/navigation.yml`, `_news/`, `_publications/`, and the relevant HTML pages. `assets/data/publications.json` is a downloadable snapshot of the publication records; keep it aligned when editing publications. See [CONTENT_SOURCES.md](CONTENT_SOURCES.md) for content sources and migration decisions.
 
+In `_data/navigation.yml`, an entry inside a dropdown can have its own `children`: it is then shown as a family heading with its member pages indented below it (used for the DoAtlas and MedOS families). The WLMs pages (`model-ecgwm.html`, `model-cgmwm.html`, `model-sleepwm.html`) share `assets/css/wlm.css` and `assets/js/wlm.js`; their charts are synthetic illustrations, not results.
+
 To deploy a validated build, update a clean checkout of `main` with the contents of `_site/`, include `.nojekyll`, and make a normal fast-forward commit and push. Preserve the `.git` directory and never force-push. Push the source branch too so later edits remain reproducible. Keep the generated branch README pointing back to the source branch.
 
 The original website and every old file remain available in repository history.

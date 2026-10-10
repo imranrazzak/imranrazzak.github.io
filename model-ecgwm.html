@@ -1,0 +1,96 @@
+---
+layout: default
+title: ECGWM
+navbar_title: WLMs
+description: "ECGWM is the WLMs model for the electrocardiogram (ECG). Model information is coming soon; this page shows interactive, illustrative views of the ECG signal."
+---
+<link rel="stylesheet" href="{{ '/assets/css/doatlas.css?v=20261008' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/wlm.css?v=20261010' | relative_url }}">
+<div class="da wlm" data-wlm="ecg">
+
+<section class="da-hero shadow-sm my-3" aria-labelledby="wlm-title">
+  <div class="da-hero-body">
+    <div>
+      <p class="da-eyebrow">WLMs · Model information coming soon</p>
+      <h1 id="wlm-title">ECGWM</h1>
+      <p class="da-tagline">Electrocardiogram (ECG)</p>
+      <p class="da-hero-lede mb-0">ECGWM is the WLMs model for the electrocardiogram, the recording of the heart's electrical activity. Its description, results and release details will be added here. Until then, this page shows what the signal looks like.</p>
+    </div>
+  </div>
+  <div class="wlm-controls" role="group" aria-label="ECG illustration controls">
+    <label for="wlm-hr">Heart rate <input type="range" id="wlm-hr" min="40" max="140" step="1" value="64"> <output id="wlm-hr-out" for="wlm-hr">64 bpm</output></label>
+    <span class="wlm-spacer"></span>
+    <button type="button" class="wlm-btn" id="wlm-play" aria-pressed="true">Pause</button>
+    <button type="button" class="wlm-btn" id="wlm-new">New recording</button>
+  </div>
+  <div class="wlm-stage"><canvas id="wlm-monitor" role="img" aria-label="Animated synthetic ECG trace sweeping across a monitor grid.">Animated synthetic ECG trace.</canvas></div>
+  <div class="wlm-readouts" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
+    <div class="wlm-readout"><b id="wlm-r-hr">–</b><span>Rate of the latest beat</span></div>
+    <div class="wlm-readout"><b id="wlm-r-rr">–</b><span>Latest RR interval</span></div>
+  </div>
+  <div class="da-hero-caption">Illustrative synthetic ECG, generated in your browser. It is not patient data and not the output of ECGWM. Each large grid square is 0.2 s wide and 0.5 mV tall.</div>
+</section>
+<nav class="da-toc my-3" aria-label="WLMs models">
+  <a href="{{ '/model-ecgwm.html' | relative_url }}" aria-current="page">ECGWM</a>
+  <a href="{{ '/model-cgmwm.html' | relative_url }}">CGMWM</a>
+  <a href="{{ '/model-sleepwm.html' | relative_url }}">SleepWM</a>
+  <a href="#signal">The signal</a>
+  <a href="#model">Model information</a>
+</nav>
+
+<noscript><p class="da-note">The interactive illustrations on this page need JavaScript.</p></noscript>
+
+<section class="card border-0 shadow-sm bg-white my-3 wlm-section" id="signal" aria-labelledby="signal-title"><div class="card-body p-4">
+  <p class="da-eyebrow">The signal</p>
+  <h2 class="h4 mb-2" id="signal-title">One heartbeat, wave by wave <span class="wlm-synth">Illustrative</span></h2>
+  <p class="da-measure">Every heartbeat leaves the same sequence of waves on an ECG. Their shape, size and timing are what clinicians and models read.</p>
+  <div class="wlm-two mt-3">
+    <div class="wlm-chart" id="wlm-beat"></div>
+    <dl class="wlm-dl">
+      <dt><span class="wlm-key" style="background:var(--wlm-blue)"></span>P wave</dt><dd>The upper chambers (atria) activate.</dd>
+      <dt><span class="wlm-key" style="background:var(--wlm-orange)"></span>QRS complex</dt><dd>The lower chambers (ventricles) activate. In adults it normally lasts under 120 ms.</dd>
+      <dt><span class="wlm-key" style="background:var(--wlm-aqua)"></span>T wave</dt><dd>The ventricles recover before the next beat.</dd>
+      <dt>PR interval</dt><dd>Start of the P wave to the start of the QRS complex, normally 120 to 200 ms.</dd>
+      <dt>QT interval</dt><dd>Start of the QRS complex to the end of the T wave. It shortens as the heart beats faster.</dd>
+    </dl>
+  </div>
+  <p class="da-note mt-3 mb-0">Synthetic beat drawn at 60 beats per minute. Hover, or focus the chart and use the arrow keys, to read values.</p>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3 wlm-section" aria-labelledby="rhythm-title"><div class="card-body p-4">
+  <p class="da-eyebrow">Rhythm</p>
+  <h2 class="h4 mb-2" id="rhythm-title">No two beats are the same length <span class="wlm-synth">Illustrative</span></h2>
+  <p class="da-measure">The time between successive R peaks, the RR interval, rises and falls with breathing and slower regulation of the circulation. This is heart rate variability. Move the heart rate control above to see the pattern shift.</p>
+  <div class="da-stats wlm-stats-3 my-3">
+    <div class="da-stat"><span class="da-stat-value" id="wlm-s-hr">–</span><span class="da-stat-label">Mean heart rate</span></div>
+    <div class="da-stat"><span class="da-stat-value" id="wlm-s-sdnn">–</span><span class="da-stat-label">SDNN: standard deviation of RR intervals</span></div>
+    <div class="da-stat"><span class="da-stat-value" id="wlm-s-rmssd">–</span><span class="da-stat-label">RMSSD: beat-to-beat variation</span></div>
+  </div>
+  <div class="wlm-chart" id="wlm-tacho"></div>
+  <p class="da-note mt-3 mb-0">120 synthetic beats. The values describe this illustration only.</p>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3 wlm-section" id="model" aria-labelledby="model-title"><div class="card-body p-4">
+  <p class="da-eyebrow">Model information</p>
+  <h2 class="h4 mb-2" id="model-title">Coming soon</h2>
+  <p class="da-measure">The description of ECGWM, its evaluation and its release details will be added to this page.</p>
+  <div class="da-table-wrap"><table class="da-table">
+    <thead><tr><th scope="col">Component</th><th scope="col">Status</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">Model description</th><td><span class="da-status da-status-soon">Coming soon</span></td></tr>
+      <tr><th scope="row">Evaluation and results</th><td><span class="da-status da-status-soon">Coming soon</span></td></tr>
+      <tr><th scope="row">Paper or technical report</th><td><span class="da-status da-status-soon">Coming soon</span></td></tr>
+      <tr><th scope="row">Code and checkpoints</th><td><span class="da-status da-status-soon">Coming soon</span></td></tr>
+    </tbody>
+  </table></div>
+</div></section>
+
+<section class="card border-0 shadow-sm bg-white my-3" aria-labelledby="family-title"><div class="card-body p-4">
+  <h2 class="h5 mb-3" id="family-title">Other WLMs</h2>
+  <div class="da-grid-2">
+    <div class="da-tile"><h3><a href="{{ '/model-cgmwm.html' | relative_url }}">CGMWM</a></h3><p><strong>Continuous glucose monitoring (CGM).</strong> Glucose measured every few minutes, day and night.</p></div>
+    <div class="da-tile"><h3><a href="{{ '/model-sleepwm.html' | relative_url }}">SleepWM</a></h3><p><strong>Sleep.</strong> Sleep stages and overnight physiology.</p></div>
+  </div>
+</div></section>
+</div>
+<script defer src="{{ '/assets/js/wlm.js?v=20261010' | relative_url }}"></script>
