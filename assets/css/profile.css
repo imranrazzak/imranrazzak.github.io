@@ -95,6 +95,11 @@
 .navbar .dropdown-item.nav-family { font-weight: 700; }
 .navbar .dropdown-item.nav-family:not(:first-child) { margin-top: .25rem; padding-top: .5rem; border-top: 1px solid #e9eef2; }
 .navbar .dropdown-item.nav-family-member { padding-left: 2.25rem; font-size: .93em; }
+/* The menu shows in the top bar from 992px up. Between 992px and 1199px it is set slightly tighter so all seven entries fit on one line. */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar-expand-lg .navbar-brand { margin-right: .5rem; }
+  .navbar-expand-lg .navbar-nav .nav-link { padding-left: .4rem; padding-right: .4rem; font-size: .92rem; white-space: nowrap; }
+}
 
 /* Model family pages: one member model per row, figure beside its summary. */
 .family-crumb { font-size: .82rem; color: #5b6f7c; }
