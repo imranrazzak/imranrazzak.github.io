@@ -78,3 +78,16 @@
 .release-strip h3 { margin: .3rem 0 .3rem; line-height: 1.35; }
 .release-strip p { margin-bottom: .35rem; }
 @media (max-width: 575.98px) { .release-strip { grid-template-columns: 1fr; } }
+
+/* Model families in the navigation: a family link followed by its indented member models. */
+.navbar .dropdown-item.nav-family { font-weight: 700; }
+.navbar .dropdown-item.nav-family:not(:first-child) { margin-top: .25rem; padding-top: .5rem; border-top: 1px solid #e9eef2; }
+.navbar .dropdown-item.nav-family-member { padding-left: 2.25rem; font-size: .93em; }
+
+/* Model family pages: one member model per row, figure beside its summary. */
+.family-crumb { font-size: .82rem; color: #5b6f7c; }
+.family-model { display: grid; grid-template-columns: minmax(0, 300px) minmax(0, 1fr); gap: 1.25rem; align-items: center; padding: 1rem; border: 1px solid #e3eaef; border-radius: .6rem; scroll-margin-top: 80px; }
+.family-model-media { display: block; background: #fff; border: 1px solid #edf0f2; border-radius: .35rem; padding: 6px; }
+.family-model-media img { display: block; width: 100%; height: auto; max-height: 170px; object-fit: contain; }
+@media (max-width: 767.98px) { .family-model { grid-template-columns: 1fr; } }
+.da-family-card { scroll-margin-top: 80px; }
