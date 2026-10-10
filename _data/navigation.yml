@@ -16,21 +16,20 @@ pages:
     children:
     - name: DoAtlas-2
       url: /model-doatlas-2.html
-    - name: DoAtlas-1
-      url: /model-doatlas.html#doatlas-1
   - name: MedOS Family
     url: /model-medos.html
     children:
     - name: MedMO
       url: /model-medmo.html
-- name: WLMs
-  children:
-  - name: ECGWM
-    url: /model-ecgwm.html
-  - name: CGMWM
-    url: /model-cgmwm.html
-  - name: SleepWM
-    url: /model-sleepwm.html
+  - name: WLMs Family
+    url: /model-wlms.html
+    children:
+    - name: ECGWM
+      url: /model-ecgwm.html
+    - name: CGMWM
+      url: /model-cgmwm.html
+    - name: SleepWM
+      url: /model-sleepwm.html
 - name: People
   children:
   - name: Research Team
