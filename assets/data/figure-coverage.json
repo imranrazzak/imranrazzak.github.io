@@ -1,5 +1,5 @@
 {
-  "total_scholar_records": 517,
+  "total_scholar_records": 543,
   "records_with_figures": 213,
   "selected_papers_with_figures": 7,
   "unresolved": [
@@ -1826,6 +1826,162 @@
       "title": "Perturbation-enabled deep federated learning for preserving internet of things-based social networks",
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=GlXI4N8AAAAJ&pagesize=100&citation_for_view=GlXI4N8AAAAJ:JWITY9-sCbMC",
       "reason": "No usable figure could be retrieved from the accessible source material in this pass."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:V63Ir2N1OTwC",
+      "title": "Neither Over-nor Under-Constrained: Evaluating LLM Personalization under a Constraint Qualification Audit",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:V63Ir2N1OTwC",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:0urtJCGzaFQC",
+      "title": "Mixture-of-Memories: Low-Overhead Language Modeling with Modular Knowledge Injection",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:0urtJCGzaFQC",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:xm1hsP5ya-EC",
+      "title": "Beyond Reward Scoring: Online Multi-Agent Preference Learning for Multimodal Response Generation",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:xm1hsP5ya-EC",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:UY3hNwcQ290C",
+      "title": "S2D-PCR: Invertible Shape-Spatial Disentanglement for Unsupervised Point Cloud Registration",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:UY3hNwcQ290C",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:3pYxbvHKFu8C",
+      "title": "GlucoPRISM: Protocol-Supervised Pretraining for Cross-Cohort Glucose Transfer",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:3pYxbvHKFu8C",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:_TjUWtciUekC",
+      "title": "BARRAC: Adaptation of an English Aspect-based Sentiment Analysis Approach for Classification Tasks in Arabic Dialects",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:_TjUWtciUekC",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:fGk8ZXjgAbkC",
+      "title": "What Makes Recurrence Effective in Looped Language Models?",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:fGk8ZXjgAbkC",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:w5CyTnyFq80C",
+      "title": "DoAtlas-2: A Foundation for Self-Evolving Causal Biomedical Discovery",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:w5CyTnyFq80C",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:RmcNAhKkducC",
+      "title": "Prompt and Probe: Data-Efficient Adaptation of Black-Box Foundation Models via Unified Active Visual Prompting",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:RmcNAhKkducC",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:XUAslYVNQLQC",
+      "title": "MedTriage-LM: Anatomically Grounded Visual Phenotype Synthesis for Interpretable ED Triage",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:XUAslYVNQLQC",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:RdUpO4xyVKMC",
+      "title": "Decoding Multimodal Causality: End-to-End Multimodal Mediation Pathways Inference",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:RdUpO4xyVKMC",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:eLRq4zTgah0C",
+      "title": "Proximity-Constrained Counterfactual Decoding for Hallucination-Robust Medical VQA",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:eLRq4zTgah0C",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:yaBp1wUtcLsC",
+      "title": "ResPL: Reasoning-Based Pseudo-Labels for Sarcasm Detection in Low-Resource Arabic Dialects",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:yaBp1wUtcLsC",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:QYmifXMdJWgC",
+      "title": "Metric-Aligned Cross-Phase Attention for LI-RADS Categorization of Liver Lesions on Multi-Phase CT",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:QYmifXMdJWgC",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:C5mqfHIFIucC",
+      "title": "MedRoundsQA: A Persona and Difficulty Aware Evaluation for Multi-Turn Medical Consultations",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:C5mqfHIFIucC",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:vkz5F8TaVKkC",
+      "title": "Meta Reviewers",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:vkz5F8TaVKkC",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:SEKBqlyTJecC",
+      "title": "StreamAgent: towards anticipatory agents for streaming video understanding (2025)",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:SEKBqlyTJecC",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:JhbybO29vGQC",
+      "title": "MIRA: Modality-Adaptive Image-Grounded Reasoning and Answering for Medical Visual Question Answering under Domain Shift",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:JhbybO29vGQC",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:0paDrhnEFY0C",
+      "title": "FieldFiLM: A Unified Conditional Generator for the MRI Field-Strength Continuum",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:0paDrhnEFY0C",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:CKf5m1HYVjMC",
+      "title": "EchoMoVE: Multi-View Mixture-of-Experts Regression for Echocardiographic LVEF Estimation under Small-Cohort and Label-Imbalance Constraints",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:CKf5m1HYVjMC",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:w9ZB08sdvuUC",
+      "title": "Seeing the Bite: Learned Cross-Arch Occlusion Grounding for Orthodontic Report Generation from Intraoral Scans and Photographs",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:w9ZB08sdvuUC",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:gL9scSG3K_gC",
+      "title": "Cross-Center Prototype Learning for Generalizable Multimodal Head-and-Neck Cancer Prognosis",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:gL9scSG3K_gC",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:eJD0kABLposC",
+      "title": "Faithful Per-Task Attention for Chain-of-Thought Whole-Slide Pathology Report Generation",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:eJD0kABLposC",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:J-ba04ztB30C",
+      "title": "Diverse-Loss Backbone Ensembling for Multi-Label Artifact Quality Assessment of Ultra-Low-Field Pediatric Brain MRI",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:J-ba04ztB30C",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:TNEldfgDb5MC",
+      "title": "Keep the Encodings Apart: Per-Encoding Complex-Valued Variational Networks for Accelerated 4D Flow MRI",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:TNEldfgDb5MC",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
+    },
+    {
+      "scholar_id": "GlXI4N8AAAAJ:t9Ks5LMjN0QC",
+      "title": "Self-Assessing Anatomical World Model for Unified Multi-Domain Ultrasound Biometry",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:t9Ks5LMjN0QC",
+      "reason": "Added by the weekly Scholar sync; no figure has been retrieved yet."
     }
   ]
 }

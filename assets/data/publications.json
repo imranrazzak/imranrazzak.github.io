@@ -10774,5 +10774,555 @@
     },
     "scholar_id": "GlXI4N8AAAAJ:JWITY9-sCbMC",
     "selected": false
+  },
+  {
+    "title": "Neither Over-nor Under-Constrained: Evaluating LLM Personalization under a Constraint Qualification Audit",
+    "date": "2026-10-19",
+    "pub": "arXiv preprint arXiv:2610.25676 , 2026",
+    "authors": [
+      "Xuran Li",
+      "Guanqin Zhang",
+      "Imran Razzak",
+      "Hakim Hacid",
+      "Eleanna Kafeza",
+      "Hao Xue",
+      "Flora D Salim"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:V63Ir2N1OTwC",
+      "arXiv": "https://arxiv.org/abs/2610.25676"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:V63Ir2N1OTwC",
+    "selected": false
+  },
+  {
+    "title": "Mixture-of-Memories: Low-Overhead Language Modeling with Modular Knowledge Injection",
+    "date": "2026-10-18",
+    "pub": "arXiv preprint arXiv:2610.25425 , 2026",
+    "authors": [
+      "Yifan Lu",
+      "Rubin Wei",
+      "Ziyun Zou",
+      "Junhong Liang",
+      "Haolin Yang",
+      "Xinlin Zhuang",
+      "Abhijit Das",
+      "Adinath Madhavrao Dukre",
+      "Shadab Khan",
+      "Zhouhan Lin",
+      "Imran Razzak"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:0urtJCGzaFQC",
+      "arXiv": "https://arxiv.org/abs/2610.25425"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:0urtJCGzaFQC",
+    "selected": false
+  },
+  {
+    "title": "Beyond Reward Scoring: Online Multi-Agent Preference Learning for Multimodal Response Generation",
+    "date": "2026-10-16",
+    "pub": "arXiv preprint arXiv:2610.23256 , 2026",
+    "authors": [
+      "Ziyun Zou",
+      "Jiwoo Hong",
+      "Yifan Lu",
+      "Shao Tang",
+      "Weiyi Wu",
+      "Aman Gupta",
+      "Jin Tian",
+      "Imran Razzak"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:xm1hsP5ya-EC",
+      "arXiv": "https://arxiv.org/abs/2610.23256"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:xm1hsP5ya-EC",
+    "selected": false
+  },
+  {
+    "title": "S2D-PCR: Invertible Shape-Spatial Disentanglement for Unsupervised Point Cloud Registration",
+    "date": "2026-10-15",
+    "pub": "IEEE Transactions on Multimedia , 2026",
+    "authors": [
+      "Sheldon Fung",
+      "Dasith de Silva Edirimuni",
+      "Daochang Liu",
+      "Imran Razzak",
+      "Hongdong Li",
+      "Xuequan Lu"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:UY3hNwcQ290C",
+      "Paper": "https://ieeexplore.ieee.org/abstract/document/11738689/"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:UY3hNwcQ290C",
+    "selected": false
+  },
+  {
+    "title": "GlucoPRISM: Protocol-Supervised Pretraining for Cross-Cohort Glucose Transfer",
+    "date": "2026-10-08",
+    "pub": "arXiv preprint arXiv:2610.12528 , 2026",
+    "authors": [
+      "Adinath Madhavrao Dukre",
+      "Abdullah Mohammad",
+      "Yifan Lu",
+      "Eran Segal",
+      "Ahmed Metwally",
+      "Imran Razzak"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:3pYxbvHKFu8C",
+      "arXiv": "https://arxiv.org/abs/2610.12528"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:3pYxbvHKFu8C",
+    "selected": false
+  },
+  {
+    "title": "BARRAC: Adaptation of an English Aspect-based Sentiment Analysis Approach for Classification Tasks in Arabic Dialects",
+    "date": "2026-09-30",
+    "pub": "arXiv preprint arXiv:2609.38820 , 2026",
+    "authors": [
+      "Ali Almutairi",
+      "Gelareh Mohammadi",
+      "Imran Razzak",
+      "Aditya Joshi"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:_TjUWtciUekC",
+      "arXiv": "https://arxiv.org/abs/2609.38820"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:_TjUWtciUekC",
+    "selected": false
+  },
+  {
+    "title": "What Makes Recurrence Effective in Looped Language Models?",
+    "date": "2026-09-29",
+    "pub": "arXiv preprint arXiv:2609.36636 , 2026",
+    "authors": [
+      "Xinlin Zhuang",
+      "Siyuan Wang",
+      "Imran Razzak",
+      "Weiyang Liu"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:fGk8ZXjgAbkC",
+      "arXiv": "https://arxiv.org/abs/2609.36636"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:fGk8ZXjgAbkC",
+    "selected": false
+  },
+  {
+    "title": "DoAtlas-2: A Foundation for Self-Evolving Causal Biomedical Discovery",
+    "date": "2026-09-28",
+    "pub": "arXiv preprint arXiv:2609.35107 , 2026",
+    "authors": [
+      "Yulong Li",
+      "Rong Xia",
+      "Yuxuan Zhang",
+      "Jianxu Chen",
+      "Xiwei Liu",
+      "Haochen Xue",
+      "Maosheng Li",
+      "Yuhang Liu",
+      "Yibo Yuan",
+      "Yutong Xie",
+      "Chong Li",
+      "Jionglong Su",
+      "Hagai Rossman",
+      "Eran Segal",
+      "Imran Razzak"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:w5CyTnyFq80C",
+      "arXiv": "https://arxiv.org/abs/2609.35107"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:w5CyTnyFq80C",
+    "selected": false
+  },
+  {
+    "title": "Prompt and Probe: Data-Efficient Adaptation of Black-Box Foundation Models via Unified Active Visual Prompting",
+    "date": "2026-09-26",
+    "pub": "International Conference on Medical Image Computing and Computer-Assisted Intervention, 492-502 , 2026",
+    "authors": [
+      "Dwarikanath Mahapatra",
+      "Abhijit Das",
+      "Sudipta Roy",
+      "Manish Pandey",
+      "Joy Dhar",
+      "Nayyar Zaidi",
+      "Zongyuan Ge",
+      "Behzad Bozorgtabar",
+      "Mauricio Reyes",
+      "Imran Razzak"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:RmcNAhKkducC",
+      "Paper": "https://link.springer.com/chapter/10.1007/978-3-032-38062-3_46"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:RmcNAhKkducC",
+    "selected": false
+  },
+  {
+    "title": "MedTriage-LM: Anatomically Grounded Visual Phenotype Synthesis for Interpretable ED Triage",
+    "date": "2026-09-22",
+    "pub": "International Conference on Medical Image Computing and Computer-Assisted Intervention, 377-387 , 2026",
+    "authors": [
+      "Zhixiang Lu",
+      "Xiwei Liu",
+      "Jinfeng Wang",
+      "Mian Zhou",
+      "Anh Nguyen",
+      "Jionglong Su",
+      "Imran Razzak",
+      "Sifan Song"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:XUAslYVNQLQC",
+      "Paper": "https://link.springer.com/chapter/10.1007/978-3-032-38059-3_36"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:XUAslYVNQLQC",
+    "selected": false
+  },
+  {
+    "title": "Decoding Multimodal Causality: End-to-End Multimodal Mediation Pathways Inference",
+    "date": "2026-09-20",
+    "pub": "European Conference on Computer Vision , 2026",
+    "authors": [
+      "Yulong Li",
+      "Xiwei Liu",
+      "Niranjana Arun Menon",
+      "Yuxuan Zhang",
+      "Jianxu Chen",
+      "Rong Xia",
+      "Haolin Yang",
+      "Peixin Guo",
+      "Yutong Xie",
+      "Imran Razzak"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:RdUpO4xyVKMC",
+      "Paper": "https://link.springer.com/chapter/10.1007/978-3-032-37520-9_3"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:RdUpO4xyVKMC",
+    "selected": false
+  },
+  {
+    "title": "Proximity-Constrained Counterfactual Decoding for Hallucination-Robust Medical VQA",
+    "date": "2026-09-08",
+    "pub": "European Conference on Computer Vision, 421-437 , 2026",
+    "authors": [
+      "Dwarikanath Mahapatra",
+      "Abhijit Das",
+      "Manish Pandey",
+      "Joy Dhar",
+      "Sudipta Roy",
+      "Zongyuan Ge",
+      "Behzad Bozorgtabar",
+      "Imran Razzak"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:eLRq4zTgah0C",
+      "Paper": "https://link.springer.com/chapter/10.1007/978-3-032-37335-9_23"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:eLRq4zTgah0C",
+    "selected": false
+  },
+  {
+    "title": "ResPL: Reasoning-Based Pseudo-Labels for Sarcasm Detection in Low-Resource Arabic Dialects",
+    "date": "2026-09-01",
+    "pub": "Proceedings of the 9th International Conference on Natural Language and Speech Processing (ICNLSP-2026), 367-379 , 2026",
+    "authors": [
+      "Ali Almutairi",
+      "Shoaib Jameel",
+      "Aditya Joshi",
+      "Gelareh Mohammadi",
+      "Imran Razzak"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:yaBp1wUtcLsC",
+      "Paper": "https://aclanthology.org/2026.icnlsp-1.34.pdf"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:yaBp1wUtcLsC",
+    "selected": false
+  },
+  {
+    "title": "Metric-Aligned Cross-Phase Attention for LI-RADS Categorization of Liver Lesions on Multi-Phase CT",
+    "date": "2026-08-17",
+    "pub": "2026",
+    "authors": [
+      "Govinda Kolli",
+      "Adinath Madhavrao Dukre",
+      "Imran Razzak"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:QYmifXMdJWgC",
+      "Paper": "https://openreview.net/forum?id=ouXr7KuhhH"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:QYmifXMdJWgC",
+    "selected": false
+  },
+  {
+    "title": "MedRoundsQA: A Persona and Difficulty Aware Evaluation for Multi-Turn Medical Consultations",
+    "date": "2026-08-11",
+    "pub": "EMNLP , 2026",
+    "authors": [
+      "Youssef Mohamed",
+      "Ahmed Heakl",
+      "Qinrong Cui",
+      "Junhong Liang",
+      "Rafiq Ali",
+      "Bdour Babillie",
+      "Nazira Dunbayeva",
+      "Lang Gao",
+      "Omar Hussein",
+      "Ahmed Nada",
+      "Ahmed Mohamed Magdy Mohamed",
+      "Jinghui Liu",
+      "Salman Khan",
+      "Imran Razzak",
+      "Yuxia Wang",
+      "Xiuying Chen"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:C5mqfHIFIucC",
+      "arXiv": "https://arxiv.org/abs/2609.12851"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:C5mqfHIFIucC",
+    "selected": false
+  },
+  {
+    "title": "Meta Reviewers",
+    "date": "1900-01-01",
+    "pub": "",
+    "authors": [
+      "A Subramanyam",
+      "Aladine Chetouani",
+      "Ambarish Natu",
+      "Andre Kaup",
+      "Angeliki Katsenou",
+      "Bihan Wen",
+      "Bin Fan",
+      "Bin Xiao",
+      "Bingpeng Ma",
+      "Bogdan Ionescu",
+      "Carl J Debono",
+      "Chang Tang",
+      "Chaofeng Chen",
+      "Chau-Wai Wong",
+      "Chee Seng Chan",
+      "Chen Chen",
+      "Chenglizhao Chen",
+      "Chenlei Lv",
+      "Chuang Gan",
+      "Cunjian Chen",
+      "Eun-Seok Ryu",
+      "Federica Battisti",
+      "Feng Xu",
+      "Fengchao Xiong",
+      "Fengqing Zhu",
+      "Giuseppe Valenzise",
+      "Guanyu Gao",
+      "Guodong Long",
+      "Guoliang Fan",
+      "Guorong Li",
+      "Hadi Amirpourazarian",
+      "Han Yu",
+      "Hau San Wong",
+      "Hong-Han Shuai",
+      "Hongmin Liu",
+      "Hongxing Wang",
+      "Hui Yuan",
+      "Imran Razzak",
+      "Jahangir Alam",
+      "Jenny Benois-Pineau",
+      "Jiahuan Zhou",
+      "Jianlong Fu",
+      "Jiebin Yan",
+      "Jingkuan Song",
+      "Jingning Han",
+      "Jinjian Wu"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:vkz5F8TaVKkC",
+      "Paper": "https://www.computer.org/csdl/proceedings-article/icme/2023/689100z035/1PTMOJz9XSU"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:vkz5F8TaVKkC",
+    "selected": false
+  },
+  {
+    "title": "StreamAgent: towards anticipatory agents for streaming video understanding (2025)",
+    "date": "1900-01-01",
+    "pub": "arXiv preprint arXiv:2508.01875",
+    "authors": [
+      "Haolin Yang",
+      "Feilong Tang",
+      "Lingxiao Zhao",
+      "Xinlin Zhuang",
+      "Yifan Lu",
+      "Xiang An",
+      "Ming Hu",
+      "Xiaofeng Zhang",
+      "Abdalla Swikir",
+      "Junjun He",
+      "Zongyuan Ge",
+      "Muhammad Haris Khan",
+      "Imran Razzak"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:SEKBqlyTJecC",
+      "Paper": "https://scholar.google.com/scholar?cluster=4497080237760976120&hl=en&oi=scholarr",
+      "arXiv": "https://arxiv.org/abs/2508.01875"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:SEKBqlyTJecC",
+    "selected": false
+  },
+  {
+    "title": "MIRA: Modality-Adaptive Image-Grounded Reasoning and Answering for Medical Visual Question Answering under Domain Shift",
+    "date": "1900-01-01",
+    "pub": "",
+    "authors": [
+      "Sarth Santosh Shah",
+      "Adinath Madhavrao Dukre",
+      "Imran Razzak"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:JhbybO29vGQC",
+      "Paper": "https://papers.miccai.org/miccai-2026-sat/paper/MedReason_004.pdf"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:JhbybO29vGQC",
+    "selected": false
+  },
+  {
+    "title": "FieldFiLM: A Unified Conditional Generator for the MRI Field-Strength Continuum",
+    "date": "1900-01-01",
+    "pub": "",
+    "authors": [
+      "Sarth Santosh Shah",
+      "Adinath Madhavrao Dukre",
+      "Atharva Atul Rege",
+      "Imran Razzak"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:0paDrhnEFY0C",
+      "Paper": "https://papers.miccai.org/miccai-2026-sat/paper/MRIxFields2026_016.pdf"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:0paDrhnEFY0C",
+    "selected": false
+  },
+  {
+    "title": "EchoMoVE: Multi-View Mixture-of-Experts Regression for Echocardiographic LVEF Estimation under Small-Cohort and Label-Imbalance Constraints",
+    "date": "1900-01-01",
+    "pub": "",
+    "authors": [
+      "Govinda Kolli",
+      "Adinath Madhavrao Dukre",
+      "Imran Razzak"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:CKf5m1HYVjMC",
+      "Paper": "https://papers.miccai.org/miccai-2026-sat/paper/EchoRisk2026_004.pdf"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:CKf5m1HYVjMC",
+    "selected": false
+  },
+  {
+    "title": "Seeing the Bite: Learned Cross-Arch Occlusion Grounding for Orthodontic Report Generation from Intraoral Scans and Photographs",
+    "date": "1900-01-01",
+    "pub": "",
+    "authors": [
+      "Gagneet Singh",
+      "Adinath Madhavrao Dukre",
+      "Imran Razzak"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:w9ZB08sdvuUC",
+      "Paper": "https://papers.miccai.org/miccai-2026-sat/paper/ODIN_challenges_008.pdf"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:w9ZB08sdvuUC",
+    "selected": false
+  },
+  {
+    "title": "Cross-Center Prototype Learning for Generalizable Multimodal Head-and-Neck Cancer Prognosis",
+    "date": "1900-01-01",
+    "pub": "",
+    "authors": [
+      "Nazira Dunbayeva",
+      "Ufaq Khan",
+      "Muhammad Haris Khan",
+      "Min Xu",
+      "Imran Razzak",
+      "Yutong Xie"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:gL9scSG3K_gC",
+      "Paper": "https://papers.miccai.org/miccai-2026-sat/paper/CaPTion_005.pdf"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:gL9scSG3K_gC",
+    "selected": false
+  },
+  {
+    "title": "Faithful Per-Task Attention for Chain-of-Thought Whole-Slide Pathology Report Generation",
+    "date": "1900-01-01",
+    "pub": "",
+    "authors": [
+      "Gagneet Singh",
+      "Adinath Madhavrao Dukre",
+      "Imran Razzak"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:eJD0kABLposC",
+      "Paper": "https://papers.miccai.org/miccai-2026-sat/paper/REG2026_019.pdf"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:eJD0kABLposC",
+    "selected": false
+  },
+  {
+    "title": "Diverse-Loss Backbone Ensembling for Multi-Label Artifact Quality Assessment of Ultra-Low-Field Pediatric Brain MRI",
+    "date": "1900-01-01",
+    "pub": "",
+    "authors": [
+      "Govinda Kolli",
+      "Adinath Madhavrao Dukre",
+      "Imran Razzak"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:J-ba04ztB30C",
+      "Paper": "https://papers.miccai.org/miccai-2026-sat/paper/LISA_008.pdf"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:J-ba04ztB30C",
+    "selected": false
+  },
+  {
+    "title": "Keep the Encodings Apart: Per-Encoding Complex-Valued Variational Networks for Accelerated 4D Flow MRI",
+    "date": "1900-01-01",
+    "pub": "",
+    "authors": [
+      "Govinda Kolli",
+      "Adinath Madhavrao Dukre",
+      "Imran Razzak"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:TNEldfgDb5MC",
+      "Paper": "https://papers.miccai.org/miccai-2026-sat/paper/CMRxRecon2026_011.pdf"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:TNEldfgDb5MC",
+    "selected": false
+  },
+  {
+    "title": "Self-Assessing Anatomical World Model for Unified Multi-Domain Ultrasound Biometry",
+    "date": "1900-01-01",
+    "pub": "",
+    "authors": [
+      "Gagneet Singh",
+      "Adinath Dukre",
+      "Imran Razzak"
+    ],
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=GlXI4N8AAAAJ&citation_for_view=GlXI4N8AAAAJ:t9Ks5LMjN0QC",
+      "Paper": "https://papers.miccai.org/miccai-2026-sat/paper/FoundUS_061.pdf"
+    },
+    "scholar_id": "GlXI4N8AAAAJ:t9Ks5LMjN0QC",
+    "selected": false
   }
 ]

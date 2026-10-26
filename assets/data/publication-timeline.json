@@ -1,7 +1,7 @@
 {
-  "records": 517,
-  "distinct_works": 502,
-  "undated": 23,
+  "records": 543,
+  "distinct_works": 527,
+  "undated": 33,
   "method": "Merge exact normalized titles or shared arXiv/DOI identifiers; assign each group to its latest recorded year. Title changes without a shared identifier may remain separate.",
   "years": [
     {
@@ -74,7 +74,7 @@
     },
     {
       "year": 2026,
-      "count": 66
+      "count": 81
     }
   ],
   "groups": [
@@ -285,7 +285,8 @@
       "title": "StreamAgent: Towards Anticipatory Agents for Streaming Video Understanding",
       "year": 2026,
       "scholar_ids": [
-        "GlXI4N8AAAAJ:Ei5r6KrKXVQC"
+        "GlXI4N8AAAAJ:Ei5r6KrKXVQC",
+        "GlXI4N8AAAAJ:SEKBqlyTJecC"
       ]
     },
     {
@@ -3605,6 +3606,181 @@
       "year": 2022,
       "scholar_ids": [
         "GlXI4N8AAAAJ:7Frjd3zlGBUC"
+      ]
+    },
+    {
+      "title": "Neither Over-nor Under-Constrained: Evaluating LLM Personalization under a Constraint Qualification Audit",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:V63Ir2N1OTwC"
+      ]
+    },
+    {
+      "title": "Mixture-of-Memories: Low-Overhead Language Modeling with Modular Knowledge Injection",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:0urtJCGzaFQC"
+      ]
+    },
+    {
+      "title": "Beyond Reward Scoring: Online Multi-Agent Preference Learning for Multimodal Response Generation",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:xm1hsP5ya-EC"
+      ]
+    },
+    {
+      "title": "S2D-PCR: Invertible Shape-Spatial Disentanglement for Unsupervised Point Cloud Registration",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:UY3hNwcQ290C"
+      ]
+    },
+    {
+      "title": "GlucoPRISM: Protocol-Supervised Pretraining for Cross-Cohort Glucose Transfer",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:3pYxbvHKFu8C"
+      ]
+    },
+    {
+      "title": "BARRAC: Adaptation of an English Aspect-based Sentiment Analysis Approach for Classification Tasks in Arabic Dialects",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:_TjUWtciUekC"
+      ]
+    },
+    {
+      "title": "What Makes Recurrence Effective in Looped Language Models?",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:fGk8ZXjgAbkC"
+      ]
+    },
+    {
+      "title": "DoAtlas-2: A Foundation for Self-Evolving Causal Biomedical Discovery",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:w5CyTnyFq80C"
+      ]
+    },
+    {
+      "title": "Prompt and Probe: Data-Efficient Adaptation of Black-Box Foundation Models via Unified Active Visual Prompting",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:RmcNAhKkducC"
+      ]
+    },
+    {
+      "title": "MedTriage-LM: Anatomically Grounded Visual Phenotype Synthesis for Interpretable ED Triage",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:XUAslYVNQLQC"
+      ]
+    },
+    {
+      "title": "Decoding Multimodal Causality: End-to-End Multimodal Mediation Pathways Inference",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:RdUpO4xyVKMC"
+      ]
+    },
+    {
+      "title": "Proximity-Constrained Counterfactual Decoding for Hallucination-Robust Medical VQA",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:eLRq4zTgah0C"
+      ]
+    },
+    {
+      "title": "ResPL: Reasoning-Based Pseudo-Labels for Sarcasm Detection in Low-Resource Arabic Dialects",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:yaBp1wUtcLsC"
+      ]
+    },
+    {
+      "title": "Metric-Aligned Cross-Phase Attention for LI-RADS Categorization of Liver Lesions on Multi-Phase CT",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:QYmifXMdJWgC"
+      ]
+    },
+    {
+      "title": "MedRoundsQA: A Persona and Difficulty Aware Evaluation for Multi-Turn Medical Consultations",
+      "year": 2026,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:C5mqfHIFIucC"
+      ]
+    },
+    {
+      "title": "Meta Reviewers",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:vkz5F8TaVKkC"
+      ]
+    },
+    {
+      "title": "MIRA: Modality-Adaptive Image-Grounded Reasoning and Answering for Medical Visual Question Answering under Domain Shift",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:JhbybO29vGQC"
+      ]
+    },
+    {
+      "title": "FieldFiLM: A Unified Conditional Generator for the MRI Field-Strength Continuum",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:0paDrhnEFY0C"
+      ]
+    },
+    {
+      "title": "EchoMoVE: Multi-View Mixture-of-Experts Regression for Echocardiographic LVEF Estimation under Small-Cohort and Label-Imbalance Constraints",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:CKf5m1HYVjMC"
+      ]
+    },
+    {
+      "title": "Seeing the Bite: Learned Cross-Arch Occlusion Grounding for Orthodontic Report Generation from Intraoral Scans and Photographs",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:w9ZB08sdvuUC"
+      ]
+    },
+    {
+      "title": "Cross-Center Prototype Learning for Generalizable Multimodal Head-and-Neck Cancer Prognosis",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:gL9scSG3K_gC"
+      ]
+    },
+    {
+      "title": "Faithful Per-Task Attention for Chain-of-Thought Whole-Slide Pathology Report Generation",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:eJD0kABLposC"
+      ]
+    },
+    {
+      "title": "Diverse-Loss Backbone Ensembling for Multi-Label Artifact Quality Assessment of Ultra-Low-Field Pediatric Brain MRI",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:J-ba04ztB30C"
+      ]
+    },
+    {
+      "title": "Keep the Encodings Apart: Per-Encoding Complex-Valued Variational Networks for Accelerated 4D Flow MRI",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:TNEldfgDb5MC"
+      ]
+    },
+    {
+      "title": "Self-Assessing Anatomical World Model for Unified Multi-Domain Ultrasound Biometry",
+      "year": null,
+      "scholar_ids": [
+        "GlXI4N8AAAAJ:t9Ks5LMjN0QC"
       ]
     }
   ]
