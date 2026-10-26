@@ -1,5 +1,208 @@
 [
   {
+    "title": "Neither Over- nor Under-Constrained: Evaluating LLM Personalization under a Constraint Qualification Audit",
+    "date": "2026-10-19",
+    "pub": "arXiv preprint arXiv:2610.25676, 2026",
+    "authors": [
+      "Xuran Li",
+      "Guanqin Zhang",
+      "Imran Razzak",
+      "Hakim Hacid",
+      "Eleanna Kafeza",
+      "Hao Xue",
+      "Flora D. Salim"
+    ],
+    "links": {
+      "Paper": "https://arxiv.org/html/2610.25676v1",
+      "arXiv": "https://arxiv.org/abs/2610.25676v1"
+    },
+    "scholar_id": null,
+    "selected": false,
+    "cover": "/assets/images/publications/552aa8c21b3ab5.webp",
+    "cover_source": "https://arxiv.org/html/2610.25676v1",
+    "cover_figure": "First page",
+    "cover_width": 830,
+    "cover_height": 793
+  },
+  {
+    "title": "Mixture-of-Memories: Low-Overhead Language Modeling with Modular Knowledge Injection",
+    "date": "2026-10-18",
+    "pub": "arXiv preprint arXiv:2610.25425, 2026",
+    "authors": [
+      "Yifan Lu",
+      "Rubin Wei",
+      "Ziyun Zou",
+      "Junhong Liang",
+      "Haolin Yang",
+      "Xinlin Zhuang",
+      "Abhijit Das",
+      "Adinath Madhavrao Dukre",
+      "Shadab Khan",
+      "et al."
+    ],
+    "links": {
+      "Paper": "https://arxiv.org/html/2610.25425v1",
+      "arXiv": "https://arxiv.org/abs/2610.25425v1"
+    },
+    "scholar_id": null,
+    "selected": false,
+    "cover": "/assets/images/publications/813323638813c1.webp",
+    "cover_source": "https://arxiv.org/html/2610.25425v1",
+    "cover_figure": "First page",
+    "cover_width": 830,
+    "cover_height": 793
+  },
+  {
+    "title": "Beyond Reward Scoring: Online Multi-Agent Preference Learning for Multimodal Response Generation",
+    "date": "2026-10-16",
+    "pub": "arXiv preprint arXiv:2610.23256, 2026",
+    "authors": [
+      "Ziyun Zou",
+      "Jiwoo Hong",
+      "Yifan Lu",
+      "Shao Tang",
+      "Weiyi Wu",
+      "Aman Gupta",
+      "Jin Tian",
+      "Imran Razzak"
+    ],
+    "links": {
+      "Paper": "https://arxiv.org/html/2610.23256v1",
+      "arXiv": "https://arxiv.org/abs/2610.23256v1"
+    },
+    "scholar_id": null,
+    "selected": false,
+    "cover": "/assets/images/publications/6a3a83770fff7a.webp",
+    "cover_source": "https://arxiv.org/html/2610.23256v1",
+    "cover_figure": "First page",
+    "cover_width": 830,
+    "cover_height": 793
+  },
+  {
+    "title": "S2D-PCR: Invertible Shape-Spatial Disentanglement for Unsupervised Point Cloud Registration",
+    "date": "2026-01-01",
+    "pub": "IEEE Transactions on Multimedia, 2026",
+    "authors": [
+      "Sheldon Fung",
+      "Dasith de Silva Edirimuni",
+      "Daochang Liu",
+      "Imran Razzak",
+      "Hongdong Li",
+      "Xuequan Lu"
+    ],
+    "links": {
+      "Paper": "https://ieeexplore.ieee.org/document/11738689/"
+    },
+    "scholar_id": null,
+    "selected": false,
+    "cover": "/assets/images/publications/284b6c22e57e0f.webp",
+    "cover_source": "https://ieeexplore.ieee.org/document/11738689/",
+    "cover_figure": "First page",
+    "cover_width": 780,
+    "cover_height": 340
+  },
+  {
+    "title": "GlucoPRISM: Protocol-Supervised Pretraining for Cross-Cohort Glucose Transfer",
+    "date": "2026-10-08",
+    "pub": "arXiv preprint arXiv:2610.12528, 2026",
+    "authors": [
+      "Adinath Madhavrao Dukre",
+      "Abdullah Mohammad",
+      "Yifan Lu",
+      "Eran Segal",
+      "Ahmed Metwally",
+      "Imran Razzak"
+    ],
+    "links": {
+      "Paper": "https://arxiv.org/html/2610.12528v1",
+      "arXiv": "https://arxiv.org/abs/2610.12528v1"
+    },
+    "scholar_id": null,
+    "selected": false,
+    "cover": "/assets/images/publications/9fd0ec2caf2f1d.webp",
+    "cover_source": "https://arxiv.org/html/2610.12528v1",
+    "cover_figure": "First page",
+    "cover_width": 830,
+    "cover_height": 793
+  },
+  {
+    "title": "BARRAC: Adaptation of an English Aspect-based Sentiment Analysis Approach for Classification Tasks in Arabic Dialects",
+    "date": "2026-09-30",
+    "pub": "arXiv preprint arXiv:2609.38820, 2026",
+    "authors": [
+      "Ali Almutairi",
+      "Gelareh Mohammadi",
+      "Imran Razzak",
+      "Aditya Joshi"
+    ],
+    "links": {
+      "Paper": "https://arxiv.org/html/2609.38820v1",
+      "arXiv": "https://arxiv.org/abs/2609.38820v1"
+    },
+    "scholar_id": null,
+    "selected": false,
+    "cover": "/assets/images/publications/e022eb68aab890.webp",
+    "cover_source": "https://arxiv.org/html/2609.38820v1",
+    "cover_figure": "First page",
+    "cover_width": 830,
+    "cover_height": 793
+  },
+  {
+    "title": "What Makes Recurrence Effective in Looped Language Models?",
+    "date": "2026-09-29",
+    "pub": "arXiv preprint arXiv:2609.36636, 2026",
+    "authors": [
+      "Xinlin Zhuang",
+      "Siyuan Wang",
+      "Imran Razzak",
+      "Weiyang Liu"
+    ],
+    "links": {
+      "Paper": "https://arxiv.org/html/2609.36636v1",
+      "arXiv": "https://arxiv.org/abs/2609.36636v1"
+    },
+    "scholar_id": null,
+    "selected": false,
+    "cover": "/assets/images/publications/31281b8582a93f.webp",
+    "cover_source": "https://arxiv.org/html/2609.36636v1",
+    "cover_figure": "First page",
+    "cover_width": 830,
+    "cover_height": 793
+  },
+  {
+    "title": "DoAtlas-2: A Foundation for Self-Evolving Causal Biomedical Discovery",
+    "date": "2026-09-28",
+    "pub": "arXiv preprint arXiv:2609.35107, 2026",
+    "authors": [
+      "Yulong Li",
+      "Rong Xia",
+      "Yuxuan Zhang",
+      "Jianxu Chen",
+      "Xiwei Liu",
+      "Haochen Xue",
+      "Maosheng Li",
+      "Yuhang Liu",
+      "Yibo Yuan",
+      "Yutong Xie",
+      "Chong Li",
+      "Jionglong Su",
+      "Hagai Rossman",
+      "Eran Segal",
+      "Imran Razzak"
+    ],
+    "links": {
+      "Paper": "https://arxiv.org/html/2609.35107v2",
+      "arXiv": "https://arxiv.org/abs/2609.35107v2"
+    },
+    "scholar_id": null,
+    "selected": false,
+    "cover": "/assets/images/publications/6f3850f43cb1d6.webp",
+    "cover_source": "https://arxiv.org/html/2609.35107v2",
+    "cover_figure": "First page",
+    "cover_width": 830,
+    "cover_height": 793
+  },
+  {
     "title": "Automatic detection and classification of malarial parasite",
     "date": "2015-01-01",
     "pub": "International Journal of Biometrics and Bioinformatics (IJBB) 9 (1), 1-12 , 2015",
